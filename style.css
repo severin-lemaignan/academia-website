@@ -188,6 +188,7 @@ ol ol {list-style-type: lower-alpha}
 #nav {
     position:fixed;
     top:300px;
+    background-color: white;
 
 }
 
@@ -199,7 +200,6 @@ nav ol {
 }
 
 nav li {
-    background: rgba(255,255,255,0.8);
     display: inline-block;
     padding-right: 2.5em;
     padding-left: 2.5em;
