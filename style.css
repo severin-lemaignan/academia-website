@@ -31,6 +31,15 @@ div.page {
   width:80%;
 }
 
+div.news {
+    width:50%;
+}
+
+div.news p:not(:last-child):after {
+    display:block;
+    content: url('sep.png');
+}
+
 div.column {
     width: 50%;
     text-align: justify;
