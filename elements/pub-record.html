@@ -1,0 +1,18 @@
+<script>
+  var proto = Object.create(HTMLElement.prototype);
+
+  proto.createdCallback = function() {
+
+    var title = this.getAttribute("title");
+    var authors = this.getAttribute("authors");
+    var pdf = this.getAttribute("pdf");
+    pdf = (pdf == "undefined" ? null : pdf);
+
+    this.innerHTML =    (pdf ? '<i style="top:1em" class="fa-li fa fa-file-pdf-o"></i><a href="' + pdf + '" alt="Download the PDF">' : '') +
+                        '<b>' + title + '</b>' +
+                        (pdf ? '</a>' : '') + '<br/>' +
+                        (authors || "<i>no authors</i>");
+  };
+
+  document.registerElement('publication-record', {prototype: proto, extends:'li'});
+</script>

@@ -16,6 +16,7 @@
         <script src="assets/js/webcomponents-lite.min.js"></script>
         <link rel="import" href="elements/nav.html">
         <link rel="import" href="elements/footer.html">
+        <link rel="import" href="elements/pub-record.html">
 
     </head>
     <body>
@@ -39,6 +40,7 @@
 
                 <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
 
+                <div id="publis"></div>
             </div>
         </section>
 
@@ -50,6 +52,51 @@
         <script src="assets/js/util.js"></script>
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="assets/js/main.js"></script>
+
+        <script>
+
+        function by_year(data) {
+            var publications_by_year = new Array();
+
+            for (var idx in data) {
+                var pub = data[idx];
+                if (publications_by_year[pub['year']] == null) {
+                    publications_by_year[pub['year']] = [];
+                }
+                publications_by_year[pub['year']].push(pub);
+            }
+            return publications_by_year;
+        }
+
+        function biblio(data) {
+
+            data = by_year(data);
+
+            for (var year = 2100; year > 2000; year--) {
+                if (year in data) {
+
+                    $('#publis').append($("<h3>").text(year));
+
+                    var publications = data[year];
+                    var ul = $('<ul class="alt fa-ul">');
+
+                    for (var idx in publications) {
+                        var pub = publications[idx];
+                        ul.append($('<li is="publication-record" title="' + pub['title'] + '" ' +
+                                    'authors="' + pub['authors'] + '" ' +
+                                    'pdf="' + pub['pdf'] + '" ' +
+                                    '>'));
+                    }
+                    $('#publis').append(ul);
+                }
+            }
+        }
+
+
+        $.getJSON("publications.json", function(json) {
+            biblio(json);
+        });
+        </script>
 
     </body>
 </html>
