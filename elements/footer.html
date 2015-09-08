@@ -1,0 +1,32 @@
+<template id="tpl-footer">
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="copyright">
+                    <li>&copy; Séverin Lemaignan, 2015.</li>
+                    <li>Design: <a href="http://templated.co">TEMPLATED</a>.</li>
+                </ul>
+            </div>
+        </footer>
+
+</template>
+
+<script>
+  (function() {
+    var importScript = document._currentScript || document.currentScript;
+    var importDoc = importScript.ownerDocument; // importee
+
+    var proto = Object.create(HTMLElement.prototype);
+
+    proto.createdCallback = function() {
+      // get template in import
+      var template = importDoc.querySelector('#tpl-footer');
+
+      // import template into
+      var clone = document.importNode(template.content, true);
+
+      this.appendChild(clone);
+    };
+    document.registerElement('my-footer', {prototype: proto});
+  })();
+</script>

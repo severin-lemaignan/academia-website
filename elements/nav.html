@@ -1,0 +1,30 @@
+<template id="tpl-nav">
+            <ul class="links">
+                <li><a href="index.html">Contact | Latest News</a></li>
+                <li><a href="generic.html">Research Topics</a></li>
+                <li><a href="elements.html">Curriculum</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="elements.html">Talks</a></li>
+                <li><a href="elements.html">Supervision | Teaching</a></li>
+            </ul>
+</template>
+
+<script>
+  (function() {
+    var importScript = document._currentScript || document.currentScript;
+    var importDoc = importScript.ownerDocument; // importee
+
+    var proto = Object.create(HTMLElement.prototype);
+
+    proto.createdCallback = function() {
+      // get template in import
+      var template = importDoc.querySelector('#tpl-nav');
+
+      // import template into
+      var clone = document.importNode(template.content, true);
+
+      this.appendChild(clone);
+    };
+    document.registerElement('my-menu', {prototype: proto});
+  })();
+</script>
