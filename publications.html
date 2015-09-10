@@ -38,7 +38,7 @@
                     <h2>Publications</h2>
                 </header>
 
-                <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+                <a href="#" class="image fit"><img src="images/publications.jpg" alt="" /></a>
 
                 <div id="publis"></div>
             </div>
@@ -83,8 +83,13 @@
                     for (var idx in publications) {
                         var pub = publications[idx];
                         ul.append($('<li is="publication-record" title="' + pub['title'] + '" ' +
+                                    'id="' + pub['id'] + '" ' +
+                                    'type="' + pub['type'] + '" ' +
                                     'authors="' + pub['authors'] + '" ' +
                                     'pdf="' + pub['pdf'] + '" ' +
+                                    'venue="' + pub['venue'] + '" ' +
+                                    'year="' + pub['year'] + '" ' +
+                                    'bibtex="' + pub['bibtex'] + '" ' +
                                     '>'));
                     }
                     $('#publis').append(ul);

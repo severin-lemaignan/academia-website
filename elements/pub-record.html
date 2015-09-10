@@ -3,15 +3,34 @@
 
   proto.createdCallback = function() {
 
+    var id = this.getAttribute("id");
+    var type = this.getAttribute("type");
     var title = this.getAttribute("title");
     var authors = this.getAttribute("authors");
     var pdf = this.getAttribute("pdf");
+    var venue = this.getAttribute("venue");
+    var year = this.getAttribute("year");
+    var bibtex = this.getAttribute("bibtex").replace(/\\n/g, "\n");;
+
     pdf = (pdf == "undefined" ? null : pdf);
 
-    this.innerHTML =    (pdf ? '<i style="top:1em" class="fa-li fa fa-file-pdf-o"></i><a href="' + pdf + '" alt="Download the PDF">' : '') +
-                        '<b>' + title + '</b>' +
-                        (pdf ? '</a>' : '') + '<br/>' +
-                        (authors || "<i>no authors</i>");
+    this.innerHTML =    (pdf ? '<a style="margin-left:-26px" class="icon fa-file-pdf-o" href="' + pdf + '" alt="Download the PDF">' : '') +
+                        '<b style="margin-left:12px">' + title + '</b>' +
+                        (pdf ? '</a>' : '') +
+                        ((type.indexOf("abstract")>-1 || type == "video" || type == "poster") ? ' <i>[' + type + ']</i> ' : '') +
+                        '<br/>' +
+                        (type == "journal" ? 'in <span class="icon fa-newspaper-o"></span>' :
+                        (type == "chapter" ? 'in <span class="icon fa-book"></span>' :
+                         ((type == "conference" || type.indexOf("abstract")>-1) ? '<span class="icon fa-users"></span>' :
+                         (type == "video" ? '<span class="icon fa-play-circle"></span>' :
+                         (type == "poster" ? '<span class="icon fa-picture-o"></span>' :
+                         (type == "dissertation" ? '<span class="icon fa-graduation-cap"></span>' : "bouh " )))))) + 
+                        '<i style="margin-left:5px">' + venue + ' ' + year + '</i>' +
+                        '<a style="margin-left:20px" onclick="$(\'#' + id + '\').show(\'slow\');"><span class="icon fa-child"></span>show bibtex</a>' +
+                        '<br/>' +
+                        authors +
+                        '<pre style="display:none" id="' + id + '"><code>' +
+                        bibtex + '</code></pre>';
   };
 
   document.registerElement('publication-record', {prototype: proto, extends:'li'});
