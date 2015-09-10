@@ -1,6 +1,7 @@
 [
     {
         "id":"mondada2014ranger",
+        "type":"chapter",
         "title":"Ranger, an Example of Integration of Robotics into the Home Ecosystem",
         "venue":"New Trends in Medical and Service Robots",
         "publisher":"Springer Publishing",
@@ -11,6 +12,7 @@
     {
         "id":"lemaignan2015youre",
         "pdf":"publis/lemaignan2015youre.pdf",
+        "type":"conference",
         "title":"You're Doing It Wrong! Studying Unexpected Behaviors in Child-Robot Interaction",
         "venue":"ICSR",
         "year":2015,
@@ -20,6 +22,7 @@
     {
         "id":"lemaignan2015pyrobots",
         "pdf":"publis/lemaignan2015pyrobots.pdf",
+        "type":"conference",
         "title":"pyRobots: a toolset for robot executive control",
         "venue":"IROS",
         "year":2015,
@@ -29,6 +32,7 @@
     {
         "id":"karim2015review",
         "pdf":"publis/karim2015review.pdf",
+        "type":"conference",
         "title":"A review: Can robots reshape K-12 STEM education?",
         "venue":"ARSO",
         "year":2015,
@@ -38,6 +42,7 @@
     {
         "id":"chandra2015can",
         "pdf":"publis/chandra2015can.pdf",
+        "type":"conference",
         "title":"Can a Child Feel Responsible for Another in the Presence of a Robot in a Collaborative Learning Activity?",
         "venue":"ROMAN",
         "year":2015,
@@ -47,6 +52,7 @@
     {
         "id":"lemaignan2015mutual",
         "pdf":"publis/lemaignan2015mutual.pdf",
+        "type":"conference",
         "title":"Mutual Modelling in Robotics: Inspirations for the Next Steps",
         "venue":"HRI",
         "year":2015,
@@ -57,6 +63,7 @@
     {
         "id":"hood2015when",
         "pdf":"publis/hood2015when.pdf",
+        "type":"conference",
         "title":"When Children Teach a Robot to Write: An Autonomous Teachable Humanoid Which Uses Simulated Handwriting",
         "venue":"HRI",
         "year":2015,
@@ -80,6 +87,7 @@
         "id":"lemaignan2014human",
         "note":"in press",
         "pdf":"publis/lemaignan2014human.pdf",
+        "type":"journal",
         "title":"Human-Robot Interaction: Tackling the AI Challenges",
         "venue":"Artificial Intelligence",
         "year":2014,
@@ -99,6 +107,7 @@
     {
         "id":"fink2014which",
         "pdf":"publis/fink2014which.pdf",
+        "type":"conference",
         "title":"Which Robot Behavior Can Motivate Children to Tidy up Their Toys? Design and Evaluation of “Ranger”",
         "venue":"HRI",
         "year":2014,
@@ -123,6 +132,7 @@
     {
         "id":"lemaignan2014simulation",
         "pdf":"publis/lemaignan2014simulation.pdf",
+        "type":"conference",
         "title":"Simulation and HRI -- Recent Perspectives with the MORSE Simulator",
         "venue":"SIMPAR",
         "year":2014,
@@ -134,8 +144,9 @@
     {
         "id":"lemaignan2014cognitive",
         "pdf":"publis/lemaignan2014cognitive.pdf",
+        "type":"conference",
         "title":"The Cognitive Correlates of Anthropomorphism",
-        "venue":"HRI 2014 - Workshop \"HRI: a bridge between Robotics and Neuroscience\"",
+        "venue":"Workshop A bridge between Robotics and Neuroscience - HRI",
         "year":2014,
         "authors":"Lemaignan, S. and Fink, J. and Dillenbourg, P. and Braboszcz, C.",
         "bibtex":"@inproceedings{lemaignan2014cognitive,\\nauthor = {Lemaignan, S. and Fink, J. and Dillenbourg, P. and Braboszcz, C.},\\ntitle = {The Cognitive Correlates of Anthropomorphism},\\nbooktitle = {Proceedings of the 2014 Human-Robot Interaction Conference},\\nyear = {2014}}"
@@ -143,6 +154,7 @@
     {
         "id":"lemaignan2013explicit",
         "pdf":"publis/lemaignan2013explicit.pdf",
+        "type":"conference",
         "title":"Explicit Knowledge and the Deliberative Layer: Lessons Learned",
         "venue":"IROS",
         "year":2013,
@@ -154,6 +166,7 @@
     {
         "id":"lemaignan2013grounding",
         "pdf":"publis/lemaignan2013grounding.pdf",
+        "type":"journal",
         "title":"Grounding the Interaction: Knowledge Management for Interactive Robots [dissertation abstract]",
         "venue":"Künstliche Intelligenz",
         "publisher":"Springer-Verlag",
@@ -196,13 +209,16 @@
         "pdf":"publis/lemaignan2012thesis.pdf",
         "title":"Grounding the Interaction: Knowledge Management for Interactive Robots",
         "year":2012,
+        "venue":"CNRS - LAAS | TU München - Intelligent Autonomous Systems lab",
         "link to slides":"talks/defense",
         "award":"Best PhD in Robotics, CNRS 2012",
+        "authors":"Lemaignan, S.",
         "bibtex":"@phdthesis{lemaignan2012thesis,\\ntitle = {Grounding the Interaction: Knowledge Management for Interactive Robots},\\nauthor = {Séverin Lemaignan},\\nschool = {{CNRS} - Laboratoire d'Analyse et d'Architecture des Systèmes, Technische Universität München - Intelligent Autonomous Systems lab},\\nyear = {2012}}"
     },
     {
         "id":"echeverria2012simulating",
         "pdf":"publis/echeverria2012simulating.pdf",
+        "type":"conference",
         "title":"Simulating complex robotic scenarios with MORSE",
         "venue":"SIMPAR",
         "year":2012,
@@ -214,6 +230,7 @@
     },
     {
         "id":"lallee2012towards",
+        "type":"journal",
         "title":"Towards a Platform-Independent Cooperative Human-Robot Interaction System: III. An Architecture for Learning and Executing Actions and Shared Plans",
         "venue":"IEEE Transactions on Autonomous Mental Development",
         "year":2012,
@@ -224,6 +241,8 @@
     },
     {
         "id":"lemaignan2012towards",
+        "type":"chapter",
+        "note":"unpublished",
         "title":"Towards Grounding Human-Robot Interaction",
         "venue":"Bridges between the Methodological and Practical Work of the Robotics and Cognitive Systems Communities - From Sensors to Concepts",
         "publisher":"Springer Publishing",
@@ -234,6 +253,7 @@
     {
         "id":"warnier2012when",
         "pdf":"publis/warnier2012when.pdf",
+        "type":"conference",
         "title":"When the Robot Puts Itself in Your Shoes. Managing and Exploiting Human and Robot Beliefs",
         "venue":"ROMAN",
         "year":2012,
@@ -272,6 +292,7 @@
     {
         "id":"alami2011when",
         "pdf":"publis/alami2011when.pdf",
+        "type":"conference",
         "title":"When the robot considers the human...",
         "venue":"ISRR",
         "year":2011,
@@ -281,6 +302,7 @@
     {
         "id":"lemaignan2011grounding",
         "pdf":"publis/lemaignan2011grounding.pdf",
+        "type":"journal",
         "title":"Grounding the Interaction: Anchoring Situated Discourse in Everyday Human-Robot Interaction",
         "venue":"International Journal of Social Robotics",
         "year":2011,
@@ -292,6 +314,7 @@
     {
         "id":"lallee2011towards",
         "pdf":"publis/lallee2011towards.pdf",
+        "type":"conference",
         "title":"Towards a Platform-Independent Cooperative Human-Robot Interaction System: II. Perception, Execution and Imitation of Goal Directed Actions",
         "venue":"IROS",
         "year":2011,
@@ -306,7 +329,7 @@
         "type":"abstract",
         "pdf":"publis/lemaignan2011dialogue.pdf",
         "title":"Dialogue in situated environments: A symbolic approach to perspective-aware grounding, clarification and reasoning for robots",
-        "venue":"RSS 2011 -- Workshop Grounding Human-Robot Dialog for Spatial Tasks",
+        "venue":"Workshop Grounding Human-Robot Dialog for Spatial Tasks - RSS",
         "year":2011,
         "authors":"Lemaignan, S. and Ros, R. and Alami, R.",
         "bibtex":"@inproceedings{lemaignan2011dialogue,\\nauthor = {Lemaignan, S. and Ros, R. and Alami, R.},\\ntitle = {Dialogue in situated environments: A symbolic approach to perspective-aware grounding, clarification and reasoning for robot},\\nbooktitle = {Robotics, Science and Systems, Grounding Human-Robot Dialog for Spatial Tasks workshop},\\nyear = {2011}}"
@@ -314,6 +337,7 @@
     {
         "id":"lemaignan2011what",
         "pdf":"publis/lemaignan2011what.pdf",
+        "type":"conference",
         "title":"What are you talking about? Grounding dialogue in a perspective-aware robotic architecture",
         "venue":"ROMAN",
         "year":2011,
@@ -325,6 +349,7 @@
     {
         "id":"echeverria2011morse",
         "pdf":"publis/Echeverria2011.pdf",
+        "type":"conference",
         "title":"Modular Open Robots Simulation Engine: MORSE",
         "venue":"ICRA",
         "year":2011,
@@ -348,6 +373,7 @@
     {
         "id":"lemaignan2010oro",
         "pdf":"publis/Lemaignan2010.pdf",
+        "type":"conference",
         "title":"ORO, a knowledge management module for cognitive architectures in robotics",
         "year":2010,
         "venue":"IROS",
@@ -360,6 +386,7 @@
     {
         "id":"ros2010which",
         "pdf":"publis/Ros2010b.pdf",
+        "type":"conference",
         "title":"Which One? Grounding the Referent Based on Efficient Human-Robot Interaction",
         "venue":"ROMAN",
         "year":2010,
@@ -373,6 +400,7 @@
     {
         "id":"lallee2010towards",
         "pdf":"publis/lallee2010towards.pdf",
+        "type":"conference",
         "title":"Towards a Platform-Independent Cooperative Human-Robot Interaction System: I. Perception",
         "venue":"IROS",
         "year":2010,
@@ -395,6 +423,7 @@
     {
         "id":"mallet2010genom3",
         "pdf":"publis/Mallet2010.pdf",
+        "type":"conference",
         "title":"GenoM3: Building middleware-independent robotic components",
         "venue":"ICRA",
         "year":2010,
@@ -406,11 +435,11 @@
     },
     {
         "id":"lemaignan2014taught",
+        "type":"abstract",
         "pdf":"publis/lemaignan2014taught.pdf",
         "title":"Taught by Children: A New Role for Robots?",
-        "venue":"Journées Nationales de la Robotique Interactive 2014",
+        "venue":"Journées Nationales de la Robotique Interactive",
         "year":2014,
-        "type":"abstract",
         "note":"not peer-reviewed",
         "authors":"Lemaignan, S. and Hood, D. and Dillenbourg, P.",
         "bibtex":"@inproceedings{lemaignan2014taught,\\nauthor = {Lemaignan, S., Hood, D., Dillenbourg, P.},\\ntitle = {Taught by Children: A New Role for Robots?},\\nbooktitle = {Journées Nationales de la Robotique Interactive},\\nyear = {2014}}"
@@ -419,10 +448,10 @@
         "id":"lemaignan2014am",
         "pdf":"publis/lemaignan2014am.pdf",
         "title":"Am I capable yet?",
-        "type":"position paper",
+        "type":"abstract",
         "year":2014,
         "note":"not peer-reviewed",
-        "venue":"HRI 2014 -- Cognitive Architectures Workshop",
+        "venue":"HRI - Cognitive Architectures Workshop",
         "authors":"Lemaignan, S.",
         "bibtex":"@inproceedings{lemaignan2014am,\\nauthor = {Lemaignan, S.},\\ntitle = {Am I capable yet?},\\nbooktitle = {HRI 2014, Workshop on Cognitive Architectures},\\nyear = {2014}}"
     },
@@ -440,9 +469,11 @@
     {
         "id":"mehani2007networking",
         "pdf":"publis/Mehani2007.pdf",
+        "type":"conference",
         "title":"Networking Needs and Solutions for Road Vehicles at Imara",
         "venue":"ITST",
         "year":2007,
+        "authors":"Mehani, O. and Benenson, R. and Lemaignan, S. and Ernst, T.",
         "doi":"10.1109/ITST.2007.4295894",
         "isbn":"1-4244-1178-5",
         "bibtex":"@conference{mehani2007networking,\\ntitle={{Networking Needs and Solutions for Road Vehicles at Imara}},\\nauthor={Mehani, O. and Benenson, R. and Lemaignan, S. and Ernst, T.},\\nbooktitle={Telecommunications, 2007. ITST'07. 7th International Conference on ITS},\\npages={1--6},\\nyear={2007}}"
@@ -450,9 +481,11 @@
     {
         "id":"stinckwich2007squeakbot",
         "pdf":"publis/stinckwich2007squeakbot.pdf",
+        "type":"conference",
         "title":"SqueakBot: a Pedagogical Robotic Platform",
         "venue":"C5 Conference",
         "year":2007,
+        "authors":"Stinckwich, S. and Lemaignan, S. and Saidani, S.",
         "doi":"10.1109/C5.2007.28",
         "isbn":"0-7695-2806-6",
         "bibtex":"@conference{stinckwich2007squeakbot,\\ntitle={{SqueakBot: a Pedagogical Robotic Platform}},\\nauthor={Stinckwich, S. and Lemaignan, S. and Saidani, S.},\\nbooktitle={Proceedings of the Fifth International Conference on Creating, Connecting and Collaborating through Computing},\\npages={137--144},\\nyear={2007},\\norganization={IEEE Computer Society}}"
@@ -460,17 +493,22 @@
     {
         "id":"lemaignan2007boiteabots",
         "pdf":"publis/lemaignan2007boiteabots.pdf",
+        "type":"journal",
         "title":"La Boite à Bots : quand la robotique s'ouvre à tous",
         "venue":"Linux+DVD",
         "year":2006,
+        "authors":"Lemaignan, S. and Stinckwich, S.",
+        "note": "invited contribution, not peer-reviewed",
         "bibtex":"@article{lemaignan2007boiteabots,\\ntitle={{La Boite à Bots : quand la robotique s'ouvre à tous}},\\nauthor={Lemaignan, S. and Stinckwich, S.},\\njournal={Linux+DVD},\\nyear={2007}}"
     },
     {
         "id":"lemaignan2006mason",
         "pdf":"publis/Lemaignan2006.pdf",
+        "type":"conference",
         "title":"MASON: A proposal for an ontology of manufacturing domain",
         "venue":"IEEE Workshop on Distributed Intelligent Systems (DIS)",
         "year":2006,
+        "authors":"Lemaignan, S. and Siadat, A. and Dantan, J.Y. and Semenenko, A.",
         "doi":"10.1109/DIS.2006.48",
         "isbn":"0-7695-2589-X",
         "bibtex":"@conference{lemaignan2006mason,\\ntitle={{MASON: A proposal for an ontology of manufacturing domain}},\\nauthor={Lemaignan, S. and Siadat, A. and Dantan, J.Y. and Semenenko, A.},\\nbooktitle={IEEE Workshop on Distributed Intelligent Systems (DIS)},\\npages={195--200},\\nyear={2006}}"
