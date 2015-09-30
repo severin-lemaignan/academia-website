@@ -49,6 +49,9 @@
 		-webkit-text-size-adjust: none;
 	}
 
+    .myname {
+        text-decoration: underline;
+    }
 /* Box Model */
 
 	*, *:before, *:after {

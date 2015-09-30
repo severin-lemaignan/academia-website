@@ -3,13 +3,15 @@
 
   proto.createdCallback = function() {
 
-    var id = this.getAttribute("id");
+    var id = this.getAttribute("bibkey");
     var type = this.getAttribute("type");
-    var title = this.getAttribute("title");
+    var title = this.getAttribute("articletitle");
     var authors = this.getAttribute("authors");
+    authors = authors.replace("S. Lemaignan","<span class=\"myname\">S. Lemaignan</span>");
     var pdf = this.getAttribute("pdf");
     var venue = this.getAttribute("venue");
     var year = this.getAttribute("year");
+    var videosrc = this.getAttribute("videosrc");
     var bibtex = this.getAttribute("bibtex").replace(/\\n/g, "\n");;
 
     pdf = (pdf == "undefined" ? null : pdf);
@@ -26,11 +28,21 @@
                          (type == "poster" ? '<span class="icon fa-picture-o"></span>' :
                          (type == "dissertation" ? '<span class="icon fa-graduation-cap"></span>' : "bouh " )))))) + 
                         '<i style="margin-left:5px">' + venue + ' ' + year + '</i>' +
-                        '<a style="margin-left:20px" onclick="$(\'#' + id + '\').show(\'slow\');"><span class="icon fa-child"></span>show bibtex</a>' +
+                         (type == "video" ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#video_' + id + '\').toggle(\'slow\')[0].pause();"><span class="icon fa-play-circle"></span>watch the video</a>' : "") +
+                        '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#' + id + '\').toggle(\'slow\');"><span class="icon fa-child"></span>show bibtex</a>' +
                         '<br/>' +
                         authors +
                         '<pre style="display:none" id="' + id + '"><code>' +
                         bibtex + '</code></pre>';
+
+    if (type == "video") {
+    this.innerHTML += '<div style="text-align:center"><video id="video_' + id + '" style="display:none;width:50%" src="videos/' + videosrc + '" controls poster="videos/' + videosrc + '.jpg">' +
+            'Sorry, your browser doesn\'t support embedded videos, ' +
+            'but don\'t worry, you can <a href="videos/' + videosrc + '">download it</a> ' +
+             'and watch it with your favorite video player!' +
+             '</video></div>';
+     }
+
   };
 
   document.registerElement('publication-record', {prototype: proto, extends:'li'});
