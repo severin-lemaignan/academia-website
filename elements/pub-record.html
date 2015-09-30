@@ -9,17 +9,23 @@
     var authors = this.getAttribute("authors");
     authors = authors.replace("S. Lemaignan","<span class=\"myname\">S. Lemaignan</span>");
     var pdf = this.getAttribute("pdf");
+    var doi = this.getAttribute("doi");
     var venue = this.getAttribute("venue");
     var year = this.getAttribute("year");
     var videosrc = this.getAttribute("videosrc");
+    var award = this.getAttribute("award");
     var bibtex = this.getAttribute("bibtex").replace(/\\n/g, "\n");;
 
     pdf = (pdf == "undefined" ? null : pdf);
+    doi = (doi == "undefined" ? null : doi);
+    award = (award == "undefined" ? null : award);
 
     this.innerHTML =    (pdf ? '<a style="margin-left:-26px" class="icon fa-file-pdf-o" href="' + pdf + '" alt="Download the PDF">' : '') +
                         '<b style="margin-left:12px">' + title + '</b>' +
                         (pdf ? '</a>' : '') +
                         ((type.indexOf("abstract")>-1 || type == "video" || type == "poster") ? ' <i>[' + type + ']</i> ' : '') +
+                        '<br/>' +
+                        authors +
                         '<br/>' +
                         (type == "journal" ? 'in <span class="icon fa-newspaper-o"></span>' :
                         (type == "chapter" ? 'in <span class="icon fa-book"></span>' :
@@ -28,10 +34,10 @@
                          (type == "poster" ? '<span class="icon fa-picture-o"></span>' :
                          (type == "dissertation" ? '<span class="icon fa-graduation-cap"></span>' : "bouh " )))))) + 
                         '<i style="margin-left:5px">' + venue + ' ' + year + '</i>' +
-                         (type == "video" ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#video_' + id + '\').toggle(\'slow\')[0].pause();"><span class="icon fa-play-circle"></span>watch the video</a>' : "") +
-                        '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#' + id + '\').toggle(\'slow\');"><span class="icon fa-child"></span>show bibtex</a>' +
-                        '<br/>' +
-                        authors +
+                         (type == "video" ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#video_' + id + '\').toggle(\'slow\')[0].pause();"><span class="icon fa-play-circle"></span> watch the video</a>' : "") +
+                        '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#' + id + '\').toggle(\'slow\');"><span class="icon fa-child"></span> show bibtex</a>' +
+                        (doi ? '<a style="margin-left:20px;" href="https://doi.org/' + doi + '"><span class="icon fa-certificate"></span> doi: ' + doi + '</a>' : '') +
+                        (award ? '<br/><span class="award icon fa-trophy"> ' + award + '</span>' : '') +
                         '<pre style="display:none" id="' + id + '"><code>' +
                         bibtex + '</code></pre>';
 

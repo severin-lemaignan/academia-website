@@ -52,6 +52,12 @@
     .myname {
         text-decoration: underline;
     }
+
+    .award {
+        color: #D76585;
+        font-weight: bold;
+    }
+
 /* Box Model */
 
 	*, *:before, *:after {
