@@ -91,7 +91,7 @@
         "title":"Human-Robot Interaction: Tackling the AI Challenges",
         "venue":"Artificial Intelligence",
         "year":2014,
-        "authors":["Lemaignan, S.", "Warnier, M.", "Sisbot, E. A. Alami, R."],
+        "authors":["Lemaignan, S.", "Warnier, M.", "Sisbot, E. A.", "Alami, R."],
         "bibtex":"@article{lemaignan2014human,\\nauthor = {S\\'everin Lemaignan and Mathieu Warnier and E. Akin Sisbot and Rachid Alami},\\ntitle = {Human-Robot Interaction: Tackling the AI Challenges},\\njournal = {Artificial Intelligence},\\npublisher = {Elsevier},\\nyear = {2014}}"
     },
     {
@@ -284,7 +284,7 @@
         "year":2012,
         "doi":"10.1145/2157689.2157745",
         "isbn":"978-1-4503-1063-5",
-        "authors":["Lemaignan, S.", "Echeverria G.", "Karg, M.", "Mainprice, M.", "Kirsch, A.", "Alami, R."],
+        "authors":["Lemaignan, S.", "Echeverria, G.", "Karg, M.", "Mainprice, M.", "Kirsch, A.", "Alami, R."],
         "bibtex":"@inproceedings{lemaignan2012morse,\\nauthor = {Lemaignan, S. and Echeverria G. and Karg, M. and Mainprice, M. and Kirsch, A. and Alami, R.},\\ntitle = {Human-Robot Interaction in the MORSE Simulator},\\nbooktitle = {Proceedings of the 2012 Human-Robot Interaction Conference},\\nyear = {2012}}"
     },
     {
@@ -306,7 +306,7 @@
         "year":2011,
         "doi":"10.1007/s12369-011-0123-x",
         "issn":"1875-4791",
-        "authors":["Lemaignan, S.", "Ros, R.", "Sisbot, E. A. Alami, R.", "Beetz M."],
+        "authors":["Lemaignan, S.", "Ros, R.", "Sisbot, E. A.", "Alami, R.", "Beetz M."],
         "bibtex":"@article{lemaignan2011grounding,\\nauthor = {S\\'everin Lemaignan and Raquel Ros and E. Akin Sisbot and Rachid Alami and Michael Beetz},\\ntitle = {Grounding the Interaction: Anchoring Situated Discourse in Everyday Human-Robot Interaction},\\njournal = {International Journal of Social Robotics},\\npublisher = {Springer Netherlands},\\nissn = {1875-4791},\\npages = {1-19},\\nyear = {2011},\\nurl = {http://dx.doi.org/10.1007/s12369-011-0123-x}}"
     },
     {
@@ -319,8 +319,8 @@
         "doi":"10.1109/IROS.2011.6094744",
         "isbn":"978-1-61284-454-1",
         "issn":"2153-0858",
-        "authors":["Lallée, S.", "Pattacini, U.", "Boucher J.D.", "Lemaignan, S.", "Lenz, A.", "Melhuish, C.", "Natale, L.", "Skachek, S.", "Hamann, K.", "Steinwender, J.", "Sisbot, E.A.", "Metta, G.", "Alami, W.", "Warnier, M.", "Guitton, J.", "Warneken, F.", "Dominey, P.F."],
-        "bibtex":"@inproceedings{lallee2011towards,\\nauthor = {Lallée, S. and Pattacini, U. and Boucher J.D. and Lemaignan, S. and Lenz, A. and Melhuish, C. and Natale, L. and Skachek, S. and Hamann, K. and Steinwender, J. and Sisbot, E.A. and Metta, G. and Alami, W. and Warnier, M. and Guitton, J. and Warneken, F. and Dominey, P.F.},\\ntitle = {Towards a Platform-Independent Cooperative Human-Robot Interaction System: II. Perception, Execution and Imitation of Goal Directed Actions},\\nbooktitle = {Proceedings of the 2011 IEEE/RSJ International  Conference on Intelligent Robots and Systems},\\nyear = {2011}}"
+        "authors":["Lallée, S.", "Pattacini, U.", "Boucher, J.D.", "Lemaignan, S.", "Lenz, A.", "Melhuish, C.", "Natale, L.", "Skachek, S.", "Hamann, K.", "Steinwender, J.", "Sisbot, E.A.", "Metta, G.", "Alami, R.", "Warnier, M.", "Guitton, J.", "Warneken, F.", "Dominey, P.F."],
+        "bibtex":"@inproceedings{lallee2011towards,\\nauthor = {Lallée, S. and Pattacini, U. and Boucher, J.D. and Lemaignan, S. and Lenz, A. and Melhuish, C. and Natale, L. and Skachek, S. and Hamann, K. and Steinwender, J. and Sisbot, E.A. and Metta, G. and Alami, R. and Warnier, M. and Guitton, J. and Warneken, F. and Dominey, P.F.},\\ntitle = {Towards a Platform-Independent Cooperative Human-Robot Interaction System: II. Perception, Execution and Imitation of Goal Directed Actions},\\nbooktitle = {Proceedings of the 2011 IEEE/RSJ International  Conference on Intelligent Robots and Systems},\\nyear = {2011}}"
     },
     {
         "id":"lemaignan2011dialogue",
@@ -428,8 +428,8 @@
         "doi":"10.1109/ROBOT.2010.5509539",
         "isbn":"978-1-4244-5038-1",
         "issn":"1050-4729",
-        "authors":["Mallet, A.", "Pasteur, C.", "Herrb, M.", "Lemaignan, S.", "Ingrand F."],
-        "bibtex":"@conference{mallet2010genom3,\\ntitle={{GenoM3: Building middleware-independent robotic components}},\\nauthor={Mallet, A. and Pasteur, C. and Herrb, M. and Lemaignan, S. and Ingrand F.},\\nbooktitle={Proceedings of the 2010 IEEE International Conference on Robotics and Automation},\\nyear={2010}}"
+        "authors":["Mallet, A.", "Pasteur, C.", "Herrb, M.", "Lemaignan, S.", "Ingrand, F."],
+        "bibtex":"@conference{mallet2010genom3,\\ntitle={{GenoM3: Building middleware-independent robotic components}},\\nauthor={Mallet, A. and Pasteur, C. and Herrb, M. and Lemaignan, S. and Ingrand, F.},\\nbooktitle={Proceedings of the 2010 IEEE International Conference on Robotics and Automation},\\nyear={2010}}"
     },
     {
         "id":"lemaignan2014taught",
@@ -450,7 +450,7 @@
         "year":2014,
         "note":"not peer-reviewed",
         "venue":"HRI - Cognitive Architectures Workshop",
-        "authors":"Lemaignan, S.",
+        "authors":["Lemaignan, S."],
         "bibtex":"@inproceedings{lemaignan2014am,\\nauthor = {Lemaignan, S.},\\ntitle = {Am I capable yet?},\\nbooktitle = {HRI 2014, Workshop on Cognitive Architectures},\\nyear = {2014}}"
     },
     {
