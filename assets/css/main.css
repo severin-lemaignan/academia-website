@@ -3349,6 +3349,16 @@
 			background-size: cover;
 		}
 
+		.wrapper.style3.publication-header {
+			background-image: url("../../images/publications.jpg");
+		}
+
+
+		.wrapper.style3.research-header {
+			background-image: url("../../images/research.jpg");
+		}
+
+
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
 				color: #fff;
 			}

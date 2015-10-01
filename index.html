@@ -13,45 +13,19 @@
         <link rel="stylesheet" href="assets/css/main.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
         <script src="assets/js/webcomponents-lite.min.js"></script>
         <link rel="import" href="elements/nav.html">
         <link rel="import" href="elements/footer.html">
 
-        <script>
-$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
-    }
-    });
-});
-        </script>
     </head>
     <body class="landing">
 
-        <!-- Header -->
-        <header id="header" class="alt">
-            <!--<h1><a href="index.html">Home</a></h1>-->
-            <a href="#nav">Menu</a>
-        </header>
-
-        <!-- Nav -->
-        <my-menu id="nav"></my-menu>
-
-        <!-- Banner -->
+                <!-- Banner -->
         <section id="banner">
             <img style="height:5em;width:5em" src="images/robot.svg" alt="" />
             <h2>Séverin Lemaignan</h2>
-            <p>I compute, therefore I am</p>
+            <p>My robots are rich</p>
             <ul class="actions">
                 <li><a href="research.html" class="button special">Research</a></li>
                 <li><a href="#news" class="button alt">News</a></li>
@@ -115,7 +89,7 @@ $(function() {
                         </p>
                     </div>
                 </article>
-                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
+                <a href="#banner" class="back-to-top icon fa-level-up"> back to top</a>
 
 
                 <article class="feature left">
@@ -139,7 +113,7 @@ $(function() {
 
                     </div>
                 </article>
-                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
+                <a href="#banner" class="back-to-top icon fa-level-up"> back to top</a>
 
 
                 <article class="feature right">
@@ -159,7 +133,7 @@ $(function() {
                         </p>
                     </div>
                 </article>
-                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
+                <a href="#banner" class="back-to-top icon fa-level-up"> back to top</a>
 
                 <article class="feature left">
                                       <div class="content">
@@ -173,7 +147,7 @@ $(function() {
                         </p>
                     </div>
                 </article>
-                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
+                <a href="#banner" class="back-to-top icon fa-level-up"> back to top</a>
 
 
                 <article class="feature left">
@@ -186,7 +160,7 @@ $(function() {
 
                     </div>
                 </article>
-                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
+                <a href="#banner" class="back-to-top icon fa-level-up"> back to top</a>
 
 
 <!--
@@ -221,6 +195,23 @@ I've <a href="http://www.gdr-robotique.org/prix_de_these/?an=2013" alt="Prix de 
         <script src="assets/js/util.js"></script>
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="assets/js/main.js"></script>
+
+        <script>
+$(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+    });
+});
+        </script>
 
     </body>
 </html>
