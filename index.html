@@ -13,11 +13,28 @@
         <link rel="stylesheet" href="assets/css/main.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
         <script src="assets/js/webcomponents-lite.min.js"></script>
         <link rel="import" href="elements/nav.html">
         <link rel="import" href="elements/footer.html">
 
+        <script>
+$(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+    });
+});
+        </script>
     </head>
     <body class="landing">
 
@@ -37,7 +54,7 @@
             <p>I compute, therefore I am</p>
             <ul class="actions">
                 <li><a href="research.html" class="button special">Research</a></li>
-                <li><a href="curriculum.html" class="button alt">Curriculum</a></li>
+                <li><a href="#news" class="button alt">News</a></li>
                 <li><a href="publications.html" class="button alt">Publications</a></li>
                 <li><a href="talks.html" class="button alt">Talks</a></li>
                 <li><a href="teaching.html" class="button  alt">Supervision | Teaching</a></li>
@@ -98,6 +115,7 @@
                         </p>
                     </div>
                 </article>
+                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
 
 
                 <article class="feature left">
@@ -121,6 +139,7 @@
 
                     </div>
                 </article>
+                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
 
 
                 <article class="feature right">
@@ -140,6 +159,7 @@
                         </p>
                     </div>
                 </article>
+                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
 
                 <article class="feature left">
                                       <div class="content">
@@ -153,6 +173,7 @@
                         </p>
                     </div>
                 </article>
+                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
 
 
                 <article class="feature left">
@@ -165,6 +186,7 @@
 
                     </div>
                 </article>
+                <a href="#header" class="back-to-top icon fa-level-up"> back to top</a>
 
 
 <!--

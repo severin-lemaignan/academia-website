@@ -54,10 +54,15 @@
     }
 
     .award {
-        color: #D76585;
-        font-weight: bold;
+        color: #D77965;
     }
 
+    .back-to-top {
+        text-align:right;
+        display: block;
+        margin-top:-50px;
+        margin-bottom:50px;
+    }
 /* Box Model */
 
 	*, *:before, *:after {
