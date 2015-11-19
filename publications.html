@@ -93,7 +93,8 @@
                                     return el.split(', ').reverse().join(" ");
                                 }).join("; ");
 
-                        ul.append($('<li is="publication-record" articletitle="' + pub['title'] + '" ' +
+                        ul.append($('<li id="' + pub['id'] + '" is="publication-record" ' + 
+                                    'articletitle="' + pub['title'] + '" ' +
                                     'bibkey="' + pub['id'] + '" ' +
                                     'type="' + pub['type'] + '" ' +
                                     'authors="' + authors + '" ' +
