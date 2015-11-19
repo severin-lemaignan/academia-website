@@ -3358,6 +3358,10 @@
 			background-image: url("../../images/research.jpg");
 		}
 
+		.wrapper.style3.teaching-header {
+			background-image: url("../../images/outreach.jpg");
+		}
+
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
 				color: #fff;
