@@ -1,5 +1,33 @@
 [
     {
+        "id":"lemaignan2016realtime",
+        "type":"conference",
+        "title":"From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction",
+        "venue":"HRI",
+        "year":2016,
+        "authors":["Lemaignan, S.", "Garcia, F.", "Jacq, A.", "Dillenbourg, P."],
+        "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Lemaignan, S. and Garcia, F. and Jacq, A. and Dillenbourg, P.},\\ntitle = {From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 Human-Robot Interaction Conference},\\nyear = {2016}}"
+    },
+    {
+        "id":"jacq2016building",
+        "type":"conference",
+        "title":"Building Successful Long Child-Robot Interactions in a Learning Context",
+        "venue":"HRI",
+        "year":2016,
+        "authors":["Jacq, A.", "Lemaignan, S.", "Garcia, F.", "Dillenbourg, P.", "Paiva, A."],
+        "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Jacq, A. and Lemaignan, S. and Garcia, F. and Dillenbourg, P. and Paiva, A.},\\ntitle = {Building Successful Long Child-Robot Interactions in a Learning Context},\\nbooktitle = {Proceedings of the 2016 Human-Robot Interaction Conference},\\nyear = {2016}}"
+    },
+    {
+        "id":"baxter2015wider",
+        "pdf":"publis/baxter2015wider.pdf",
+        "type":"conference",
+        "title":"The Wider Supportive Role of Social Robots in the Classroom for Teachers",
+        "venue":"WONDER Workshop - ICSR",
+        "year":2015,
+        "authors":["Baxter, P.", "Ashurst, E.", "Kennedy, J.", "Senft, E.", "Lemaignan, S.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{baxter2015wider,\\nauthor = {Baxter, P. and Ashurst, E. and Kennedy, J. and Senft, E. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {The Wider Supportive Role of Social Robots in the Classroom for Teachers},\\nbooktitle = {WONDER Workshop, 2015 International Conference on Social Robotics},\\nyear = {2015}}"
+    },
+    {
         "id":"mondada2014ranger",
         "type":"chapter",
         "title":"Ranger, an Example of Integration of Robotics into the Home Ecosystem",
@@ -9,7 +37,7 @@
         "doi":"10.1007/978-3-319-23832-6_15",
         "isbn":"978-3-319-23831-9",
         "authors":["Mondada, F.", "Fink, J.", "Lemaignan, S.", "Mansolino, D.", "Wille, F.", "Franinović, K."],
-        "bibtex":"@inbook{mondada2014ranger,\\nauthor = {Mondada, F. and Fink, J. and Lemaignan, S. and Mansolino, D. and Wille, F. and Franinović, K.},\\nchapter = {Ranger, an Example of Integration of Robotics into the Home Ecosystem},\\ntitle = {New Trends in Medical and Service Robots},\\npublisher = {Springer Publishing},\\nseries = {Mechan. Machine Science},\\nvolume = {38},\\nyear = {2015},\\nisbn = {978-3-319-23831-9},\\nnote = {Appeared first as a paper at MESROB2014}}"
+        "bibtex":"@inbook{mondada2014ranger,\\nauthor = {Mondada, F. and Fink, J. and Lemaignan, S. and Mansolino, D. and Wille, F. and Franinović, K.},\\nchapter = {Ranger, an Example of Integration of Robotics into the Home Ecosystem},\\ntitle = {New Trends in Medical and Service Robots},\\npublisher = {Springer Publishing},\\nseries = {Mechan. Machine Science},\\nvolume = {38},\\nyear = {2015},\\ndoi = {10.1007/978-3-319-23832-6_15},\\nisbn = {978-3-319-23831-9},\\nnote = {Appeared first as a paper at MESROB2014}}"
     },
     {
         "id":"lemaignan2015youre",
