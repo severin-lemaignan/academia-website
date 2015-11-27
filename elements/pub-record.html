@@ -37,10 +37,10 @@
                          (type == "dissertation" ? '<span class="icon fa-graduation-cap"></span>' : "bouh " )))))) + 
                         '<i style="margin-left:5px">' + venue + ' ' + year + '</i>' +
                          (type == "video" ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#video_' + id + '\').toggle(\'slow\')[0].pause();"><span class="icon fa-play-circle"></span> watch the video</a>' : "") +
-                        '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#' + id + '\').toggle(\'slow\');"><span class="icon fa-child"></span> show bibtex</a>' +
+                        '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#' + id + '_bibtex\').toggle(\'slow\');"><span class="icon fa-child"></span> show bibtex</a>' +
                         (doi ? '<a style="margin-left:20px;" href="https://doi.org/' + doi + '"><span class="icon fa-certificate"></span> doi: ' + doi + '</a>' : '') +
                         (award ? '<br/><span class="award icon fa-trophy"> ' + award + '</span>' : '') +
-                        '<pre style="display:none" id="' + id + '"><code>' +
+                        '<pre style="display:none" id="' + id + '_bibtex"><code>' +
                         bibtex + '</code></pre>';
 
     if (type == "video") {
