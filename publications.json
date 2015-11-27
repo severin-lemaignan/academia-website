@@ -6,6 +6,8 @@
         "venue":"New Trends in Medical and Service Robots",
         "publisher":"Springer Publishing",
         "year":2015,
+        "doi":"10.1007/978-3-319-23832-6_15",
+        "isbn":"978-3-319-23831-9",
         "authors":["Mondada, F.", "Fink, J.", "Lemaignan, S.", "Mansolino, D.", "Wille, F.", "Franinović, K."],
         "bibtex":"@inbook{mondada2014ranger,\\nauthor = {Mondada, F. and Fink, J. and Lemaignan, S. and Mansolino, D. and Wille, F. and Franinović, K.},\\nchapter = {Ranger, an Example of Integration of Robotics into the Home Ecosystem},\\ntitle = {New Trends in Medical and Service Robots},\\npublisher = {Springer Publishing},\\nseries = {Mechan. Machine Science},\\nvolume = {38},\\nyear = {2015},\\nisbn = {978-3-319-23831-9},\\nnote = {Appeared first as a paper at MESROB2014}}"
     },
