@@ -5,6 +5,7 @@
         "title":"From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction",
         "venue":"HRI",
         "year":2016,
+        "note": "to appear",
         "authors":["Lemaignan, S.", "Garcia, F.", "Jacq, A.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Lemaignan, S. and Garcia, F. and Jacq, A. and Dillenbourg, P.},\\ntitle = {From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 Human-Robot Interaction Conference},\\nyear = {2016}}"
     },
@@ -14,6 +15,7 @@
         "title":"Building Successful Long Child-Robot Interactions in a Learning Context",
         "venue":"HRI",
         "year":2016,
+        "note": "to appear",
         "authors":["Jacq, A.", "Lemaignan, S.", "Garcia, F.", "Dillenbourg, P.", "Paiva, A."],
         "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Jacq, A. and Lemaignan, S. and Garcia, F. and Dillenbourg, P. and Paiva, A.},\\ntitle = {Building Successful Long Child-Robot Interactions in a Learning Context},\\nbooktitle = {Proceedings of the 2016 Human-Robot Interaction Conference},\\nyear = {2016}}"
     },

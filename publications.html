@@ -40,8 +40,41 @@
 
             </div>
         </section>
-
         <section id="main" class="wrapper">
+            <div class="inner">
+                <article class="feature">
+                    <div class="container 70%">
+                        <p>
+                        <strong>You will find on the page the list of my
+                        academic publications</strong><br/>
+
+
+                        When available, click on the <strong><i class="fa
+                        fa-file-pdf-o"></i> PDF icon</strong> to
+                        download the paper. <br/>
+
+                        <strong><i class="fa fa-newspaper-o"></i></strong>
+                        denotes a <strong>journal</strong> article, <strong><i
+                        class="fa fa-book"></i></strong> denotes a <strong>book
+                        chapter</strong>, and <strong><i class="fa
+                        fa-users"></i></strong> denotes a <strong>conference</strong>
+                        article.
+                        </p>
+
+                        <p>
+                        For what it is worth, <a
+                        href="https://scholar.google.ch/citations?user=-CUOP2gAAAAJ"
+                        alt="My Google Scholar profile">Google Scholar</a>
+                        has kindly collected a few statistics, including
+                        citations per article and overall h-index. Please note
+                        that these values, being automatically computed, are
+                        prone to errors!
+                        </p>
+
+                    </div>
+                </article>
+            </div>
+
             <div class="container">
 
                 <div id="publis"></div>
@@ -101,6 +134,7 @@
                                     'pdf="' + pub['pdf'] + '" ' +
                                     'videosrc="' + pub['media'] + '" ' +
                                     'doi="' + pub['doi'] + '" ' +
+                                    'note="' + pub['note'] + '" ' +
                                     'venue="' + pub['venue'] + '" ' +
                                     'year="' + pub['year'] + '" ' +
                                     'bibtex="' + pub['bibtex'] + '" ' +

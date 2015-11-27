@@ -10,6 +10,7 @@
     authors = authors.replace("S. Lemaignan","<span class=\"myname\">S. Lemaignan</span>");
     var pdf = this.getAttribute("pdf");
     var doi = this.getAttribute("doi");
+    var note = this.getAttribute("note");
     var venue = this.getAttribute("venue");
     var year = this.getAttribute("year");
     var videosrc = this.getAttribute("videosrc");
@@ -19,6 +20,7 @@
     pdf = (pdf == "undefined" ? null : pdf);
     doi = (doi == "undefined" ? null : doi);
     award = (award == "undefined" ? null : award);
+    note = (note == "undefined" ? null : note);
 
     this.innerHTML =    (pdf ? '<a style="margin-left:-26px" class="icon fa-file-pdf-o" href="' + pdf + '" alt="Download the PDF">' : '') +
                         '<span style="margin-left:12px">' + 
@@ -26,6 +28,7 @@
                         '<b>' + 
                         title + '</b></span>' +
                         (pdf ? '</a>' : '') +
+                        (note ? '<span class="note">' + note + '</span>' : '') +
                         '<br/>' +
                         authors +
                         '<br/>' +
