@@ -7,7 +7,7 @@
         "year":2016,
         "note": "to appear",
         "authors":["Lemaignan, S.", "Garcia, F.", "Jacq, A.", "Dillenbourg, P."],
-        "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Lemaignan, S. and Garcia, F. and Jacq, A. and Dillenbourg, P.},\\ntitle = {From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 Human-Robot Interaction Conference},\\nyear = {2016}}"
+        "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Lemaignan, S. and Garcia, F. and Jacq, A. and Dillenbourg, P.},\\ntitle = {From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
     },
     {
         "id":"jacq2016building",
@@ -17,7 +17,7 @@
         "year":2016,
         "note": "to appear",
         "authors":["Jacq, A.", "Lemaignan, S.", "Garcia, F.", "Dillenbourg, P.", "Paiva, A."],
-        "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Jacq, A. and Lemaignan, S. and Garcia, F. and Dillenbourg, P. and Paiva, A.},\\ntitle = {Building Successful Long Child-Robot Interactions in a Learning Context},\\nbooktitle = {Proceedings of the 2016 Human-Robot Interaction Conference},\\nyear = {2016}}"
+        "bibtex":"@inproceedings{jacq2016building,\\nauthor = {Jacq, A. and Lemaignan, S. and Garcia, F. and Dillenbourg, P. and Paiva, A.},\\ntitle = {Building Successful Long Child-Robot Interactions in a Learning Context},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
     },
     {
         "id":"baxter2015wider",
@@ -92,7 +92,7 @@
         "year":2015,
         "doi":"10.1145/2696454.2696493",
         "authors":["Lemaignan, S.", "Dillenbourg, P."],
-        "bibtex":"@inproceedings{lemaignan2015mutual,\\nauthor = {Lemaignan, S. and Dillenbourg, P.},\\ntitle = {Mutual Modelling in Robotics: Inspirations for the Next Steps},\\nbooktitle = {Proceedings of the 2015 Human-Robot Interaction Conference},\\nyear = {2015}}"
+        "bibtex":"@inproceedings{lemaignan2015mutual,\\nauthor = {Lemaignan, S. and Dillenbourg, P.},\\ntitle = {Mutual Modelling in Robotics: Inspirations for the Next Steps},\\nbooktitle = {Proceedings of the 2015 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2015}}"
     },
     {
         "id":"hood2015when",
@@ -103,7 +103,7 @@
         "year":2015,
         "doi":"10.1145/2696454.2696479",
         "authors":["Hood, D.", "Lemaignan, S.", "Dillenbourg, P."],
-        "bibtex":"@inproceedings{hood2015when,\\nauthor = {Hood, D. and Lemaignan, S. and Dillenbourg, P.},\\ntitle = {When Children Teach a Robot to Write: An Autonomous Teachable Humanoid Which Uses Simulated Handwriting},\\nbooktitle = {Proceedings of the 2015 Human-Robot Interaction Conference},\\nyear = {2015}}"
+        "bibtex":"@inproceedings{hood2015when,\\nauthor = {Hood, D. and Lemaignan, S. and Dillenbourg, P.},\\ntitle = {When Children Teach a Robot to Write: An Autonomous Teachable Humanoid Which Uses Simulated Handwriting},\\nbooktitle = {Proceedings of the 2015 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2015}}"
     },
     {
         "id":"hood2015cowriter",
@@ -117,7 +117,7 @@
         "award":"AAAI Best Video 2015",
         "media":"cowriter.mp4",
         "authors":["Hood, D.", "Lemaignan, S.", "Alami, R."],
-        "bibtex":"@inproceedings{hood2015cowriter,\\ntitle                    = {The {C}o{W}riter {P}roject: {T}eaching a {R}obot how to {W}rite},\\nauthor                   = {Hood, D. and Lemaignan, S. and Dillenbourg, P.},\\nbooktitle                = {Proceedings of the 2015 Human-Robot Interaction Conference},\\nyear                     = {2015}}"
+        "bibtex":"@inproceedings{hood2015cowriter,\\ntitle = {The {C}o{W}riter {P}roject: {T}eaching a {R}obot how to {W}rite},\\nauthor = {Hood, D. and Lemaignan, S. and Dillenbourg, P.},\\nbooktitle = {Proceedings of the 2015 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2015}}"
     },
     {
         "id":"lemaignan2014human",
@@ -163,7 +163,7 @@
         "isbn":"978-1-4503-2658-2",
         "award":"Best Late Breaking Report HRI 2014",
         "authors":["Lemaignan, S.", "Fink, J.", "Dillenbourg, P."],
-        "bibtex":"@inproceedings{lemaignan2014dynamics,\\nauthor = {Lemaignan, S. and Fink, J. and Dillenbourg, P.},\\ntitle = {The Dynamics of Anthropomorphism in Robotics},\\nbooktitle = {Proceedings of the 2014 Human-Robot Interaction Conference},\\nyear = {2014}}"
+        "bibtex":"@inproceedings{lemaignan2014dynamics,\\nauthor = {Lemaignan, S. and Fink, J. and Dillenbourg, P.},\\ntitle = {The Dynamics of Anthropomorphism in Robotics},\\nbooktitle = {Proceedings of the 2014 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2014}}"
     },
     {
         "id":"lemaignan2014simulation",
@@ -185,7 +185,7 @@
         "venue":"Workshop A bridge between Robotics and Neuroscience - HRI",
         "year":2014,
         "authors":["Lemaignan, S.", "Fink, J.", "Dillenbourg, P.", "Braboszcz, C."],
-        "bibtex":"@inproceedings{lemaignan2014cognitive,\\nauthor = {Lemaignan, S. and Fink, J. and Dillenbourg, P. and Braboszcz, C.},\\ntitle = {The Cognitive Correlates of Anthropomorphism},\\nbooktitle = {Proceedings of the 2014 Human-Robot Interaction Conference},\\nyear = {2014}}"
+        "bibtex":"@inproceedings{lemaignan2014cognitive,\\nauthor = {Lemaignan, S. and Fink, J. and Dillenbourg, P. and Braboszcz, C.},\\ntitle = {The Cognitive Correlates of Anthropomorphism},\\nbooktitle = {Proceedings of the Workshop: A bridge between Robotics and Neuroscience at the 2014 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2014}}"
     },
     {
         "id":"lemaignan2013explicit",
@@ -224,7 +224,7 @@
         "issn":"2167-2121",
         "media":"talking_to_my_robot.mp4",
         "authors":["Lemaignan, S.", "Alami, R."],
-        "bibtex":"@inproceedings{lemaignan2013talking,\\nauthor = {Lemaignan, S. and Alami, R.},\\ntitle = {Talking to my Robot: from Knowledge Grounding to Dialogue Processing},\\nbooktitle = {Proceedings of the 2013 Human-Robot Interaction Conference},\\nyear = {2013}}"
+        "bibtex":"@inproceedings{lemaignan2013talking,\\nauthor = {Lemaignan, S. and Alami, R.},\\ntitle = {Talking to my Robot: from Knowledge Grounding to Dialogue Processing},\\nbooktitle = {Proceedings of the 2013 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2013}}"
     },
     {
         "id":"gharbi2013natural",
@@ -236,7 +236,7 @@
         "isbn":"978-1-4673-3055-8",
         "media":"hri2013-naturalinteractionforhandover.mp4",
         "authors":["Gharbi, M.", "Lemaignan, S.", "Mainprice, J.", "Alami, R."],
-        "bibtex":"@inproceedings{gharbi2013natural,\\nauthor = {Gharbi, M. and Lemaignan, S. and Mainprice, J. and Alami, R.},\\ntitle = {Natural Interaction for Object Hand-Over},\\nbooktitle = {Proceedings of the 2013 Human-Robot Interaction Conference},\\nyear = {2013}}"
+        "bibtex":"@inproceedings{gharbi2013natural,\\nauthor = {Gharbi, M. and Lemaignan, S. and Mainprice, J. and Alami, R.},\\ntitle = {Natural Interaction for Object Hand-Over},\\nbooktitle = {Proceedings of the 2013 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2013}}"
     },
     {
         "id":"lemaignan2012thesis",
@@ -309,7 +309,7 @@
         "isbn":"978-1-4503-1063-5",
         "media":"https://www.youtube.com/watch?v=dODEuQJwBLw",
         "authors":["Lemaignan, S.", "Gharbi, M.", "Mainprice, J.", "Herrb, M.", "Alami, R."],
-        "bibtex":"@inproceedings{lemaignan2012roboscopie,\\nauthor = {Lemaignan, S. and Gharbi, M. and Mainprice, J. and Herrb, M. and Alami, R.},\\ntitle = {Roboscopie: A Theatre Performance for a Human and a Robot},\\nbooktitle = {Proceedings of the 2012 Human-Robot Interaction Conference},\\nyear = {2012}}"
+        "bibtex":"@inproceedings{lemaignan2012roboscopie,\\nauthor = {Lemaignan, S. and Gharbi, M. and Mainprice, J. and Herrb, M. and Alami, R.},\\ntitle = {Roboscopie: A Theatre Performance for a Human and a Robot},\\nbooktitle = {Proceedings of the 2012 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2012}}"
     },
     {
         "id":"lemaignan2012morse",
@@ -321,7 +321,7 @@
         "doi":"10.1145/2157689.2157745",
         "isbn":"978-1-4503-1063-5",
         "authors":["Lemaignan, S.", "Echeverria, G.", "Karg, M.", "Mainprice, M.", "Kirsch, A.", "Alami, R."],
-        "bibtex":"@inproceedings{lemaignan2012morse,\\nauthor = {Lemaignan, S. and Echeverria G. and Karg, M. and Mainprice, M. and Kirsch, A. and Alami, R.},\\ntitle = {Human-Robot Interaction in the MORSE Simulator},\\nbooktitle = {Proceedings of the 2012 Human-Robot Interaction Conference},\\nyear = {2012}}"
+        "bibtex":"@inproceedings{lemaignan2012morse,\\nauthor = {Lemaignan, S. and Echeverria G. and Karg, M. and Mainprice, M. and Kirsch, A. and Alami, R.},\\ntitle = {Human-Robot Interaction in the MORSE Simulator},\\nbooktitle = {Proceedings of the 2012 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2012}}"
     },
     {
         "id":"alami2011when",
