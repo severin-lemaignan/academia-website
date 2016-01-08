@@ -1,6 +1,7 @@
 [
     {
         "id":"lemaignan2016realtime",
+        "pdf":"publis/lemaignan2016realtime.pdf",
         "type":"conference",
         "title":"From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction",
         "venue":"HRI",
