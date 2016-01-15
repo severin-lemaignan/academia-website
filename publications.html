@@ -68,6 +68,11 @@
                         prone to errors!
                         </p>
 
+			<p>
+			<input id="only-full-papers" type="checkbox" checked="" name="only-full-papers"></input>
+			<label for="only-full-papers"><em>Hide abstracts and other short publications</em></label>
+                        </p>
+
                     </div>
                 </article>
             </div>
@@ -90,6 +95,8 @@
 
         <script>
 
+	var publication_list;
+
         function by_year(data) {
             var publications_by_year = new Array();
 
@@ -103,9 +110,11 @@
             return publications_by_year;
         }
 
-        function biblio(data) {
+        function biblio() {
 
-            data = by_year(data);
+	    var only_full_papers = $("#only-full-papers").prop('checked');
+
+            data = by_year(publication_list);
 
             for (var year = 2100; year > 2000; year--) {
                 if (year in data) {
@@ -117,6 +126,12 @@
 
                     for (var idx in publications) {
                         var pub = publications[idx];
+                        
+                        var is_abstract = (pub['type'].indexOf("abstract") > -1 
+                                        || pub['type'] == "video" 
+                                        || pub['type'] == "poster") 
+                        if (only_full_papers && is_abstract) continue;
+
                         var authors = pub['authors'].map(
                                 function (el) 
                                 {
@@ -145,7 +160,13 @@
 
 
         $.getJSON("publications.json", function(json) {
-            biblio(json);
+	    publication_list = json;
+            biblio();
+        });
+
+        $("#only-full-papers").change(function() {
+            $('#publis').empty()
+            biblio();
         });
         </script>
 
