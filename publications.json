@@ -146,7 +146,7 @@
         "isbn":"978-1-4503-3318-4",
         "award":"AAAI Best Video 2015",
         "media":"cowriter.mp4",
-        "authors":["Hood, D.", "Lemaignan, S.", "Alami, R."],
+        "authors":["Hood, D.", "Lemaignan, S.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{hood2015cowriter,\\ntitle = {The {C}o{W}riter {P}roject: {T}eaching a {R}obot how to {W}rite},\\nauthor = {Hood, D. and Lemaignan, S. and Dillenbourg, P.},\\nbooktitle = {Proceedings of the 2015 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2015}}"
     },
     {
