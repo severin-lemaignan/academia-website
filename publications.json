@@ -1,5 +1,34 @@
 [
     {
+        "id":"hostettler2016realtime",
+        "type":"conference",
+        "title":"Real-Time High-Accuracy 2D Localization with Structured Patterns",
+        "venue":"ICRA",
+        "year":2016,
+        "note": "to appear",
+        "authors":["Hostettler, L.", "Özgür, A.", "Lemaignan, S.", "Dillenbourg, P.", "Mondada, F."],
+        "bibtex":"@inproceedings{hostettler2016realtime,\\nauthor = {Hostettler, L. and Özgür, A. and Lemaignan, S. and Dillenbourg, P. and Mondada, F.},\\ntitle = {Real-Time High-Accuracy 2D Localization with Structured Patterns},\\nbooktitle = {Proceedings of the 2016 IEEE International Conference on Robotics and Automation},\\nyear = {2016}}"
+    },
+    {
+        "id":"senft2016providing",
+        "type":"abstract - late breaking report",
+        "title":"Providing a Robot with Learning Abilities Improves its Perception by Users",
+        "venue":"HRI",
+        "year":2016,
+        "note": "to appear",
+        "authors":["Senft, E.", "Baxter, P.", "Kennedy, J.", "Lemaignan, S.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{senft2016providing,\\nauthor = {Senft, E. and Baxter, P. and Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {Providing a Robot with Learning Abilities Improves its Perception by Users},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
+    },    {
+        "id":"baxter2016characterising",
+        "type":"conference",
+        "title":"From Characterising Three Years of HRI to Methodology and Reporting Recommendations",
+        "venue":"alt.HRI",
+        "year":2016,
+        "note": "to appear",
+        "authors":["Baxter, P.", "Kennedy, J.", "Senft E.", "Lemaignan, S.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{baxter2016characterising,\\nauthor = {Baxter, P. and Kennedy, J. and Senft E. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {From Characterising Three Years of HRI to Methodology and Reporting Recommendations},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference (alt.HRI)},\\nyear = {2016}}"
+    },
+    {
         "id":"lemaignan2016realtime",
         "pdf":"publis/lemaignan2016realtime.pdf",
         "type":"conference",
@@ -123,7 +152,6 @@
     {
         "id":"lemaignan2014human",
         "note":"in press",
-        "pdf":"publis/lemaignan2014human.pdf",
         "type":"journal",
         "title":"Human-Robot Interaction: Tackling the AI Challenges",
         "venue":"Artificial Intelligence",
