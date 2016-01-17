@@ -69,8 +69,9 @@
                         </p>
 
                         <p>
-                        <input id="only-full-papers" type="checkbox" checked="" name="only-full-papers" onclick="$('.abstract').toggle('slow')"></input>
-                        <label for="only-full-papers"><em>Hide abstracts and other short publications</em></label>
+                        <input id="only-full-papers" type="checkbox" checked="" name="only-full-papers" onclick="$('.abstract').toggle();$('#nb-publis').html($('#publis li:visible').size())"></input>
+                        <label for="only-full-papers"><em>Abstracts and other short publications hidden</em></label>
+                        -- <em><span id="nb-publis"></span> publications displayed.
                         </p>
 
                     </div>
@@ -165,6 +166,7 @@
             if ($('#only-full-papers').prop('checked')) {
                 $('.abstract').hide();
             }
+            $('#nb-publis').html($('#publis li:visible').size());
         });
 
         </script>
