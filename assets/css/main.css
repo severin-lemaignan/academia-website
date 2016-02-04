@@ -2588,6 +2588,17 @@
 			width: 100%;
 		}
 
+		input[type="submit"].tiny,
+		input[type="reset"].tiny,
+		input[type="button"].tiny,
+		button.tiny,
+		.button.tiny {
+			font-size: 0.6em;
+			padding: 0 0.7em;
+			min-width: 5em;
+		}
+
+
 		input[type="submit"].small,
 		input[type="reset"].small,
 		input[type="button"].small,

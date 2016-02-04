@@ -17,6 +17,9 @@
         <link rel="import" href="elements/nav.html">
         <link rel="import" href="elements/footer.html">
         <link rel="import" href="elements/pub-record.html">
+        <style id="abstracts-style" type="text/css">
+        .abstract {display:none;} /*initially, abstracts are hidden */
+        </style>
 
     </head>
     <body>
@@ -41,9 +44,7 @@
             </div>
         </section>
         <section id="main" class="wrapper">
-            <div class="inner">
-                <article >
-                    <div class="container 75%">
+            <div class="container">
                         <p>
 
                         <strong><i class="fa fa-newspaper-o"></i></strong>
@@ -68,18 +69,17 @@
                         prone to errors!
                         </p>
 
-                        <p>
-                        <input id="only-full-papers" type="checkbox" checked="" name="only-full-papers" onclick="$('.abstract').toggle();$('#nb-publis').html($('#publis li:visible').size())"></input>
-                        <label for="only-full-papers"><em>Abstracts and other short publications hidden</em></label>
-                        -- <em><span id="nb-publis"></span> publications displayed.
-                        </p>
 
-                    </div>
-                </article>
-            </div>
+                <hr/>
+                <span id="keywordsfiltering"></span>
 
-            <div class="container">
+                <hr/>
+                    <input id="only-full-papers" type="checkbox" checked="true" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size())"></input>
+                <label for="only-full-papers">
+                    <strong><em> Only full papers</em></strong>
+                </label>
 
+                <em>(<span id="nb-publis"></span> publications displayed in total)</em>
                 <div id="publis"></div>
             </div>
         </section>
@@ -96,7 +96,8 @@
 
         <script>
 
-	var publication_list;
+        var publication_list;
+        var keywords = {};
 
         function by_year(data) {
             var publications_by_year = new Array();
@@ -119,14 +120,14 @@
             for (var year = 2100; year > 2000; year--) {
                 if (year in data) {
 
-                    $('#publis').append($("<h3>").text(year));
+                    $('#publis').append($("<h3 class='year'>").text(year));
 
                     var publications = data[year];
                     var ul = $('<ul class="alt fa-ul">');
 
                     for (var idx in publications) {
                         var pub = publications[idx];
-                        
+
                         var is_abstract = (pub['type'].indexOf("abstract") > -1 
                                         || pub['type'] == "video" 
                                         || pub['type'] == "poster") 
@@ -137,8 +138,20 @@
                                     return el.split(', ').reverse().join(" ");
                                 }).join("; ");
 
-                        ul.append($('<li id="' + pub['id'] + 
-                                    (is_abstract ? '" class="abstract" ': '" ') +
+                        var keywordsclasses = "no-keyword";
+                        if (pub['keywords']) {
+                            keywordsclasses = pub['keywords'].map(
+                                function (el) 
+                                {
+                                    var kwclass = el.split(' ').join("-").toLowerCase();
+                                    keywords[el] = kwclass;
+                                    return kwclass;
+                                }).join(" ");
+                        }
+
+
+                        ul.append($('<li id="' + pub['id'] + '" class="' +
+                                    (is_abstract ? 'abstract ': '') + keywordsclasses + '" ' +
                                     'is="publication-record" ' + 
                                     'articletitle="' + pub['title'] + '" ' +
                                     'bibkey="' + pub['id'] + '" ' +
@@ -159,14 +172,58 @@
             }
         }
 
+        function filter_restore_all() {
+
+            $('.keywords-style').html('');
+            $('.keyword-filter').addClass('alt');
+            $('#nb-publis').html($('#publis li:visible').size());
+        }
+
+        function filter(button, keyword) {
+
+            if ($(button).hasClass('alt')) {
+
+
+                $('#keyword-' + keyword + '-style').html('#publis li:not(.' + keyword + '){display:none;}');
+                $(button).removeClass('alt');
+            }
+            else {
+                $('#keyword-' + keyword + '-style').html('');
+                $(button).addClass('alt');
+            }
+
+            $('#nb-publis').html($('#publis li:visible').size());
+        }
+
+        function keyword_filters() {
+
+            var buttons = '<a class="button special tiny" onclick="filter_restore_all()">All</a> ';
+
+            // list keywords by alphabetical order
+            var arr = [];
+            for (var key in keywords) {
+                if (keywords.hasOwnProperty(key)) {
+                    arr.push(key);
+                }
+            }
+            arr.sort();
+
+            for (var i = 0; i < arr.length; i++) {
+                var kw = arr[i];
+
+                $("<style type='text/css' class='keywords-style'>").prop("id", "keyword-" + keywords[kw] + "-style").html('').appendTo("head");
+                buttons += '<a class="button alt tiny keyword-filter" onclick="filter($(this), \'' + keywords[kw] + '\')">' + kw + '</a> ';
+            }
+            return buttons;
+        }
 
         $.getJSON("publications.json", function(json) {
             publication_list = json;
             biblio();
-            if ($('#only-full-papers').prop('checked')) {
-                $('.abstract').hide();
-            }
+
             $('#nb-publis').html($('#publis li:visible').size());
+
+            $('#keywordsfiltering').html(keyword_filters());
         });
 
         </script>
