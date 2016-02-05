@@ -74,13 +74,14 @@
                 <span id="keywordsfiltering"></span>
 
                 <hr/>
-                    <input id="only-full-papers" type="checkbox" checked="true" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size())"></input>
+                    <input id="only-full-papers" type="checkbox" checked="true" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
                 <label for="only-full-papers">
                     <strong><em> Only full papers</em></strong>
                 </label>
 
                 <em>(<span id="nb-publis"></span> publications displayed in total)</em>
                 <div id="publis"></div>
+                <div id="nothing-to-display"></div>
             </div>
         </section>
 
@@ -177,6 +178,7 @@
             $('.keywords-style').html('');
             $('.keyword-filter').addClass('alt');
             $('#nb-publis').html($('#publis li:visible').size());
+            display_years();
         }
 
         function filter(button, keyword) {
@@ -193,6 +195,31 @@
             }
 
             $('#nb-publis').html($('#publis li:visible').size());
+            display_years();
+        }
+        
+        function display_years() {
+
+            $('.year').each(function() {
+                if ($(this).next().children(':visible').size() === 0) {
+                    $(this).hide();
+                }
+                else {
+                    $(this).show();
+                }
+            });
+
+            if ($('.year:visible').size() === 0) {
+                if ($('#only-full-papers').prop('checked')) {
+                    $('#nothing-to-display').html('No publications with these criteria! Maybe you want to uncheck <em>Only full paper</em>?');
+                }
+                else if ($('#keywordsfiltering > a:not(.alt)').size() > 2){ // two keywords (+ 'All') selected
+                    $('#nothing-to-display').html('No publications with these criteria! Maybe you want to select less keywords?');
+                }
+            }
+            else {
+                $('#nothing-to-display').html('');
+            }
         }
 
         function keyword_filters() {
