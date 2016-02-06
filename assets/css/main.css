@@ -3390,6 +3390,10 @@
 		.wrapper.style3.softwares-header {
 			background-image: url("../../images/softwares.png");
 		}
+		.wrapper.style3.about-me-header {
+			background-image: url("../../images/aperitiftime_header.jpg");
+		}
+
 
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
