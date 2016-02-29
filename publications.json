@@ -1,6 +1,7 @@
 [
     {
         "id":"hostettler2016realtime",
+        "pdf":"publis/hostettler2016realtime.pdf",
         "type":"conference",
         "title":"Real-Time High-Accuracy 2D Localization with Structured Patterns",
         "keywords":["Technical Paper", "Localization", "Computer Vision"],
@@ -12,6 +13,7 @@
     },
     {
         "id":"senft2016providing",
+        "pdf":"publis/senft2016providing.pdf",
         "type":"abstract - late breaking report",
         "title":"Providing a Robot with Learning Abilities Improves its Perception by Users",
         "keywords":["Education", "Machine Learning"],
@@ -22,6 +24,7 @@
         "bibtex":"@inproceedings{senft2016providing,\\nauthor = {Senft, E. and Baxter, P. and Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {Providing a Robot with Learning Abilities Improves its Perception by Users},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
     },    {
         "id":"baxter2016characterising",
+        "pdf":"publis/baxter2016characterising.pdf",
         "type":"conference",
         "title":"From Characterising Three Years of HRI to Methodology and Reporting Recommendations",
         "venue":"alt.HRI",
@@ -38,12 +41,14 @@
         "keywords":["Social Cognition", "Computer Vision", "Engagement"],
         "venue":"HRI",
         "year":2016,
+	"award":"HRI'16 Best Paper Award nominee",
         "note": "to appear",
         "authors":["Lemaignan, S.", "Garcia, F.", "Jacq, A.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Lemaignan, S. and Garcia, F. and Jacq, A. and Dillenbourg, P.},\\ntitle = {From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
     },
     {
         "id":"jacq2016building",
+        "pdf":"publis/jacq2016building.pdf",
         "type":"conference",
         "title":"Building Successful Long Child-Robot Interactions in a Learning Context",
         "keywords":["Education", "Engagement", "Social Robotics"],
@@ -96,6 +101,7 @@
         "type":"conference",
         "title":"pyRobots: a Toolset for Robot Executive Control",
         "keywords":["Technical Paper"],
+	"doi":"10.1109/IROS.2015.7353769",
         "venue":"IROS",
         "year":2015,
         "authors":["Lemaignan, S.", "Hosseini, A.", "Dillenbourg, P."],
@@ -119,6 +125,7 @@
         "title":"Can a Child Feel Responsible for Another in the Presence of a Robot in a Collaborative Learning Activity?",
         "keywords":["Education"],
         "venue":"RoMAN",
+	"doi":"10.1109/ROMAN.2015.7333678",
         "year":2015,
         "authors":["Chandra, S.", "Alves-Oliveira, P.", "Lemaignan, S.", "Sequeira, P.", "Paiva, A. Dillenbourg, P."],
         "bibtex":"@inproceedings{chandra2015can,\\nauthor = {Chandra, S. and Alves-Oliveira, P. and Lemaignan, S. and Sequeira, P. and Paiva, A. Dillenbourg, P.},\\ntitle = {Can a Child Feel Responsible for Another in the Presence of a Robot in a Collaborative Learning Activity?},\\nbooktitle = {Proceedings of the 24th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2015}}"
