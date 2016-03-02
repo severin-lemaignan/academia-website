@@ -1,5 +1,17 @@
 [
     {
+        "id":"lemaignan2016learning",
+        "pdf":"publis/lemaignan2016learning.pdf",
+        "note":"in press",
+        "type":"journal",
+        "title":"Learning by Teaching a Robot: The Case of Handwriting",
+        "keywords":["Education", "Social Robotics"],
+        "venue":"IEEE Robotics and Automation Magazine",
+        "year":2016,
+        "authors":["Lemaignan, S.", "Jacq, A.", "Hood, D.", "Garcia, F.", "Paiva, A.", "Dillenbourg, P."],
+        "bibtex":"@article{lemaignan2016learning,\\nauthor = {Lemaignan, S. and Jacq, A. and Hood, D. and Garcia, F. and Paiva, A. and Dillenbourg, P.},\\ntitle = {Learning by Teaching a Robot: The Case of Handwriting},\\njournal = {IEEE Robotics and Automation Magazine},\\nyear = {2016}}"
+    },
+    {
         "id":"dillenbourg2016symmetry",
         "pdf":"publis/dillenbourg2016symmetry.pdf",
         "note":"in press",
