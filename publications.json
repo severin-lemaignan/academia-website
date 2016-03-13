@@ -43,7 +43,6 @@
         "keywords":["Education", "Machine Learning"],
         "venue":"HRI",
         "year":2016,
-        "note": "to appear",
         "authors":["Senft, E.", "Baxter, P.", "Kennedy, J.", "Lemaignan, S.", "Belpaeme, T."],
         "bibtex":"@inproceedings{senft2016providing,\\nauthor = {Senft, E. and Baxter, P. and Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {Providing a Robot with Learning Abilities Improves its Perception by Users},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
     },    {
@@ -53,7 +52,6 @@
         "title":"From Characterising Three Years of HRI to Methodology and Reporting Recommendations",
         "venue":"alt.HRI",
         "year":2016,
-        "note": "to appear",
         "authors":["Baxter, P.", "Kennedy, J.", "Senft E.", "Lemaignan, S.", "Belpaeme, T."],
         "bibtex":"@inproceedings{baxter2016characterising,\\nauthor = {Baxter, P. and Kennedy, J. and Senft E. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {From Characterising Three Years of HRI to Methodology and Reporting Recommendations},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference (alt.HRI)},\\nyear = {2016}}"
     },
@@ -65,8 +63,7 @@
         "keywords":["Social Cognition", "Computer Vision", "Engagement"],
         "venue":"HRI",
         "year":2016,
-	"award":"HRI'16 Best Paper Award nominee",
-        "note": "to appear",
+        "award":"HRI'16 Best 'Knowledge and Methodology' Paper Award",
         "authors":["Lemaignan, S.", "Garcia, F.", "Jacq, A.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Lemaignan, S. and Garcia, F. and Jacq, A. and Dillenbourg, P.},\\ntitle = {From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
     },
@@ -78,7 +75,6 @@
         "keywords":["Education", "Engagement", "Social Robotics"],
         "venue":"HRI",
         "year":2016,
-        "note": "to appear",
         "authors":["Jacq, A.", "Lemaignan, S.", "Garcia, F.", "Dillenbourg, P.", "Paiva, A."],
         "bibtex":"@inproceedings{jacq2016building,\\nauthor = {Jacq, A. and Lemaignan, S. and Garcia, F. and Dillenbourg, P. and Paiva, A.},\\ntitle = {Building Successful Long Child-Robot Interactions in a Learning Context},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
     },
