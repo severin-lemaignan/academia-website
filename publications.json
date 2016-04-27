@@ -186,7 +186,7 @@
         "doi":"10.1145/2701973.2702091",
         "isbn":"978-1-4503-3318-4",
         "award":"AAAI Best Video 2015",
-        "media":"cowriter.mp4",
+        "media":"cowriter-lowres.mp4",
         "authors":["Hood, D.", "Lemaignan, S.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{hood2015cowriter,\\ntitle = {The {C}o{W}riter {P}roject: {T}eaching a {R}obot how to {W}rite},\\nauthor = {Hood, D. and Lemaignan, S. and Dillenbourg, P.},\\nbooktitle = {Proceedings of the 2015 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2015}}"
     },
@@ -392,7 +392,7 @@
         "year":2012,
         "doi":"10.1145/2157689.2157831",
         "isbn":"978-1-4503-1063-5",
-        "media":"https://www.youtube.com/watch?v=dODEuQJwBLw",
+        "media":"roboscopie_short.mp4",
         "authors":["Lemaignan, S.", "Gharbi, M.", "Mainprice, J.", "Herrb, M.", "Alami, R."],
         "bibtex":"@inproceedings{lemaignan2012roboscopie,\\nauthor = {Lemaignan, S. and Gharbi, M. and Mainprice, J. and Herrb, M. and Alami, R.},\\ntitle = {Roboscopie: A Theatre Performance for a Human and a Robot},\\nbooktitle = {Proceedings of the 2012 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2012}}"
     },
