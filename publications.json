@@ -23,7 +23,7 @@
         "pages":"1-27",
         "year":2016,
         "authors":["Dillenbourg, P.", "Lemaignan, S.", "Sangin, M.", "Nova, N.", "Molinari, G."],
-        "bibtex":"@article{dillenbourg2016symmetry,\\nauthor = {Pierre Dillenbourg and Séverin Lemaignan and Mirweis Sangin and Nicolas Nova and Gaëlle Molinari},\\ntitle = {The Symmetry of Partner Modelling},\\njournal = {Intl. J. of Computer-Supported Collaborative Learning},\\npublisher = {Springer},\\nissn="1556-1615",\\ndoi="10.1007/s11412-016-9235-5",\\nyear = {2016}}"
+        "bibtex":"@article{dillenbourg2016symmetry,\\nauthor = {Pierre Dillenbourg and Séverin Lemaignan and Mirweis Sangin and Nicolas Nova and Gaëlle Molinari},\\ntitle = {The Symmetry of Partner Modelling},\\njournal = {Intl. J. of Computer-Supported Collaborative Learning},\\npublisher = {Springer},\\nissn= {1556-1615},\\ndoi= {10.1007/s11412-016-9235-5},\\nyear = {2016}}"
     },
     {
         "id":"hostettler2016realtime",
