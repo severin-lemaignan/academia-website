@@ -91,7 +91,7 @@
         "venue":"HRI",
         "doi":"10.1109/HRI.2016.7451747",
         "year":2016,
-        "award":"HRI'16 Best 'Knowledge and Methodology' Paper Award",
+        "award":"HRI'16 Best 'Theory and Methods' Paper Award",
         "authors":["Lemaignan, S.", "Garcia, F.", "Jacq, A.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Lemaignan, S. and Garcia, F. and Jacq, A. and Dillenbourg, P.},\\ntitle = {From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\ndoi = {10.1109/HRI.2016.7451747},\\nyear = {2016}}"
     },
