@@ -1,5 +1,15 @@
 [
     {
+        "id":"chandra2016children",
+        "type":"conference",
+        "title":"Children's Peer Assessment and Self-disclosure in the Presence of an Educational Robot",
+        "keywords":["Education"],
+        "venue":"RoMAN",
+        "year":2016,
+        "authors":["Chandra, S.", "Alves-Oliveira, P.", "Lemaignan, S.", "Sequeira, P.", "Paiva, A.", "Dillenbourg, P."],
+        "bibtex":"@inproceedings{chandra2015children,\\nauthor = {Chandra, S. and Alves-Oliveira, P. and Lemaignan, S. and Sequeira, P. and Paiva, A. and Dillenbourg, P.},\\ntitle = {Children's Peer Assessment and Self-disclosure in the Presence of an Educational Robot},\\nbooktitle = {Proceedings of the 25th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2016}}"
+    },
+    {
         "id":"lemaignan2016learning",
         "pdf":"publis/lemaignan2016learning.pdf",
         "note":"in press",
@@ -47,15 +57,28 @@
         "year":2016,
         "authors":["Senft, E.", "Baxter, P.", "Kennedy, J.", "Lemaignan, S.", "Belpaeme, T."],
         "bibtex":"@inproceedings{senft2016providing,\\nauthor = {Senft, E. and Baxter, P. and Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {Providing a Robot with Learning Abilities Improves its Perception by Users},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
-    },    {
+    },
+    {
+        "id":"baxter2016cognitive",
+        "pdf":"publis/baxter2016cognitive.pdf",
+        "type":"conference",
+        "title":"Workshop on Cognitive Architectures for Social Human-Robot Interaction",
+        "venue":"HRI",
+        "doi": "10.1109/HRI.2016.7451865",
+        "year":2016,
+        "authors":["Baxter, P.", "Lemaignan, S.", "Trafton, G."],
+        "bibtex":"@inproceedings{baxter2016cognitive,\\nauthor = {Baxter, P. and Lemaignan, S. and Trafton, G.},\\ntitle = {Workshop on Cognitive Architectures for Social Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\ndoi = {10.1109/HRI.2016.7451865},\\nyear = {2016}}"
+    },
+    {
         "id":"baxter2016characterising",
         "pdf":"publis/baxter2016characterising.pdf",
         "type":"conference",
         "title":"From Characterising Three Years of HRI to Methodology and Reporting Recommendations",
         "venue":"alt.HRI",
+        "isbn":"978-1-4673-8370-7",
         "year":2016,
         "authors":["Baxter, P.", "Kennedy, J.", "Senft E.", "Lemaignan, S.", "Belpaeme, T."],
-        "bibtex":"@inproceedings{baxter2016characterising,\\nauthor = {Baxter, P. and Kennedy, J. and Senft E. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {From Characterising Three Years of HRI to Methodology and Reporting Recommendations},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference (alt.HRI)},\\nyear = {2016}}"
+        "bibtex":"@inproceedings{baxter2016characterising,\\nauthor = {Baxter, P. and Kennedy, J. and Senft E. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {From Characterising Three Years of HRI to Methodology and Reporting Recommendations},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference (alt.HRI)},\\nisbn = {978-1-4673-8370-7},\\nyear = {2016}}"
     },
     {
         "id":"lemaignan2016realtime",
@@ -64,10 +87,11 @@
         "title":"From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction",
         "keywords":["Social Cognition", "Computer Vision", "Engagement"],
         "venue":"HRI",
+        "doi":"10.1109/HRI.2016.7451747",
         "year":2016,
         "award":"HRI'16 Best 'Knowledge and Methodology' Paper Award",
         "authors":["Lemaignan, S.", "Garcia, F.", "Jacq, A.", "Dillenbourg, P."],
-        "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Lemaignan, S. and Garcia, F. and Jacq, A. and Dillenbourg, P.},\\ntitle = {From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
+        "bibtex":"@inproceedings{lemaignan2016realtime,\\nauthor = {Lemaignan, S. and Garcia, F. and Jacq, A. and Dillenbourg, P.},\\ntitle = {From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\ndoi = {10.1109/HRI.2016.7451747},\\nyear = {2016}}"
     },
     {
         "id":"jacq2016building",
@@ -150,8 +174,8 @@
         "venue":"RoMAN",
 	"doi":"10.1109/ROMAN.2015.7333678",
         "year":2015,
-        "authors":["Chandra, S.", "Alves-Oliveira, P.", "Lemaignan, S.", "Sequeira, P.", "Paiva, A. Dillenbourg, P."],
-        "bibtex":"@inproceedings{chandra2015can,\\nauthor = {Chandra, S. and Alves-Oliveira, P. and Lemaignan, S. and Sequeira, P. and Paiva, A. Dillenbourg, P.},\\ntitle = {Can a Child Feel Responsible for Another in the Presence of a Robot in a Collaborative Learning Activity?},\\nbooktitle = {Proceedings of the 24th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2015}}"
+        "authors":["Chandra, S.", "Alves-Oliveira, P.", "Lemaignan, S.", "Sequeira, P.", "Paiva, A.", "Dillenbourg, P."],
+        "bibtex":"@inproceedings{chandra2015can,\\nauthor = {Chandra, S. and Alves-Oliveira, P. and Lemaignan, S. and Sequeira, P. and Paiva, A. and Dillenbourg, P.},\\ntitle = {Can a Child Feel Responsible for Another in the Presence of a Robot in a Collaborative Learning Activity?},\\nbooktitle = {Proceedings of the 24th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2015}}"
     },
     {
         "id":"lemaignan2015mutual",
