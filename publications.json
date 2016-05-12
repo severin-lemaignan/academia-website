@@ -6,6 +6,7 @@
         "keywords":["Education"],
         "venue":"RoMAN",
         "year":2016,
+        "note": "to appear",
         "authors":["Chandra, S.", "Alves-Oliveira, P.", "Lemaignan, S.", "Sequeira, P.", "Paiva, A.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{chandra2015children,\\nauthor = {Chandra, S. and Alves-Oliveira, P. and Lemaignan, S. and Sequeira, P. and Paiva, A. and Dillenbourg, P.},\\ntitle = {Children's Peer Assessment and Self-disclosure in the Presence of an Educational Robot},\\nbooktitle = {Proceedings of the 25th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2016}}"
     },
@@ -43,7 +44,6 @@
         "keywords":["Technical Paper", "Localization", "Computer Vision"],
         "venue":"ICRA",
         "year":2016,
-        "note": "to appear",
         "authors":["Hostettler, L.", "Özgür, A.", "Lemaignan, S.", "Dillenbourg, P.", "Mondada, F."],
         "bibtex":"@inproceedings{hostettler2016realtime,\\nauthor = {Hostettler, L. and Özgür, A. and Lemaignan, S. and Dillenbourg, P. and Mondada, F.},\\ntitle = {Real-Time High-Accuracy 2D Localization with Structured Patterns},\\nbooktitle = {Proceedings of the 2016 IEEE International Conference on Robotics and Automation},\\nyear = {2016}}"
     },
@@ -54,14 +54,15 @@
         "title":"Providing a Robot with Learning Abilities Improves its Perception by Users",
         "keywords":["Education", "Machine Learning"],
         "venue":"HRI",
+        "doi":"10.1109/HRI.2016.7451832",
         "year":2016,
         "authors":["Senft, E.", "Baxter, P.", "Kennedy, J.", "Lemaignan, S.", "Belpaeme, T."],
-        "bibtex":"@inproceedings{senft2016providing,\\nauthor = {Senft, E. and Baxter, P. and Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {Providing a Robot with Learning Abilities Improves its Perception by Users},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
+        "bibtex":"@inproceedings{senft2016providing,\\nauthor = {Senft, E. and Baxter, P. and Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {Providing a Robot with Learning Abilities Improves its Perception by Users},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\ndoi = {10.1109/HRI.2016.7451832},\\nyear = {2016}}"
     },
     {
         "id":"baxter2016cognitive",
         "pdf":"publis/baxter2016cognitive.pdf",
-        "type":"conference",
+        "type":"abstract",
         "title":"Workshop on Cognitive Architectures for Social Human-Robot Interaction",
         "venue":"HRI",
         "doi": "10.1109/HRI.2016.7451865",
@@ -76,9 +77,10 @@
         "title":"From Characterising Three Years of HRI to Methodology and Reporting Recommendations",
         "venue":"alt.HRI",
         "isbn":"978-1-4673-8370-7",
+        "doi":"10.1109/HRI.2016.7451777",
         "year":2016,
         "authors":["Baxter, P.", "Kennedy, J.", "Senft E.", "Lemaignan, S.", "Belpaeme, T."],
-        "bibtex":"@inproceedings{baxter2016characterising,\\nauthor = {Baxter, P. and Kennedy, J. and Senft E. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {From Characterising Three Years of HRI to Methodology and Reporting Recommendations},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference (alt.HRI)},\\nisbn = {978-1-4673-8370-7},\\nyear = {2016}}"
+        "bibtex":"@inproceedings{baxter2016characterising,\\nauthor = {Baxter, P. and Kennedy, J. and Senft E. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {From Characterising Three Years of HRI to Methodology and Reporting Recommendations},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference (alt.HRI)},\\nisbn = {978-1-4673-8370-7},\\ndoi = {10.1109/HRI.2016.7451777},\\nyear = {2016}}"
     },
     {
         "id":"lemaignan2016realtime",
@@ -100,9 +102,10 @@
         "title":"Building Successful Long Child-Robot Interactions in a Learning Context",
         "keywords":["Education", "Engagement", "Social Robotics"],
         "venue":"HRI",
+        "doi":"10.1109/HRI.2016.7451758",
         "year":2016,
         "authors":["Jacq, A.", "Lemaignan, S.", "Garcia, F.", "Dillenbourg, P.", "Paiva, A."],
-        "bibtex":"@inproceedings{jacq2016building,\\nauthor = {Jacq, A. and Lemaignan, S. and Garcia, F. and Dillenbourg, P. and Paiva, A.},\\ntitle = {Building Successful Long Child-Robot Interactions in a Learning Context},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2016}}"
+        "bibtex":"@inproceedings{jacq2016building,\\nauthor = {Jacq, A. and Lemaignan, S. and Garcia, F. and Dillenbourg, P. and Paiva, A.},\\ntitle = {Building Successful Long Child-Robot Interactions in a Learning Context},\\nbooktitle = {Proceedings of the 2016 ACM/IEEE Human-Robot Interaction Conference},\\ndoi= {10.1109/HRI.2016.7451758},\\nyear = {2016}}"
     },
     {
         "id":"baxter2015wider",
