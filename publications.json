@@ -1,6 +1,7 @@
 [
     {
         "id":"chandra2016children",
+        "pdf":"publis/chandra2016children.pdf",
         "type":"conference",
         "title":"Children's Peer Assessment and Self-disclosure in the Presence of an Educational Robot",
         "keywords":["Education"],
