@@ -14,12 +14,12 @@
     {
         "id":"lemaignan2016learning",
         "pdf":"publis/lemaignan2016learning.pdf",
-        "note":"in press",
         "type":"journal",
         "title":"Learning by Teaching a Robot: The Case of Handwriting",
         "keywords":["Education", "Social Robotics"],
         "venue":"IEEE Robotics and Automation Magazine",
         "year":2016,
+        "doi":"10.1109/MRA.2016.2546700",
         "authors":["Lemaignan, S.", "Jacq, A.", "Hood, D.", "Garcia, F.", "Paiva, A.", "Dillenbourg, P."],
         "bibtex":"@article{lemaignan2016learning,\\nauthor = {Lemaignan, S. and Jacq, A. and Hood, D. and Garcia, F. and Paiva, A. and Dillenbourg, P.},\\ntitle = {Learning by Teaching a Robot: The Case of Handwriting},\\njournal = {IEEE Robotics and Automation Magazine},\\nyear = {2016}}"
     },
@@ -219,17 +219,6 @@
         "media":"cowriter-lowres.mp4",
         "authors":["Hood, D.", "Lemaignan, S.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{hood2015cowriter,\\ntitle = {The {C}o{W}riter {P}roject: {T}eaching a {R}obot how to {W}rite},\\nauthor = {Hood, D. and Lemaignan, S. and Dillenbourg, P.},\\nbooktitle = {Proceedings of the 2015 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2015}}"
-    },
-    {
-        "id":"lemaignan2014human",
-        "note":"in press",
-        "type":"journal",
-        "title":"Human-Robot Interaction: Tackling the AI Challenges",
-        "keywords":["Social Robotics", "Systems", "Artificial Intelligence"],
-        "venue":"Artificial Intelligence",
-        "year":2014,
-        "authors":["Lemaignan, S.", "Warnier, M.", "Sisbot, E. A.", "Alami, R."],
-        "bibtex":"@article{lemaignan2014human,\\nauthor = {S\\'everin Lemaignan and Mathieu Warnier and E. Akin Sisbot and Rachid Alami},\\ntitle = {Human-Robot Interaction: Tackling the AI Challenges},\\njournal = {Artificial Intelligence},\\npublisher = {Elsevier},\\nyear = {2014}}"
     },
     {
         "id":"lemaignan2014challenges",
