@@ -44,6 +44,7 @@
         "title":"Real-Time High-Accuracy 2D Localization with Structured Patterns",
         "keywords":["Technical Paper", "Localization", "Computer Vision"],
         "venue":"ICRA",
+        "doi":"10.1109/ICRA.2016.7487653",
         "year":2016,
         "authors":["Hostettler, L.", "Özgür, A.", "Lemaignan, S.", "Dillenbourg, P.", "Mondada, F."],
         "bibtex":"@inproceedings{hostettler2016realtime,\\nauthor = {Hostettler, L. and Özgür, A. and Lemaignan, S. and Dillenbourg, P. and Mondada, F.},\\ntitle = {Real-Time High-Accuracy 2D Localization with Structured Patterns},\\nbooktitle = {Proceedings of the 2016 IEEE International Conference on Robotics and Automation},\\nyear = {2016}}"
