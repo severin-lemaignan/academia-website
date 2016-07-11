@@ -1,5 +1,17 @@
 [
     {
+        "id":"lemaignan2016artificial",
+        "type":"journal",
+        "note":"in press",
+        "title":"Artificial Cognition for Social Human-Robot Interaction: An Implementation",
+        "keywords":["Systems", "Social Robotics", "Artificial Intelligence","Symbolic Reasoning","Theory of Mind","Natural Language Processing","Knowledge Representation","Social Cognition"],
+        "venue":"Artificial Intelligence",
+        "publisher":"Elsevier",
+        "year":2016,
+        "authors":["Lemaignan, S.", "Warnier, M.", "Sisbot, E.A.", "Clodic, A.", "Alami, R."],
+        "bibtex":"@article{lemaignan2016artificial,\\njournal = {Artificial Intelligence},\\ntitle = {Artificial Cognition for Social Human-Robot Interaction: An Implementation},\\npublisher = {Elsevier},\\nyear = {2016},\\nauthor = {Lemaignan, S. and Warnier, M. and Sisbot, E. A. and  Clodic, A. and Alami, R.}}"
+    },
+    {
         "id":"chandra2016children",
         "pdf":"publis/chandra2016children.pdf",
         "type":"conference",
