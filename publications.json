@@ -1,6 +1,7 @@
 [
     {
         "id":"lemaignan2016artificial",
+        "pdf":"publis/lemaignan2016artificial.pdf",
         "type":"journal",
         "note":"in press",
         "title":"Artificial Cognition for Social Human-Robot Interaction: An Implementation",
