@@ -22,7 +22,8 @@
     award = (award == "undefined" ? null : award);
     note = (note == "undefined" ? null : note);
 
-    this.innerHTML =    (pdf ? '<a style="margin-left:-26px" class="icon fa-file-pdf-o" href="' + pdf + '" alt="Download the PDF">' : '') +
+    this.innerHTML =    (pdf ? '<a style="margin-left:-26px" class="tooltip icon fa-file-pdf-o" href="' + pdf + '" alt="Download the PDF">' : '') +
+                        (pdf ? '<span class="tooltiptext">Click to download the PDF</span>' : '') +
                         '<span style="margin-left:12px">' + 
                         ((type.indexOf("abstract")>-1 || type == "video" || type == "poster") ? ' <span style=\"font-variant:small-caps;font-weight:bold\">' + type.replace("abstract - ","") + '</span> ' : '') +
                         '<b>' + 
