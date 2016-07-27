@@ -3,12 +3,12 @@
         "id":"lemaignan2016towards",
         "pdf":"publis/lemaignan2016towards.pdf",
         "type":"abstract",
-        "title":"Towards \"Machine-Learnable\" Child-Robot Interactions: the PInSoRo Dataset",
+        "title":"Towards Machine-Learnable Child-Robot Interactions: the PInSoRo Dataset",
         "keywords":["Artificial Intelligence", "Deep learning"],
         "venue":"RoMAN - Workshop on Long-term Child-robot Interaction",
         "year":2016,
         "authors":["Lemaignan, S.", "Kennedy, J.", "Baxter, P.", "Belpaeme, T."],
-        "bibtex":"@inproceedings{lemaignan2016towards,\\nauthor = {Lemaignan, S. and Kennedy, J. and Baxter, P. and Belpaeme, T.},\\ntitle = {Towards \"Machine-Learnable\" Child-Robot Interactions: the PInSoRo Dataset},\\nbooktitle = {Proceedings of the 21th IEEE International Symposium in Robot and Human Interactive Communication, Workshop on Long-term Child-robot Interaction},\\nyear = {2016}}"
+        "bibtex":"@inproceedings{lemaignan2016towards,\\nauthor = {Lemaignan, S. and Kennedy, J. and Baxter, P. and Belpaeme, T.},\\ntitle = {Towards Machine-Learnable Child-Robot Interactions: the PInSoRo Dataset},\\nbooktitle = {Proceedings of the 21th IEEE International Symposium in Robot and Human Interactive Communication, Workshop on Long-term Child-robot Interaction},\\nyear = {2016}}"
     },
     {
         "id":"lemaignan2016artificial",
