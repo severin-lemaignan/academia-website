@@ -7,8 +7,21 @@
         "keywords":["Artificial Intelligence", "Deep learning"],
         "venue":"RoMAN - Workshop on Long-term Child-robot Interaction",
         "year":2016,
+        "note": "to appear",
         "authors":["Lemaignan, S.", "Kennedy, J.", "Baxter, P.", "Belpaeme, T."],
         "bibtex":"@inproceedings{lemaignan2016towards,\\nauthor = {Lemaignan, S. and Kennedy, J. and Baxter, P. and Belpaeme, T.},\\ntitle = {Towards Machine-Learnable Child-Robot Interactions: the PInSoRo Dataset},\\nbooktitle = {Proceedings of the 21th IEEE International Symposium in Robot and Human Interactive Communication, Workshop on Long-term Child-robot Interaction},\\nyear = {2016}}"
+    },
+    {
+        "id":"kennedy2016cautious",
+        "pdf":"publis/kennedy2016cautious.pdf",
+        "type":"abstract",
+        "title":"The Cautious Attitude of Teachers Towards Social Robots in Schools",
+        "keywords":["Education"],
+        "venue":"RoMAN - Workshop on Robots for Learning",
+        "year":2016,
+        "note": "to appear",
+        "authors":["Kennedy, J.", "Lemaignan, S.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{kennedy2016cautious,\\nauthor = {Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {The Cautious Attitude of Teachers Towards Social Robots in Schools},\\nbooktitle = {Proceedings of the 21th IEEE International Symposium in Robot and Human Interactive Communication, Workshop on Robots for Learning},\\nyear = {2016}}"
     },
     {
         "id":"lemaignan2016artificial",
