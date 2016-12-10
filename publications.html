@@ -18,7 +18,6 @@
         <link rel="import" href="elements/footer.html">
         <link rel="import" href="elements/pub-record.html">
         <style id="abstracts-style" type="text/css">
-        .abstract {display:none;} /*initially, abstracts are hidden */
         </style>
 
     </head>
@@ -48,9 +47,9 @@
                 <span id="keywordsfiltering"></span>
 
                 <hr/>
-                    <input id="only-full-papers" type="checkbox" checked="true" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
+                    <input id="only-full-papers" type="checkbox" checked="false" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
                 <label for="only-full-papers">
-                    <strong><em> Only full papers</em></strong>
+                    <strong><em> hide abstracts/short papers</em></strong>
                 </label>
 
                 <em>(<span id="nb-publis"></span> publications displayed in total)</em>
