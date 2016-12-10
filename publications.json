@@ -1,5 +1,27 @@
 [
     {
+        "id":"ozgur2017cellulo",
+        "type":"conference",
+        "title":"Cellulo: Versatile Handheld Robots for Education",
+        "keywords":["Education", "Hardware", "Systems"],
+        "venue":"HRI",
+        "year":2017,
+        "note": "to appear",
+        "authors":["Özgür, A.", "Lemaignan, S.", "Johal, W.", "Beltran, M.", "Briod, M.", "Pereyre, L.", "Mondada, F.", "Dillenbourg, P."],
+        "bibtex":"@inproceedings{ozgur2017cellulo,\\nauthor = {Özgür, A. and Lemaignan, S. and Johal, W. and Beltran, M. and Briod, M. and Pereyre, L. and Mondada, F. and Dillenbourg, P.},\\ntitle = {Cellulo: Versatile Handheld Robots for Education},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2017}}"
+    },
+    {
+        "id":"kennedy2017child",
+        "type":"conference",
+        "title":"Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations",
+        "keywords":["Education", "Natural Language Processing", "Social Robotics"],
+        "venue":"HRI",
+        "year":2017,
+        "note": "to appear",
+        "authors":["Kennedy, J.", "Lemaignan, S.", "Montassier, C.", "Lavalade, P.", "Irfan, B.", "Papadopoulos, F.", "Senft, E.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{kennedy2017child,\\nauthor = {Kennedy, J. and Lemaignan, S. and Montassier, C. and Lavalade, P. and Irfan, B. and Papadopoulos, F. and Senft, E. and Belpaeme, T.},\\ntitle = {Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2017}}"
+    },
+    {
         "id":"lemaignan2016towards",
         "pdf":"publis/lemaignan2016towards.pdf",
         "type":"abstract",
@@ -7,7 +29,6 @@
         "keywords":["Artificial Intelligence", "Deep learning"],
         "venue":"RoMAN - Workshop on Long-term Child-robot Interaction",
         "year":2016,
-        "note": "to appear",
         "authors":["Lemaignan, S.", "Kennedy, J.", "Baxter, P.", "Belpaeme, T."],
         "bibtex":"@inproceedings{lemaignan2016towards,\\nauthor = {Lemaignan, S. and Kennedy, J. and Baxter, P. and Belpaeme, T.},\\ntitle = {Towards Machine-Learnable Child-Robot Interactions: the PInSoRo Dataset},\\nbooktitle = {Proceedings of the 21th IEEE International Symposium in Robot and Human Interactive Communication, Workshop on Long-term Child-robot Interaction},\\nyear = {2016}}"
     },
@@ -19,7 +40,6 @@
         "keywords":["Education"],
         "venue":"RoMAN - Workshop on Robots for Learning",
         "year":2016,
-        "note": "to appear",
         "authors":["Kennedy, J.", "Lemaignan, S.", "Belpaeme, T."],
         "bibtex":"@inproceedings{kennedy2016cautious,\\nauthor = {Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {The Cautious Attitude of Teachers Towards Social Robots in Schools},\\nbooktitle = {Proceedings of the 21th IEEE International Symposium in Robot and Human Interactive Communication, Workshop on Robots for Learning},\\nyear = {2016}}"
     },
@@ -27,7 +47,6 @@
         "id":"lemaignan2016artificial",
         "pdf":"publis/lemaignan2016artificial.pdf",
         "type":"journal",
-        "note":"in press",
         "title":"Artificial Cognition for Social Human-Robot Interaction: An Implementation",
         "keywords":["Systems", "Social Robotics", "Artificial Intelligence","Symbolic Reasoning","Theory of Mind","Natural Language Processing","Knowledge Representation","Social Cognition"],
         "venue":"Artificial Intelligence",
@@ -45,7 +64,6 @@
         "keywords":["Education"],
         "venue":"RoMAN",
         "year":2016,
-        "note": "to appear",
         "authors":["Chandra, S.", "Alves-Oliveira, P.", "Lemaignan, S.", "Sequeira, P.", "Paiva, A.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{chandra2015children,\\nauthor = {Chandra, S. and Alves-Oliveira, P. and Lemaignan, S. and Sequeira, P. and Paiva, A. and Dillenbourg, P.},\\ntitle = {Children's Peer Assessment and Self-disclosure in the Presence of an Educational Robot},\\nbooktitle = {Proceedings of the 25th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2016}}"
     },
