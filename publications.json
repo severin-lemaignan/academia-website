@@ -64,6 +64,7 @@
         "keywords":["Education"],
         "venue":"RoMAN",
         "year":2016,
+        "doi":"10.1109/ROMAN.2016.7745170",
         "authors":["Chandra, S.", "Alves-Oliveira, P.", "Lemaignan, S.", "Sequeira, P.", "Paiva, A.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{chandra2015children,\\nauthor = {Chandra, S. and Alves-Oliveira, P. and Lemaignan, S. and Sequeira, P. and Paiva, A. and Dillenbourg, P.},\\ntitle = {Children's Peer Assessment and Self-disclosure in the Presence of an Educational Robot},\\nbooktitle = {Proceedings of the 25th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2016}}"
     },
