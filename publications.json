@@ -22,11 +22,22 @@
         "bibtex":"@inproceedings{kennedy2017child,\\nauthor = {Kennedy, J. and Lemaignan, S. and Montassier, C. and Lavalade, P. and Irfan, B. and Papadopoulos, F. and Senft, E. and Belpaeme, T.},\\ntitle = {Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2017}}"
     },
     {
+        "id":"senft2016sparc",
+        "pdf":"publis/senft2016sparc.pdf",
+        "type":"abstract",
+        "title":"SPARC: an efficient way to combine reinforcement learning and supervised autonomy",
+        "keywords":["Artificial Intelligence", "Machine learning"],
+        "venue":"NIPS - Proc. of the Future of Interactive Learning Machines (FILM) Workshop",
+        "year":2016,
+        "authors":["Senft, E.", "Lemaignan, S.", "Baxter, P.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{senft2016sparc,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Belpaeme, T.},\\ntitle = {SPARC: an efficient way to combine reinforcement learning and supervised autonomy},\\nbooktitle = {Proc. of the Future of Interactive Learning Machines (FILM) Workshop, NIPS},\\nyear = {2016}}"
+    },
+    {
         "id":"lemaignan2016towards",
         "pdf":"publis/lemaignan2016towards.pdf",
         "type":"abstract",
         "title":"Towards Machine-Learnable Child-Robot Interactions: the PInSoRo Dataset",
-        "keywords":["Artificial Intelligence", "Deep learning"],
+        "keywords":["Artificial Intelligence", "Machine learning"],
         "venue":"RoMAN - Workshop on Long-term Child-robot Interaction",
         "year":2016,
         "authors":["Lemaignan, S.", "Kennedy, J.", "Baxter, P.", "Belpaeme, T."],
