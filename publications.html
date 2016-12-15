@@ -213,7 +213,7 @@
 
             if ($('.year:visible').size() === 0) {
                 if ($('#only-full-papers').prop('checked')) {
-                    $('#nothing-to-display').html('No publications with these criteria! Maybe you want to uncheck <em>Only full paper</em>?');
+                    $('#nothing-to-display').html('No publications with these criteria! Maybe you want to uncheck <em>hide abstracts/short papers</em>?');
                 }
                 else if ($('#keywordsfiltering > a:not(.alt)').size() > 2){ // two keywords (+ 'All') selected
                     $('#nothing-to-display').html('No publications with these criteria! Maybe you want to select less keywords?');
