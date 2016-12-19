@@ -7,6 +7,7 @@
         "venue":"HRI",
         "year":2017,
         "note": "to appear",
+        "doi":"10.1145/2909824.3020247",
         "authors":["Özgür, A.", "Lemaignan, S.", "Johal, W.", "Beltran, M.", "Briod, M.", "Pereyre, L.", "Mondada, F.", "Dillenbourg, P."],
         "bibtex":"@inproceedings{ozgur2017cellulo,\\nauthor = {Özgür, A. and Lemaignan, S. and Johal, W. and Beltran, M. and Briod, M. and Pereyre, L. and Mondada, F. and Dillenbourg, P.},\\ntitle = {Cellulo: Versatile Handheld Robots for Education},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2017}}"
     },
