@@ -1,6 +1,7 @@
 [
     {
         "id":"ozgur2017cellulo",
+        "pdf":"publis/ozgur2017cellulo.pdf",
         "type":"conference",
         "title":"Cellulo: Versatile Handheld Robots for Education",
         "keywords":["Education", "Hardware", "Systems"],
@@ -13,6 +14,7 @@
     },
     {
         "id":"kennedy2017child",
+        "pdf":"publis/kennedy2017child.pdf",
         "type":"conference",
         "title":"Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations",
         "keywords":["Education", "Natural Language Processing", "Social Robotics"],
