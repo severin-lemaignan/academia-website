@@ -44,45 +44,50 @@
         </section>
         <section id="main" class="wrapper">
             <div class="container">
-                <span id="keywordsfiltering"></span>
 
-                <hr/>
-                    <input id="only-full-papers" type="checkbox" checked="false" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
-                <label for="only-full-papers">
-                    <strong><em> hide abstracts/short papers</em></strong>
-                </label>
+	    <div style="font-size:80%">
+		    <p>
+		    <strong><i class="fa fa-newspaper-o"></i></strong>
+		    denotes a <strong>journal</strong> article, <strong><i
+		    class="fa fa-book"></i></strong> denotes a <strong>book
+		    chapter</strong>, and <strong><i class="fa
+		    fa-users"></i></strong> denotes a <strong>conference/workshop</strong>
+		    article. When available, click on the <strong><a><i class="fa
+		    fa-file-pdf-o"></i></a> PDF icon</strong> to
+		    download the paper. 
 
-                <em>(<span id="nb-publis"></span> publications displayed in total)</em>
-                <div id="publis"></div>
-                <div id="nothing-to-display"></div>
+		    <br/>
+
+		    <input id="only-full-papers" type="checkbox" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
+		    <label for="only-full-papers">
+			    <strong><em> hide abstracts/short papers</em></strong>
+		    </label>
+
+		    <em>(currently displaying <span id="nb-publis"></span> publications)</em>
+
+		    </p>
+	    </div>
+
+	    <p>
+	    <span id="keywordsfiltering"></span>
+	    </p>
+
+	    <div id="publis"></div>
+	    <div id="nothing-to-display"></div>
 
 
-            <hr/>
-            <p>
+	    <hr/>
+	    <p>
+		    For what it is worth, <a
+		    href="https://scholar.google.ch/citations?user=-CUOP2gAAAAJ"
+		    alt="My Google Scholar profile">Google Scholar</a>
+		    has kindly collected a few statistics, including
+		    <strong>citations per article</strong> and overall <strong>h-index</strong>. Please note
+		    that <strong>these values, being automatically computed, are
+		    prone to errors</strong> and are indicative only!
 
-            <strong><i class="fa fa-newspaper-o"></i></strong>
-            denotes a <strong>journal</strong> article, <strong><i
-            class="fa fa-book"></i></strong> denotes a <strong>book
-            chapter</strong>, and <strong><i class="fa
-            fa-users"></i></strong> denotes a <strong>conference</strong>
-            article.
-            When available, click on the <strong><a><i class="fa
-            fa-file-pdf-o"></i></a> PDF icon</strong> to
-            download the paper. 
-
-            </p>
-
-            <p>
-            For what it is worth, <a
-            href="https://scholar.google.ch/citations?user=-CUOP2gAAAAJ"
-            alt="My Google Scholar profile">Google Scholar</a>
-            has kindly collected a few statistics, including
-            citations per article and overall h-index. Please note
-            that these values, being automatically computed, are
-            prone to errors!
-            </p>
-
-            </div>
+	    </p>
+	    </div>
 
 
         </section>
