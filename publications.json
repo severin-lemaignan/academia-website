@@ -21,6 +21,7 @@
         "venue":"HRI",
         "year":2017,
         "note": "to appear",
+	"doi": "10.1145/2909824.3020229",
         "authors":["Kennedy, J.", "Lemaignan, S.", "Montassier, C.", "Lavalade, P.", "Irfan, B.", "Papadopoulos, F.", "Senft, E.", "Belpaeme, T."],
         "bibtex":"@inproceedings{kennedy2017child,\\nauthor = {Kennedy, J. and Lemaignan, S. and Montassier, C. and Lavalade, P. and Irfan, B. and Papadopoulos, F. and Senft, E. and Belpaeme, T.},\\ntitle = {Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2017}}"
     },
