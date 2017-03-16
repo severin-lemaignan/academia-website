@@ -10,7 +10,7 @@
         "award":"HRI'17 Best 'Design' Paper Award",
         "doi":"10.1145/2909824.3020247",
         "authors":["Özgür, A.", "Lemaignan, S.", "Johal, W.", "Beltran, M.", "Briod, M.", "Pereyre, L.", "Mondada, F.", "Dillenbourg, P."],
-        "bibtex":"@inproceedings{ozgur2017cellulo,\\nauthor = {Özgür, A. and Lemaignan, S. and Johal, W. and Beltran, M. and Briod, M. and Pereyre, L. and Mondada, F. and Dillenbourg, P.},\\ntitle = {Cellulo: Versatile Handheld Robots for Education},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2017}}"
+        "bibtex":"@inproceedings{ozgur2017cellulo,\\nauthor = {Özgür, A. and Lemaignan, S. and Johal, W. and Beltran, M. and Briod, M. and Pereyre, L. and Mondada, F. and Dillenbourg, P.},\\ntitle = {Cellulo: Versatile Handheld Robots for Education},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\ndoi = {10.1145/2909824.3020247},\\nyear = {2017}}"
     },
     {
         "id":"kennedy2017child",
@@ -22,7 +22,17 @@
         "year":2017,
         "doi": "10.1145/2909824.3020229",
         "authors":["Kennedy, J.", "Lemaignan, S.", "Montassier, C.", "Lavalade, P.", "Irfan, B.", "Papadopoulos, F.", "Senft, E.", "Belpaeme, T."],
-        "bibtex":"@inproceedings{kennedy2017child,\\nauthor = {Kennedy, J. and Lemaignan, S. and Montassier, C. and Lavalade, P. and Irfan, B. and Papadopoulos, F. and Senft, E. and Belpaeme, T.},\\ntitle = {Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2017}}"
+        "bibtex":"@inproceedings{kennedy2017child,\\nauthor = {Kennedy, J. and Lemaignan, S. and Montassier, C. and Lavalade, P. and Irfan, B. and Papadopoulos, F. and Senft, E. and Belpaeme, T.},\\ntitle = {Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\ndoi = {10.1145/2909824.3020229},\\nyear = {2017}}"
+    },
+    {
+        "id":"senft2017leveraging",
+        "type":"abstract - late breaking report",
+        "title": "Leveraging Human Inputs in Interactive Machine Learning for Human Robot Interaction",
+        "venue":"HRI",
+        "year":2017,
+        "doi": "10.1145/3029798.3038385",
+        "authors":["Senft, E.", "Lemaignan, S.", "Baxter, P.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{senft2017leveraging,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Belpaeme, T.},\\ntitle = {Leveraging Human Inputs in Interactive Machine Learning for Human Robot Interaction},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\ndoi = {10.1145/3029798.3038385},\\nyear = {2017}}"
     },
     {
         "id":"senft2016sparc",
