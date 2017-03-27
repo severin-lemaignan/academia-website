@@ -1,5 +1,15 @@
 [
     {
+        "id":"senft2017supervised",
+        "type":"journal",
+        "title": "Supervised Autonomy for Online Learning in Human-Robot Interaction",
+        "venue":"Pattern Recognition Letters",
+        "year":2017,
+        "doi": "10.1016/j.patrec.2017.03.015",
+        "authors":["Senft, E.", "Baxter, P.", "Kennedy, J.", "Lemaignan, S.", "Belpaeme, T."],
+        "bibtex":"@article{senft2017supervised,\\nauthor = {Senft, E. and Baxter, P. and Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {Supervised Autonomy for Online Learning in Human-Robot Interaction},\\njournal = {Pattern Recognition Letters},\\ndoi = {10.1016/j.patrec.2017.03.015},\\nyear = {2017}}"
+    },
+    {
         "id":"ozgur2017cellulo",
         "pdf":"publis/ozgur2017cellulo.pdf",
         "type":"conference",
