@@ -1,5 +1,15 @@
 [
     {
+        "id":"wallbridge2017qualitative",
+        "pdf":"publis/wallbridge2017qualitative.pdf",
+        "type":"conference",
+        "title": "Qualitative Review of Object Recognition Techniques for Tabletop Manipulation",
+        "venue":"HAI",
+        "year":2017,
+        "authors":["Wallbridge, C.", "Lemaignan, S.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{wallbridge2017qualitative,\\nauthor = {Wallbridge, C. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {Qualitative Review of Object Recognition Techniques for Tabletop Manipulation},\\nbooktitle = {ACM Human-Agent Interaction Conference},\\nyear = {2017}}"
+    },
+    {
         "id":"senft2017toward",
         "pdf":"publis/senft2017toward.pdf",
         "type":"conference",
@@ -7,7 +17,7 @@
         "venue":"AAAI Fall Symposium -- AI-HRI",
         "year":2017,
         "authors":["Senft, E.", "Lemaignan, S.", "Baxter, P.", "Belpaeme, T."],
-        "bibtex":"@article{senft2017toward,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Belpaeme, T.},\\ntitle = {Toward Supervised Reinforcement Learning with Partial States for Social HRI},\\nbooktitle = {AAAI Fall Symposium -- AI-HRI},\\nyear = {2017}}"
+        "bibtex":"@inproceedings{senft2017toward,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Belpaeme, T.},\\ntitle = {Toward Supervised Reinforcement Learning with Partial States for Social HRI},\\nbooktitle = {AAAI Fall Symposium -- AI-HRI},\\nyear = {2017}}"
     },
     {
         "id":"senft2017supervised",
