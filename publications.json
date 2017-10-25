@@ -6,6 +6,7 @@
         "title": "Qualitative Review of Object Recognition Techniques for Tabletop Manipulation",
         "venue":"HAI",
         "year":2017,
+        "doi": "10.1145/3125739.3132593",
         "keywords":["Computer Vision", "Technical Paper"],
         "authors":["Wallbridge, C.", "Lemaignan, S.", "Belpaeme, T."],
         "bibtex":"@inproceedings{wallbridge2017qualitative,\\nauthor = {Wallbridge, C. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {Qualitative Review of Object Recognition Techniques for Tabletop Manipulation},\\nbooktitle = {ACM Human-Agent Interaction Conference},\\nyear = {2017}}"
