@@ -1,5 +1,17 @@
 [
     {
+        "id":"irfan2018social",
+        "pdf":"publis/irfan2018social.pdf",
+        "type":"conference",
+        "title":"Social psychology and Human-Robot Interaction: an Uneasy Marriage",
+        "keywords":["Psychology", "Social Robotics"],
+        "venue":"alt.HRI",
+        "year":2018,
+        "doi": "10.1145/3173386.3173389",
+        "authors":["Irfan, B.", "Kennedy, J.", "Lemaignan, S.", "Papadopoulos, F.", "Senft, E.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{irfan2018social,\\nauthor = {Irfan, B. and Kennedy, J. and Lemaignan, S. and Papadopoulos, F. and Senft, E. and Belpaeme, T.},\\ntitle = {Social psychology and Human-Robot Interaction: an Uneasy Marriage},\\nbooktitle = {Proceedings of the 2018 ACM/IEEE Human-Robot Interaction Conference},\\ndoi = {10.1145/3173386.3173389},\\nyear = {2018}}"
+    },
+    {
         "id":"wallbridge2017qualitative",
         "pdf":"publis/wallbridge2017qualitative.pdf",
         "type":"conference",
