@@ -73,6 +73,7 @@
     },
     {
         "id":"senft2017leveraging",
+        "pdf":"publis/senft2017leveraging.pdf",
         "type":"abstract - late breaking report",
         "title": "Leveraging Human Inputs in Interactive Machine Learning for Human Robot Interaction",
         "venue":"HRI",
