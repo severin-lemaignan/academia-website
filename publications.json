@@ -11,6 +11,17 @@
         "bibtex":"@inproceedings{bartlett2018what,\\nauthor = {Bartlett, M. and Belpaeme, T. and Thill, S. and Edmunds, C. E. R. and Lemaignan, S.},\\ntitle = {What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions},\\nbooktitle = {Proceedings of the 2018 IDC workshop 'The Near Future of Children's Robotics'},\\nyear = {2018}}"
     },
     {
+        "id":"senft2018robots",
+        "pdf":"publis/senft2018robots.pdf",
+        "type":"conference",
+        "title": "Robots in the classroom: Learning to be a Good Tutor",
+        "venue":"HRI -- Workshop R4L 'Robots for Learning'",
+        "keywords":["Artificial Intelligence", "Education", "Machine Learning"],
+        "year":2018,
+        "authors":["Senft, E.", "Lemaignan, S.", "Bartlett, M.", "Baxter, P.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{senft2018robots,\\nauthor = {Senft, E. and Lemaignan, S. and Bartlett, M. and Baxter, P. and Belpaeme, T.},\\ntitle = {Robots in the classroom: Learning to be a Good Tutor},\\nbooktitle = {Proceedings of the 2018 HRI workshop R4L 'Robots for Learning'},\\nyear = {2018}}"
+    },
+    {
         "id":"irfan2018social",
         "pdf":"publis/irfan2018social.pdf",
         "type":"conference",
