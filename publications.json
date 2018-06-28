@@ -1,5 +1,16 @@
 [
     {
+        "id":"bartlett2018what",
+        "pdf":"publis/bartlett2018what.pdf",
+        "type":"extended abstract",
+        "title":"What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions",
+        "keywords":["Psychology", "Social Robotics", "Social Cognition"],
+        "venue":"IDC - Workshop 'The Near Future of Children’s Robotics'",
+        "year":2018,
+        "authors":["Bartlett, M.", "Belpaeme, T.", "Thill, S.", "Edmunds, C. E. R.", "Lemaignan, S."],
+        "bibtex":"@inproceedings{bartlett2018what,\\nauthor = {Bartlett, M. and Belpaeme, T. and Thill, S. and Edmunds, C. E. R. and Lemaignan, S.},\\ntitle = {What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions},\\nbooktitle = {Proceedings of the 2018 IDC workshop 'The Near Future of Children's Robotics'},\\nyear = {2018}}"
+    },
+    {
         "id":"irfan2018social",
         "pdf":"publis/irfan2018social.pdf",
         "type":"conference",
