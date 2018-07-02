@@ -1,5 +1,16 @@
 [
     {
+        "id":"lemaignan2018underworlds",
+        "pdf":"publis/lemaignan2018underworlds.pdf",
+        "type":"conference",
+        "title":"underworlds: Cascading Situation Assessment for Robots",
+        "keywords":["Technical Paper", "Simulation", "Theory of Mind"],
+        "venue":"IROS",
+        "year":2018,
+        "authors":["Lemaignan, S.", "Sallami, Y.", "Wallbridge, C.", "Clodic, A.", "Alami, R."],
+        "bibtex":"@inproceedings{lemaignan2018underworlds,\\nauthor = {S\\'everin Lemaignan and Yoan Sallami and Christopher Wallbridge and Aurélie Clodic and Rachid Alami},\\ntitle = {underworlds: Cascading Situation Assessment for Robots},\\nbooktitle = {Proceedings of the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2018}}"
+    },
+    {
         "id":"bartlett2018what",
         "pdf":"publis/bartlett2018what.pdf",
         "type":"extended abstract",
