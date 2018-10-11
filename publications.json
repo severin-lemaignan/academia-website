@@ -1,4 +1,15 @@
 [
+   {
+        "id":"wallbridge2018using",
+        "pdf":"publis/wallbridge2018using.pdf",
+        "type":"conference",
+        "title": "Using a Robot Peer to Encourage the Production of Spatial Concepts in a Second Language",
+        "venue":"HAI",
+        "year":2018,
+        "keywords":["Education", "Social Robotics"],
+        "authors":["Wallbridge, C.", "van den Berghe, R.", "Hernández García, D.", "Kanero, J.", "Lemaignan, S.", "Edmunds, C.", "Belpaeme, T."],
+        "bibtex":"@inproceedings{wallbridge2018using,\\nauthor = {Wallbridge, C. and van den Berghe, R. and Hernández García, D. and Kanero, J. and Lemaignan, S. and Edmunds, C. and Belpaeme, T.},\\ntitle = {Using a Robot Peer to Encourage the Production of Spatial Concepts in a Second Language},\\nbooktitle = {ACM Human-Agent Interaction Conference},\\nyear = {2018}}"
+    },
     {
         "id":"lemaignan2018underworlds",
         "pdf":"publis/lemaignan2018underworlds.pdf",
