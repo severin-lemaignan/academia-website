@@ -1,5 +1,15 @@
 [
     {
+        "id":"winkle2019effective",
+        "type":"conference",
+        "title":"Effective Persuasion Strategies for Socially Assistive Robots",
+        "keywords":["Psychology", "Social Cognition", "Social Robotics"],
+        "venue":"HRI",
+        "year":2019,
+        "authors":["Winkle, K.", "Lemaignan, S.", "Caleb-Solly, P.", "Leonards, U.", "Turton, A.", "Bremner, P."],
+        "bibtex":"@inproceedings{winkle2019effective,\\nauthor = {Winkle, K. and Lemaignan, S. and Caleb-Solly, P. and Leonards, U. and Turton, A. and Bremner, P.},\\ntitle = {Effective Persuasion Strategies for Socially Assistive Robots},\\nbooktitle = {Proceedings of the 2019 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2019}}"
+    },
+    {
         "id":"lemaignan2018pinsoro",
         "pdf":"publis/lemaignan2018pinsoro.pdf",
         "type":"journal",
