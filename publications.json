@@ -587,18 +587,6 @@
         "bibtex":"@article{lallee2012towards,\\nauthor = {Stéphane Lallée and Ugo Pattacini and Séverin Lemaignan and Alexander\\n  Lenz and Chris Melhuish and Lorenzo Natale and Sergey Skachek and\\n  Katharina Hamann and Jasmin Steinwender and Emrah Akin Sisbot and\\n  Giorgio Metta and Tony Pipe and Rachid Alami and Matthieu Warnier\\n   and Julien Guitton and Felix Warneken and Peter Ford Dominey},\\ntitle = {Towards a Platform-Independent Cooperative Human Robot Interaction\\n  System: III. An Architecture for Learning and Executing Actions and\\n  Shared Plans},\\njournal = {IEEE Transactions on Autonomous Mental Development},\\nyear = {2012}}"
     },
     {
-        "id":"lemaignan2012towards",
-        "type":"chapter",
-        "note":"to appear",
-        "title":"Towards Grounding Human-Robot Interaction",
-        "keywords":["Systems", "Social Robotics", "Artificial Intelligence"],
-        "venue":"Bridges between the Methodological and Practical Work of the Robotics and Cognitive Systems Communities - From Sensors to Concepts",
-        "publisher":"Springer Publishing",
-        "year":2012,
-        "authors":["Lemaignan, S.", "Alami, R.", "Pandey, A. K.", "Warnier, M.", "Guitton, J."],
-        "bibtex":"@inbook{lemaignan2012towards,\\nchapter = {Towards Grounding Human-Robot Interaction},\\ntitle = {Bridges between the Methodological and Practical Work of the Robotics\\n  and Cognitive Systems Communities - From Sensors to Concepts},\\npublisher = {Springer Publishing},\\nyear = {2012},\\neditor = {Amirat, T. and Chibani, A. and Zarri, G. P.},\\nauthor = {Lemaignan, S. and Alami, R. and Pandey, A. K. and Warnier, M. and\\n  Guitton, J.},\\nseries = {Intelligent Systems Reference Library},\\nnote = {To be published}}"
-    },
-    {
         "id":"warnier2012when",
         "pdf":"publis/warnier2012when.pdf",
         "type":"conference",
