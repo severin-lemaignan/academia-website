@@ -26,7 +26,7 @@
     award = (award == "undefined" ? null : award);
     note = (note == "undefined" ? null : note);
 
-    this.innerHTML =    (pdf ? '<a style="margin-left:-26px" class="tooltip icon fa-file-pdf-o" href="' + pdf + '" alt="Download the PDF">' : '') +
+    this.innerHTML =    (pdf ? '<a style="margin-left:-26px" class="tooltip icon fa-file-pdf" href="' + pdf + '" alt="Download the PDF">' : '') +
                         (pdf ? '<span class="tooltiptext">Click to download the PDF</span>' : '') +
                         '<span style="margin-left:12px">' + 
                         ((type.indexOf("abstract")>-1 || type == "video" || type == "poster") ? ' <span style=\"font-variant:small-caps;font-weight:bold\">' + type.replace("abstract - ","") + '</span> ' : '') +
@@ -37,13 +37,13 @@
                         '<br/>' +
                         authors +
                         '<br/>' +
-                        (type == "journal" ? 'in <span class="icon fa-newspaper-o"></span>' :
+                        (type == "journal" ? 'in <span class="icon fa-file-alt"></span>' :
                         (type == "chapter" ? 'in <span class="icon fa-book"></span>' :
                         ((type == "conference" || type.indexOf("abstract")>-1) ? '<span class="icon fa-users"></span>' :
                         (type == "video" ? '<span class="icon fa-play-circle"></span>' :
-                        (type == "poster" ? '<span class="icon fa-picture-o"></span>' :
-                        (type == "patent" ? '<span class="icon fa-file-certificate-o"></span>' :
-                        (type == "dataset" ? '<span class="icon fa-database-o"></span>' :
+                        (type == "poster" ? '<span class="icon fa-picture"></span>' :
+                        (type == "patent" ? '<span class="icon fa-file-certificate"></span>' :
+                        (type == "dataset" ? '<span class="icon fa-database"></span>' :
                         (type == "dissertation" ? '<span class="icon fa-graduation-cap"></span>' : "UNKNOWN TYPE " )))))))) + 
                         '<i style="margin-left:5px">' + (venue ? venue : "") + ' ' + year + '</i>' +
                         (type == "video" ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#video_' + id + '\').toggle(\'slow\')[0].pause();"><span class="icon fa-play-circle"></span> watch the video</a>' : "") +
