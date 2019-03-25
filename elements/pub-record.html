@@ -18,6 +18,7 @@
     var bibtex = this.getAttribute("bibtex").replace(/\\n/g, "\n");;
 
     pdf = (pdf == "undefined" ? null : pdf);
+    url = (url == "undefined" ? null : url);
     doi = (doi == "undefined" ? null : doi);
     award = (award == "undefined" ? null : award);
     note = (note == "undefined" ? null : note);
@@ -35,13 +36,16 @@
                         '<br/>' +
                         (type == "journal" ? 'in <span class="icon fa-newspaper-o"></span>' :
                         (type == "chapter" ? 'in <span class="icon fa-book"></span>' :
-                         ((type == "conference" || type.indexOf("abstract")>-1) ? '<span class="icon fa-users"></span>' :
-                         (type == "video" ? '<span class="icon fa-play-circle"></span>' :
-                         (type == "poster" ? '<span class="icon fa-picture-o"></span>' :
-                         (type == "dissertation" ? '<span class="icon fa-graduation-cap"></span>' : "bouh " )))))) + 
+                        ((type == "conference" || type.indexOf("abstract")>-1) ? '<span class="icon fa-users"></span>' :
+                        (type == "video" ? '<span class="icon fa-play-circle"></span>' :
+                        (type == "poster" ? '<span class="icon fa-picture-o"></span>' :
+                        (type == "patent" ? '<span class="icon fa-file-certificate-o"></span>' :
+                        (type == "dataset" ? '<span class="icon fa-database-o"></span>' :
+                        (type == "dissertation" ? '<span class="icon fa-graduation-cap"></span>' : "bouh " )))))) + 
                         '<i style="margin-left:5px">' + venue + ' ' + year + '</i>' +
-                         (type == "video" ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#video_' + id + '\').toggle(\'slow\')[0].pause();"><span class="icon fa-play-circle"></span> watch the video</a>' : "") +
+                        (type == "video" ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#video_' + id + '\').toggle(\'slow\')[0].pause();"><span class="icon fa-play-circle"></span> watch the video</a>' : "") +
                         '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#' + id + '_bibtex\').toggle(\'slow\');"><span class="icon fa-child"></span> show bibtex</a>' +
+                        (url ? '<a style="margin-left:20px;" href="' + url + '"><span class="icon fa-link"></span>Link</a> ' : '') +
                         (doi ? '<a style="margin-left:20px;" href="https://doi.org/' + doi + '"><span class="icon fa-certificate"></span> doi: ' + doi + '</a>' : '') +
                         (award ? '<br/><span class="award icon fa-trophy"> ' + award + '</span>' : '') +
                         '<pre style="display:none" id="' + id + '_bibtex"><code>' +
