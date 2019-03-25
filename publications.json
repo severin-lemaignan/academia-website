@@ -1,5 +1,16 @@
 [
     {
+        "id":"flook2019impact",
+        "type":"journal",
+        "title": "On the Impact of Different Types of Errors on Trust in Human-Robot Interaction: Are laboratory-based HRI experiments trustworthy?",
+        "venue":"Interaction Studies",
+        "year":2019,
+        "note":"to appear",
+        "keywords":["Social Robotics", "Trust"],
+        "authors":["Flook, R.", "Shrinah, A.", "Wijnen, L.", "Eder, K.", "Melhuish, C.", "Lemaignan, S."],
+        "bibtex":"@article{flook2019impact,\\nauthor = {Flook, R. and Shrinah, A. and Wijnen, L. and Eder, K. and Melhuish, C. and Lemaignan, S.},\\ntitle = {On the Impact of Different Types of Errors on Trust in Human-Robot Interaction: Are laboratory-based HRI experiments trustworthy?},\\njournal = {Interaction Studies},\\nyear = {2019}}"
+    },
+    {
         "id":"wallbridge2019towards",
         "pdf":"publis/wallbridge2019towards.pdf",
         "type":"abstract - late breaking report",
@@ -20,6 +31,26 @@
         "year":2019,
         "authors":["Winkle, K.", "Lemaignan, S.", "Caleb-Solly, P.", "Leonards, U.", "Turton, A.", "Bremner, P."],
         "bibtex":"@inproceedings{winkle2019effective,\\nauthor = {Winkle, K. and Lemaignan, S. and Caleb-Solly, P. and Leonards, U. and Turton, A. and Bremner, P.},\\ntitle = {Effective Persuasion Strategies for Socially Assistive Robots},\\nbooktitle = {Proceedings of the 2019 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2019}}"
+    },
+    {
+        "id":"ozgur2019patent",
+        "type":"patent",
+        "title":"Patent US 2019/0016213 A1: Magnet-Assisted Ball Drive",
+        "keywords":["Hardware", "Systems"],
+        "year":2019,
+        "url": "https://patentimages.storage.googleapis.com/bb/0e/5e/cd03cafe813070/US20190016213A1.pdf",
+        "authors":["Özgür, A.", "Lemaignan, S.", "Johal, W.", "Mondada, F.", "Dillenbourg, P."]
+    },
+    {
+        "id":"lemaignan2018pinsoro",
+        "type":"dataset",
+        "title":"PInSoRo dataset",
+        "keywords":["Psychology", "Social Cognition", "Education", "Artificial Intelligence", "Machine Learning", "Social Robotics"],
+        "year":2018,
+        "authors":["Lemaignan, S.", "Edmunds E. R., C.", "Belpaeme, T."],
+        "url": "https://freeplay-sandbox.github.io/",
+        "doi": "10.5281/zenodo.1043507",
+        "bibtex":"@misc{pinsoro2018,\\ntitle={The PInSoRo dataset},\\ndoi={10.5281/zenodo.1043507},\\npublisher={Zenodo},\\nauthor={Lemaignan, S. and Edmunds, C. and Belpaeme, T.},\\nyear={2018},\\nmonth={Dec}}"
     },
     {
         "id":"lemaignan2018pinsoro",
