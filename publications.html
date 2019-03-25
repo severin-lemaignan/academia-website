@@ -59,7 +59,7 @@
 
 		    <input id="only-full-papers" type="checkbox" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
 		    <label for="only-full-papers">
-			    <strong><em> hide abstracts/short papers</em></strong>
+			    <strong><em> only show full papers</em></strong>
 		    </label>
 
 		    <em>(currently displaying <span id="nb-publis"></span> publications)</em>
@@ -137,6 +137,8 @@
 
                         var is_abstract = (pub['type'].indexOf("abstract") > -1 
                                         || pub['type'] == "video" 
+                                        || pub['type'] == "dataset" 
+                                        || pub['type'] == "patent" 
                                         || pub['type'] == "poster") 
 
                         var authors = pub['authors'].map(
