@@ -42,10 +42,10 @@
         "authors":["Özgür, A.", "Lemaignan, S.", "Johal, W.", "Mondada, F.", "Dillenbourg, P."]
     },
     {
-        "id":"lemaignan2018pinsoro",
+        "id":"pinsoro2018",
         "type":"dataset",
         "title":"PInSoRo dataset",
-        "keywords":["Psychology", "Social Cognition", "Education", "Artificial Intelligence", "Machine Learning", "Social Robotics"],
+        "keywords":["Psychology", "Dataset", "Social Cognition", "Education", "Artificial Intelligence", "Machine Learning", "Social Robotics"],
         "year":2018,
         "authors":["Lemaignan, S.", "Edmunds E. R., C.", "Belpaeme, T."],
         "url": "https://freeplay-sandbox.github.io/",
@@ -175,7 +175,7 @@
         "pdf":"publis/kennedy2017child.pdf",
         "type":"conference",
         "title":"Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations",
-        "keywords":["Language", "Social Robotics"],
+        "keywords":["Language", "Social Robotics", "Dataset"],
         "venue":"HRI",
         "year":2017,
         "doi": "10.1145/2909824.3020229",
@@ -193,6 +193,17 @@
         "doi": "10.1145/3029798.3038385",
         "authors":["Senft, E.", "Lemaignan, S.", "Baxter, P.", "Belpaeme, T."],
         "bibtex":"@inproceedings{senft2017leveraging,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Belpaeme, T.},\\ntitle = {Leveraging Human Inputs in Interactive Machine Learning for Human Robot Interaction},\\nbooktitle = {Proceedings of the 2017 ACM/IEEE Human-Robot Interaction Conference},\\ndoi = {10.1145/3029798.3038385},\\nyear = {2017}}"
+    },
+    {
+        "id":"childrenspeech2016",
+        "type":"dataset",
+        "title":"Children speech recording",
+        "keywords":["Language", "Social Robotics", "Dataset"],
+        "year":2016,
+        "url": "https://zenodo.org/record/200495",
+        "doi": "10.5281/zenodo.200495",
+        "authors":["Kennedy, J.", "Lemaignan, S.", "Montassier, C.", "Lavalade, P.", "Irfan, B.", "Papadopoulos, F.", "Senft, E.", "Belpaeme, T."],
+        "bibtex":"@misc{childrenspeech2016,\\ntitle={Children speech recording},\\ndoi={10.5281/zenodo.200495},\\npublisher={Zenodo},\\nauthor={Kennedy, J. and Lemaignan, S. and Montassier, C. and Lavalade, P. and Irfan, B. and Papadopoulos, F. and Senft, E. and Belpaeme, T.},\\nyear={2016},\\nmonth={Dec}}"
     },
     {
         "id":"senft2016sparc",
