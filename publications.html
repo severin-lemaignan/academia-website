@@ -106,6 +106,18 @@
         var publication_list;
         var keywords = {};
 
+        function remove_under_review(data) {
+            var i = data.length
+
+            while(i--) {
+                if (data[i]['note'] == "under review") data.splice(i, 1);
+            }
+
+            return data;
+        }
+
+
+
         function by_year(data) {
             var publications_by_year = new Array();
 
@@ -121,6 +133,7 @@
 
         function biblio() {
 
+            publication_list = remove_under_review(publication_list);
 
             data = by_year(publication_list);
 

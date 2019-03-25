@@ -1,5 +1,27 @@
 [
     {
+        "id":"bartlett2019what",
+        "type":"journal",
+        "title":"What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions",
+        "keywords":["Psychology", "Social Robotics", "Social Cognition"],
+        "venue":"Frontiers in AI and Robotics",
+        "year":2019,
+        "note": "under review",
+        "authors":["Bartlett, M.", "Edmunds, C. E. R.", "Belpaeme, T.", "Thill, S.", "Lemaignan, S."],
+        "bibtex":"@inproceedings{bartlett2019what,\\nauthor = {Bartlett, M. and Edmunds, C. E. R. and Belpaeme, T. and Thill, S. and Lemaignan, S.},\\ntitle = {What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions},\\njournal = {Frontiers in AI and Robotics},\\nyear = {2019}}"
+    },
+    {
+        "id":"senft2019teaching",
+        "type":"journal",
+        "title":"Teaching robots social autonomy from in situ human guidance",
+        "keywords":["Artificial Intelligence", "Machine Learning", "Education", "Social Robotics"],
+        "venue":"Science Robotics",
+        "year":2019,
+        "note": "under review",
+        "authors":["Senft, E.", "Lemaignan, S.", "Baxter, P.", "Bartlett, M.", "Belpaeme, T."],
+        "bibtex":"@article{senft2019teaching,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Bartlett, M. and Belpaeme, T.},\\ntitle = {Teaching robots social autonomy from in situ human guidance},\\njournal = {Science Robotics},\\nyear = {2019}}"
+    },
+    {
         "id":"flook2019impact",
         "type":"journal",
         "title": "On the Impact of Different Types of Errors on Trust in Human-Robot Interaction: Are laboratory-based HRI experiments trustworthy?",
