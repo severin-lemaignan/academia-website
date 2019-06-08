@@ -45,31 +45,27 @@
         <section id="main" class="wrapper">
             <div class="container">
 
-	    <div style="font-size:80%">
-		    <p>
-		    <strong><i class="fa fa-file-alt"></i></strong>
-		    denotes a <strong>journal</strong> article, <strong><i
-		    class="fa fa-book"></i></strong> denotes a <strong>book
-		    chapter</strong>, <strong><i class="fa
-		    fa-users"></i></strong> denotes a <strong>conference/workshop</strong> article, <strong><i class="fa fa-lightbulb"></i></strong> denotes a <strong>patent</strong>, and <strong><i class="fa fa-database"></i></strong> denotes a <strong>dataset</strong>. When available, click on the <strong><a><i class="fa
-		    fa-file-pdf"></i></a> PDF icon</strong> to
-		    download the paper. 
-
-		    <br/>
-
-		    <input id="only-full-papers" type="checkbox" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
-		    <label for="only-full-papers">
-			    <strong><em> only show full papers</em></strong>
-		    </label>
-
-		    <em>(currently displaying <span id="nb-publis"></span> publications)</em>
-
-		    </p>
-	    </div>
-
 	    <p>
 	    <span id="keywordsfiltering"></span>
 	    </p>
+
+	    <div style="font-size:80%">
+
+		    <input id="only-full-papers" type="checkbox" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
+		    <label for="only-full-papers">
+			    <em><strong> only show full papers</strong> (hide abstracts and short workshop paper/reports)</em>
+		    </label>
+
+		    <em>(currently displaying <span id="nb-publis"></span> publications)</em>
+		    <br/>
+
+		    <center>
+
+		    <strong><i class="fa fa-file-alt"></i> journal</strong> | <strong><i class="fa fa-book"></i> book chapter</strong> |
+		    <strong><i class="fa fa-users"></i> conference/workshop</strong> | <strong><i class="fa fa-lightbulb"></i> patent</strong> | 
+		    <strong><i class="fa fa-database"></i> dataset</strong> | <strong><a><i class="fa fa-file-pdf"></i></a>  PDF icon to download</strong>
+		    </center>
+	    </div>
 
 	    <div id="publis"></div>
 	    <div id="nothing-to-display"></div>
