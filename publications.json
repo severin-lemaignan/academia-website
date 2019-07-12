@@ -1,16 +1,5 @@
 [
     {
-        "id":"bartlett2019what",
-        "type":"journal",
-        "title":"What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions",
-        "keywords":["Psychology", "Social Robotics", "Social Cognition"],
-        "venue":"Frontiers in AI and Robotics",
-        "year":2019,
-        "note": "to appear",
-        "authors":["Bartlett, M.", "Edmunds, C. E. R.", "Belpaeme, T.", "Thill, S.", "Lemaignan, S."],
-        "bibtex":"@inproceedings{bartlett2019what,\\nauthor = {Bartlett, M. and Edmunds, C. E. R. and Belpaeme, T. and Thill, S. and Lemaignan, S.},\\ntitle = {What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions},\\njournal = {Frontiers in AI and Robotics},\\nyear = {2019}}"
-    },
-    {
         "id":"senft2019teaching",
         "type":"journal",
         "title":"Teaching robots social autonomy from in situ human guidance",
@@ -20,6 +9,38 @@
         "note": "under review",
         "authors":["Senft, E.", "Lemaignan, S.", "Baxter, P.", "Bartlett, M.", "Belpaeme, T."],
         "bibtex":"@article{senft2019teaching,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Bartlett, M. and Belpaeme, T.},\\ntitle = {Teaching robots social autonomy from in situ human guidance},\\njournal = {Science Robotics},\\nyear = {2019}}"
+    },
+    {
+        "id":"wallbridge2019generating",
+        "type":"journal",
+        "title":"Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous",
+        "keywords":["Social Robotics", "Social Cognition"],
+        "venue":"Frontiers in AI and Robotics",
+        "year":2019,
+        "note": "under review",
+        "authors":["Wallbridge, C.", "Lemaignan, S.", "Senft, E.", "Belpaeme, T."],
+        "bibtex":"@article{wallbridge2019generating,\\nauthor = {Wallbridge, C. and Lemaignan, S. and Senft, E. and Belpaeme, T.},\\ntitle = {Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous},\\njournal = {Frontiers in AI and Robotics},\\nyear = {2019}}"
+    },
+    {
+        "id":"sallami2019simulation",
+        "type":"conference",
+        "title":"Simulation-based physics reasoning for consistent scene estimation in an HRI context",
+        "keywords":["Technical Paper", "Simulation"],
+        "note": "to appear",
+        "venue":"IROS",
+        "year":2019,
+        "authors":["Sallami, Y.", "Lemaignan, S.", "Clodic, A.", "Alami, R."],
+        "bibtex":"@inproceedings{sallami2019simulation,\\nauthor = {Yoan Sallami and S\\'everin Lemaignan and Aur\\'elie Clodic and Rachid Alami},\\ntitle = {Simulation-based physics reasoning for consistent scene estimation in an HRI context},\\nbooktitle = {Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2019}}"
+    },
+    {
+        "id":"bartlett2019what",
+        "type":"journal",
+        "title":"What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions",
+        "keywords":["Psychology", "Social Robotics", "Social Cognition"],
+        "venue":"Frontiers in AI and Robotics",
+        "year":2019,
+        "authors":["Bartlett, M.", "Edmunds, C. E. R.", "Belpaeme, T.", "Thill, S.", "Lemaignan, S."],
+        "bibtex":"@article{bartlett2019what,\\nauthor = {Bartlett, M. and Edmunds, C. E. R. and Belpaeme, T. and Thill, S. and Lemaignan, S.},\\ntitle = {What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions},\\njournal = {Frontiers in AI and Robotics},\\nyear = {2019}}"
     },
     {
         "id":"flook2019impact",
