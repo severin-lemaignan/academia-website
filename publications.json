@@ -40,6 +40,7 @@
         "keywords":["Psychology", "Social Robotics", "Social Cognition"],
         "venue":"Frontiers in AI and Robotics",
         "year":2019,
+        "doi":"10.3389/frobt.2019.00049",
         "authors":["Bartlett, M.", "Edmunds, C. E. R.", "Belpaeme, T.", "Thill, S.", "Lemaignan, S."],
         "bibtex":"@article{bartlett2019what,\\nauthor = {Bartlett, M. and Edmunds, C. E. R. and Belpaeme, T. and Thill, S. and Lemaignan, S.},\\ntitle = {What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions},\\njournal = {Frontiers in AI and Robotics},\\nyear = {2019}}"
     },
@@ -61,7 +62,7 @@
         "title": "Towards Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous",
         "venue":"HRI",
         "year":2019,
-	"doi":"10.1109/HRI.2019.8673285",
+        "doi":"10.1109/HRI.2019.8673285",
         "keywords":["Language", "Social Robotics", "Machine Learning"],
         "authors":["Wallbridge, C.", "Lemaignan, S.", "Senft, E.", "Belpaeme, T."],
         "bibtex":"@inproceedings{wallbridge2019towards,\\nauthor = {Wallbridge, C. and Lemaignan, S. and Senft, E. and Belpaeme, T.},\\ntitle = {Towards Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous},\\nbooktitle = {Proceedings of the 2019 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2019},\\ndoi = {10.1109/HRI.2019.8673285}}"
