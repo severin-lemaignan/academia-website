@@ -12,12 +12,12 @@
     },
     {
         "id":"wallbridge2019generating",
+        "pdf":"publis/wallbridge2019generating.pdf",
         "type":"journal",
         "title":"Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous",
         "keywords":["Social Robotics", "Social Cognition"],
         "venue":"Frontiers in AI and Robotics",
         "year":2019,
-        "note": "under review",
         "authors":["Wallbridge, C.", "Lemaignan, S.", "Senft, E.", "Belpaeme, T."],
         "bibtex":"@article{wallbridge2019generating,\\nauthor = {Wallbridge, C. and Lemaignan, S. and Senft, E. and Belpaeme, T.},\\ntitle = {Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous},\\njournal = {Frontiers in AI and Robotics},\\nyear = {2019}}"
     },
@@ -34,6 +34,7 @@
     },
     {
         "id":"bartlett2019what",
+        "pdf":"publis/bartlett2019what.pdf",
         "type":"journal",
         "title":"What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions",
         "keywords":["Psychology", "Social Robotics", "Social Cognition"],
