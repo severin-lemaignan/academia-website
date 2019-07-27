@@ -42,7 +42,7 @@
         "year":2019,
         "doi":"10.3389/frobt.2019.00049",
         "authors":["Bartlett, M.", "Edmunds, C. E. R.", "Belpaeme, T.", "Thill, S.", "Lemaignan, S."],
-        "bibtex":"@article{bartlett2019what,\\nauthor = {Bartlett, M. and Edmunds, C. E. R. and Belpaeme, T. and Thill, S. and Lemaignan, S.},\\ntitle = {What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions},\\njournal = {Frontiers in AI and Robotics},\\nyear = {2019}}"
+        "bibtex":"@article{bartlett2019what,\\nauthor = {Bartlett, M. and Edmunds, C. E. R. and Belpaeme, T. and Thill, S. and Lemaignan, S.},\\ntitle = {What Can You See? Identifying Cues on Internal States from the Kinematics of Natural Social Interactions},\\njournal = {Frontiers in AI and Robotics},\\nyear = {2019},\\ndoi = {10.3389/frobt.2019.00049}}"
     },
     {
         "id":"flook2019impact",
@@ -131,9 +131,9 @@
         "keywords":["Technical Paper", "Simulation", "Theory of Mind"],
         "venue":"IROS",
         "year":2018,
-	"doi": "10.1109/IROS.2018.8594094",
+        "doi": "10.1109/IROS.2018.8594094",
         "authors":["Lemaignan, S.", "Sallami, Y.", "Wallbridge, C.", "Clodic, A.", "Alami, R."],
-        "bibtex":"@inproceedings{lemaignan2018underworlds,\\nauthor = {S\\'everin Lemaignan and Yoan Sallami and Christopher Wallbridge and Aur\\'elie Clodic and Rachid Alami},\\ntitle = {underworlds: Cascading Situation Assessment for Robots},\\nbooktitle = {Proceedings of the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2018}}"
+        "bibtex":"@inproceedings{lemaignan2018underworlds,\\nauthor = {S\\'everin Lemaignan and Yoan Sallami and Christopher Wallbridge and Aur\\'elie Clodic and Rachid Alami},\\ntitle = {underworlds: Cascading Situation Assessment for Robots},\\nbooktitle = {Proceedings of the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2018},\\ndoi = {10.1109/IROS.2018.8594094}}"
     },
     {
         "id":"bartlett2018what",
@@ -855,7 +855,7 @@
         "venue":"ICAIR",
         "year":2010,
         "authors":["Ros, R.", "Sisbot, E. A.", "Lemaignan, S.", "Pandey, A. K.", "Alami, R."],
-        "bibtex":"@inproceedings{ros2010robot,\\nauthor = {Ros, R. and Sisbot, E. A. and Lemaignan, S. and Pandey, A. K. and Alami, R.}\\ntitle = {Robot, tell me what you know about...?: Expressing robot's knowledge through interaction},\\nbooktitle = {Proceedings of the ICRA 2010 Workshop on Interactive Communication for Autonomous Intelligent Robots},\\nyear = {2010}}"
+        "bibtex":"@inproceedings{ros2010robot,\\nauthor = {Ros, R. and Sisbot, E. A. and Lemaignan, S. and Pandey, A. K. and Alami, R.},\\ntitle = {Robot, tell me what you know about...?: Expressing robot's knowledge through interaction},\\nbooktitle = {Proceedings of the ICRA 2010 Workshop on Interactive Communication for Autonomous Intelligent Robots},\\nyear = {2010}}"
     },
     {
         "id":"mallet2010genom3",
