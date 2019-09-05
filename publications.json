@@ -83,10 +83,10 @@
     {
         "id":"ozgur2019patent",
         "type":"patent",
-        "title":"Patent US 2019/0016213 A1: Magnet-Assisted Ball Drive",
+        "title":"Patent No. US10,377,231 - Magnet-Assisted Ball Drive",
         "keywords":["Hardware", "Systems"],
         "year":2019,
-        "url": "https://patentimages.storage.googleapis.com/bb/0e/5e/cd03cafe813070/US20190016213A1.pdf",
+        "url": "publis/patent-magnet-ball-drive.pdf",
         "authors":["Özgür, A.", "Lemaignan, S.", "Johal, W.", "Mondada, F.", "Dillenbourg, P."]
     },
     {
