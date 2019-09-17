@@ -14,13 +14,13 @@
         "id":"wallbridge2019generating",
         "pdf":"publis/wallbridge2019generating.pdf",
         "type":"journal",
-	"doi":"10.3389/frobt.2019.00067",
+        "doi":"10.3389/frobt.2019.00067",
         "title":"Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous",
         "keywords":["Language", "Social Robotics", "Social Cognition", "Machine Learning"],
         "venue":"Frontiers in AI and Robotics",
         "year":2019,
         "authors":["Wallbridge, C.", "Lemaignan, S.", "Senft, E.", "Belpaeme, T."],
-        "bibtex":"@article{wallbridge2019generating,\\nauthor = {Wallbridge, C. and Lemaignan, S. and Senft, E. and Belpaeme, T.},\\ntitle = {Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous},\\njournal = {Frontiers in AI and Robotics},\\nyear = {2019}}"
+        "bibtex":"@article{wallbridge2019generating,\\nauthor = {Wallbridge, C. and Lemaignan, S. and Senft, E. and Belpaeme, T.},\\ntitle = {Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous},\\njournal = {Frontiers in AI and Robotics},\\ndoi = {10.3389/frobt.2019.00067},\\nyear = {2019}}"
     },
     {
         "id":"sallami2019simulation",
