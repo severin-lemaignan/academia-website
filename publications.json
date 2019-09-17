@@ -6,7 +6,7 @@
         "keywords":["Artificial Intelligence", "Machine Learning", "Education", "Social Robotics"],
         "venue":"Science Robotics",
         "year":2019,
-        "note": "under review",
+        "note": "to appear",
         "authors":["Senft, E.", "Lemaignan, S.", "Baxter, P.", "Bartlett, M.", "Belpaeme, T."],
         "bibtex":"@article{senft2019teaching,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Bartlett, M. and Belpaeme, T.},\\ntitle = {Teaching robots social autonomy from in situ human guidance},\\njournal = {Science Robotics},\\nyear = {2019}}"
     },
@@ -47,11 +47,11 @@
     },
     {
         "id":"flook2019impact",
+        "pdf":"publis/flook2019impact.pdf",
         "type":"journal",
         "title": "On the Impact of Different Types of Errors on Trust in Human-Robot Interaction: Are laboratory-based HRI experiments trustworthy?",
         "venue":"Interaction Studies",
         "year":2019,
-        "note":"to appear",
         "keywords":["Social Robotics", "Trust"],
         "authors":["Flook, R.", "Shrinah, A.", "Wijnen, L.", "Eder, K.", "Melhuish, C.", "Lemaignan, S."],
         "bibtex":"@article{flook2019impact,\\nauthor = {Flook, R. and Shrinah, A. and Wijnen, L. and Eder, K. and Melhuish, C. and Lemaignan, S.},\\ntitle = {On the Impact of Different Types of Errors on Trust in Human-Robot Interaction: Are laboratory-based HRI experiments trustworthy?},\\njournal = {Interaction Studies},\\nyear = {2019}}"
