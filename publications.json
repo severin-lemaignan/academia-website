@@ -52,10 +52,11 @@
         "type":"journal",
         "title": "On the Impact of Different Types of Errors on Trust in Human-Robot Interaction: Are laboratory-based HRI experiments trustworthy?",
         "venue":"Interaction Studies",
+        "doi": "10.1075/is.18067.flo",
         "year":2019,
         "keywords":["Social Robotics", "Trust"],
         "authors":["Flook, R.", "Shrinah, A.", "Wijnen, L.", "Eder, K.", "Melhuish, C.", "Lemaignan, S."],
-        "bibtex":"@article{flook2019impact,\\nauthor = {Flook, R. and Shrinah, A. and Wijnen, L. and Eder, K. and Melhuish, C. and Lemaignan, S.},\\ntitle = {On the Impact of Different Types of Errors on Trust in Human-Robot Interaction: Are laboratory-based HRI experiments trustworthy?},\\njournal = {Interaction Studies},\\nyear = {2019}}"
+        "bibtex":"@article{flook2019impact,\\nauthor = {Flook, R. and Shrinah, A. and Wijnen, L. and Eder, K. and Melhuish, C. and Lemaignan, S.},\\ntitle = {On the Impact of Different Types of Errors on Trust in Human-Robot Interaction: Are laboratory-based HRI experiments trustworthy?},\\njournal = {Interaction Studies},\\ndoi = {10.1075/is.18067.flo},\\nyear = {2019}}"
     },
     {
         "id":"wallbridge2019towards",
