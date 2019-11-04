@@ -9,7 +9,7 @@
         "year":2019,
         "doi": "10.1126/scirobotics.aat1186",
         "authors":["Senft, E.", "Lemaignan, S.", "Baxter, P.", "Bartlett, M.", "Belpaeme, T."],
-        "bibtex":"@article{senft2019teaching,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Bartlett, M. and Belpaeme, T.},\\ntitle = {Teaching robots social autonomy from in situ human guidance},\\njournal = {Science Robotics},\\nyear = {2019}}"
+        "bibtex":"@article{senft2019teaching,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Bartlett, M. and Belpaeme, T.},\\ntitle = {Teaching robots social autonomy from in situ human guidance},\\njournal = {Science Robotics},\\ndoi = {10.1126/scirobotics.aat1186},\\nyear = {2019}}"
     },
     {
         "id":"wallbridge2019generating",
@@ -29,7 +29,6 @@
         "type":"conference",
         "title":"Simulation-based physics reasoning for consistent scene estimation in an HRI context",
         "keywords":["Technical Paper", "Simulation"],
-        "note": "to appear",
         "venue":"IROS",
         "year":2019,
         "authors":["Sallami, Y.", "Lemaignan, S.", "Clodic, A.", "Alami, R."],
