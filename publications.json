@@ -1,12 +1,13 @@
 [
     {
         "id":"senft2019teaching",
+        "pdf":"publis/senft2019teaching.pdf",
         "type":"journal",
         "title":"Teaching robots social autonomy from in situ human guidance",
         "keywords":["Artificial Intelligence", "Machine Learning", "Education", "Social Robotics"],
         "venue":"Science Robotics",
         "year":2019,
-        "note": "to appear",
+        "doi": "10.1126/scirobotics.aat1186",
         "authors":["Senft, E.", "Lemaignan, S.", "Baxter, P.", "Bartlett, M.", "Belpaeme, T."],
         "bibtex":"@article{senft2019teaching,\\nauthor = {Senft, E. and Lemaignan, S. and Baxter, P. and Bartlett, M. and Belpaeme, T.},\\ntitle = {Teaching robots social autonomy from in situ human guidance},\\njournal = {Science Robotics},\\nyear = {2019}}"
     },
