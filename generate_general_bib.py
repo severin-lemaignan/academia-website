@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 import json
 
 with open('publications.json', encoding="utf-8") as data_file:
