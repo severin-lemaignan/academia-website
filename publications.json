@@ -31,6 +31,7 @@
         "keywords":["Technical Paper", "Simulation"],
         "venue":"IROS",
         "year":2019,
+        "doi":"10.1109/IROS40897.2019.8968106",
         "authors":["Sallami, Y.", "Lemaignan, S.", "Clodic, A.", "Alami, R."],
         "bibtex":"@inproceedings{sallami2019simulation,\\nauthor = {Yoan Sallami and S\\'everin Lemaignan and Aur\\'elie Clodic and Rachid Alami},\\ntitle = {Simulation-based physics reasoning for consistent scene estimation in an HRI context},\\nbooktitle = {Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2019}}"
     },
