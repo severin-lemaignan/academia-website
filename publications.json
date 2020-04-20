@@ -1,5 +1,41 @@
 [
     {
+        "id":"sallami2020unexpected",
+        "pdf":"publis/sallami2020unexpected.pdf",
+        "type":"abstract - late breaking report",
+        "title": "The Unexpected Daily Situations (UDS) Dataset: A New Benchmark for Socially-Aware Assistive Robots",
+        "venue":"HRI",
+        "year":2020,
+        "doi":"10.1145/3371382.3378270",
+        "keywords":["Social Robotics", "Dataset", "Machine Learning"],
+        "authors":["Sallami, Y.", "Winkle, K.", "Webb, N.", "Lemaignan, S.", "Alami, R."],
+        "bibtex":"@inproceedings{sallami2020unexpected,\\nauthor = {Sallami, Y. and Winkle, K. and Webb, N. and Lemaignan, S. and Alami, R.},\\ntitle = {The Unexpected Daily Situations (UDS) Dataset: A New Benchmark for Socially-Aware Assistive Robots},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378270}}"
+    },
+    {
+        "id":"wijnen2020towards",
+        "pdf":"publis/wijnen2020towards.pdf",
+        "type":"abstract - late breaking report",
+        "title": "Towards using Virtual Reality for Replicating HRI Studies",
+        "venue":"HRI",
+        "year":2020,
+        "doi":"10.1145/3371382.3378374",
+        "keywords":["Virtual reality", "Trust", "Replication crisis"],
+        "authors":["Wijnen, L.", "Lemaignan, S.", "Bremner, P."],
+        "bibtex":"@inproceedings{wijnen2020towards,\\nauthor = {Wijnen, L. and Lemaignan, S. and Bremner, P.},\\ntitle = {Towards using Virtual Reality for Replicating HRI Studies},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378374}}"
+    },
+    {
+        "id":"winkle2020couch",
+        "pdf":"publis/winkle2020couch.pdf",
+        "type":"abstract - late breaking report",
+        "title": "Couch to 5km Robot Coach: An Autonomous, Human-Trained Socially Assistive Robot",
+        "venue":"HRI",
+        "year":2020,
+        "doi":"10.1145/3371382.3378337",
+        "keywords":["Artificial Intelligence", "Machine Learning", "Assistive Robotics", "Social Robotics"],
+        "authors":["Winkle, K.", "Lemaignan, S.", "Caleb-Solly, P.", "Leonards, U.", "Turton, A.", "Bremner, P."],
+        "bibtex":"@inproceedings{winkle2020couch,\\nauthor = {Winkle, K. and Lemaignan, S. and Caleb-Solly, P. and Leonards, U. and Turton, A. and Bremner, P.},\\ntitle = {Couch to 5km Robot Coach: An Autonomous, Human-Trained Socially Assistive Robot},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378337}}"
+    },
+    {
         "id":"senft2019teaching",
         "pdf":"publis/senft2019teaching.pdf",
         "type":"journal",
@@ -166,7 +202,7 @@
         "pdf":"publis/irfan2018social.pdf",
         "type":"conference",
         "title":"Social psychology and Human-Robot Interaction: an Uneasy Marriage",
-        "keywords":["Psychology", "Social Robotics"],
+        "keywords":["Psychology", "Social Robotics", "Replication crisis"],
         "venue":"alt.HRI",
         "year":2018,
         "doi": "10.1145/3173386.3173389",
