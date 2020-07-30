@@ -1,5 +1,27 @@
 [
     {
+        "id":"wijnen2020performing",
+        "pdf":"publis/wijnen2020performing.pdf",
+        "type":"conference",
+        "title": "Performing Human-Robot Interaction User Studies in Virtual Reality",
+        "venue":"RoMAN",
+        "year":2020,
+        "keywords":["Virtual reality", "Trust", "Replication crisis"],
+        "authors":["Wijnen, L.", "Bremner, P.", "Lemaignan, S.", "Giuliani, M."],
+        "bibtex":"@inproceedings{wijnen2020performing,\\nauthor = {Wijnen, L. and Bremner, P. and Lemaignan, S. and Giuliani, M.},\\ntitle = {Performing Human-Robot Interaction User Studies in Virtual Reality},\\nbooktitle = {Proceedings of the 2020 RoMAN Conference},\\nyear = {2020}}"
+    },
+    {
+        "id":"winkle2020insitu",
+        "pdf":"publis/winkle2020insitu.pdf",
+        "type":"conference",
+        "title": "In-Situ Learning from a Domain Expert for Real World Socially Assistive Robot Deployment",
+        "venue":"RSS",
+        "year":2020,
+        "keywords":["Artificial Intelligence", "Machine Learning", "Assistive Robotics", "Social Robotics"],
+        "authors":["Winkle, K.", "Lemaignan, S.", "Caleb-Solly, P.", "Leonards, U.", "Turton, A.", "Bremner, P."],
+        "bibtex":"@inproceedings{winkle2020insitu,\\nauthor = {Winkle, K. and Lemaignan, S. and Caleb-Solly, P. and Leonards, U. and Turton, A. and Bremner, P.},\\ntitle = {In-Situ Learning from a Domain Expert for Real World Socially Assistive Robot Deployment},\\nbooktitle = {Proceedings of Robotics: Science and Systems 2020},\\nyear = {2020}}"
+    },
+    {
         "id":"sallami2020unexpected",
         "pdf":"publis/sallami2020unexpected.pdf",
         "type":"abstract - late breaking report",
