@@ -1,5 +1,75 @@
 [
     {
+        "id":"chance2020agency",
+        "pdf":"publis/chance2020agency.pdf",
+        "type":"conference",
+        "title": "An Agency-Directed Approach to Test Generation for Simulation-based Autonomous Vehicle Verification",
+        "venue":"AI Test",
+        "year":2020,
+        "doi": "10.1109/AITEST49225.2020.00012",
+        "keywords":["Autonomous vehicles", "Verification"],
+        "authors":["Chance, G.", "Ghobrial, A.", "Lemaignan, S.", "Pipe, T.", "Eder, K."],
+        "bibtex":"@inproceedings{chance2020agency,\\nauthor = {Chance, G. and Ghobrial, A. and Lemaignan, S. and Pipe, T. and Eder, K.},\\ntitle = {An Agency-Directed Approach to Test Generation for Simulation-based Autonomous Vehicle Verification},\\nbooktitle = {Proceedings of the 2020 IEEE International Conference On Artificial Intelligence Testing},\\ndoi = {10.1109/AITEST49225.2020.00012},\\nyear = {2020}}"
+    },
+    {
+        "id":"wijnen2020performing",
+        "pdf":"publis/wijnen2020performing.pdf",
+        "type":"conference",
+        "title": "Performing Human-Robot Interaction User Studies in Virtual Reality",
+        "venue":"RoMAN",
+        "year":2020,
+        "keywords":["Virtual reality", "Trust", "Replication crisis"],
+        "authors":["Wijnen, L.", "Bremner, P.", "Lemaignan, S.", "Giuliani, M."],
+        "bibtex":"@inproceedings{wijnen2020performing,\\nauthor = {Wijnen, L. and Bremner, P. and Lemaignan, S. and Giuliani, M.},\\ntitle = {Performing Human-Robot Interaction User Studies in Virtual Reality},\\nbooktitle = {Proceedings of the 2020 RoMAN Conference},\\nyear = {2020}}"
+    },
+    {
+        "id":"winkle2020insitu",
+        "pdf":"publis/winkle2020insitu.pdf",
+        "type":"conference",
+        "title": "In-Situ Learning from a Domain Expert for Real World Socially Assistive Robot Deployment",
+        "venue":"RSS",
+        "year":2020,
+        "keywords":["Artificial Intelligence", "Machine Learning", "Assistive Robotics", "Social Robotics"],
+        "authors":["Winkle, K.", "Lemaignan, S.", "Caleb-Solly, P.", "Leonards, U.", "Turton, A.", "Bremner, P."],
+        "bibtex":"@inproceedings{winkle2020insitu,\\nauthor = {Winkle, K. and Lemaignan, S. and Caleb-Solly, P. and Leonards, U. and Turton, A. and Bremner, P.},\\ntitle = {In-Situ Learning from a Domain Expert for Real World Socially Assistive Robot Deployment},\\nbooktitle = {Proceedings of Robotics: Science and Systems 2020},\\nyear = {2020}}"
+    },
+    {
+        "id":"sallami2020unexpected",
+        "pdf":"publis/sallami2020unexpected.pdf",
+        "type":"abstract - late breaking report",
+        "title": "The Unexpected Daily Situations (UDS) Dataset: A New Benchmark for Socially-Aware Assistive Robots",
+        "venue":"HRI",
+        "year":2020,
+        "doi":"10.1145/3371382.3378270",
+        "keywords":["Social Robotics", "Dataset", "Machine Learning"],
+        "authors":["Sallami, Y.", "Winkle, K.", "Webb, N.", "Lemaignan, S.", "Alami, R."],
+        "bibtex":"@inproceedings{sallami2020unexpected,\\nauthor = {Sallami, Y. and Winkle, K. and Webb, N. and Lemaignan, S. and Alami, R.},\\ntitle = {The Unexpected Daily Situations (UDS) Dataset: A New Benchmark for Socially-Aware Assistive Robots},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378270}}"
+    },
+    {
+        "id":"wijnen2020towards",
+        "pdf":"publis/wijnen2020towards.pdf",
+        "type":"abstract - late breaking report",
+        "title": "Towards using Virtual Reality for Replicating HRI Studies",
+        "venue":"HRI",
+        "year":2020,
+        "doi":"10.1145/3371382.3378374",
+        "keywords":["Virtual reality", "Trust", "Replication crisis"],
+        "authors":["Wijnen, L.", "Lemaignan, S.", "Bremner, P."],
+        "bibtex":"@inproceedings{wijnen2020towards,\\nauthor = {Wijnen, L. and Lemaignan, S. and Bremner, P.},\\ntitle = {Towards using Virtual Reality for Replicating HRI Studies},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378374}}"
+    },
+    {
+        "id":"winkle2020couch",
+        "pdf":"publis/winkle2020couch.pdf",
+        "type":"abstract - late breaking report",
+        "title": "Couch to 5km Robot Coach: An Autonomous, Human-Trained Socially Assistive Robot",
+        "venue":"HRI",
+        "year":2020,
+        "doi":"10.1145/3371382.3378337",
+        "keywords":["Artificial Intelligence", "Machine Learning", "Assistive Robotics", "Social Robotics"],
+        "authors":["Winkle, K.", "Lemaignan, S.", "Caleb-Solly, P.", "Leonards, U.", "Turton, A.", "Bremner, P."],
+        "bibtex":"@inproceedings{winkle2020couch,\\nauthor = {Winkle, K. and Lemaignan, S. and Caleb-Solly, P. and Leonards, U. and Turton, A. and Bremner, P.},\\ntitle = {Couch to 5km Robot Coach: An Autonomous, Human-Trained Socially Assistive Robot},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378337}}"
+    },
+    {
         "id":"senft2019teaching",
         "pdf":"publis/senft2019teaching.pdf",
         "type":"journal",
@@ -31,6 +101,7 @@
         "keywords":["Technical Paper", "Simulation"],
         "venue":"IROS",
         "year":2019,
+        "doi":"10.1109/IROS40897.2019.8968106",
         "authors":["Sallami, Y.", "Lemaignan, S.", "Clodic, A.", "Alami, R."],
         "bibtex":"@inproceedings{sallami2019simulation,\\nauthor = {Yoan Sallami and S\\'everin Lemaignan and Aur\\'elie Clodic and Rachid Alami},\\ntitle = {Simulation-based physics reasoning for consistent scene estimation in an HRI context},\\nbooktitle = {Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2019}}"
     },
@@ -165,7 +236,7 @@
         "pdf":"publis/irfan2018social.pdf",
         "type":"conference",
         "title":"Social psychology and Human-Robot Interaction: an Uneasy Marriage",
-        "keywords":["Psychology", "Social Robotics"],
+        "keywords":["Psychology", "Social Robotics", "Replication crisis"],
         "venue":"alt.HRI",
         "year":2018,
         "doi": "10.1145/3173386.3173389",
