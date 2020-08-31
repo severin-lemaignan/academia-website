@@ -1,5 +1,17 @@
 [
     {
+        "id":"chance2020agency",
+        "pdf":"publis/chance2020agency.pdf",
+        "type":"conference",
+        "title": "An Agency-Directed Approach to Test Generation for Simulation-based Autonomous Vehicle Verification",
+        "venue":"AI Test",
+        "year":2020,
+        "doi": "10.1109/AITEST49225.2020.00012",
+        "keywords":["Autonomous vehicles", "Verification"],
+        "authors":["Chance, G.", "Ghobrial, A.", "Lemaignan, S.", "Pipe, T.", "Eder, K."],
+        "bibtex":"@inproceedings{chance2020agency,\\nauthor = {Chance, G. and Ghobrial, A. and Lemaignan, S. and Pipe, T. and Eder, K.},\\ntitle = {An Agency-Directed Approach to Test Generation for Simulation-based Autonomous Vehicle Verification},\\nbooktitle = {Proceedings of the 2020 IEEE International Conference On Artificial Intelligence Testing},\\ndoi = {10.1109/AITEST49225.2020.00012},\\nyear = {2020}}"
+    },
+    {
         "id":"wijnen2020performing",
         "pdf":"publis/wijnen2020performing.pdf",
         "type":"conference",
