@@ -18,9 +18,10 @@
         "title": "Performing Human-Robot Interaction User Studies in Virtual Reality",
         "venue":"RoMAN",
         "year":2020,
+        "doi": "10.1109/RO-MAN47096.2020.9223521",
         "keywords":["Virtual reality", "Trust", "Replication crisis"],
         "authors":["Wijnen, L.", "Bremner, P.", "Lemaignan, S.", "Giuliani, M."],
-        "bibtex":"@inproceedings{wijnen2020performing,\\nauthor = {Wijnen, L. and Bremner, P. and Lemaignan, S. and Giuliani, M.},\\ntitle = {Performing Human-Robot Interaction User Studies in Virtual Reality},\\nbooktitle = {Proceedings of the 2020 RoMAN Conference},\\nyear = {2020}}"
+        "bibtex":"@inproceedings{wijnen2020performing,\\nauthor = {Wijnen, L. and Bremner, P. and Lemaignan, S. and Giuliani, M.},\\ntitle = {Performing Human-Robot Interaction User Studies in Virtual Reality},\\nbooktitle = {Proceedings of the 2020 RoMAN Conference},\\ndoi = {10.1109/RO-MAN47096.2020.9223521},\\nyear = {2020}}"
     },
     {
         "id":"winkle2020insitu",
