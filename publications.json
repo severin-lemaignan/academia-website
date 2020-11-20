@@ -103,7 +103,7 @@
         "year":2019,
         "doi":"10.1109/IROS40897.2019.8968106",
         "authors":["Sallami, Y.", "Lemaignan, S.", "Clodic, A.", "Alami, R."],
-        "bibtex":"@inproceedings{sallami2019simulation,\\nauthor = {Yoan Sallami and S\\'everin Lemaignan and Aur\\'elie Clodic and Rachid Alami},\\ntitle = {Simulation-based physics reasoning for consistent scene estimation in an HRI context},\\nbooktitle = {Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2019}}"
+        "bibtex":"@inproceedings{sallami2019simulation,\\nauthor = {Yoan Sallami and S\\'everin Lemaignan and Aur\\'elie Clodic and Rachid Alami},\\ntitle = {Simulation-based physics reasoning for consistent scene estimation in an HRI context},\\nbooktitle = {Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\ndoi = {10.1109/IROS40897.2019.8968106},\\nyear = {2019}}"
     },
     {
         "id":"bartlett2019what",
@@ -360,7 +360,7 @@
         "bibtex":"@inproceedings{kennedy2016cautious,\\nauthor = {Kennedy, J. and Lemaignan, S. and Belpaeme, T.},\\ntitle = {The Cautious Attitude of Teachers Towards Social Robots in Schools},\\nbooktitle = {Proceedings of the 21th IEEE International Symposium in Robot and Human Interactive Communication, Workshop on Robots for Learning},\\nyear = {2016}}"
     },
     {
-        "id":"lemaignan2016artificial",
+        "id":"lemaignan2017artificial",
         "pdf":"publis/lemaignan2016artificial.pdf",
         "type":"journal",
         "title":"Artificial Cognition for Social Human-Robot Interaction: An Implementation",
@@ -370,7 +370,7 @@
         "year":2017,
         "doi":"10.1016/j.artint.2016.07.002",
         "authors":["Lemaignan, S.", "Warnier, M.", "Sisbot, E.A.", "Clodic, A.", "Alami, R."],
-        "bibtex":"@article{lemaignan2016artificial,\\njournal = {Artificial Intelligence},\\ntitle = {Artificial Cognition for Social Human-Robot Interaction: An Implementation},\\npublisher = {Elsevier},\\nyear = {2017},\\nauthor = {Lemaignan, S. and Warnier, M. and Sisbot, E. A. and  Clodic, A. and Alami, R.},\\ndoi = {10.1016/j.artint.2016.07.002}}"
+        "bibtex":"@article{lemaignan2017artificial,\\njournal = {Artificial Intelligence},\\ntitle = {Artificial Cognition for Social Human-Robot Interaction: An Implementation},\\npublisher = {Elsevier},\\nyear = {2017},\\nauthor = {Lemaignan, S. and Warnier, M. and Sisbot, E. A. and  Clodic, A. and Alami, R.},\\ndoi = {10.1016/j.artint.2016.07.002}}"
     },
     {
         "id":"chandra2016children",
@@ -890,7 +890,7 @@
         "isbn":"978-1-4244-6674-0",
         "issn":"2153-0858",
         "authors":["Lemaignan, S.", "Ros, R.", "Mösenlechner, L.", "Alami, R.", "Beetz, M."],
-        "bibtex":"@inproceedings{lemaignan2010oro,\\nauthor = {Lemaignan, S. and Ros, R. and Mösenlechner, L. and Alami, R. and Beetz, M.},\\ntitle = {ORO, a knowledge management module for cognitive architectures in robotics},\\nbooktitle = {Proceedings of the 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2010}}"
+        "bibtex":"@inproceedings{lemaignan2010oro,\\nauthor = {Lemaignan, S. and Ros, R. and Mösenlechner, L. and Alami, R. and Beetz, M.},\\ntitle = {ORO, a knowledge management module for cognitive architectures in robotics},\\nbooktitle = {Proceedings of the 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\ndoi = {10.1109/IROS.2010.5649547},\\nyear = {2010}}"
     },
     {
         "id":"ros2010which",
