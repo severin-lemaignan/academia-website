@@ -28,7 +28,8 @@
 
     this.innerHTML =    (type == "journal" ? '<span style="margin-left:-26px" class="icon fa-file-alt"></span>' :
                         (type == "chapter" ? '<span style="margin-left:-26px" class="icon fa-book"></span>' :
-                        ((type == "conference" || type.indexOf("abstract")>-1) ? '<span style="margin-left:-26px" class="icon fa-users"></span>' :
+                        (type == "conference" ? '<span style="margin-left:-26px" class="icon fa-users"></span>' :
+                        (type.indexOf("abstract")>-1 ? '<span style="margin-left:-26px" class="icon fa-comments-o"></span>' :
                         (type == "video" ? '<span style="margin-left:-26px" class="icon fa-play-circle"></span>' :
                         (type == "poster" ? '<span style="margin-left:-26px" class="icon fa-picture"></span>' :
                         (type == 'dataset' ? '<span style="margin-left:-26px" class="icon fa-database"></span>' : 

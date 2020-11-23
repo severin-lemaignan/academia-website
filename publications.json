@@ -1,5 +1,16 @@
 [
     {
+        "id":"park2020towards",
+        "type":"abstract - editorial",
+        "doi":"10.3389/frobt.2020.600830",
+        "title":"Editorial: Towards Real World Impacts: Design, Development, and Deployment of Social Robots in the Wild",
+        "keywords":["Social Robotics"],
+        "venue":"Frontiers in AI and Robotics",
+        "year":2020,
+        "authors":["Park, C.H.", "Ros, R.", "Kwak, S.", "Huang, C.", "Lemaignan, S."],
+        "bibtex":"@article{park2020towards,\\nauthor = {Park, C.H. and Ros, R. and Kwak, S. and Huang, C. and Lemaignan, S.},\\ntitle = {Editorial: Towards Real World Impacts: Design, Development, and Deployment of Social Robots in the Wild},\\njournal = {Frontiers in AI and Robotics},\\ndoi = {10.3389/frobt.2020.600830},\\nyear = {2020}}"
+    },
+    {
         "id":"chance2020agency",
         "pdf":"publis/chance2020agency.pdf",
         "type":"conference",
