@@ -2268,6 +2268,7 @@
 		.image img {
 			border-radius: 0;
 			display: block;
+			margin: auto;
 		}
 
 		.image.left, .image.right {
