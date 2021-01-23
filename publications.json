@@ -1,5 +1,29 @@
 [
     {
+        "id":"mohamed2021predicting",
+        "pdf":"publis/mohamed2021predicting.pdf",
+        "type":"abstract - late breaking report",
+        "title": "Predicting Human Interactivity State from Surrounding Social Signals",
+        "venue":"HRI",
+        "year":2021,
+        "doi":"10.1145/3434074.3447230",
+        "keywords":["Social Robotics", "Machine Learning"],
+        "authors":["Mohamed, Y.", "Lemaignan, S."],
+        "bibtex":"@inproceedings{mohamed2021predicting,\\nauthor = {Mohamed, Y. and Lemaignan, S.},\\ntitle = {Predicting Human Interactivity State from Surrounding Social Signals},\\nbooktitle = {Companion Proceedings of the 2021 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2021},\\ndoi = {10.1145/3434074.3447230}}"
+    },
+    {
+        "id":"webb2021framing",
+        "pdf":"publis/webb2021framing.pdf",
+        "type":"abstract - late breaking report",
+        "title": "Framing the Challenge of Social Interaction Modelling: One Case Study",
+        "venue":"HRI",
+        "year":2021,
+        "doi":"10.1145/3434074.3447233",
+        "keywords":["Social Robotics", "Dataset", "Machine Learning"],
+        "authors":["Webb, N.", "Mohamed, Y.", "Lemaignan, S."],
+        "bibtex":"@inproceedings{webb2021framing,\\nauthor = {Webb, N. and Mohamed, Y. and Lemaignan, S.},\\ntitle = {Framing the Challenge of Social Interaction Modelling: One Case Study},\\nbooktitle = {Companion Proceedings of the 2021 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2021},\\ndoi = {10.1145/3434074.3447233}}"
+    },
+    {
         "id":"park2020towards",
         "type":"abstract - editorial",
         "doi":"10.3389/frobt.2020.600830",
