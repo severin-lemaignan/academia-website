@@ -1,5 +1,16 @@
 [
     {
+        "id":"mohamed2021ros4hri",
+        "pdf":"publis/mohamed2021ros4hri.pdf",
+        "type":"conference",
+        "title": "ROS for Human-Robot Interaction",
+        "venue":"IROS",
+        "year":2021,
+        "keywords":["Technical Paper", "Social Robotics"],
+        "authors":["Mohamed, Y.", "Lemaignan, S."],
+        "bibtex":"@inproceedings{mohamed2021ros4hri,\\nauthor = {Mohamed, Y. and Lemaignan, S.},\\ntitle = {ROS for Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2021}}"
+    },
+    {
         "id":"mohamed2021predicting",
         "pdf":"publis/mohamed2021predicting.pdf",
         "type":"abstract - late breaking report",
