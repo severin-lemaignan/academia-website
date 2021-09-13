@@ -1,4 +1,18 @@
 [
+
+    {
+        "id":"lemaignan2021unicef",
+        "pdf":"publis/lemaignan2021unicef.pdf",
+        "type":"conference",
+        "title": "UNICEF Guidance on AI for Children: Application to the Design of a Social Robot For and With Autistic Children",
+        "venue":"The Roles of Robotics in Achieving the UN's Social Development Goals -- IROS2021 workshop",
+        "note":"not peer-reviewed",
+        "year":2021,
+        "url":"http://www.sustainablerobotics.org/",
+        "keywords":["Responsible AI", "Social Robotics"],
+        "authors":["Lemaignan, S.", "Newbutt, N.", "Rice, L.", "Daly, J.", "Charisi, V."],
+        "bibtex":"@inproceedings{lemaignan2021unicef,\\nauthor = {Lemaignan, S. and Newbutt, N. and Rice, L. and Daly, J. and Charisi, V.},\\ntitle = {UNICEF Guidance on AI for Children: Application to the Design of a Social Robot For and With Autistic Children},\\nbooktitle = {Proceedings of the 2021 IEEE/RSJ IROS Workshop The Roles of Robotics in Achieving the UN's Social Development Goals},\\nyear = {2021},\\nurl={http://www.sustainablerobotics.org/}}"
+    },
     {
         "id":"mohamed2021ros4hri",
         "pdf":"publis/mohamed2021ros4hri.pdf",
