@@ -40,6 +40,30 @@
         "bibtex": "@inproceedings{mohamed2021ros4hri,\\nauthor = {Mohamed, Y. and Lemaignan, S.},\\ntitle = {ROS for Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2021}}"
     },
     {
+        "id": "wallbridge2021effectiveness",
+        "pdf": "publis/wallbridge2021effectiveness.pdf",
+        "type": "journal",
+        "doi": "10.1145/3481628",
+        "title": "The Effectiveness of Dynamically Processed Incremental Descriptions in Human Robot Interaction",
+        "keywords": [
+            "Language",
+            "Social Robotics",
+            "Social Cognition",
+            "Machine Learning"
+        ],
+        "venue": "ACM Transactions on Human-Robot Interaction",
+        "year": 2021,
+        "authors": [
+            "Wallbridge, C.",
+            "Smith, A.",
+            "Giuliani, M.",
+            "Melhuish, C.",
+            "Belpaeme, T.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@article{wallbridge2021effectiveness,\\nauthor = {Wallbridge, C. and Smith, A. and Giuliani, M. and Melhuish, C. and Belpaeme, T. and Lemaignan, S.},\\ntitle = {The Effectiveness of Dynamically Processed Incremental Descriptions in Human Robot Interaction},\\njournal = {ACM Transactions on Human-Robot Interaction},\\ndoi = {10.1145/3481628},\\nyear = {2021}}"
+    },
+    {
         "id": "mohamed2021predicting",
         "pdf": "publis/mohamed2021predicting.pdf",
         "type": "abstract - late breaking report",
