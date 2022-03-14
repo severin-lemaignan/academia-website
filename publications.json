@@ -1,5 +1,64 @@
 [
     {
+        "id": "mohamed2022automatic",
+        "pdf": "publis/mohamed2022automatic.pdf",
+        "type": "conference",
+        "title": "Automatic Frustration Detection Using Thermal Imaging",
+        "venue": "HRI",
+        "year": 2022,
+        "doi": "10.5555/3523760.3523821",
+        "keywords": [
+            "Technical Paper",
+            "Social Signal Processing"
+        ],
+        "authors": [
+            "Mohamed, Y.",
+            "Ballardini, G.",
+            "Parreira, M. T.",
+            "Lemaignan, S.",
+            "Leite, I."
+        ],
+        "bibtex": "@inproceedings{mohamed2022automatic,\\nauthor = {Mohamed, Y. and Ballardini, G. and Parreira, M. T. and Lemaignan, S. and Leite, I.},\\ntitle = {Automatic Frustration Detection Using Thermal Imaging},\\nbooktitle = {Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2022},\\ndoi = {10.5555/3523760.3523821}}"
+    },
+    {
+        "id": "cooper2022towards",
+        "pdf": "publis/cooper2022towards.pdf",
+        "type": "abstract - late breaking report",
+        "title": "Towards using Behaviour Trees for Long-term Social Robot Behaviour",
+        "venue": "HRI",
+        "year": 2022,
+        "doi": "10.5555/3523760.3523866",
+        "keywords": [
+            "Technical Paper",
+            "Social Robotics",
+            "Behaviours"
+        ],
+        "authors": [
+            "Cooper, S.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@inproceedings{cooper2022towards,\\nauthor = {Cooper, S. and Lemaignan, S.},\\ntitle = {Towards using Behaviour Trees for Long-term Social Robot Behaviour},\\nbooktitle = {Proceedings of the 2022 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2022},\\ndoi = {10.5555/3523760.3523866}}"
+    },
+    {
+        "id": "ferrini2022kinematically",
+        "pdf": "publis/ferrini2022kinematically.pdf",
+        "type": "abstract - late breaking report",
+        "title": "Kinematically-consistent Real-time 3D Human Body Estimation for Physical and Social HRI",
+        "venue": "HRI",
+        "year": 2022,
+        "doi": "10.5555/3523760.3523872",
+        "keywords": [
+            "Technical Paper",
+            "Social Robotics",
+            "Social Signal Processing"
+        ],
+        "authors": [
+            "Ferrini, L.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@inproceedings{ferrini2022kinematically,\\nauthor = {Ferrini, L. and Lemaignan, S.},\\ntitle = {Kinematically-consistent Real-time 3D Human Body Estimation for Physical and Social HRI},\\nbooktitle = {Proceedings of the 2022 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2022},\\ndoi = {10.5555/3523760.3523872}}"
+    },
+    {
         "id": "winkle2021leador",
         "pdf": "publis/winkle2021leador.pdf",
         "type": "journal",
@@ -58,7 +117,7 @@
             "Mohamed, Y.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{mohamed2021ros4hri,\\nauthor = {Mohamed, Y. and Lemaignan, S.},\\ntitle = {ROS for Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2021}}"
+        "bibtex": "@inproceedings{mohamed2021ros4hri,\\nauthor = {Mohamed, Y. and Lemaignan, S.},\\ntitle = {ROS for Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2021},\\ndoi = {10.1109/IROS51168.2021.9636816}}"
     },
     {
         "id": "wallbridge2021effectiveness",
