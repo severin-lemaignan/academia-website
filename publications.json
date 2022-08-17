@@ -1,5 +1,43 @@
 [
     {
+        "id": "lach2022bioinspired",
+        "pdf": "publis/lach2022bioinspired.pdf",
+        "type": "conference",
+        "title": "Bio-Inspired Grasping Controller for Sensorized 2-DoF Grippers",
+        "venue": "IROS",
+        "year": 2022,
+        "keywords": [
+            "Technical Paper",
+            "Social Robotics"
+        ],
+        "authors": [
+            "Lach, L.",
+            "Lemaignan, S.",
+            "Ferro, F.",
+            "Ritter, H.J.",
+            "Haschke, R."
+        ],
+        "bibtex": "@inproceedings{lach2022bioinspired,\\nauthor = {Lach, L. and Lemaignan, S. and Ferro, F. and Ritter, H.J. and Haschke, R.},\\ntitle = {Bio-Inspired Grasping Controller for Sensorized 2-DoF Grippers},\\nbooktitle = {Proceedings of the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2022}}"
+    },
+    {
+        "id": "webb2022measuring",
+        "pdf": "publis/webb2022measuring.pdf",
+        "type": "conference",
+        "title": "Measuring Visual Social Engagement from Proxemics and Gaze",
+        "keywords": [
+            "Social Signal Processing",
+            "Engagement"
+        ],
+        "venue": "RoMAN",
+        "year": 2022,
+        "authors": [
+            "Webb, N.",
+            "Giuliani, M.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@inproceedings{webb2022measuring,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Measuring Visual Social Engagement from Proxemics and Gaze},\\nbooktitle = {Proceedings of the 31th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2022}}"
+    },
+    {
         "id": "mohamed2022automatic",
         "pdf": "publis/mohamed2022automatic.pdf",
         "type": "conference",
