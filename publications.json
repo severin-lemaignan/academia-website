@@ -1,5 +1,24 @@
 [
     {
+        "id": "alhafnawi2022deliberative",
+        "pdf": "publis/alhafnawi2022deliberative.pdf",
+        "type": "conference",
+        "title": "Deliberative Democracy with Robot Swarms",
+        "venue": "IROS",
+        "year": 2022,
+        "keywords": [
+            "Swarm Robotics"
+        ],
+        "authors": [
+            "Alhafnawi, M.",
+            "Hunt, E. R.",
+            "Lemaignan, S.",
+            "O'Dowd, P.",
+            "Hauert, S."
+        ],
+        "bibtex": "@inproceedings{alhafnawi2022deliberative,\\nauthor = {Alhafnawi, M. and Hunt, E. R. and Lemaignan, S. and O'Dowd, P. and Hauert, S.},\\ntitle = {Deliberative Democracy with Robot Swarms},\\nbooktitle = {Proceedings of the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2022}}"
+    },
+    {
         "id": "lach2022bioinspired",
         "pdf": "publis/lach2022bioinspired.pdf",
         "type": "conference",
