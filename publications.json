@@ -1,5 +1,25 @@
 [
     {
+        "id": "lemaignan2022social",
+        "pdf": "publis/lemaignan2022social.pdf",
+        "type": "journal",
+        "title": "“It’s Important to Think of Pepper as a Teaching Aid or Resource External to the Classroom”: A Social Robot in a School for Autistic Children",
+        "venue": "International Journal of Social Robotics",
+        "year": 2022,
+        "keywords": [
+            "Social Robotics",
+            "Child-robot interaction"
+        ],
+        "authors": [
+            "Lemaignan, S.",
+            "Newbutt, N.",
+            "Rice, L.",
+            "Daly, J."
+        ],
+        "doi": "10.1007/s12369-022-00928-4",
+        "bibtex": "@article{lemaignan2022social,\\nauthor = {Lemaignan, S. and Newbutt, N. and Rice, L. and Daly, J.},\\ntitle = {“It’s Important to Think of Pepper as a Teaching Aid or Resource External to the Classroom”: A Social Robot in a School for Autistic Children},\\njournal = {International Journal of Social Robotics},\\nyear = {2022},\\ndoi={10.1007/s12369-022-00928-4}}"
+    },
+    {
         "id": "alhafnawi2022deliberative",
         "pdf": "publis/alhafnawi2022deliberative.pdf",
         "type": "conference",
