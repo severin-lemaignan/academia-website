@@ -1,5 +1,28 @@
 [
     {
+        "id": "lemaignan2023opensource",
+        "pdf": "publis/lemaignan2023opensource.pdf",
+        "type": "abstract - demonstration",
+        "title": "Open-source Natural Language Processing on the PAL Robotics ARI Social Robot",
+        "venue": "HRI",
+        "year": 2023,
+        "keywords": [
+            "Social Robotics",
+            "Technical Paper",
+            "Language"
+        ],
+        "authors": [
+            "Lemaignan, S.",
+            "Cooper, S.",
+            "Ros, R.",
+            "Ferrini, L.",
+            "Andriella, A.",
+            "Irisarri, A."
+        ],
+        "doi": "10.1145/3568294.3580041",
+        "bibtex": "@inproceedings{lemaignan2023opensource,\\nauthor = {Lemaignan, S. and Cooper, S. and Ros, R. and Ferrini, L. and Andriella, A. and Irisarri, A.},\\ntitle = {Open-source Natural Language Processing on the PAL Robotics ARI Social Robot},\\nbooktitle = {Proceedings of the 2023 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2023},\\ndoi = {10.1145/3568294.3580041}}"
+    },
+    {
         "id": "lemaignan2022social",
         "pdf": "publis/lemaignan2022social.pdf",
         "type": "journal",
