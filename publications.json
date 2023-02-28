@@ -48,6 +48,7 @@
         "type": "conference",
         "title": "Deliberative Democracy with Robot Swarms",
         "venue": "IROS",
+        "doi": "10.1109/IROS47612.2022.9981649",
         "year": 2022,
         "keywords": [
             "Swarm Robotics"
@@ -67,6 +68,7 @@
         "type": "conference",
         "title": "Bio-Inspired Grasping Controller for Sensorized 2-DoF Grippers",
         "venue": "IROS",
+        "doi": "10.1109/IROS47612.2022.9981819",
         "year": 2022,
         "keywords": [
             "Technical Paper",
@@ -1283,6 +1285,7 @@
         ],
         "venue": "ARSO",
         "year": 2015,
+        "doi": "10.1109/ARSO.2015.7428217",
         "authors": [
             "Karim, M. E.",
             "Lemaignan, S.",
