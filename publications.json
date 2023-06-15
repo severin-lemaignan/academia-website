@@ -1,5 +1,77 @@
 [
     {
+        "id": "cooper2023challenges",
+        "type": "conference",
+        "title": "Challenges of deploying assistive robots in real-life scenarios: an industrial perspective",
+        "keywords": [
+            "Social Robotics"
+        ],
+        "venue": "RoMAN",
+        "year": 2023,
+        "authors": [
+            "Cooper, S.",
+            "Ros, R.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@inproceedings{cooper2023challenges,\\nauthor = {Cooper, S. and Ros, R. and Lemaignan, S.},\\ntitle = {Challenges of deploying assistive robots in real-life scenarios: an industrial perspective},\\nbooktitle = {Proceedings of the 32th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2023}}"
+    },
+    {
+        "id": "webb2023sogrin",
+        "type": "conference",
+        "title": "SoGrIn: a non-verbal dataset of social group-level interactions",
+        "keywords": [
+            "Social Signal Processing",
+            "Engagement",
+            "Dataset"
+        ],
+        "venue": "RoMAN",
+        "year": 2023,
+        "authors": [
+            "Webb, N.",
+            "Giuliani, M.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@inproceedings{webb2023sogrin,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {SoGrIn: a non-verbal dataset of social group-level interactions},\\nbooktitle = {Proceedings of the 32th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2023}}"
+    },
+    {
+        "id": "ros2023ros4hri",
+        "pdf": "publis/ros2023ros4hri.pdf",
+        "type": "conference",
+        "title": "ROS4HRI: Standardising an Interface for Human-Robot Interaction",
+        "venue": "HRI -- Workshop Advancing HRI Research and Benchmarking Through Open-Source Ecosystems",
+        "year": 2023,
+        "keywords": [
+            "Social Robotics",
+            "Technical Paper"
+        ],
+        "authors": [
+            "Ros, R.",
+            "Lemaignan, S.",
+            "Ferrini, L.",
+            "Andriella, A.",
+            "Irisarri, A."
+        ],
+        "bibtex": "@inproceedings{ros2023ros4hri,\\nauthor = {Ros, R. and Lemaignan, S. and Ferrini, L. and Andriella, A. and Irisarri, A.},\\ntitle = {Advancing HRI Research and Benchmarking Through Open-Source Ecosystems},\\nbooktitle = {Proceedings of the 2023 Workshop Advancing HRI Research and Benchmarking Through Open-Source Ecosystems},\\nyear = {2023}}"
+    },
+    {
+        "id": "ferrini2023unifying",
+        "pdf": "publis/ferrini2023unifying.pdf",
+        "type": "abstract",
+        "title": "Unifying Bottom-Up and Top-Down Attention Models for Social Robots",
+        "venue": "HRI -- Workshop Semantic Scene Understanding for Human-Robot Interaction",
+        "year": 2023,
+        "keywords": [
+            "Social Robotics",
+            "Technical Paper"
+        ],
+        "authors": [
+            "Ferrini, L.",
+            "Ros, R.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@inproceedings{ferrini2023unifying,\\nauthor = {Ferrini, L. and Ros, R. and Lemaignan, S.},\\ntitle = {Unifying Bottom-Up and Top-Down Attention Models for Social Robots},\\nbooktitle = {Proceedings of the 2023 Workshop Semantic Scene Understanding for Human-Robot Interaction},\\nyear = {2023}}"
+    },
+    {
         "id": "lemaignan2023opensource",
         "pdf": "publis/lemaignan2023opensource.pdf",
         "type": "abstract - demonstration",
