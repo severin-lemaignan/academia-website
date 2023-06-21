@@ -1,5 +1,26 @@
 [
     {
+        "id": "lach2023placing",
+        "type": "conference",
+        "title": "Placing by Touching: An empirical study on the importance of tactile sensing for precise object placing",
+        "venue": "IROS",
+        "year": 2023,
+        "keywords": [
+            "Technical Paper",
+            "Tactile sensing"
+        ],
+        "authors": [
+            "Lach, L.",
+            "Funk, N.W.",
+            "Haschke, R.",
+            "Lemaignan, S.",
+            "Ritter, H.J.",
+            "Peters, J.",
+            "Chalvatzaki, G."
+        ],
+        "bibtex": "@inproceedings{lach2023placing,\\nauthor = {Lach, L. and Funk, N.W. and Haschke, R. and Lemaignan, S. and Ritter, H.J. and Peters, J. and Chalvatzaki, G.},\\ntitle = {Placing by Touching: An empirical study on the importance of tactile sensing for precise object placing},\\nbooktitle = {Proceedings of the 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2023}}"
+    },
+    {
         "id": "cooper2023challenges",
         "type": "conference",
         "title": "Challenges of deploying assistive robots in real-life scenarios: an industrial perspective",
@@ -144,7 +165,7 @@
         "year": 2022,
         "keywords": [
             "Technical Paper",
-            "Social Robotics"
+            "Grasping"
         ],
         "authors": [
             "Lach, L.",
