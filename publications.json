@@ -25,7 +25,8 @@
         "type": "conference",
         "title": "Challenges of deploying assistive robots in real-life scenarios: an industrial perspective",
         "keywords": [
-            "Social Robotics"
+            "Social Robotics",
+            "Assistive Robotics"
         ],
         "venue": "RoMAN",
         "year": 2023,
@@ -43,7 +44,9 @@
         "keywords": [
             "Social Signal Processing",
             "Engagement",
-            "Dataset"
+            "Dataset",
+            "Psychology",
+            "Machine Learning"
         ],
         "venue": "RoMAN",
         "year": 2023,
@@ -124,7 +127,8 @@
         "year": 2022,
         "keywords": [
             "Social Robotics",
-            "Child-robot interaction"
+            "Child-robot interaction",
+            "Education"
         ],
         "authors": [
             "Lemaignan, S.",
@@ -286,7 +290,9 @@
         "url": "http://www.sustainablerobotics.org/",
         "keywords": [
             "Responsible AI",
-            "Social Robotics"
+            "Social Robotics",
+            "Child-robot interaction",
+            "Education"
         ],
         "authors": [
             "Lemaignan, S.",
