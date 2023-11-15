@@ -22,6 +22,7 @@
     },
     {
         "id": "cooper2023challenges",
+        "pdf": "publis/cooper2023challenges.pdf",
         "type": "conference",
         "title": "Challenges of deploying assistive robots in real-life scenarios: an industrial perspective",
         "keywords": [
@@ -30,6 +31,7 @@
         ],
         "venue": "RoMAN",
         "year": 2023,
+        "doi": "10.1109/RO-MAN57019.2023.10309467",
         "authors": [
             "Cooper, S.",
             "Ros, R.",
@@ -39,6 +41,7 @@
     },
     {
         "id": "webb2023sogrin",
+        "pdf": "publis/webb2023sogrin.pdf",
         "type": "conference",
         "title": "SoGrIn: a non-verbal dataset of social group-level interactions",
         "keywords": [
@@ -50,6 +53,7 @@
         ],
         "venue": "RoMAN",
         "year": 2023,
+        "doi": "10.1109/RO-MAN57019.2023.10309351",
         "authors": [
             "Webb, N.",
             "Giuliani, M.",
