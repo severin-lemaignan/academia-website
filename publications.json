@@ -1,5 +1,21 @@
 [
     {
+        "id": "lemaignan2024probabilistic",
+        "type": "conference",
+        "title": "Probabilistic fusion of persons' body features: the Mr. Potato algorithm",
+        "venue": "HRI",
+        "year": 2024,
+        "keywords": [
+            "Social Robotics",
+            "Technical Paper"
+        ],
+        "authors": [
+            "Lemaignan, S.",
+            "Ferrini, L."
+        ],
+        "bibtex": "@inproceedings{lemaignan2024probabilistic,\\nauthor = {Lemaignan, S. and Ferrini, L.},\\ntitle = {Probabilistic fusion of persons' body features: the Mr. Potato algorithm},\\nbooktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2024}}"
+    },
+    {
         "id": "lach2023placing",
         "type": "conference",
         "title": "Placing by Touching: An empirical study on the importance of tactile sensing for precise object placing",
