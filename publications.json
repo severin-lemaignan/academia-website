@@ -1,10 +1,12 @@
 [
     {
         "id": "lemaignan2024probabilistic",
+        "pdf": "publis/lemaignan2024probabilistic.pdf",
         "type": "conference",
         "title": "Probabilistic fusion of persons' body features: the Mr. Potato algorithm",
         "venue": "HRI",
         "year": 2024,
+        "doi": "10.1145/3610977.3637479",
         "keywords": [
             "Social Robotics",
             "Technical Paper"
@@ -13,10 +15,33 @@
             "Lemaignan, S.",
             "Ferrini, L."
         ],
-        "bibtex": "@inproceedings{lemaignan2024probabilistic,\\nauthor = {Lemaignan, S. and Ferrini, L.},\\ntitle = {Probabilistic fusion of persons' body features: the Mr. Potato algorithm},\\nbooktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2024}}"
+        "bibtex": "@inproceedings{lemaignan2024probabilistic,\\nauthor = {Lemaignan, S. and Ferrini, L.},\\ntitle = {Probabilistic fusion of persons' body features: the Mr. Potato algorithm},\\nbooktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2024},\\ndoi = {10.1145/3610977.3637479}}"
+    },
+    {
+        "id": "andriella2024dataset",
+        "pdf": "publis/andriella2024dataset.pdf",
+        "type": "conference",
+        "title": "Dataset and Evaluation of Automatic Speech Recognition for Multi-lingual Intent Recognition on Social Robots",
+        "venue": "HRI",
+        "year": 2024,
+        "doi": "10.1145/3610977.3637473",
+        "keywords": [
+            "Language",
+            "Social Robotics",
+            "Dataset"
+        ],
+        "authors": [
+            "Andriella, A.",
+            "Ros, R.",
+            "Ellinson, Y.",
+            "Gannot, S.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@inproceedings{andriella2024dataset,\\nauthor = {Andriella, A. and Ros, R. and Ellinson, Y. and Gannot, S. and Lemaignan, S.},\\ntitle = {Dataset and Evaluation of Automatic Speech Recognition for Multi-lingual Intent Recognition on Social Robots},\\nbooktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2024},\\ndoi = {10.1145/3610977.3637473}}"
     },
     {
         "id": "lach2023placing",
+        "pdf": "publis/lach2023placing.pdf",
         "type": "conference",
         "title": "Placing by Touching: An empirical study on the importance of tactile sensing for precise object placing",
         "venue": "IROS",
@@ -53,7 +78,7 @@
             "Ros, R.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{cooper2023challenges,\\nauthor = {Cooper, S. and Ros, R. and Lemaignan, S.},\\ntitle = {Challenges of deploying assistive robots in real-life scenarios: an industrial perspective},\\nbooktitle = {Proceedings of the 32th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2023}}"
+        "bibtex": "@inproceedings{cooper2023challenges,\\nauthor = {Cooper, S. and Ros, R. and Lemaignan, S.},\\ntitle = {Challenges of deploying assistive robots in real-life scenarios: an industrial perspective},\\nbooktitle = {Proceedings of the 32th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2023},\\ndoi = {10.1109/RO-MAN57019.2023.10309467}}"
     },
     {
         "id": "webb2023sogrin",
