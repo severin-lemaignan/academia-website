@@ -226,6 +226,25 @@
         "bibtex": "@inproceedings{lach2022bioinspired,\\nauthor = {Lach, L. and Lemaignan, S. and Ferro, F. and Ritter, H.J. and Haschke, R.},\\ntitle = {Bio-Inspired Grasping Controller for Sensorized 2-DoF Grippers},\\nbooktitle = {Proceedings of the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2022}}"
     },
     {
+        "id": "webb2022automatic",
+        "pdf": "publis/webb2022automatic.pdf",
+        "type": "conference",
+        "title": "Automatic Engagement Detection for Social Situation Assessment",
+        "keywords": [
+            "Social Signal Processing",
+            "Engagement"
+        ],
+        "venue": "UKRAS22 Conference “Robotics for Unconstrained Environments” Proceedings",
+        "year": 2022,
+        "doi": "10.31256/Mm8Xb7O",
+        "authors": [
+            "Webb, N.",
+            "Giuliani, M.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@inproceedings{webb2022automatic,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Automatic Engagement Detection for Social Situation Assessment},\\nbooktitle = {Proceedings of the 2022 UK-RAS Conference},\\\ndoi = {10.31256/Mm8Xb7O},\\nyear = {2022}}"
+    },
+    {
         "id": "webb2022measuring",
         "pdf": "publis/webb2022measuring.pdf",
         "type": "conference",
