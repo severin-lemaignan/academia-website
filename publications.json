@@ -1,5 +1,28 @@
 [
     {
+        "id": "lemaignan2024social",
+        "pdf": "publis/lemaignan2024social.pdf",
+        "type": "journal",
+        "title": "Social Embeddings: Concept and Initial Investigation [version 1; peer review: awaiting peer review]",
+        "venue": "Open Research Europe",
+        "year": 2024,
+        "doi": "10.12688/openreseurope.17296.1",
+        "keywords": [
+            "Social Robotics",
+            "Technical Paper",
+            "Machine Learning"
+        ],
+        "authors": [
+            "Lemaignan, S.",
+            "Andriella, A.",
+            "Ferrini, L.",
+            "Juricic, L.",
+            "Mohamed, Y.",
+            "Ros, R."
+        ],
+        "bibtex": "@article{lemaignan2024social,\\nauthor = {Lemaignan, S. and Andriella, A. and Ferrini, L. and Juricic, L. and Mohamed, Y. and Ros, R.},\\ntitle = {Social Embeddings: Concept and Initial Investigation},\\nvolume = {4},\\nISSN = {2732-5121},\\nurl = {http://dx.doi.org/10.12688/openreseurope.17296.1},\\nDOI = {10.12688/openreseurope.17296.1},\\njournal = {Open Research Europe},\\npublisher = {F1000 Research Ltd},\\nyear = {2024},\\nmonth = apr,\\npages = {63}}"
+    },
+    {
         "id": "lemaignan2024probabilistic",
         "pdf": "publis/lemaignan2024probabilistic.pdf",
         "type": "conference",
