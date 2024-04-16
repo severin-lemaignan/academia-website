@@ -23,6 +23,25 @@
         "bibtex": "@article{lemaignan2024social,\\nauthor = {Lemaignan, S. and Andriella, A. and Ferrini, L. and Juricic, L. and Mohamed, Y. and Ros, R.},\\ntitle = {Social Embeddings: Concept and Initial Investigation},\\nvolume = {4},\\nISSN = {2732-5121},\\nurl = {http://dx.doi.org/10.12688/openreseurope.17296.1},\\nDOI = {10.12688/openreseurope.17296.1},\\njournal = {Open Research Europe},\\npublisher = {F1000 Research Ltd},\\nyear = {2024},\\nmonth = apr,\\npages = {63}}"
     },
     {
+        "id": "webb2024measuring",
+        "pdf": "publis/webb2024measuring.pdf",
+        "type": "abstract - late breaking report",
+        "title": "Measuring Visual Social Engagement from Proxemics and Gaze in the Real World",
+        "keywords": [
+            "Social Signal Processing",
+            "Engagement"
+        ],
+        "venue": "HRI",
+        "year": 2024,
+        "doi": "10.1145/3610978.3640678",
+        "authors": [
+            "Webb, N.",
+            "Giuliani, M.",
+            "Lemaignan, S."
+        ],
+        "bibtex": "@inproceedings{webb2024measuring,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Measuring Visual Social Engagement from Proxemics and Gaze in the Real World},\\nbooktitle = {Proceedings of the 2014 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2024}}"
+    },
+    {
         "id": "lemaignan2024probabilistic",
         "pdf": "publis/lemaignan2024probabilistic.pdf",
         "type": "conference",
