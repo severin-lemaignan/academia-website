@@ -15,7 +15,7 @@
             "Lemaignan, S."
         ],
         "doi": "10.5555/3721488.3721611",
-        "bibtex": "@inproceedings{ferrini2025vdb,\\nauthor = {Ferrini, Lorenzo and Lemaignan, S\'{e}verin},\\ntitle = {VDB-based Spatially Grounded Semantics for Interactive Robots},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721611}}"
+        "bibtex": "@inproceedings{ferrini2025vdb,\\nauthor = {Ferrini, Lorenzo and Lemaignan, S\\'{e}verin},\\ntitle = {VDB-based Spatially Grounded Semantics for Interactive Robots},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721611}}"
     },
     {
         "id": "gebelli2025personalised",
@@ -54,15 +54,15 @@
             "llm"
         ],
         "authors": [
-            "Cooper, Sara",
-            "Ros, Raquel",
-            "Lemaignan, Séverin",
-            "Gebellí, Ferran",
-            "Ferrini, Lorenzo",
-            "Juricic, Luka"
+            "Cooper, S.",
+            "Ros, R.",
+            "Lemaignan, S.",
+            "Gebellí, F.",
+            "Ferrini, L.",
+            "Juricic, L."
         ],
         "doi": "10.5555/3721488.3721763",
-        "bibtex": "@inproceedings{cooper2025demonstration,\\nauthor = {Cooper, S. and Ros, R. and Lemaignan, S. and Gebellí, F. and Ferrini, L. and Juri\'{c}i\'{c}, L.},\\ntitle = {Demonstration of an Open-source ROS 2 Framework and Simulator for Situated Interactive Social Robot},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721763}}"
+        "bibtex": "@inproceedings{cooper2025demonstration,\\nauthor = {Cooper, S. and Ros, R. and Lemaignan, S. and Gebellí, F. and Ferrini, L. and Juri\\'{c}i\\'{c}, L.},\\ntitle = {Demonstration of an Open-source ROS 2 Framework and Simulator for Situated Interactive Social Robot},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721763}}"
     },
     {
         "id": "lemaignan2025handson",
