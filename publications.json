@@ -1,5 +1,97 @@
 [
     {
+        "id": "ferrini2025vdb",
+        "type": "conference",
+        "title": "VDB-based Spatially Grounded Semantics for Interactive Robots",
+        "venue": "HRI",
+        "year": 2025,
+        "keywords": [
+            "technical paper",
+            "knowledge representation",
+            "semantic mapping"
+        ],
+        "authors": [
+            "Ferrini, L.",
+            "Lemaignan, S."
+        ],
+        "doi": "10.5555/3721488.3721611",
+        "bibtex": "@inproceedings{ferrini2025vdb,\\nauthor = {Ferrini, Lorenzo and Lemaignan, S\'{e}verin},\\ntitle = {VDB-based Spatially Grounded Semantics for Interactive Robots},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721611}}"
+    },
+    {
+        "id": "gebelli2025personalised",
+        "type": "abstract - late breaking report",
+        "title": "Personalised Explainable Robots Using LLMs",
+        "venue": "HRI",
+        "year": 2025,
+        "keywords": [
+            "artificial intelligence",
+            "machine learning",
+            "llm",
+            "xAI"
+        ],
+        "authors": [
+            "Gebelli, F.",
+            "Ros, R.",
+            "Lemaignan, S."
+        ],
+        "doi": "10.5555/3721488.3721668",
+        "bibtex": "@inproceedings{gebelli2025personalised,\\nauthor = {Gebelli, F. and Ros, R. and Lemaignan, S.},\\ntitle = {Personalised Explainable Robots Using LLMs},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721668}}"
+    },
+    {
+        "id": "cooper2025demonstration",
+        "type": "abstract - demonstration",
+        "title": "Demonstration of an Open-source ROS 2 Framework and Simulator for Situated Interactive Social Robot",
+        "venue": "HRI",
+        "year": 2025,
+        "keywords": [
+            "knowledge representation",
+            "language",
+            "symbolic reasoning",
+            "technical paper",
+            "artificial intelligence",
+            "social cognition",
+            "social robotics",
+            "llm"
+        ],
+        "authors": [
+            "Cooper, Sara",
+            "Ros, Raquel",
+            "Lemaignan, Séverin",
+            "Gebellí, Ferran",
+            "Ferrini, Lorenzo",
+            "Juricic, Luka"
+        ],
+        "doi": "10.5555/3721488.3721763",
+        "bibtex": "@inproceedings{cooper2025demonstration,\\nauthor = {Cooper, S. and Ros, R. and Lemaignan, S. and Gebellí, F. and Ferrini, L. and Juri\'{c}i\'{c}, L.},\\ntitle = {Demonstration of an Open-source ROS 2 Framework and Simulator for Situated Interactive Social Robot},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721763}}"
+    },
+    {
+        "id": "lemaignan2025handson",
+        "type": "abstract - tutorial",
+        "title": "Hands-on: From Zero to an Interactive Social Robot using ROS4HRI and LLMs",
+        "venue": "HRI",
+        "year": 2025,
+        "keywords": [
+            "knowledge representation",
+            "language",
+            "symbolic reasoning",
+            "technical paper",
+            "artificial intelligence",
+            "social cognition",
+            "social robotics",
+            "llm"
+        ],
+        "authors": [
+            "Lemaignan, S.",
+            "Ferrini, L.",
+            "Gebelli, F.",
+            "Ros, R.",
+            "Juricic, L.",
+            "Cooper, S."
+        ],
+        "doi": "10.5555/3721488.3721842",
+        "bibtex": "@inproceedings{lemaignan2025handson,\\nauthor = {Lemaignan, S. and Ferrini, L. and Gebelli, F. and Ros, R. and Juricic, L. and Cooper, S.},\\ntitle = {Hands-on: From Zero to an Interactive Social Robot using ROS4HRI and LLMs},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721842}}"
+    },
+    {
         "id": "ferrini2024remap",
         "pdf": "publis/ferrini2024remap.pdf",
         "type": "conference",
@@ -17,7 +109,8 @@
             "Lee, D.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{ferrini2024remap,\\nauthor = {Ferrini, L. and Palmieri, J. and Marino, A. and Lee, D. and Lemaignan, S.},\\ntitle = {reMap: Spatially-grounded and Queryable Semantics for Interactive Robots},\\nbooktitle = {International Conference on Social Robotics},\\nyear = {2024}}"
+        "doi": "10.1007/978-981-96-3519-1_35",
+        "bibtex": "@inproceedings{ferrini2024remap,\\nauthor = {Ferrini, L. and Palmieri, J. and Marino, A. and Lee, D. and Lemaignan, S.},\\ntitle = {reMap: Spatially-grounded and Queryable Semantics for Interactive Robots},\\nbooktitle = {International Conference on Social Robotics},\\nyear = {2024},\\ndoi = {10.1007/978-981-96-3519-1_35}}"
     },
     {
         "id": "mohamed2024context",
@@ -101,7 +194,7 @@
             "Giuliani, M.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{webb2024measuring,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Measuring Visual Social Engagement from Proxemics and Gaze in the Real World},\\nbooktitle = {Proceedings of the 2014 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2024}}"
+        "bibtex": "@inproceedings{webb2024measuring,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Measuring Visual Social Engagement from Proxemics and Gaze in the Real World},\\nbooktitle = {Proceedings of the 2014 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2024},\\ndoi = {10.1145/3610978.3640678}}"
     },
     {
         "id": "lemaignan2024probabilistic",
