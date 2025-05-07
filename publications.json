@@ -1,5 +1,35 @@
 [
     {
+        "id": "blavette2025llm",
+        "pdf": "publis/blavette2025llm.pdf",
+        "type": "article - preprint",
+        "title": "Human-robot interaction enhanced by a Large Language Model (LLM): analysis of the acceptability and usability of a social robot in a geriatric care institution",
+        "venue": "JMIR Human Factors",
+        "year": 2025,
+        "keywords": [
+            "llm",
+            "artificial intelligence",
+            "social robotics"
+        ],
+        "authors": [
+            "Blavette, Lauriane",
+            "Dacunha, Sébastien",
+            "Alameda-Pineda, Xavier",
+            "Hernández García, Daniel",
+            "Gannot, Sharon",
+            "Gras, Florian",
+            "Gunson, Nancie",
+            "Lemaignan, Séverin",
+            "Polic, Michal",
+            "Tandeitnik, Pinchas",
+            "Tonini, Francesco",
+            "Rigaud, Anne-Sophie",
+            "Pino, Maribel"
+        ],
+        "doi": "10.2196/preprints.76496",
+        "bibtex": "@article{blavette2025llm,\n  author = {Blavette, Lauriane and Dacunha, Sébastien and Alameda-Pineda, Xavier and Hernández García, Daniel and Gannot, Sharon and Gras, Florian and Gunson, Nancie and Lemaignan, Séverin and Polic, Michal and Tandeitnik, Pinchas and Tonini, Francesco and Rigaud, Anne-Sophie and Pino, Maribel},\n  title = {Human-robot interaction enhanced by a Large Language Model (LLM): analysis of the acceptability and usability of a social robot in a geriatric care institution},\n  year = {2025},\n  howpublished = {JMIR Preprints (submitted to JMIR Human Factors)},\n  doi = {10.2196/preprints.76496},\n  url = {https://preprints.jmir.org/preprint/76496}\n}"
+    },
+    {
         "id": "ferrini2025vdb",
         "type": "conference",
         "title": "VDB-based Spatially Grounded Semantics for Interactive Robots",
