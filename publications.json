@@ -1,5 +1,101 @@
 [
     {
+        "id": "mohamed2025areyou",
+        "type": "conference",
+        "title": "Are You an Expert? Instruction Adaptation Using Multi-Modal Affect Detections with Thermal Imaging and Context",
+        "keywords": [
+            "Social Robotics",
+            "Social Signal Processing"
+        ],
+        "venue": "RoMAN",
+        "year": 2025,
+        "authors": [
+            "Mohamed, Y.",
+            "Lemaignan, S.",
+            "Güneysu,  A.",
+            "Jensfelt, P.",
+            "Smith, C."
+        ],
+        "bibtex": "@inproceedings{mohamed2025areyou,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Are You an Expert? Instruction Adaptation Using Multi-Modal Affect Detections with Thermal Imaging and Context},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
+    },
+    {
+        "id": "mohamed2025fusion",
+        "type": "conference",
+        "title": "Fusion in Context: A Multimodal Approach to Affective State Recognition",
+        "keywords": [
+            "Social Robotics",
+            "Social Signal Processing"
+        ],
+        "venue": "RoMAN",
+        "year": 2025,
+        "authors": [
+            "Mohamed, Y.",
+            "Lemaignan, S.",
+            "Güneysu,  A.",
+            "Jensfelt, P.",
+            "Smith, C."
+        ],
+        "bibtex": "@inproceedings{mohamed2025fusion,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Fusion in Context: A Multimodal Approach to Affective State Recognition},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
+    },
+     {
+        "id": "gebelli2025personalised2",
+        "type": "conference",
+        "title": "Personalised Explanations in Long-term Human-Robot Interactions",
+        "keywords": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "LLM",
+            "xAI"
+        ],
+        "authors": [
+            "Gebelli, F.",
+	    "Garrell, A.",
+	    "Habekost, J.-G.",
+            "Lemaignan, S.",
+	    "Wermter, S.",
+            "Ros, R."
+        ],
+        "venue": "RoMAN",
+        "year": 2025,
+        "bibtex": "@inproceedings{gebelli2025personalised2,\\nauthor = {Gebellí, F. and Garrell, A. and Habekost, A. and Lemaignan, S. and Wermter, S. and Ros, R.},\\ntitle = {Personalised Explanations in Long-term Human-Robot Interactions},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
+    },
+     {
+        "id": "cooper2025tiago",
+        "type": "conference",
+        "title": "TIAGo Head: an AI Powered Platform for Social Robotics",
+        "keywords": [
+            "Social Robotics",
+            "Technical Paper"
+        ],
+        "venue": "RoMAN",
+        "year": 2025,
+        "authors": [
+            "Cooper, S.",
+            "Lemaignan, S.",
+            "Ros, R."
+        ],
+        "bibtex": "@inproceedings{cooper2025tiago,\\nauthor = {Cooper, S. and Lemaignan, S. and Ros, R.},\\ntitle = {TIAGo Head: an AI Powered Platform for Social Robotics},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
+    },
+    {
+        "id": "gebelli2025dynamics",
+        "type": "journal",
+        "title": "Dynamics of Mental Models: Objective vs. Subjective User Understanding of a Robot in the Wild",
+        "keywords": [
+            "Artificial Intelligence",
+	    "Assistive Robotics",
+            "Participatory Design",
+        ],
+        "authors": [
+            "Gebelli, F.",
+	    "Garrell, A.",
+            "Lemaignan, S.",
+            "Ros, R."
+        ],
+        "venue": "IEEE RA Letters",
+        "year": 2025,
+        "bibtex": "@inproceedings{gebelli2025dynamics,\\nauthor = {Gebellí, F. and Garrell, A. and Lemaignan, S. and Ros, R.},\\ntitle = {Dynamics of Mental Models: Objective vs. Subjective User Understanding of a Robot in the Wild},\\nbooktitle = {IEEE Robotics \& Automation Letters},\\nyear = {2025}}"
+    },
+    {
         "id": "blavette2025llm",
         "pdf": "publis/blavette2025llm.pdf",
         "type": "journal",
@@ -7,9 +103,9 @@
         "venue": "JMIR Human Factors",
         "year": 2025,
         "keywords": [
-            "llm",
-            "artificial intelligence",
-            "social robotics"
+            "LLM",
+            "Artificial Intelligence",
+            "Social Robotics"
         ],
         "authors": [
             "Blavette, L.",
@@ -36,9 +132,9 @@
         "venue": "HRI",
         "year": 2025,
         "keywords": [
-            "technical paper",
-            "knowledge representation",
-            "semantic mapping"
+            "Technical Paper",
+            "Knowledge Representation",
+            "Semantic Mapping"
         ],
         "authors": [
             "Ferrini, L.",
@@ -54,9 +150,9 @@
         "venue": "HRI",
         "year": 2025,
         "keywords": [
-            "artificial intelligence",
-            "machine learning",
-            "llm",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "LLM",
             "xAI"
         ],
         "authors": [
@@ -74,14 +170,14 @@
         "venue": "HRI",
         "year": 2025,
         "keywords": [
-            "knowledge representation",
-            "language",
-            "symbolic reasoning",
-            "technical paper",
-            "artificial intelligence",
-            "social cognition",
-            "social robotics",
-            "llm"
+            "Knowledge Representation",
+            "Language",
+            "Symbolic Reasoning",
+            "Technical Paper",
+            "Artificial Intelligence",
+            "Social Cognition",
+            "Social Robotics",
+            "LLM"
         ],
         "authors": [
             "Cooper, S.",
@@ -101,14 +197,14 @@
         "venue": "HRI",
         "year": 2025,
         "keywords": [
-            "knowledge representation",
-            "language",
-            "symbolic reasoning",
-            "technical paper",
-            "artificial intelligence",
-            "social cognition",
-            "social robotics",
-            "llm"
+            "Knowledge Representation",
+            "Language",
+            "Symbolic Reasoning",
+            "Technical Paper",
+            "Artificial Intelligence",
+            "Social Cognition",
+            "Social Robotics",
+            "LLM"
         ],
         "authors": [
             "Lemaignan, S.",
