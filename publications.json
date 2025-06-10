@@ -83,7 +83,7 @@
         "keywords": [
             "Artificial Intelligence",
 	    "Assistive Robotics",
-            "Participatory Design",
+            "Participatory Design"
         ],
         "authors": [
             "Gebelli, F.",
@@ -93,7 +93,7 @@
         ],
         "venue": "IEEE RA Letters",
         "year": 2025,
-        "bibtex": "@inproceedings{gebelli2025dynamics,\\nauthor = {Gebellí, F. and Garrell, A. and Lemaignan, S. and Ros, R.},\\ntitle = {Dynamics of Mental Models: Objective vs. Subjective User Understanding of a Robot in the Wild},\\nbooktitle = {IEEE Robotics \& Automation Letters},\\nyear = {2025}}"
+        "bibtex": "@inproceedings{gebelli2025dynamics,\\nauthor = {Gebellí, F. and Garrell, A. and Lemaignan, S. and Ros, R.},\\ntitle = {Dynamics of Mental Models: Objective vs. Subjective User Understanding of a Robot in the Wild},\\nbooktitle = {IEEE Robotics \\& Automation Letters},\\nyear = {2025}}"
     },
     {
         "id": "blavette2025llm",
