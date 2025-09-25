@@ -37,7 +37,7 @@
         ],
         "bibtex": "@inproceedings{mohamed2025fusion,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Fusion in Context: A Multimodal Approach to Affective State Recognition},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
     },
-     {
+    {
         "id": "gebelli2025personalised2",
         "type": "conference",
         "title": "Personalised Explanations in Long-term Human-Robot Interactions",
@@ -49,18 +49,19 @@
         ],
         "authors": [
             "Gebelli, F.",
-	    "Garrell, A.",
-	    "Habekost, J.-G.",
+            "Garrell, A.",
+            "Habekost, J.-G.",
             "Lemaignan, S.",
-	    "Wermter, S.",
+            "Wermter, S.",
             "Ros, R."
         ],
         "venue": "RoMAN",
         "year": 2025,
         "bibtex": "@inproceedings{gebelli2025personalised2,\\nauthor = {Gebellí, F. and Garrell, A. and Habekost, A. and Lemaignan, S. and Wermter, S. and Ros, R.},\\ntitle = {Personalised Explanations in Long-term Human-Robot Interactions},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
     },
-     {
+    {
         "id": "cooper2025tiago",
+        "pdf": "publis/cooper2025tiago.pdf",
         "type": "conference",
         "title": "TIAGo Head: an AI Powered Platform for Social Robotics",
         "keywords": [
@@ -72,9 +73,14 @@
         "authors": [
             "Cooper, S.",
             "Lemaignan, S.",
-            "Ros, R."
+            "Ros, R.",
+            "Ferrini, L.",
+            "Gebellí, F.",
+            "Miguel, N.",
+            "Marchionni, L.",
+            "Ferro, F."
         ],
-        "bibtex": "@inproceedings{cooper2025tiago,\\nauthor = {Cooper, S. and Lemaignan, S. and Ros, R.},\\ntitle = {TIAGo Head: an AI Powered Platform for Social Robotics},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
+        "bibtex": "@inproceedings{cooper2025tiago,\\nauthor = {Cooper, S. and Lemaignan, S. and Ros, R. and Ferrini, L. and Gebellí, F. and Miguel, N. and Marchionni, L. and Ferro, F.},\\ntitle = {TIAGo Head: an AI Powered Platform for Social Robotics},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
     },
     {
         "id": "gebelli2025dynamics",
@@ -82,12 +88,12 @@
         "title": "Dynamics of Mental Models: Objective vs. Subjective User Understanding of a Robot in the Wild",
         "keywords": [
             "Artificial Intelligence",
-	    "Assistive Robotics",
+            "Assistive Robotics",
             "Participatory Design"
         ],
         "authors": [
             "Gebelli, F.",
-	    "Garrell, A.",
+            "Garrell, A.",
             "Lemaignan, S.",
             "Ros, R."
         ],
