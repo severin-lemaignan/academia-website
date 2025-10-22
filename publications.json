@@ -1,5 +1,66 @@
 [
     {
+        "id": "alhafnawi2025express",
+        "type": "conference",
+        "title": "Express Yourself: Enabling Large-Scale Public Events Involving Multi-Human-Swarm Interaction for Social Applications with MOSAIX",
+        "keywords": [
+            "Swarm Robotics"
+        ],
+        "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+        "year": 2025,
+        "authors": [
+            "Alhafnawi, M.",
+            "Gomez-Gutierrez, M.",
+            "Hunt, E. R.",
+            "Lemaignan, S.",
+            "O'Dowd, P.",
+            "Hauert, S."
+        ],
+        "doi": "10.1109/ICRA55743.2025.11128216",
+        "bibtex": "@inproceedings{alhafnawi2025express,\\nauthor = {Alhafnawi, Merihan and Gomez-Gutierrez, Maca and Hunt, Edmund R. and Lemaignan, Severin and O'Dowd, Paul and Hauert, Sabine},\\ntitle = {Express Yourself: Enabling Large-Scale Public Events Involving Multi-Human-Swarm Interaction for Social Applications with MOSAIX},\\nbooktitle = {IEEE International Conference on Robotics and Automation (ICRA)},\\nyear = {2025},\\npages = {577-583},\\ndoi = {10.1109/ICRA55743.2025.11128216}}"
+    },
+    {
+        "id": "gebelli2025dynamics",
+        "type": "journal",
+        "title": "Dynamics of Mental Models: Objective Vs. Subjective User Understanding of a Robot in the Wild",
+        "keywords": [
+            "Social Robotics",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "LLM",
+            "xAI"
+        ],
+        "venue": "IEEE Robotics and Automation Letters",
+        "year": 2025,
+        "authors": [
+            "Gebellí, F.",
+            "Garell, A.",
+            "Lemaignan, S.",
+            "Ros, R."
+        ],
+        "doi": "10.1109/LRA.2025.3579217",
+        "bibtex": "@article{gebelli2025dynamics,\\nauthor = {Gebellí, Ferran and Garell, Anaís and Lemaignan, Séverin and Ros, Raquel},\\ntitle = {Dynamics of Mental Models: Objective Vs. Subjective User Understanding of a Robot in the Wild},\\njournal = {IEEE Robotics and Automation Letters},\\nyear = {2025},\\nvolume = {10},\\nnumber = {8},\\npages = {7755-7762},\\ndoi = {10.1109/LRA.2025.3579217}}"
+    },
+    {
+        "id": "ferrini2025percepts",
+        "type": "journal",
+        "title": "From Percepts to Semantics: A Multi-modal Saliency Map to Support Social Robots' Attention",
+        "venue": "ACM Transactions on Human-Robot Interaction",
+        "year": 2025,
+        "keywords": [
+            "Knowledge Representation",
+            "Semantic Mapping"
+        ],
+        "authors": [
+            "Ferrini, L.",
+            "Andriella, A.",
+            "Ros, R.",
+            "Lemaignan, S."
+        ],
+        "doi": "10.1145/3737891",
+        "bibtex": "@article{ferrini2025percepts,\\nauthor = {Ferrini, Lorenzo and Andriella, Antonio and Ros, Raquel and Lemaignan, S\\'{e}verin},\\ntitle = {From Percepts to Semantics: A Multi-modal Saliency Map to Support Social Robots' Attention},\\njournal = {ACM Transactions on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.1145/3737891}}"
+    },
+    {
         "id": "mohamed2025areyou",
         "type": "conference",
         "title": "Are You an Expert? Instruction Adaptation Using Multi-Modal Affect Detections with Thermal Imaging and Context",
@@ -106,7 +167,7 @@
         "id": "blavette2025llm",
         "pdf": "publis/blavette2025llm.pdf",
         "type": "journal",
-        "title": "[PREPRINT] Human-robot interaction enhanced by a Large Language Model (LLM): analysis of the acceptability and usability of a social robot in a geriatric care institution",
+        "title": "Acceptability and Usability of a Socially Assistive Robot Integrated With a Large Language Model for Enhanced Human-Robot Interaction in a Geriatric Care Institution: Mixed Methods Evaluation",
         "venue": "JMIR Human Factors",
         "year": 2025,
         "keywords": [
@@ -129,8 +190,8 @@
             "Rigaud, A.-S.",
             "Pino, M."
         ],
-        "doi": "10.2196/preprints.76496",
-        "bibtex": "@article{blavette2025llm,\n  author = {Blavette, Lauriane and Dacunha, Sébastien and Alameda-Pineda, Xavier and Hernández García, Daniel and Gannot, Sharon and Gras, Florian and Gunson, Nancie and Lemaignan, Séverin and Polic, Michal and Tandeitnik, Pinchas and Tonini, Francesco and Rigaud, Anne-Sophie and Pino, Maribel},\n  title = {Human-robot interaction enhanced by a Large Language Model (LLM): analysis of the acceptability and usability of a social robot in a geriatric care institution},\n  year = {2025},\n  howpublished = {JMIR Preprints (submitted to JMIR Human Factors)},\n  doi = {10.2196/preprints.76496},\n  url = {https://preprints.jmir.org/preprint/76496}\n}"
+        "doi": " 10.2196/76496",
+        "bibtex": "@article{blavette2025llm,\n  author = {Blavette, Lauriane and Dacunha, Sébastien and Alameda-Pineda, Xavier and Hernández García, Daniel and Gannot, Sharon and Gras, Florian and Gunson, Nancie and Lemaignan, Séverin and Polic, Michal and Tandeitnik, Pinchas and Tonini, Francesco and Rigaud, Anne-Sophie and Pino, Maribel},\n  title = {Acceptability and Usability of a Socially Assistive Robot Integrated With a Large Language Model for Enhanced Human-Robot Interaction in a Geriatric Care Institution: Mixed Methods Evaluation},\n  year = {2025},\n  howpublished = {JMIR Human Factors},\n  doi = {10.2196/76496}\n}"
     },
     {
         "id": "ferrini2025vdb",
@@ -147,8 +208,8 @@
             "Ferrini, L.",
             "Lemaignan, S."
         ],
-        "doi": "10.5555/3721488.3721611",
-        "bibtex": "@inproceedings{ferrini2025vdb,\\nauthor = {Ferrini, Lorenzo and Lemaignan, S\\'{e}verin},\\ntitle = {VDB-based Spatially Grounded Semantics for Interactive Robots},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721611}}"
+        "doi": "10.1109/HRI61500.2025.10974135",
+        "bibtex": "@inproceedings{ferrini2025vdb,\\nauthor = {Ferrini, Lorenzo and Lemaignan, S\\'{e}verin},\\ntitle = {VDB-based Spatially Grounded Semantics for Interactive Robots},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.1109/HRI61500.2025.10974135}}"
     },
     {
         "id": "gebelli2025personalised",
@@ -167,8 +228,8 @@
             "Ros, R.",
             "Lemaignan, S."
         ],
-        "doi": "10.5555/3721488.3721668",
-        "bibtex": "@inproceedings{gebelli2025personalised,\\nauthor = {Gebelli, F. and Ros, R. and Lemaignan, S.},\\ntitle = {Personalised Explainable Robots Using LLMs},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721668}}"
+        "doi": "10.1109/HRI61500.2025.10974125",
+        "bibtex": "@inproceedings{gebelli2025personalised,\\nauthor = {Gebelli, F. and Ros, R. and Lemaignan, S.},\\ntitle = {Personalised Explainable Robots Using LLMs},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.1109/HRI61500.2025.10974125}}"
     },
     {
         "id": "cooper2025demonstration",
@@ -221,8 +282,8 @@
             "Juricic, L.",
             "Cooper, S."
         ],
-        "doi": "10.5555/3721488.3721842",
-        "bibtex": "@inproceedings{lemaignan2025handson,\\nauthor = {Lemaignan, S. and Ferrini, L. and Gebelli, F. and Ros, R. and Juricic, L. and Cooper, S.},\\ntitle = {Hands-on: From Zero to an Interactive Social Robot using ROS4HRI and LLMs},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.5555/3721488.3721842}}"
+        "doi": "10.1109/HRI61500.2025.10974214",
+        "bibtex": "@inproceedings{lemaignan2025handson,\\nauthor = {Lemaignan, S. and Ferrini, L. and Gebelli, F. and Ros, R. and Juricic, L. and Cooper, S.},\\ntitle = {Hands-on: From Zero to an Interactive Social Robot using ROS4HRI and LLMs},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.1109/HRI61500.2025.10974214}}"
     },
     {
         "id": "ferrini2024remap",
