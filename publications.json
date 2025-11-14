@@ -424,6 +424,7 @@
         "title": "Context Matters: Understanding Socially Appropriate Affective Responses Via Sentence Embeddings",
         "venue": "ICSR",
         "year": 2024,
+        "doi": "10.1007/978-981-96-3522-1_9",
         "keywords": [
             "Social Robotics",
             "Social embeddings",
@@ -436,7 +437,7 @@
             "Jensfelt, P.",
             "Smith, C."
         ],
-        "bibtex": "@inproceedings{mohamed2024context,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Context Matters: Understanding Socially Appropriate Affective Responses Via Sentence Embeddings},\\nbooktitle = {International Conference on Social Robotics},\\nyear = {2024}}"
+        "bibtex": "@inproceedings{mohamed2024context,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Context Matters: Understanding Socially Appropriate Affective Responses Via Sentence Embeddings},\\nbooktitle = {International Conference on Social Robotics},\\ndoi = {10.1007/978-981-96-3522-1_9},\\nyear = {2024}}"
     },
     {
         "id": "gebelli2024codesigning",
