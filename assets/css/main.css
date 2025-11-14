@@ -2,7 +2,8 @@
 /*
  * import fontawesome
  */
-@import url(font-awesome.min.css);
+@import url(../fontawesome/css/fontawesome.min.css);
+@import url(../fontawesome/css/solid.min.css);
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700");
 

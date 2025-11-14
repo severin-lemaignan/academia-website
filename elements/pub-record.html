@@ -26,22 +26,22 @@
     award = (award == "undefined" ? null : award);
     note = (note == "undefined" ? null : note);
 
-    this.innerHTML =    (type == "journal" ? '<span style="margin-left:-26px" class="icon fa-file-text-o"></span>' :
-                        (type == "chapter" ? '<span style="margin-left:-26px" class="icon fa-book"></span>' :
-                        (type == "conference" ? '<span style="margin-left:-26px" class="icon fa-users"></span>' :
-                        (type.indexOf("abstract")>-1 ? '<span style="margin-left:-26px" class="icon fa-comments-o"></span>' :
-                        (type == "video" ? '<span style="margin-left:-26px" class="icon fa-play-circle"></span>' :
-                        (type == "poster" ? '<span style="margin-left:-26px" class="icon fa-picture"></span>' :
-                        (type == 'dataset' ? '<span style="margin-left:-26px" class="icon fa-database"></span>' : 
-                        (type == 'patent' ? '<span style="margin-left:-26px" class="icon fa-lightbulb"></span>' : 
-                        (type == "dissertation" ? '<span style="margin-left:-26px" class="icon fa-graduation-cap"></span>' : "UNKNOWN TYPE " ))))))))) + 
+    this.innerHTML =    (type == "journal" ? '<span style="margin-left:-26px" class="icon fa fa-file-text"></span>' :
+                        (type == "chapter" ? '<span style="margin-left:-26px" class="icon fa fa-book"></span>' :
+                        (type == "conference" ? '<span style="margin-left:-26px" class="icon fa fa-users"></span>' :
+                        (type.indexOf("abstract")>-1 ? '<span style="margin-left:-26px" class="icon fa fa-comments"></span>' :
+                        (type == "video" ? '<span style="margin-left:-26px" class="icon fa fa-play-circle"></span>' :
+                        (type == "poster" ? '<span style="margin-left:-26px" class="icon fa fa-picture"></span>' :
+                        (type == 'dataset' ? '<span style="margin-left:-26px" class="icon fa fa-database"></span>' : 
+                        (type == 'patent' ? '<span style="margin-left:-26px" class="icon fa fa-lightbulb"></span>' : 
+                        (type == "dissertation" ? '<span style="margin-left:-26px" class="icon fa fa-graduation-cap"></span>' : "UNKNOWN TYPE " ))))))))) + 
                         (pdf ? '<a style="text-decoration:none" href="' + pdf + '" alt="Download the PDF">' : 
                          (type == 'dataset' || type == 'patent' ? '<a style="text-decoration:none" class="tooltip" href="' + url + '" alt="Download the resource">' : '' )) +
                         '<span style="margin-left:12px">' + 
                         ((type.indexOf("abstract")>-1 || type == "video" || type == "poster" || type == "dataset" || type == "patent") ? ' <span style=\"font-variant:small-caps;font-weight:bold\">' + type.replace("abstract - ","") + '</span> ' : '') +
                         '<b>' + 
                         title + 
-                        (pdf ? '<span style="margin-left:10px" class="icon fa-file-pdf"></span>' : '') +
+                        (pdf ? '<span style="margin-left:10px" class="icon fa fa-file-pdf"></span>' : '') +
                         '</b></span>' +
                         ((pdf || type == 'dataset' || type == 'patent') ? '</a>' : '') +
                         (note ? '<span class="note">' + note + '</span>' : '') +
