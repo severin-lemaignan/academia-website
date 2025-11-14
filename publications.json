@@ -151,6 +151,7 @@
         "bibtex": "@article{gebelli2025dynamics,\\nauthor = {Gebellí, Ferran and Garell, Anaís and Lemaignan, Séverin and Ros, Raquel},\\ntitle = {Dynamics of Mental Models: Objective Vs. Subjective User Understanding of a Robot in the Wild},\\njournal = {IEEE Robotics and Automation Letters},\\nyear = {2025},\\nvolume = {10},\\nnumber = {8},\\npages = {7755-7762},\\ndoi = {10.1109/LRA.2025.3579217}}"
     },
     {
+        "pdf": "publis/ferrini2025percepts.pdf",
         "id": "ferrini2025percepts",
         "type": "journal",
         "title": "From Percepts to Semantics: A Multi-modal Saliency Map to Support Social Robots' Attention",
@@ -303,6 +304,7 @@
         "bibtex": "@article{blavette2025llm,\n  author = {Blavette, Lauriane and Dacunha, Sébastien and Alameda-Pineda, Xavier and Hernández García, Daniel and Gannot, Sharon and Gras, Florian and Gunson, Nancie and Lemaignan, Séverin and Polic, Michal and Tandeitnik, Pinchas and Tonini, Francesco and Rigaud, Anne-Sophie and Pino, Maribel},\n  title = {Acceptability and Usability of a Socially Assistive Robot Integrated With a Large Language Model for Enhanced Human-Robot Interaction in a Geriatric Care Institution: Mixed Methods Evaluation},\n  year = {2025},\n  howpublished = {JMIR Human Factors},\n  doi = {10.2196/76496}\n}"
     },
     {
+        "pdf": "publis/ferrini2025vdb.pdf",
         "id": "ferrini2025vdb",
         "type": "conference",
         "title": "VDB-based Spatially Grounded Semantics for Interactive Robots",
