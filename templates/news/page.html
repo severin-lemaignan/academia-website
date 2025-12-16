@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros.html" as macros %}
 
 {% block title %}{{ page.title }} - News - {{ config.title }}{% endblock title %}
 
@@ -15,20 +16,7 @@
 <section id="content" class="wrapper style1">
     <div class="inner">
         <article class="feature {{ page.extra.position | default(value='left') }}">
-            {% if page.extra.image %}
-            <span class="image"><img src="/images/{{ page.extra.image }}"
-                    alt="{{ page.extra.image_alt | default(value='') }}" /></span>
-            {% elif page.extra.video %}
-            <span class="image">
-                <video width="582" height="340" controls>
-                    <source src="/images/{{ page.extra.video }}" type="video/mp4">
-                    No support for videos in your browser :-(
-                </video>
-            </span>
-            {% elif page.extra.youtube %}
-            <iframe class="image" style="display:block;margin-left:auto;margin-right:auto;" width="400" height="300"
-                src="https://www.youtube.com/embed/{{ page.extra.youtube }}" frameborder="0" allowfullscreen></iframe>
-            {% endif %}
+            {{ macros::render_media(page=page) }}
             <div class="content">
                 {{ page.content | safe }}
             </div>

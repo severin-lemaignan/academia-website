@@ -16,8 +16,6 @@ I develop and maintain several scientific software related to robotics. They are
 
 The projects listed on this page the one I consider the more useful to a community. Check my [GitHub page](https://github.com/severin-lemaignan/) for the complete list of my other software projects.
 
----
-
 {% card(image="/images/softwares/morse.jpg", side="right") %}
 ## MORSE
 
