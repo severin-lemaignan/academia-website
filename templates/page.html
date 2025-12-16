@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
+
+{% block content %}
+<!-- Main -->
+<section id="main" class="wrapper style3 {{ page.extra.header_class | default(value='') }}">
+    <div class="container">
+        <header class="major special">
+            <h2{% if page.extra.header_style %} style="{{ page.extra.header_style }}" {% endif %}>{{ page.title }}</h2>
+        </header>
+    </div>
+</section>
+
+<section id="content" class="wrapper{% if page.extra.content_style %} {{ page.extra.content_style }}{% endif %}">
+    <div class="inner">
+        {{ page.content | safe }}
+    </div>
+</section>
+{% endblock content %}

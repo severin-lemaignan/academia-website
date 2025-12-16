@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block body_class %} class="landing"{% endblock body_class %}
+
+{% block header %}
+<!-- Landing page has no header, just the banner -->
+{% endblock header %}
+
+{% block content %}
+<!-- Banner -->
+<section id="banner">
+    <img style="height:5em;width:5em" src="/images/robot.svg" alt="" />
+    <h2>Séverin Lemaignan</h2>
+    <p>My robots are rich</p>
+    <ul class="actions">
+        <li><a href="#news" class="button special" alt="My latest news">News</a></li>
+        <li><a href="/research/" class="button alt" alt="Overview of my research projects">Research</a></li>
+        <li><a href="/publications/" class="button alt" alt="Access all my academic publications">Publications</a></li>
+        <li><a href="/softwares/" class="button alt"
+                alt="Some of the open-source software I develop and open datasets">Software &amp; Datasets</a></li>
+        <li><a href="/teaching/" class="button  alt" alt="Teaching resources &amp; the students I work with">Supervision
+                | Teaching</a></li>
+        <li><a href="/aboutme/" class="button" alt="Contact informations and my curriculum">About me</a></li>
+    </ul>
+</section>
+
+<!-- News Section -->
+<section id="news" class="wrapper style1">
+    <div class="inner">
+        {% set news_section = get_section(path="news/_index.md") %}
+        {% for page in news_section.pages | sort(attribute="date") | reverse %}
+        <article class="feature {{ page.extra.position | default(value='left') }}">
+            {% if page.extra.image %}
+            <span class="image"><img src="/images/{{ page.extra.image }}"
+                    alt="{{ page.extra.image_alt | default(value='') }}" /></span>
+            {% elif page.extra.video %}
+            <span class="image">
+                <video width="582" height="340" controls>
+                    <source src="/images/{{ page.extra.video }}" type="video/mp4">
+                    No support for videos in your browser :-(
+                </video>
+            </span>
+            {% elif page.extra.youtube %}
+            <iframe class="image" style="display:block;margin-left:auto;margin-right:auto;" width="400" height="300"
+                src="https://www.youtube.com/embed/{{ page.extra.youtube }}" frameborder="0" allowfullscreen></iframe>
+            {% endif %}
+            <div class="content">
+                <h2>{{ page.extra.display_date | default(value=page.date | date(format="%B %Y")) }}</h2>
+                {{ page.content | safe }}
+            </div>
+        </article>
+        <a href="#banner" class="back-to-top icon fa-level-up"> back to top</a>
+        {% endfor %}
+    </div>
+
+    <div style="text-align:center;">
+        <a href="/news/" alt="Link to all news">
+            <h2>All news</h2>
+        </a>
+    </div>
+</section>
+{% endblock content %}
+
+{% block extra_scripts %}
+<script>
+    $(function () {
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+{% endblock extra_scripts %}

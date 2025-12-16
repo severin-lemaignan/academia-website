@@ -1,0 +1,24 @@
+# Zola configuration for academia website
+# https://www.getzola.org/documentation/
+
+base_url = "https://academia.skadge.org"
+title = "Séverin Lemaignan - Academic Homepage"
+description = "Academic homepage of Séverin Lemaignan - Social Robotics and AI"
+default_language = "en"
+compile_sass = true
+minify_html = false
+build_search_index = false
+
+# RSS feed configuration
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
+[markdown]
+highlight_code = true
+
+[extra]
+author = "Séverin Lemaignan"
+author_email = "severin.lemaignan@pal-robotics.com"
+
+[taxonomies]
+# Can add tags or categories later if needed

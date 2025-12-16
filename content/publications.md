@@ -1,0 +1,302 @@
++++
+title = "Publications"
+template = "page.html"
+[extra]
+header_class = "publication-header"
+content_style = "style1"
++++
+
+<p>
+<span id="keywordsfiltering"></span>
+</p>
+
+<div style="font-size:80%">
+
+    <input id="only-full-papers" type="checkbox" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
+    <label for="only-full-papers">
+        <em><strong> only show full papers</strong> (hide abstracts and short workshop paper/reports)</em>
+    </label>
+
+    <em>(currently displaying <span id="nb-publis"></span> publications)</em>
+    <br/>
+
+    <center>
+
+    <strong><i class="fa fa-file-text"></i> journal</strong> | <strong><i class="fa fa-book"></i> book chapter</strong> |
+    <strong><i class="fa fa-users"></i> conference/workshop</strong> | <strong><i class="fa fa-lightbulb"></i> patent</strong> | 
+    <strong><i class="fa fa-database"></i> dataset</strong> | <strong><i class="fa fa-file-pdf"></i>  PDF icon to download</strong>
+    </center>
+</div>
+
+<div id="publis"></div>
+<div id="nothing-to-display"></div>
+
+
+<hr/>
+<p>
+    For what it is worth, <a
+    href="https://scholar.google.ch/citations?user=-CUOP2gAAAAJ"
+    alt="My Google Scholar profile">Google Scholar</a>
+    has kindly collected a few statistics, including
+    <strong>citations per article</strong> and overall <strong>h-index</strong>. Please note
+    that <strong>these values, being automatically computed, are
+    prone to errors</strong> and are indicative only!
+
+</p>
+
+<style id="abstracts-style" type="text/css">
+</style>
+
+<!-- Web Components Polyfill -->
+<script src="/js/webcomponents-lite.min.js"></script>
+
+<!-- Publication Record Component -->
+<script>
+  (function() {
+      var proto = Object.create(HTMLElement.prototype);
+
+      proto.createdCallback = function() {
+
+        var id = this.getAttribute("bibkey");
+        var type = this.getAttribute("type");
+        var title = this.getAttribute("articletitle");
+        var authors = this.getAttribute("authors");
+        authors = authors.replace("S. Lemaignan","<span class=\"myname\">S. Lemaignan</span>");
+        var pdf = this.getAttribute("pdf");
+        var doi = this.getAttribute("doi");
+        var url = this.getAttribute("url");
+        var note = this.getAttribute("note");
+        var venue = this.getAttribute("venue");
+        var year = this.getAttribute("year");
+        var videosrc = this.getAttribute("videosrc");
+        var award = this.getAttribute("award");
+        var bibtex = this.getAttribute("bibtex").replace(/\\n/g, "\n");;
+
+        venue = (venue == "undefined" ? null : venue);
+        bibtex = (bibtex == "undefined" ? null : bibtex);
+        pdf = (pdf == "undefined" ? null : pdf);
+        url = (url == "undefined" ? null : url);
+        doi = (doi == "undefined" ? null : doi);
+        award = (award == "undefined" ? null : award);
+        note = (note == "undefined" ? null : note);
+
+        this.innerHTML =    (type == "journal" ? '<span style="margin-left:-26px" class="icon fa fa-file-text"></span>' :
+                            (type == "chapter" ? '<span style="margin-left:-26px" class="icon fa fa-book"></span>' :
+                            (type == "conference" ? '<span style="margin-left:-26px" class="icon fa fa-users"></span>' :
+                            (type.indexOf("abstract")>-1 ? '<span style="margin-left:-26px" class="icon fa fa-comments"></span>' :
+                            (type == "video" ? '<span style="margin-left:-26px" class="icon fa fa-play-circle"></span>' :
+                            (type == "poster" ? '<span style="margin-left:-26px" class="icon fa fa-picture"></span>' :
+                            (type == 'dataset' ? '<span style="margin-left:-26px" class="icon fa fa-database"></span>' : 
+                            (type == 'patent' ? '<span style="margin-left:-26px" class="icon fa fa-lightbulb"></span>' : 
+                            (type == "dissertation" ? '<span style="margin-left:-26px" class="icon fa fa-graduation-cap"></span>' : "UNKNOWN TYPE " ))))))))) + 
+                            (pdf ? '<a style="text-decoration:none" href="/' + pdf + '" alt="Download the PDF">' : 
+                             (type == 'dataset' || type == 'patent' ? '<a style="text-decoration:none" class="tooltip" href="' + url + '" alt="Download the resource">' : '' )) +
+                            '<span style="margin-left:12px">' + 
+                            ((type.indexOf("abstract")>-1 || type == "video" || type == "poster" || type == "dataset" || type == "patent") ? ' <span style=\"font-variant:small-caps;font-weight:bold\">' + type.replace("abstract - ","") + '</span> ' : '') +
+                            '<b>' + 
+                            title + 
+                            (pdf ? '<span style="margin-left:10px" class="icon fa fa-file-pdf"></span>' : '') +
+                            '</b></span>' +
+                            ((pdf || type == 'dataset' || type == 'patent') ? '</a>' : '') +
+                            (note ? '<span class="note">' + note + '</span>' : '') +
+                            '<br/>' +
+                            authors +
+                            '<br/>' +
+                            (venue ? '<i style="margin-left:5px">' + venue + ' ' + year + '</i>' : '') +
+                            (type == "video" ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#video_' + id + '\').toggle(\'slow\')[0].pause();"><span class="icon fa-play-circle"></span> watch the video</a>' : "") +
+                            (bibtex ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#' + id + '_bibtex\').toggle(\'slow\');"><span class="icon fa-child"></span> show bibtex</a>' : '') +
+                            (url ? '<a style="margin-left:20px;" href="' + url + '"><span class="icon fa-link"></span>Link</a> ' : '') +
+                            (doi ? '<a style="margin-left:20px;" href="https://doi.org/' + doi + '"><span class="icon fa-certificate"></span> doi: ' + doi + '</a>' : '') +
+                            (award ? '<br/><span class="award icon fa-trophy"> ' + award + '</span>' : '') +
+                            (bibtex ? '<pre style="display:none" id="' + id + '_bibtex"><code>' + bibtex + '</code></pre>' : '');
+
+        if (type == "video") {
+        this.innerHTML += '<div style="text-align:center"><video id="video_' + id + '" style="display:none;width:50%" src="videos/' + videosrc + '" controls poster="videos/' + videosrc + '.jpg">' +
+                'Sorry, your browser doesn\'t support embedded videos, ' +
+                'but don\'t worry, you can <a href="videos/' + videosrc + '">download it</a> ' +
+                 'and watch it with your favorite video player!' +
+                 '</video></div>';
+         }
+
+      };
+
+      document.registerElement('publication-record', {prototype: proto, extends:'li'});
+  })();
+</script>
+
+<!-- Publications Logic -->
+<script>
+
+var publication_list;
+var keywords = {};
+
+function remove_under_review(data) {
+    var i = data.length
+
+    while(i--) {
+        if (data[i]['note'] == "under review") data.splice(i, 1);
+    }
+
+    return data;
+}
+
+
+
+function by_year(data) {
+    var publications_by_year = new Array();
+
+    for (var idx in data) {
+        var pub = data[idx];
+        if (publications_by_year[pub['year']] == null) {
+            publications_by_year[pub['year']] = [];
+        }
+        publications_by_year[pub['year']].push(pub);
+    }
+    return publications_by_year;
+}
+
+function biblio() {
+
+    publication_list = remove_under_review(publication_list);
+
+    data = by_year(publication_list);
+
+    for (var year = 2100; year > 2000; year--) {
+        if (year in data) {
+
+            $('#publis').append($("<h3 class='year'>").text(year));
+
+            var publications = data[year];
+            var ul = $('<ul class="alt fa-ul">');
+
+            for (var idx in publications) {
+                var pub = publications[idx];
+
+                var is_abstract = (pub['type'].indexOf("abstract") > -1 
+                                || pub['type'] == "video" 
+                                || pub['type'] == "dataset" 
+                                || pub['type'] == "patent" 
+                                || pub['type'] == "poster") 
+
+                var authors = pub['authors'].map(
+                        function (el) 
+                        {
+                            return el.split(', ').reverse().join(" ");
+                        }).join("; ");
+
+                var keywordsclasses = "no-keyword";
+                if (pub['keywords']) {
+                    keywordsclasses = pub['keywords'].map(
+                        function (el) 
+                        {
+                            var kwclass = el.split(' ').join("-").toLowerCase();
+                            keywords[el] = kwclass;
+                            return kwclass;
+                        }).join(" ");
+                }
+
+
+                ul.append($('<li id="' + pub['id'] + '" class="' +
+                            (is_abstract ? 'abstract ': '') + keywordsclasses + '" ' +
+                            'is="publication-record" ' + 
+                            'articletitle="' + pub['title'] + '" ' +
+                            'bibkey="' + pub['id'] + '" ' +
+                            'type="' + pub['type'] + '" ' +
+                            'authors="' + authors + '" ' +
+                            'pdf="' + pub['pdf'] + '" ' +
+                            'videosrc="' + pub['media'] + '" ' +
+                            'doi="' + pub['doi'] + '" ' +
+                            'note="' + pub['note'] + '" ' +
+                            'venue="' + pub['venue'] + '" ' +
+                            'url="' + pub['url'] + '" ' +
+                            'year="' + pub['year'] + '" ' +
+                            'bibtex="' + pub['bibtex'] + '" ' +
+                            'award="' + pub['award'] + '" ' +
+                            '>'));
+            }
+            $('#publis').append(ul);
+        }
+    }
+}
+
+function filter_restore_all() {
+
+    $('.keywords-style').html('');
+    $('.keyword-filter').addClass('alt');
+    $('#nb-publis').html($('#publis li:visible').size());
+    display_years();
+}
+
+function filter(button, keyword) {
+
+    if ($(button).hasClass('alt')) {
+
+
+        $('#keyword-' + keyword + '-style').html('#publis li:not(.' + keyword + '){display:none;}');
+        $(button).removeClass('alt');
+    }
+    else {
+        $('#keyword-' + keyword + '-style').html('');
+        $(button).addClass('alt');
+    }
+
+    $('#nb-publis').html($('#publis li:visible').size());
+    display_years();
+}
+
+function display_years() {
+
+    $('.year').each(function() {
+        if ($(this).next().children(':visible').size() === 0) {
+            $(this).hide();
+        }
+        else {
+            $(this).show();
+        }
+    });
+
+    if ($('.year:visible').size() === 0) {
+        if ($('#only-full-papers').prop('checked')) {
+            $('#nothing-to-display').html('No publications with these criteria! Maybe you want to uncheck <em>hide abstracts/short papers</em>?');
+        }
+        else if ($('#keywordsfiltering > a:not(.alt)').size() > 2){ // two keywords (+ 'All') selected
+            $('#nothing-to-display').html('No publications with these criteria! Maybe you want to select less keywords?');
+        }
+    }
+    else {
+        $('#nothing-to-display').html('');
+    }
+}
+
+function keyword_filters() {
+
+    var buttons = '<a class="button special tiny" onclick="filter_restore_all()">All</a> ';
+
+    // list keywords by alphabetical order
+    var arr = [];
+    for (var key in keywords) {
+        if (keywords.hasOwnProperty(key)) {
+            arr.push(key);
+        }
+    }
+    arr.sort();
+
+    for (var i = 0; i < arr.length; i++) {
+        var kw = arr[i];
+
+        $("<style type='text/css' class='keywords-style'>").prop("id", "keyword-" + keywords[kw] + "-style").html('').appendTo("head");
+        buttons += '<a class="button alt tiny keyword-filter" onclick="filter($(this), \'' + keywords[kw] + '\')">' + kw + '</a> ';
+    }
+    return buttons;
+}
+
+$.getJSON("/publications.json", function(json) {
+    publication_list = json;
+    biblio();
+
+    $('#nb-publis').html($('#publis li:visible').size());
+
+    $('#keywordsfiltering').html(keyword_filters());
+});
+
+</script>
