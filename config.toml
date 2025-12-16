@@ -11,6 +11,8 @@ build_search_index = false
 
 taxonomies = []
 
+author = "Séverin Lemaignan"
+
 # RSS feed configuration
 generate_feeds = true
 feed_filenames = ["rss.xml"]
@@ -19,8 +21,5 @@ feed_filenames = ["rss.xml"]
 [markdown]
 highlight_code = true
 
-[extra]
-author = "Séverin Lemaignan"
-author_email = "severin.lemaignan@pal-robotics.com"
 
 

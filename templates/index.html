@@ -29,7 +29,7 @@
 <section id="news" class="wrapper style1">
     <div class="inner">
         {% set news_section = get_section(path="news/_index.md") %}
-        {% for page in news_section.pages | sort(attribute="date") | reverse %}
+        {% for page in news_section.pages | sort(attribute="date") | reverse | slice(end=5) %}
         <article class="feature {{ page.extra.position | default(value='left') }}">
             {{ macros::render_media(page=page) }}
             <div class="content">
