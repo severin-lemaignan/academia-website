@@ -16,6 +16,23 @@ I develop and maintain several scientific software related to robotics. They are
 
 The projects listed on this page the one I consider the more useful to a community. Check my [GitHub page](https://github.com/severin-lemaignan/) for the complete list of my other software projects.
 
+{% card(image="/images/ros4hri.png", side="left") %}
+## ROS4HRI
+
+**ROS4HRI** is the main ROS API for your robot to represent information about the human surrounding and interacting with the robot.
+
+It includes both a set of conventions and tools that help developing Human-Robot Interaction capabilities, and a large set of ROS packages that implement these conventions.
+
+- [Homepage](https://ros4hri.github.io/)
+- [GitHub organization](https://github.com/ros4hri)
+
+### Related publications:
+
+- [ROS for Human-Robot Interaction](/publications#mohamed2021ros4hri)
+- [ROS4HRI: Standardising an Interface for Human-Robot Interaction](/publications#ros2023ros4hri)
+- [Probabilistic fusion of persons' body features: the Mr. Potato algorithm](/publications#lemaignan2024probabilistic)
+{% end %}
+
 {% card(image="/images/softwares/morse.jpg", side="right") %}
 ## MORSE
 
