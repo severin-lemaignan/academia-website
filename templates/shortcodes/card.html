@@ -1,0 +1,13 @@
+<article class="feature {% if side %}{{ side }}{% else %}right{% endif %}">
+    {% if youtube %}
+    <iframe class="image" style="display:block;margin-left:auto;margin-right:auto;" width="400" height="300"
+        src="{{youtube}}" frameborder="0" allowfullscreen></iframe>
+    {% else %}
+    <span class="image"><img src="{{image}}" alt="" /></span>
+    {% endif %}
+    <div class="content">
+        {{ body | markdown | safe }}
+    </div>
+
+</article>
+<a href="#softs" class="back-to-top icon fa-level-up"> back to top</a>

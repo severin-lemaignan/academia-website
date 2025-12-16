@@ -12,20 +12,20 @@ content_style = "style1"
 
 <div style="font-size:80%">
 
-    <input id="only-full-papers" type="checkbox" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
-    <label for="only-full-papers">
-        <em><strong> only show full papers</strong> (hide abstracts and short workshop paper/reports)</em>
-    </label>
+<input id="only-full-papers" type="checkbox" name="only-full-papers" onclick="this.checked ? $('#abstracts-style').html('.abstract {display:none;}'):$('#abstracts-style').html('');$('#nb-publis').html($('#publis li:visible').size());display_years()"></input>
+<label for="only-full-papers">
+    <em><strong> only show full papers</strong> (hide abstracts and short workshop paper/reports)</em>
+</label>
 
-    <em>(currently displaying <span id="nb-publis"></span> publications)</em>
-    <br/>
+<em>(currently displaying <span id="nb-publis"></span> publications)</em>
+<br/>
 
-    <center>
+<center>
 
-    <strong><i class="fa fa-file-text"></i> journal</strong> | <strong><i class="fa fa-book"></i> book chapter</strong> |
-    <strong><i class="fa fa-users"></i> conference/workshop</strong> | <strong><i class="fa fa-lightbulb"></i> patent</strong> | 
-    <strong><i class="fa fa-database"></i> dataset</strong> | <strong><i class="fa fa-file-pdf"></i>  PDF icon to download</strong>
-    </center>
+<strong>{{ fa(icon="file-text") }} journal</strong> | <strong>{{ fa(icon="book") }} book chapter</strong> |
+<strong>{{ fa(icon="users") }} conference/workshop</strong> | <strong>{{ fa(icon="lightbulb") }} patent</strong> | 
+<strong>{{ fa(icon="database") }} dataset</strong> | <strong>{{ fa(icon="file-pdf") }}  PDF icon to download</strong>
+</center>
 </div>
 
 <div id="publis"></div>
@@ -43,6 +43,12 @@ content_style = "style1"
     prone to errors</strong> and are indicative only!
 
 </p>
+<!-- Scripts -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/util.js"></script>
+<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+<script src="/js/main.js"></script>
 
 <style id="abstracts-style" type="text/css">
 </style>

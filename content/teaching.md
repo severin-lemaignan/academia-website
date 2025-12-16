@@ -7,126 +7,59 @@ header_style = "text-shadow: 0px 0px 5px #222;"
 content_style = "style1"
 +++
 
-<article>
-    <div class="container 50%">
-        <h2>Current and Past Students</h2>
-            <ul class='alt'>
-                <li> <strong>Ferran Gebelli</strong> (PhD student, co-supervisor): <em>Robots explainability</em> (2023-)
+<div class="container 50%">
 
-                </li>
-                <li> <strong>Lorenzo Ferrini</strong> (PhD student, supervisor): <em>Social Learning for Robot Manipulation</em>  <b><a href="/publications/#ferrini2022kinematically">[1]</a><a href="/publications/#lemaignan2023opensource">[2]</a><a href="/publications/#ferrini2023unifying">[3]</a><a href="/publications/#ros2023ros4hri">[4]</a><a href="/publications/#lemaignan2024probabilistic">[5]</a></b> (2021-)
+## Current and Past Students
 
-                </li>
-                <li> <strong>Luca Lach</strong> (PhD student, supervisor): <em>Reinforcement Learning for Robot Manipulation</em>  <b><a href="/publications/#lach2022bioinspired">[1]</a><a href="/publications/#lach2023placing">[2]</a></b> (2021-2023)
+- **Ferran Gebelli** (PhD student, co-supervisor): *Robots explainability* (2023-)
+- **Lorenzo Ferrini** (PhD student, supervisor): *Social Learning for Robot Manipulation* **[[1]](/publications/#ferrini2022kinematically)[[2]](/publications/#lemaignan2023opensource)[[3]](/publications/#ferrini2023unifying)[[4]](/publications/#ros2023ros4hri)[[5]](/publications/#lemaignan2024probabilistic)** (2021-)
+- **Luca Lach** (PhD student, supervisor): *Reinforcement Learning for Robot Manipulation* **[[1]](/publications/#lach2022bioinspired)[[2]](/publications/#lach2023placing)** (2021-2023)
+- **Youssef Mohamed** (PhD student, co-supervisor): *Group Dynamics* **[[1]](/publications/#mohamed2021predicting)[[2]](/publications/#mohamed2021ros4hri)** (2021-)
+- **Nicola Webb** (PhD student, director of studies): *Deep Learning for Social Situation Assessment* **[[1]](/publications/#sallami2020unexpected)[[2]](/publications/#webb2021framing)[[3]](/publications/#webb2022measuring)** (2019-)
+- **[Katie Winkle](https://kwinkle.github.io/)** (PhD student, co-supervisor): *Effective Persuasion Strategies for HRI* **[[1]](/publications/#winkle2019effective)[[2]](/publications/#winkle2020couch)[[3]](/publications/#sallami2020unexpected)[[4]](/publications/#winkle2020insitu)** (2016-2020)
+- **Madeleine Bartlett** (PhD student, co-supervisor): *Reading human internal state for HRI* **[[1]](/publications/#senft2018robots)[[2]](/publications/#bartlett2018what)[[3]](/publications/#bartlett2019what)[[4]](/publications/#senft2019teaching)** (2017-)
+- **Christopher Wallbridge** (PhD student, co-supervisor): *Spatial Representations for HRI* **[[1]](/publications/#wallbridge2017qualitative)[[2]](/publications/#lemaignan2018underworlds)[[3]](/publications/#wallbridge2018using)[[4]](/publications/#wallbridge2019towards)[[5]](/publications/#wallbridge2019generating)** (2016-2020)
+- **[Emmanuel Senft](https://emmanuel-senft.github.io/)** (PhD student, co-supervisor): *Shared Autonomy Paradigms for Social HRI* **[[1]](/publications/#baxter2016characterising)[[2]](/publications/#senft2016providing)[[3]](/publications/#senft2016sparc)[[4]](/publications/#senft2017leveraging)[[5]](/publications/#kennedy2017child)[[6]](/publications/#senft2017supervised)[[7]](/publications/#senft2017toward)[[8]](/publications/#irfan2018social)** (2016-2020)
+- **Lukas Hostettler** (MSc student, supervisor): *High-Precision Localization for Tangible Robots based on Structured Patterns* **[[1]](/publications/#hostettler2016realtime)** (2015)
+- **Fernando Garcia** (MSc student, supervisor): *Engagement Assessment and Automatic Behaviour Adaptation in HRI* **[[1]](/publications/#lemaignan2016realtime)[[2]](/publications/#jacq2016building)** (2015)
+- **Ehsan Karim** (PhD student, supervisor): *Cellulo project: tangible robots for large-scale robotic deployments in schools* **[[1]](/publications/#karim2015review)**(2015)
+- **Alexis Jacq** (PhD student, supervisor): *Mutual Modelling in Human-Robot Interaction* **[[1]](/publications/#jacq2016building)[[2]](/publications/#lemaignan2016realtime)** (2014-2015)
+- **Anahita Hosseini** (MSc student, supervisor): *Advanced logging for the pyRobots executive controller* **[[1]](/publications/#lemaignan2015pyrobots)**(2014)
+- **[Ayberk Özgür](http://ayberkozgur.com)** (PhD student, supervisor): *Cellulo project: tangible robots for large-scale robotic deployments in schools* **[[1]](/publications/#hostettler2016realtime)[[2]](/publications/#ozgur2017cellulo)** (2014-2015)
+- **Deanna Hood** (MSc student, supervisor): *CoWriter project: Getting Nao to write on a tactile tablet* **[[1]](/publications/#hood2015when)[[2]](/publications/#hood2015cowriter)** (2014)
+- **Shruti Chandra** (PhD student, co-supervisor): *CoWriter project: learning by teaching handwriting to a robot* **[[1]](/publications/#chandra2015can)[[2]](/publications/#chandra2016children)** (2013-2014)
+- **Julia Fink** (PhD student, co-supervisor): *Long-term acceptance of robots in daily life*, *Anthropomorphism* **[[1]](/publications/#lemaignan2014dynamics)[[2]](/publications/#lemaignan2014cognitive)[[3]](/publications/#fink2014which)[[4]](/publications/#mondada2014ranger)[[5]](/publications/#lemaignan2015youre)** (2013-2014)
+- **Patrick Tsemengue**, **Mahdi Chouayakh** (MSc students, supervisor): *The Dialogs natural language processor* **[[1]](/publications/#lemaignan2011grounding)**(2010)
 
-                </li>
-                <li> <strong>Youssef Mohamed</strong> (PhD student, co-supervisor): <em>Group Dynamics</em>  <b><a href="/publications/#mohamed2021predicting">[1]</a><a href="/publications/#mohamed2021ros4hri">[2]</a></b> (2021-)
+</div>
 
-                </li>
-                <li> <strong>Nicola Webb</strong> (PhD student, director of studies): <em>Deep Learning for Social Situation Assessment</em>  <b><a href="/publications/#sallami2020unexpected">[1]</a><a href="/publications/#webb2021framing">[2]</a><a href="/publications/#webb2022measuring">[3]</a></b> (2019-)
+{% section(id="teaching", class="wrapper style2") %}
+![Presenting the CoWriter project at the London Science Musuem in 2015](/images/teaching.jpg)
 
-                </li>
-                <li> <strong><a href="https://kwinkle.github.io/" alt="Katie's homepage">Katie Winkle</a></strong> (PhD student, co-supervisor): <em>Effective Persuasion Strategies for HRI</em>  <b><a href="/publications/#winkle2019effective">[1]</a><a href="/publications/#winkle2020couch">[2]</a><a href="/publications/#sallami2020unexpected">[3]</a><a href="/publications/#winkle2020insitu">[4]</a></b> (2016-2020)
+<div class="container 50%">
 
-                </li>
-                <li> <strong>Madeleine Bartlett</strong> (PhD student, co-supervisor): <em>Reading human internal state for HRI</em>  <b><a href="/publications/#senft2018robots">[1]</a><a href="/publications/#bartlett2018what">[2]</a><a href="/publications/#bartlett2019what">[3]</a><a href="/publications/#senft2019teaching">[4]</a></b> (2017-)
+## Teaching & Teaching Material
 
-                </li>
-                <li> <strong>Christopher Wallbridge</strong> (PhD student, co-supervisor): <em>Spatial Representations for HRI</em>  <b><a href="/publications/#wallbridge2017qualitative">[1]</a><a href="/publications/#lemaignan2018underworlds">[2]</a><a href="/publications/#wallbridge2018using">[3]</a><a href="/publications/#wallbridge2019towards">[4]</a><a href="/publications/#wallbridge2019generating">[5]</a></b> (2016-2020)
+If not otherwise specified, these resources are made available under a **Creative Commons CC-BY-SA** license (you can **freely re-use and modify** the material as long as you mention me as the original author and **re-share** the modified version).
 
-                </li>
+- **Topics in Human-Robot Interaction**: [social signal processing](https://github.com/severin-lemaignan/lecture-hri-social-signal-processing), [face detection & recognition](https://github.com/severin-lemaignan/lecture-hri-face), [emotion modelling & classification](https://github.com/severin-lemaignan/lecture-hri-emotions), [RGBD vision for HRI](https://github.com/severin-lemaignan/lecture-hri-rgbd-cameras).
+- **Mobile and Humanoid Mobile Robots** ([slides + source](https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots)). Topics include [Kalman filtering](https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots/blob/master/3-kalman-filters.pdf), [Monte-Carlo localisation, path planning](https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots/blob/master/6-localisation-and-planning.pdf), [Bipedal walking](https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots/blob/master/5-bipedal-walking.pdf), [Robot control](https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots/blob/master/7-robot-control.pdf).
+- **Introduction to Actuatores and Sensors** ([slides + source](https://github.com/severin-lemaignan/module-introduction-sensors-actuators)). Topics include DC motors, stepper motors, Arduino programming with ROS.
+- **GIT: the basics** ([slides + source](https://github.com/severin-lemaignan/git-presentation/blob/master/slides.pdf))
+- **ROS: Introduction and tutorial** ([slides + source](https://github.com/severin-lemaignan/ros-presentation/blob/master/presentation.pdf))
+- Guest lecture: **Introduction to Computer Graphics** ([slides + source](https://github.com/severin-lemaignan/intro-3d-computer-graphics/blob/master/slides.pdf)) (in French)
+- Introduction to the **MORSE Simulator** ([slides](http://academia.skadge.org/lectures/introduction-to-morse))
+- **Introduction to ontologies** ([slides](http://academia.skadge.org/lectures/ontologies-et-robotique.pdf)) (in French)
 
-                <li> <strong><a href="https://emmanuel-senft.github.io/" alt="Emmanuel's homepage">Emmanuel Senft</a></strong> (PhD student, co-supervisor): <em>Shared Autonomy Paradigms for Social HRI</em> <b><a href="/publications/#baxter2016characterising">[1]</a><a href="/publications/#senft2016providing">[2]</a><a href="/publications/#senft2016sparc">[3]</a><a href="/publications/#senft2017leveraging">[4]</a><a href="/publications/#kennedy2017child">[5]</a><a href="/publications/#senft2017supervised">[6]</a><a href="/publications/#senft2017toward">[7]</a><a href="/publications/#irfan2018social">[8]</a></b> (2016-2020)
+</div>
+{% end %}
 
-                </li>
+{% section(id="intro", class="wrapper style1") %}
+{% card(image="/images/science-museum.jpg", side="right") %}
+## Outreach
 
-                <li> <strong>Lukas Hostettler</strong> (MSc student, supervisor): <em>High-Precision Localization for Tangible Robots based on Structured Patterns</em> <b><a href="/publications/#hostettler2016realtime">[1]</a></b> (2015)
+I enjoy explaning my research and discussing how robots and humans are going to live together, be it during public events (like on the right, at the London Science Museum in August 2015), on the [radio](http://www.rts.ch/la-1ere/programmes/tribu/6481891-tribu-du-06-02-2015.html) or by teaching and supervising students.
 
-                </li>
-
-                <li> <strong>Fernando Garcia</strong> (MSc student, supervisor): <em>Engagement Assessment and Automatic Behaviour Adaptation in HRI</em> <b><a href="/publications/#lemaignan2016realtime">[1]</a><a href="/publications/#jacq2016building">[2]</a></b> (2015)
-                </li>
-                
-                <li> <strong>Ehsan Karim</strong> (PhD student, supervisor): <em>Cellulo project: tangible robots for large-scale robotic deployments in schools</em> <b><a href="/publications/#karim2015review">[1]</a></b>(2015)
-                </li>
-                
-                <li> <strong>Alexis Jacq</strong> (PhD student, supervisor): <em>Mutual Modelling in Human-Robot Interaction</em> <b><a href="/publications/#jacq2016building">[1]</a><a href="/publications/#lemaignan2016realtime">[2]</a></b> (2014-2015)
-                </li>
-                
-                <li> <strong>Anahita Hosseini</strong> (MSc student, supervisor): <em>Advanced logging for the pyRobots executive controller</em> <b><a href="/publications/#lemaignan2015pyrobots">[1]</a></b>(2014)
-                </li>
-                
-                <li> <strong><a href="http://ayberkozgur.com" alt="Ayberk's homepage">Ayberk Özgür</a></strong> (PhD student, supervisor): <em>Cellulo project: tangible robots for large-scale robotic deployments in schools</em>  <b><a href="/publications/#hostettler2016realtime">[1]</a><a href="/publications/#ozgur2017cellulo">[2]</a></b> (2014-2015)
-                </li>
-                
-                <li> <strong>Deanna Hood</strong> (MSc student, supervisor): <em>CoWriter project: Getting Nao to write on a tactile tablet</em> <b><a href="/publications/#hood2015when">[1]</a><a href="/publications/#hood2015cowriter">[2]</a></b> (2014)
-                </li>
-                
-                <li> <strong>Shruti Chandra</strong> (PhD student, co-supervisor): <em>CoWriter project: learning by teaching handwriting to a robot</em> <b><a href="/publications/#chandra2015can">[1]</a><a href="/publications/#chandra2016children">[2]</a></b> (2013-2014)
-                </li>
-                
-                <li> <strong>Julia Fink</strong> (PhD student, co-supervisor): <em>Long-term acceptance of robots in daily life</em>, <em>Anthropomorphism</em> <b><a href="/publications/#lemaignan2014dynamics">[1]</a><a href="/publications/#lemaignan2014cognitive">[2]</a><a href="/publications/#fink2014which">[3]</a><a href="/publications/#mondada2014ranger">[4]</a><a href="/publications/#lemaignan2015youre">[5]</a></b> (2013-2014)
-                </li>
-                
-                <li> <strong>Patrick Tsemengue</strong>, <strong>Mahdi Chouayakh</strong> (MSc students, supervisor): <em>The Dialogs natural language processor</em> <b><a href="/publications/#lemaignan2011grounding">[1]</a></b>(2010)
-                </li>
-            </ul>
-
-    </div>
-</article>
-
-<section id="teaching" class="wrapper style2">
-    <div class="inner">
-        <article>
-            <span class="image fit"><img src="/images/teaching.jpg" alt="Presenting the CoWriter project at the London Science Musuem in 2015" /></span>
-            <div class="container 50%">
-                <h2>Teaching &amp; Teaching Material</h2>
-            <p>
-            If not otherwise specified, these resources are made
-            available under a <strong>Creative Commons CC-BY-SA</strong> license (you
-            can <strong>freely re-use and modify</strong> the material as long as you
-            mention me as the original author and <strong>re-share</strong> the modified
-            version).
-            </p>
-
-                    <ul>
-                        <li><strong>Topics in Human-Robot Interaction</strong>: <a href="https://github.com/severin-lemaignan/lecture-hri-social-signal-processing">social signal processing</a>, <a href="https://github.com/severin-lemaignan/lecture-hri-face">face detection & recognition</a>, <a href="https://github.com/severin-lemaignan/lecture-hri-emotions">emotion modelling & classification</a>, <a href="https://github.com/severin-lemaignan/lecture-hri-rgbd-cameras">RGBD vision for HRI</a>.
-                        </li>
-                        <li><strong>Mobile and Humanoid Mobile Robots</strong> (<a href="https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots">slides + source</a>). Topics include <a href="https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots/blob/master/3-kalman-filters.pdf" alt="Slides">Kalman filtering</a>, <a href="https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots/blob/master/6-localisation-and-planning.pdf" alt="Slides">Monte-Carlo localisation, path planning</a>, <a href="https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots/blob/master/5-bipedal-walking.pdf" alt="Slides">Bipedal walking</a>, <a href="https://github.com/severin-lemaignan/module-mobile-and-humanoid-robots/blob/master/7-robot-control.pdf" alt="Slides">Robot control</a>.
-                        </li>
-                        <li><strong>Introduction to Actuatores and Sensors</strong> (<a href="https://github.com/severin-lemaignan/module-introduction-sensors-actuators">slides + source</a>). Topics include DC motors, stepper motors, Arduino programming with ROS.
-                        </li>
-                        <li> <strong>GIT: the basics</strong> (<a href="https://github.com/severin-lemaignan/git-presentation/blob/master/slides.pdf">slides + source</a>)
-                        </li>
-                        <li> <strong>ROS: Introduction and tutorial</strong> (<a href="https://github.com/severin-lemaignan/ros-presentation/blob/master/presentation.pdf">slides + source</a>)
-                        </li>
-                        <li> Guest lecture: <strong>Introduction to Computer Graphics</strong> (<a href="https://github.com/severin-lemaignan/intro-3d-computer-graphics/blob/master/slides.pdf">slides + source</a>) (in French)
-                        </li>
-                        <li> Introduction to the <strong>MORSE Simulator</strong> (<a href="http://academia.skadge.org/lectures/introduction-to-morse">slides</a>)
-                        </li>
-                        <li> <strong>Introduction to ontologies</strong> (<a href="http://academia.skadge.org/lectures/ontologies-et-robotique.pdf">slides</a>) (in French)
-                        </li>
-                    </ul>
-
-            </div>
-        </article>
-    </div>
-</section>
-
-
-<section id="intro" class="wrapper style1">
-    <div class="inner">
-
-
-        <article class="feature right">
-            <span class="image"><img src="/images/science-museum.jpg" alt="Presenting the CoWriter project at the London Science Musuem in 2015" /></span>
-            <div class="content">
-                <h2>Outreach</h2>
-                <p>I enjoy explaning my research and discussing how robots and humans are going to live together, be it during public events (like on the right, at the London Science Museum in August 2015), on the <a href="http://www.rts.ch/la-1ere/programmes/tribu/6481891-tribu-du-06-02-2015.html" alt="RTS Tribu on robots">radio</a> or by teaching and supervising students.
-                </p>
-                <p>
-                Don't hesistate to <a href="/aboutme/" alt="Link to contact details">contact me</a>!
-                </p>
-            </div>
-        </article>
-</section>
+Don't hesistate to [contact me](/aboutme/)!
+{% end %}
+{% end %}

@@ -7,105 +7,56 @@ content_style = "special"
 +++
 
 <div class="inner">
-    <article class="feature left">
-        <span class="image"><img src="/images/portrait-robot.jpg" alt="" /></span>
-        <div class="content">
-            <h2>Contact</h2>
-            <p>
-            <strong>Séverin Lemaignan</strong><br/>
-            Senior Scientist in Social AI, <a href="https://pal-robotics.com" alt="PAL Robotics website">PAL Robotics</a><br />
-            </p>
 
-            <ul class="fa-ul">
-                <li ><i class="fa-li fa fa-graduation-cap"></i>ORCID record: <a href="http://orcid.org/0000-0002-3391-8876" alt="ORCID record">0000-0002-3391-8876</a></li>
-                <li ><i class="fa-li fa fa-send"></i><a href="mailto:severin.lemaignan@pal-robotics.com">severin.lemaignan@pal-robotics.com</a></li>
-                <!--<li ><i class="fa-li fa fa-mobile-phone"></i>+44 117 328 5478</li>-->
-                <li ><i class="fa-li fa fa-envelope"></i>PAL Robotics - C/ Pujades 77-79 - 08005 Barcelona - Spain</li>
-            </ul>
+{% card(image="/images/portrait-robot.jpg", side="left") %}
+## Contact
 
-            <ul class="icons">
-                    <li><a href="https://twitter.com/skadge" class="icon fa-twitter">
-                            <span class="label">Twitter</span>
-                        </a></li>
-                        <li><a href="https://fr.linkedin.com/in/skadge" class="icon fa-linkedin">
-                                <span class="label">LinkedIn</span>
-                            </a></li>
-            </ul>
+**Séverin Lemaignan**
 
-        </div>
-    </article>
+Senior Scientist in Social AI, [PAL Robotics](https://pal-robotics.com)
+
+{{ fa(icon="graduation-cap") }}ORCID record: [0000-0002-3391-8876](http://orcid.org/0000-0002-3391-8876)
+
+{{ fa(icon="envelope") }}[severin.lemaignan@pal-robotics.com](mailto:severin.lemaignan@pal-robotics.com)
+
+{{ fa(icon="location-dot") }}PAL Robotics - C/ Pujades 77-79 - 08005 Barcelona - Spain
+
+{{ fa(icon="twitter") }}[Twitter](https://twitter.com/skadge)
+{{ fa(icon="linkedin") }}[LinkedIn](https://fr.linkedin.com/in/skadge)
+{% end %}
+
 </div>
 
-<section id="curriculum" class="wrapper style2 special">
-    <div class="inner">
-        <article class="feature">
-            <div class="container 50%">
-                <h2>My CV</h2>
+{% section(id="curriculum", class="wrapper style2 special") %}
+<div class="container 50%">
 
-                <div style="margin-bottom:20px">
+## My CV
+
+<div style="margin-bottom:20px">
 <b><a href="https://github.com/severin-lemaignan/cv/raw/master/cv.pdf" type="application/pdf">[download my CV]</a></b>
-                </div>
+</div>
 
-                <ul class="alt">
-                    <li>Since September 2021, I am Senior Scientist in Social AI at <a href="https://pal-robotics.com" alt="PAL Robotics website">PAL Robotics</a>. With my team, we design and program the social intelligence of PAL's robots, like <a href="https://pal-robotics.com/robots/ari/" alt="The ARI robot">ARI</a>.
-                    </li>
+Since September 2021, I am Senior Scientist in Social AI at [PAL Robotics](https://pal-robotics.com). With my team, we design and program the social intelligence of PAL's robots, like [ARI](https://pal-robotics.com/robots/ari/).
 
-                <li> From April 2018 until July 2021, I was <strong>Associate Professor</strong> (until Dec 2019, Senior Research Fellow) at the <a href="http://www.brl.ac.uk/" alt="BRL official Website">Bristol Robotics Lab</a>, <a href="http://www.uwe.ac.uk">University of the West of England</a>, United Kingdom. I worked there on <strong>social robotics</strong> and <strong>human-robot interaction</strong>. I was also <strong>co-supervising the autonoumous vehicles</strong> team.
-</li>
+From April 2018 until July 2021, I was **Associate Professor** (until Dec 2019, Senior Research Fellow) at the [Bristol Robotics Lab](http://www.brl.ac.uk/), [University of the West of England](http://www.uwe.ac.uk), United Kingdom. I worked there on **social robotics** and **human-robot interaction**. I was also **co-supervising the autonoumous vehicles** team.
 
-<li> From September 2017 until March 2018, I was <strong>lecturer in robotics</strong> at the <a href="https://www.plymouth.ac.uk/" alt="UoP official Website">University of Plymouth</a>, United Kingdom. My research focused on <strong>social robotics</strong>, with a particular focus on <strong>child-robot interaction and robotics for education</strong>.
-</li>
+From September 2017 until March 2018, I was **lecturer in robotics** at the [University of Plymouth](https://www.plymouth.ac.uk/), United Kingdom. My research focused on **social robotics**, with a particular focus on **child-robot interaction and robotics for education**.
 
-<li> From September 2015 to September 2017, I was a <strong>Marie Skłodowska-Curie post-doctoral fellow</strong> at the <a href="https://www.plymouth.ac.uk/" alt="UoP official Website">University of Plymouth</a> as well, in the robotic group headed by <a href="http://tonybelpaeme.me">Tony Belpaeme</a>.
-I worked on the cognitive concept of <strong><a href="https://en.wikipedia.org/wiki/Theory_of_mind" alt="Wikipedia page on the Theory of Mind">Theory of Mind</a> applied to robots</strong>, and how this may improve and enrich human-robot interaction.
-</li>
+From September 2015 to September 2017, I was a **Marie Skłodowska-Curie post-doctoral fellow** at the [University of Plymouth](https://www.plymouth.ac.uk/) as well, in the robotic group headed by [Tony Belpaeme](http://tonybelpaeme.me). I worked on the cognitive concept of **[Theory of Mind](https://en.wikipedia.org/wiki/Theory_of_mind) applied to robots**, and how this may improve and enrich human-robot interaction.
 
-<li> From March 2013 to July 2015, I was a <strong>post-doctoral fellow</strong> at the <a
-href="http://www.epfl.ch" alt="Website of the
-CHILI Lab"><strong>EPFL</strong>, Lausanne, Switzerland</a>, in the <em><a
-href="http://chili.epfl.ch" alt="CHILI lab website"</a>Computer-Human
-Interaction for Laerning and Instruction (CHILI lab)</a></em>. I was in charge of
-<strong>coordinating the robotic group</strong> and <strong>developing research in robotic-based learning technologies</strong>.</li>
+From March 2013 to July 2015, I was a **post-doctoral fellow** at the [**EPFL**, Lausanne, Switzerland](http://www.epfl.ch), in the *[Computer-Human Interaction for Laerning and Instruction (CHILI lab)](http://chili.epfl.ch)*. I was in charge of **coordinating the robotic group** and **developing research in robotic-based learning technologies**.
 
-<li> I was previously post-doctoral fellow at the <a
-href="http://www.laas.fr/laas09/2-27719-Home.php" alt="Website of the
-Laboratoire d'Architecture et d'Analyse des Systèmes">LAAS-CNRS</a> research
-institute, in the <em>Robotics and Interactions</em> group, working on 
-<strong>higher cognition for robots</strong> (knowledge management, dialogue, theory of
-mind).
-</li>
+I was previously post-doctoral fellow at the [LAAS-CNRS](http://www.laas.fr/laas09/2-27719-Home.php) research institute, in the *Robotics and Interactions* group, working on **higher cognition for robots** (knowledge management, dialogue, theory of mind).
 
-<li> I've defended my PhD thesis in July 2012. I prepared it at <strong>LAAS-CNRS, in
-joint supervision with the <a href="http://ias.cs.tum.edu" alt="TUM IAS
-official Website">TU Muenchen</a></strong>. I've <a href="http://www.gdr-robotique.org/prix_de_these/?an=2013" alt="Prix de thèse - website GdR Robotique / CNRS">been awarded</a> the <strong>Best PhD in Robotics 2012</strong> prize by the French CNRS for this work.
-</li>
+I've defended my PhD thesis in July 2012. I prepared it at **LAAS-CNRS, in joint supervision with the [TU Muenchen](http://ias.cs.tum.edu)**. I've [been awarded](http://www.gdr-robotique.org/prix_de_these/?an=2013) the **Best PhD in Robotics 2012** prize by the French CNRS for this work.
 
-<li>
-Before, I've been working for a year as engineer in <a
-href="http://cybercars2.paris-rocquencourt.inria.fr/" alt="Website of the
-Cybercars project"> mobile robotics</a> at the <a
-href="http://www.inria.fr/index.en.html" alt="Website of the Institut National
-de Recherche en Informatique et Automatique">INRIA</a> national institute for
-computing sciences.
-</li>
+Before, I've been working for a year as engineer in [mobile robotics](http://cybercars2.paris-rocquencourt.inria.fr/) at the [INRIA](http://www.inria.fr/index.en.html) national institute for computing sciences.
 
-<li>
-I hold a <strong>joint MSc in mechanical engineering</strong> from France (Diplôme d'ingénieur
-<a href="http://www.ensam.eu/en/">Arts et Métiers ParisTech</a>) and Germany
-(Dipl. Ing. in Maschinenbau, <a
-href="http://www.kit.edu">Karlsruhe Institute of Technology</a>).
-</li>
+I hold a **joint MSc in mechanical engineering** from France (Diplôme d'ingénieur [Arts et Métiers ParisTech](http://www.ensam.eu/en/)) and Germany (Dipl. Ing. in Maschinenbau, [Karlsruhe Institute of Technology](http://www.kit.edu)).
 
-<li>
-I hold as well a <strong>MSc in Computer Sciences applied to Education</strong> from <a
-href="http://www.univ-paris5.fr/">Université Paris 5</a>.
-</li>
-
-                </ul>
+I hold as well a **MSc in Computer Sciences applied to Education** from [Université Paris 5](http://www.univ-paris5.fr/).
 
 <b><a href="https://github.com/severin-lemaignan/cv/raw/master/cv.pdf" type="application/pdf">My detailed CV can be downloaded here.</a></b>
 
-            </div>
-        </article>
-    </div>
-</section>
+</div>
+{% end %}

@@ -1,0 +1,5 @@
+<section {% if id %}id="{{ id }}" {% endif %} class="{{ class }}">
+    <div class="inner">
+        {{ body | markdown | safe }}
+    </div>
+</section>
