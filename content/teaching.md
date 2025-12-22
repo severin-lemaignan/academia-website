@@ -53,12 +53,16 @@ If not otherwise specified, these resources are made available under a **Creativ
 </div>
 {% end %}
 
-{% section(id="intro", class="wrapper style1") %}
 {% card(image="/images/science-museum.jpg", side="right") %}
+
 ## Outreach
 
-I enjoy explaning my research and discussing how robots and humans are going to live together, be it during public events (like on the right, at the London Science Museum in August 2015), on the [radio](http://www.rts.ch/la-1ere/programmes/tribu/6481891-tribu-du-06-02-2015.html) or by teaching and supervising students.
+I enjoy explaning my research and discussing how robots and humans are going to
+live together, be it during public events (like on the right, at the London
+Science Museum in August 2015), on the
+[radio](http://www.rts.ch/la-1ere/programmes/tribu/6481891-tribu-du-06-02-2015.html)
+or by teaching and supervising students.
 
 Don't hesistate to [contact me](/aboutme/)!
-{% end %}
+
 {% end %}
