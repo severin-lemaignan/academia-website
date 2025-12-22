@@ -19,6 +19,11 @@
 
 <section id="content" class="wrapper{% if page.extra.content_style %} {{ page.extra.content_style }}{% endif %}">
     <div class="inner">
+
+        <div style="text-align:center">
+        {{ page.content | safe }}
+        </div>
+
         <p>
             <span id="keywordsfiltering"></span>
         </p>
@@ -49,16 +54,6 @@
         <div id="nothing-to-display"></div>
 
 
-        <hr />
-        <p>
-            For what it is worth, <a href="https://scholar.google.ch/citations?user=-CUOP2gAAAAJ"
-                alt="My Google Scholar profile">Google Scholar</a>
-            has kindly collected a few statistics, including
-            <strong>citations per article</strong> and overall <strong>h-index</strong>. Please note
-            that <strong>these values, being automatically computed, are
-                prone to errors</strong> and are indicative only!
-
-        </p>
     </div>
 </section>
 {% endblock content %}

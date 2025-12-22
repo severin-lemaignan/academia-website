@@ -1,5 +1,5 @@
 +++
-title = "Teaching, Supervision, Outreach"
+title = "Students supervision, Teaching, Outreach"
 template = "page.html"
 [extra]
 header_class = "teaching-header"
@@ -29,7 +29,7 @@ content_style = "style1"
 - **[Ayberk Özgür](http://ayberkozgur.com)** (PhD student, supervisor): *Cellulo project: tangible robots for large-scale robotic deployments in schools* **[[1]](/publications/#hostettler2016realtime)[[2]](/publications/#ozgur2017cellulo)** (2014-2015)
 - **Deanna Hood** (MSc student, supervisor): *CoWriter project: Getting Nao to write on a tactile tablet* **[[1]](/publications/#hood2015when)[[2]](/publications/#hood2015cowriter)** (2014)
 - **Shruti Chandra** (PhD student, co-supervisor): *CoWriter project: learning by teaching handwriting to a robot* **[[1]](/publications/#chandra2015can)[[2]](/publications/#chandra2016children)** (2013-2014)
-- **Julia Fink** (PhD student, co-supervisor): *Long-term acceptance of robots in daily life*, *Anthropomorphism* **[[1]](/publications/#lemaignan2014dynamics)[[2]](/publications/#lemaignan2014cognitive)[[3]](/publications/#fink2014which)[[4]](/publications/#mondada2014ranger)[[5]](/publications/#lemaignan2015youre)** (2013-2014)
+- **Julia Fink** (PhD student, co-supervisor): *Long-term acceptance of robots in daily life*, *Anthropomorphism* **[[1]](/publications/#lemaignan2014dynamics)[[2]](/publications/#lemaignan2014cognitive)[[3]](/publications/#fink2014which)[[4]](/publications/#mondada2015ranger)[[5]](/publications/#lemaignan2015youre)** (2013-2014)
 - **Patrick Tsemengue**, **Mahdi Chouayakh** (MSc students, supervisor): *The Dialogs natural language processor* **[[1]](/publications/#lemaignan2011grounding)**(2010)
 
 </div>
