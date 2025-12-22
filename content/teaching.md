@@ -11,8 +11,9 @@ content_style = "style1"
 
 ## Current and Past Students
 
+- **Luca Pallonetto** (PhD student, supervisor): *Deep Representations for Social Cognition* (2025-)
 - **Ferran Gebelli** (PhD student, co-supervisor): *Robots explainability* (2023-)
-- **Lorenzo Ferrini** (PhD student, supervisor): *Social Learning for Robot Manipulation* **[[1]](/publications/#ferrini2022kinematically)[[2]](/publications/#lemaignan2023opensource)[[3]](/publications/#ferrini2023unifying)[[4]](/publications/#ros2023ros4hri)[[5]](/publications/#lemaignan2024probabilistic)** (2021-)
+- **[Lorenzo Ferrini](http://lorenzoferrinicodes.github.io/)** (PhD student, supervisor): *Socio-physical 3D Representations for Social Robots* **[[1]](/publications/#ferrini2022kinematically)[[2]](/publications/#lemaignan2023opensource)[[3]](/publications/#ferrini2023unifying)[[4]](/publications/#ros2023ros4hri)[[5]](/publications/#lemaignan2024probabilistic)[[6]](/publications/#ferrini2025vdb)[[7]](/publications/#ferrini2025percepts)** (2021-)
 - **Luca Lach** (PhD student, supervisor): *Reinforcement Learning for Robot Manipulation* **[[1]](/publications/#lach2022bioinspired)[[2]](/publications/#lach2023placing)** (2021-2023)
 - **Youssef Mohamed** (PhD student, co-supervisor): *Group Dynamics* **[[1]](/publications/#mohamed2021predicting)[[2]](/publications/#mohamed2021ros4hri)** (2021-)
 - **Nicola Webb** (PhD student, director of studies): *Deep Learning for Social Situation Assessment* **[[1]](/publications/#sallami2020unexpected)[[2]](/publications/#webb2021framing)[[3]](/publications/#webb2022measuring)** (2019-)
