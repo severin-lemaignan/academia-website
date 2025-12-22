@@ -3,7 +3,7 @@ title = "Joining PAL Robotics"
 date = 2021-07-01
 [extra]
 display_date = "Summer 2021"
-image = "pal-robotics.jpg"
+image = "pal-robotics.svg"
 image_alt = "Logo PAL Robotics"
 position = "left"
 +++
