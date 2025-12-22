@@ -383,7 +383,13 @@
             if (targetElement) {
                 window.location.hash = targetId;
                 // Smoothly scroll to the element
-                targetElement.scrollIntoView({ behavior: 'smooth' });
+                const headerOffset = 100;
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: "smooth"
+                });
             }
         }
     });
