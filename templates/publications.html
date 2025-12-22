@@ -64,85 +64,154 @@
 {% endblock content %}
 
 {% block extra_scripts %}
-<!-- Web Components Polyfill -->
-<script src="/js/webcomponents-lite.min.js"></script>
-
-<!-- Publication Record Component -->
-<script>
-    (function () {
-        var proto = Object.create(HTMLElement.prototype);
-
-        proto.createdCallback = function () {
-
-            var id = this.getAttribute("bibkey");
-            var type = this.getAttribute("type");
-            var title = this.getAttribute("articletitle");
-            var authors = this.getAttribute("authors");
-            authors = authors.replace("S. Lemaignan", "<span class=\"myname\">S. Lemaignan</span>");
-            var pdf = this.getAttribute("pdf");
-            var doi = this.getAttribute("doi");
-            var url = this.getAttribute("url");
-            var note = this.getAttribute("note");
-            var venue = this.getAttribute("venue");
-            var year = this.getAttribute("year");
-            var videosrc = this.getAttribute("videosrc");
-            var award = this.getAttribute("award");
-            var bibtex = this.getAttribute("bibtex").replace(/\\n/g, "\n");;
-
-            venue = (venue == "undefined" ? null : venue);
-            bibtex = (bibtex == "undefined" ? null : bibtex);
-            pdf = (pdf == "undefined" ? null : pdf);
-            url = (url == "undefined" ? null : url);
-            doi = (doi == "undefined" ? null : doi);
-            award = (award == "undefined" ? null : award);
-            note = (note == "undefined" ? null : note);
-
-            this.innerHTML = (type == "journal" ? '<span style="margin-left:-26px" class="icon fa fa-file-text"></span>' :
-                (type == "chapter" ? '<span style="margin-left:-26px" class="icon fa fa-book"></span>' :
-                    (type == "conference" ? '<span style="margin-left:-26px" class="icon fa fa-users"></span>' :
-                        (type.indexOf("abstract") > -1 ? '<span style="margin-left:-26px" class="icon fa fa-comments"></span>' :
-                            (type == "video" ? '<span style="margin-left:-26px" class="icon fa fa-play-circle"></span>' :
-                                (type == "poster" ? '<span style="margin-left:-26px" class="icon fa fa-picture"></span>' :
-                                    (type == 'dataset' ? '<span style="margin-left:-26px" class="icon fa fa-database"></span>' :
-                                        (type == 'patent' ? '<span style="margin-left:-26px" class="icon fa fa-lightbulb"></span>' :
-                                            (type == "dissertation" ? '<span style="margin-left:-26px" class="icon fa fa-graduation-cap"></span>' : "UNKNOWN TYPE "))))))))) +
-                (pdf ? '<a style="text-decoration:none" href="/' + pdf + '" alt="Download the PDF">' :
-                    (type == 'dataset' || type == 'patent' ? '<a style="text-decoration:none" class="tooltip" href="' + url + '" alt="Download the resource">' : '')) +
-                '<span style="margin-left:12px">' +
-                ((type.indexOf("abstract") > -1 || type == "video" || type == "poster" || type == "dataset" || type == "patent") ? ' <span style=\"font-variant:small-caps;font-weight:bold\">' + type.replace("abstract - ", "") + '</span> ' : '') +
-                '<b>' +
-                title +
-                (pdf ? '<span style="margin-left:10px" class="icon fa fa-file-pdf"></span>' : '') +
-                '</b></span>' +
-                ((pdf || type == 'dataset' || type == 'patent') ? '</a>' : '') +
-                (note ? '<span class="note">' + note + '</span>' : '') +
-                '<br/>' +
-                authors +
-                '<br/>' +
-                (venue ? '<i style="margin-left:5px">' + venue + ' ' + year + '</i>' : '') +
-                (type == "video" ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#video_' + id + '\').toggle(\'slow\')[0].pause();"><span class="icon fa-play-circle"></span> watch the video</a>' : "") +
-                (bibtex ? '<a style="margin-left:20px;cursor:pointer" onclick="$(\'#' + id + '_bibtex\').toggle(\'slow\');"><span class="icon fa-child"></span> show bibtex</a>' : '') +
-                (url ? '<a style="margin-left:20px;" href="' + url + '"><span class="icon fa-link"></span>Link</a> ' : '') +
-                (doi ? '<a style="margin-left:20px;" href="https://doi.org/' + doi + '"><span class="icon fa-certificate"></span> doi: ' + doi + '</a>' : '') +
-                (award ? '<br/><span class="award icon fa-trophy"> ' + award + '</span>' : '') +
-                (bibtex ? '<pre style="display:none" id="' + id + '_bibtex"><code>' + bibtex + '</code></pre>' : '');
-
-            if (type == "video") {
-                this.innerHTML += '<div style="text-align:center"><video id="video_' + id + '" style="display:none;width:50%" src="videos/' + videosrc + '" controls poster="videos/' + videosrc + '.jpg">' +
-                    'Sorry, your browser doesn\'t support embedded videos, ' +
-                    'but don\'t worry, you can <a href="videos/' + videosrc + '">download it</a> ' +
-                    'and watch it with your favorite video player!' +
-                    '</video></div>';
-            }
-
-        };
-
-        document.registerElement('publication-record', { prototype: proto, extends: 'li' });
-    })();
-</script>
+<!-- Publication Record Template -->
+<template id="publication-template">
+    <li class="publication-item">
+        <span class="type-icon" style="margin-left:-26px"></span>
+        <span style="margin-left:12px">
+            <a class="main-link" style="text-decoration:none">
+                <span class="type-label" style="font-variant:small-caps;font-weight:bold"></span>
+                <b class="title-label"></b>
+                <span class="pdf-icon icon fa fa-file-pdf" style="margin-left:10px; display:none;"></span>
+            </a>
+            <span class="note-label note" style="display:none;"></span>
+            <br />
+            <span class="authors-label"></span>
+            <br />
+            <span class="venue-container" style="display:none;">
+                <i class="venue-label" style="margin-left:5px"></i>
+            </span>
+            <a class="video-link" style="margin-left:20px;cursor:pointer; display:none;"><span
+                    class="icon fa-play-circle"></span> watch the video</a>
+            <a class="bibtex-link" style="margin-left:20px;cursor:pointer; display:none;"><span
+                    class="icon fa-child"></span> show bibtex</a>
+            <a class="url-link" style="margin-left:20px; display:none;"><span class="icon fa-link"></span>Link</a>
+            <a class="doi-link" style="margin-left:20px; display:none;"><span class="icon fa-certificate"></span> doi:
+                <span class="doi-value"></span></a>
+            <br class="award-br" style="display:none;" /><span class="award-label award icon fa-trophy"
+                style="display:none;"></span>
+            <pre class="bibtex-pre" style="display:none"><code></code></pre>
+            <div class="video-container" style="text-align:center; display:none;">
+                <video class="video-player" style="width:50%" controls>
+                    Sorry, your browser doesn't support embedded videos,
+                    but don't worry, you can <a class="video-download">download it</a>
+                    and watch it with your favorite video player!
+                </video>
+            </div>
+        </span>
+    </li>
+</template>
 
 <!-- Publications Logic -->
 <script>
+    function renderPublication(pub) {
+        const template = document.getElementById('publication-template');
+        const clone = document.importNode(template.content, true);
+        const li = clone.querySelector('li');
+
+        li.id = pub.id;
+
+        const typeIcon = clone.querySelector('.type-icon');
+        const typeIcons = {
+            'journal': 'fa-file-text',
+            'chapter': 'fa-book',
+            'conference': 'fa-users',
+            'video': 'fa-play-circle',
+            'poster': 'fa-picture',
+            'dataset': 'fa-database',
+            'patent': 'fa-lightbulb',
+            'dissertation': 'fa-graduation-cap'
+        };
+
+        let iconClass = 'fa-question';
+        if (pub.type.indexOf('abstract') > -1) {
+            iconClass = 'fa-comments';
+        } else if (typeIcons[pub.type]) {
+            iconClass = typeIcons[pub.type];
+        }
+        typeIcon.className = `icon fa ${iconClass}`;
+        typeIcon.style.marginLeft = "-26px";
+
+        const mainLink = clone.querySelector('.main-link');
+        if (pub.pdf) {
+            mainLink.href = '/' + pub.pdf;
+            mainLink.alt = "Download the PDF";
+            clone.querySelector('.pdf-icon').style.display = 'inline-block';
+        } else if (pub.type === 'dataset' || pub.type === 'patent') {
+            mainLink.href = pub.url;
+            mainLink.className += ' tooltip';
+            mainLink.alt = "Download the resource";
+        } else {
+            mainLink.removeAttribute('href');
+        }
+
+        if (pub.type.indexOf('abstract') > -1 || ['video', 'poster', 'dataset', 'patent'].includes(pub.type)) {
+            const label = pub.type.replace("abstract - ", "");
+            clone.querySelector('.type-label').textContent = label + ' ';
+        }
+
+        clone.querySelector('.title-label').textContent = pub.title;
+
+        if (pub.note) {
+            const noteLabel = clone.querySelector('.note-label');
+            noteLabel.textContent = pub.note;
+            noteLabel.style.display = 'inline';
+        }
+
+        const authors = pub.authors.map(a => a.split(', ').reverse().join(" ")).join("; ");
+        clone.querySelector('.authors-label').innerHTML = authors.replace("S. Lemaignan", "<span class=\"myname\">S. Lemaignan</span>");
+
+        if (pub.venue) {
+            clone.querySelector('.venue-container').style.display = 'inline';
+            clone.querySelector('.venue-label').textContent = `${pub.venue} ${pub.year}`;
+        }
+
+        if (pub.media) { // videosrc comes from pub.media in the original loop
+            const videoLink = clone.querySelector('.video-link');
+            const videoContainer = clone.querySelector('.video-container');
+            const videoPlayer = clone.querySelector('.video-player');
+            videoLink.style.display = 'inline-block';
+            videoLink.onclick = () => {
+                $(videoContainer).toggle('slow');
+                if ($(videoContainer).is(':visible')) {
+                    videoPlayer.pause();
+                }
+            };
+            videoPlayer.src = 'videos/' + pub.media;
+            videoPlayer.poster = 'videos/' + pub.media + '.jpg';
+            clone.querySelector('.video-download').href = 'videos/' + pub.media;
+        }
+
+        if (pub.bibtex) {
+            const bibtexLink = clone.querySelector('.bibtex-link');
+            const bibtexPre = clone.querySelector('.bibtex-pre');
+            bibtexLink.style.display = 'inline-block';
+            bibtexLink.onclick = () => $(bibtexPre).toggle('slow');
+            bibtexPre.querySelector('code').textContent = pub.bibtex.replace(/\\n/g, "\n");
+        }
+
+        if (pub.url) {
+            const urlLink = clone.querySelector('.url-link');
+            urlLink.style.display = 'inline-block';
+            urlLink.href = pub.url;
+        }
+
+        if (pub.doi) {
+            const doiLink = clone.querySelector('.doi-link');
+            doiLink.style.display = 'inline-block';
+            doiLink.href = 'https://doi.org/' + pub.doi;
+            clone.querySelector('.doi-value').textContent = pub.doi;
+        }
+
+        if (pub.award) {
+            clone.querySelector('.award-br').style.display = 'inline';
+            const awardLabel = clone.querySelector('.award-label');
+            awardLabel.style.display = 'inline-block';
+            awardLabel.textContent = ' ' + pub.award;
+        }
+
+        return clone;
+    }
 
     var publication_list;
     var keywords = {};
@@ -211,23 +280,15 @@
                     }
 
 
-                    ul.append($('<li id="' + pub['id'] + '" class="' +
-                        (is_abstract ? 'abstract ' : '') + keywordsclasses + '" ' +
-                        'is="publication-record" ' +
-                        'articletitle="' + pub['title'] + '" ' +
-                        'bibkey="' + pub['id'] + '" ' +
-                        'type="' + pub['type'] + '" ' +
-                        'authors="' + authors + '" ' +
-                        'pdf="' + pub['pdf'] + '" ' +
-                        'videosrc="' + pub['media'] + '" ' +
-                        'doi="' + pub['doi'] + '" ' +
-                        'note="' + pub['note'] + '" ' +
-                        'venue="' + pub['venue'] + '" ' +
-                        'url="' + pub['url'] + '" ' +
-                        'year="' + pub['year'] + '" ' +
-                        'bibtex="' + pub['bibtex'] + '" ' +
-                        'award="' + pub['award'] + '" ' +
-                        '>'));
+                    const rendered = renderPublication(pub);
+                    const li = rendered.querySelector('li');
+
+                    if (is_abstract) li.classList.add('abstract');
+                    keywordsclasses.split(' ').forEach(kw => {
+                        if (kw) li.classList.add(kw);
+                    });
+
+                    ul.append(rendered);
                 }
                 $('#publis').append(ul);
             }
@@ -316,9 +377,11 @@
         // Scroll to the element with the hash in the URL -- it should now have been created
         if (window.location.hash) {
             const targetId = window.location.hash.substring(1); // Remove the '#'
+            window.location.hash = "";
             const targetElement = document.getElementById(targetId);
 
             if (targetElement) {
+                window.location.hash = targetId;
                 // Smoothly scroll to the element
                 targetElement.scrollIntoView({ behavior: 'smooth' });
             }
