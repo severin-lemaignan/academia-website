@@ -21,5 +21,6 @@ feed_filenames = ["rss.xml"]
 [markdown]
 highlight_code = true
 
-
+[extra]
+favicon = "static/images/favicon.png"
 

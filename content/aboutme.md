@@ -7,7 +7,7 @@ content_style = "special"
 +++
 
 <div class="inner">
-{% card(image="/images/portrait-robot.jpg", side="left") %}
+{% card(image="/images/portrait.svg", side="left") %}
 
 ## Contact
 

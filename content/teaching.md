@@ -34,7 +34,6 @@ content_style = "style1"
 </div>
 
 {% section(id="teaching", class="wrapper style2") %}
-![Presenting the CoWriter project at the London Science Musuem in 2015](/images/teaching.jpg)
 
 <div class="container 50%">
 

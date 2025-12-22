@@ -3421,7 +3421,7 @@
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
 			background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
-			background-size: cover;
+			background-size: 100%;
 		}
 
 		.wrapper.style3.publication-header {
@@ -3434,13 +3434,13 @@
 		}
 
 		.wrapper.style3.teaching-header {
-			background-image: url("../../images/outreach.jpg");
+			background-image: url("../../images/teaching.jpg");
 		}
 		.wrapper.style3.softwares-header {
 			background-image: url("../../images/softwares.png");
 		}
 		.wrapper.style3.about-me-header {
-			background-image: url("../../images/aperitiftime_header.jpg");
+			background-image: url("../../images/hri-eu-meetup-2022.jpg");
 		}
 
 
@@ -3988,9 +3988,10 @@
 		padding: 8em 0 6em 0;
 		background-color: #1E2832;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed;
+		/*background-attachment: fixed;*/
 		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-size: cover;
+		background-size: auto 100%;
+		background-position: center;
 		text-align: center;
 	}
 
