@@ -312,6 +312,17 @@
         $('#nb-publis').html($('#publis li:visible').size());
 
         $('#keywordsfiltering').html(keyword_filters());
+
+        // Scroll to the element with the hash in the URL -- it should now have been created
+        if (window.location.hash) {
+            const targetId = window.location.hash.substring(1); // Remove the '#'
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                // Smoothly scroll to the element
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
     });
 
 </script>

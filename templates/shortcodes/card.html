@@ -2,6 +2,9 @@
     {% if youtube %}
     <iframe class="image" style="display:block;margin-left:auto;margin-right:auto;" width="400" height="300"
         src="{{youtube}}" frameborder="0" allowfullscreen></iframe>
+    {% elif video %}
+    <video class="image" style="display:block;margin-left:auto;margin-right:auto;" width="400" height="300"
+        src="{{video}}" controls autoplay muted loop></video>
     {% else %}
     <span class="image"><img src="{{image}}" alt="" /></span>
     {% endif %}
