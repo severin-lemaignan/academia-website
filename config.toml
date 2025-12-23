@@ -2,7 +2,7 @@
 # https://www.getzola.org/documentation/
 
 base_url = "https://academia.skadge.org"
-title = "Séverin Lemaignan - Academic Homepage"
+title = "Social Cognition & AI: Séverin's homepage"
 description = "Academic homepage of Séverin Lemaignan - Social Robotics and AI"
 default_language = "en"
 compile_sass = true
@@ -15,7 +15,7 @@ author = "Séverin Lemaignan"
 
 # RSS feed configuration
 generate_feeds = true
-feed_filenames = ["rss.xml"]
+feed_filenames = ["atom.xml"]
 
 
 [markdown]

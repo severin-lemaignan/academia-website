@@ -16,7 +16,9 @@
         <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
         
         <!-- RSS Feed -->
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml") }}">
+        {% block rss %}
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+        {% endblock %}
         
         {% block extra_head %}{% endblock extra_head %}
     </head>
