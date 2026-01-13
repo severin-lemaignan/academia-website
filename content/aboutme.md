@@ -17,7 +17,7 @@ Senior Scientist in Social AI | **SocialMinds AI lab** | [IIIA-CSIC](https://iii
 
 {{ fa(icon="graduation-cap") }}ORCID record: [0000-0002-3391-8876](http://orcid.org/0000-0002-3391-8876)
 
-{{ fa(icon="envelope") }}[severin@guakamole.org](mailto:severin@guakamole.org) <br/> *(while waiting for the IIIA email to be set up)*
+{{ fa(icon="envelope") }}[severin.lemaignan@iiia.csic.es](mailto:severin.lemaignan@iiia.csic.es) <br/>
 
 {{ fa(icon="location-dot") }}IIIA-CSIC, Campus de la UAB, E-08193 Bellaterra - Spain
 
