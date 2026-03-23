@@ -1,5 +1,31 @@
 [
     {
+        "pdf": "publis/lemaignan2026responsible.pdf",
+        "id": "lemaignan2026responsible",
+        "type": "conference",
+        "title": "Responsible Humanoids: A Contradiction in Terms?",
+        "authors": [
+            "Lemaignan, S.",
+            "Moon, A.",
+            "Coghlan, S.",
+            "Collins, E. C.",
+            "Evers, V.",
+            "Fisher, M.",
+            "Hochgeschwender, N.",
+            "Ljungblad, S.",
+            "Milford, M.",
+            "Moth-Lund Christensen, S.",
+            "Rodríguez Lera, F. J.",
+            "Salvini, P.",
+            "Scantamburlo, T.",
+            "Yang, Y."
+        ],
+        "venue": "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+        "year": 2026,
+        "doi": "10.1145/3757279.3788817",
+        "bibtex": "@inproceedings{lemaignan2026responsible, series={HRI ’26}, title={Responsible Humanoids: A Contradiction in Terms?}, url={http://dx.doi.org/10.1145/3757279.3788817}, DOI={10.1145/3757279.3788817}, booktitle={Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction}, publisher={ACM}, author={Lemaignan, Séverin and Moon, AJung and Coghlan, Simon and Collins, Emily C. and Evers, Vanessa and Hochgeschwender, Nico and Ljungblad, Sara and Milford, Michael and Moth-Lund Christensen, Sarah and Rodríguez Lera, Francisco J. and Salvini, Pericle and Yang, Yi}, year={2026}, month=mar, pages={1341–1349}, collection={HRI ’26} }"
+    },
+    {
         "pdf": "publis/araizaillan2025roadmap.pdf",
         "id": "araizaillan2025roadmap",
         "type": "journal",
@@ -129,6 +155,7 @@
         "bibtex": "@article{pineda2025socially,\\ntitle = {Socially Pertinent Robots in Gerontological Healthcare},\\nISSN = {1875-4805},\\nDOI = {10.1007/s12369-025-01330-6},\\njournal = {International Journal of Social Robotics},\\npublisher = {Springer Science and Business Media LLC},\\nauthor = {Alameda-Pineda,  Xavier and Addlesee,  Angus and Hernández García,  Daniel and Reinke,  Chris and Arias,  Soraya and Arrigoni,  Federica and Auternaud,  Alex and Blavette,  Lauriane and Beyan,  Cigdem and Gomez Camara,  Luis and Cohen,  Ohad and Conti,  Alessandro and Dacunha,  Sébastien and Dondrup,  Christian and Ellinson,  Yoav and Ferro,  Francesco and Gannot,  Sharon and Gras,  Florian and Gunson,  Nancie and Horaud,  Radu and D’Incà,  Moreno and Kimouche,  Imad and Lemaignan,  Séverin and Lemon,  Oliver and Liotard,  Cyril and Marchionni,  Luca and Moradi,  Mordehay and Pajdla,  Tomas and Pino,  Maribel and Polic,  Michal and Py,  Matthieu and Rado,  Ariel and Ren,  Bin and Ricci,  Elisa and Rigaud,  Anne-Sophie and Rota,  Paolo and Romeo,  Marta and Sebe,  Nicu and Sieińska,  Weronika and Tandeitnik,  Pinchas and Tonini,  Francesco and Turro,  Nicolas and Wintz,  Timothée and Yu,  Yanchao},\\nyear = {2025}\\n}"
     },
     {
+        "pdf": "publis/gebelli2025dynamics.pdf",
         "id": "gebelli2025dynamics",
         "type": "journal",
         "title": "Dynamics of Mental Models: Objective Vs. Subjective User Understanding of a Robot in the Wild",
