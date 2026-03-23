@@ -1,0 +1,228 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
+
+{% block extra_head %}
+<style type="text/css">
+    .talks-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2em;
+        margin-top: 1.5em;
+    }
+
+    .talk-card {
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        overflow: hidden;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .talk-card:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+        transform: translateY(-2px);
+    }
+
+    .talk-card a.poster-link {
+        display: block;
+        border-bottom: none;
+    }
+
+    .talk-card .poster-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .talk-card .talk-info {
+        padding: 1em 1.2em;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .talk-card .talk-title {
+        font-size: 1.05em;
+        font-weight: bold;
+        margin: 0 0 0.4em 0;
+        line-height: 1.3;
+    }
+
+    .talk-card .talk-title a {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: none;
+    }
+
+    .talk-card .talk-title a:hover {
+        color: #49bf9d;
+    }
+
+    .talk-card .talk-venue {
+        font-size: 0.9em;
+        color: #666;
+        margin-bottom: 0.3em;
+    }
+
+    .talk-card .talk-date {
+        font-size: 0.85em;
+        color: #999;
+        margin-bottom: 0.5em;
+    }
+
+    .talk-card .talk-summary {
+        font-size: 0.9em;
+        line-height: 1.3;
+        color: #444;
+        margin-top: auto;
+    }
+
+    .talk-card .talk-papers {
+        font-size: 0.85em;
+        margin-top: 0.5em;
+        line-height: 1.3;
+    }
+
+    .talk-card .talk-papers a {
+        color: #49bf9d;
+        text-decoration: none;
+        border-bottom: none;
+        margin-right: 0.3em;
+    }
+
+    .talk-card .talk-papers a:hover {
+        text-decoration: underline;
+    }
+
+    .talks-year-heading {
+        border-bottom: 2px solid #49bf9d;
+        padding-bottom: 0.3em;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+        color: #333;
+    }
+</style>
+{% endblock extra_head %}
+
+{% block content %}
+<!-- Main -->
+<section id="main" class="wrapper style3 {{ page.extra.header_class | default(value='') }}">
+    <div class="container">
+        <header class="major special">
+            <h2{% if page.extra.header_style %} style="{{ page.extra.header_style }}" {% endif %}>{{ page.title }}</h2>
+        </header>
+    </div>
+</section>
+
+<section id="content" class="wrapper{% if page.extra.content_style %} {{ page.extra.content_style }}{% endif %}">
+    <div class="inner">
+        You'll find here a selection of the talks I gave over the last few years. Click
+        the poster image to download the slides in PDF format.
+        <div id="talks-container"></div>
+    </div>
+</section>
+{% endblock content %}
+
+{% block extra_scripts %}
+<script>
+    function renderTalks(talks) {
+        var container = document.getElementById('talks-container');
+
+        // Group by year
+        var byYear = {};
+        talks.forEach(function (talk) {
+            var year = talk.date.substring(0, 4);
+            if (!byYear[year]) byYear[year] = [];
+            byYear[year].push(talk);
+        });
+
+        // Sort years descending
+        var years = Object.keys(byYear).sort(function (a, b) { return b - a; });
+
+        years.forEach(function (year) {
+            var h3 = document.createElement('h3');
+            h3.className = 'talks-year-heading';
+            h3.textContent = year;
+            container.appendChild(h3);
+
+            var grid = document.createElement('div');
+            grid.className = 'talks-grid';
+
+            byYear[year].forEach(function (talk) {
+                var card = document.createElement('div');
+                card.className = 'talk-card';
+
+                var posterLink = document.createElement('a');
+                posterLink.className = 'poster-link';
+                posterLink.href = '/' + talk.pdf;
+                posterLink.title = 'Download PDF';
+
+                var img = document.createElement('img');
+                img.className = 'poster-img';
+                img.src = '/' + talk.poster;
+                img.alt = talk.title;
+                img.loading = 'lazy';
+                posterLink.appendChild(img);
+                card.appendChild(posterLink);
+
+                var info = document.createElement('div');
+                info.className = 'talk-info';
+
+                var title = document.createElement('div');
+                title.className = 'talk-title';
+                var titleLink = document.createElement('a');
+                titleLink.href = '/' + talk.pdf;
+                titleLink.textContent = talk.title;
+                title.appendChild(titleLink);
+                info.appendChild(title);
+
+                var venue = document.createElement('div');
+                venue.className = 'talk-venue';
+                venue.innerHTML = '<i class="icon fa fa-map-marker"></i> ' + talk.venue;
+                info.appendChild(venue);
+
+                var date = document.createElement('div');
+                date.className = 'talk-date';
+                // Format date nicely
+                var d = new Date(talk.date + 'T00:00:00');
+                var options = { year: 'numeric', month: 'long', day: 'numeric' };
+                date.innerHTML = '<i class="icon fa fa-calendar"></i> ' + d.toLocaleDateString('en-GB', options);
+                info.appendChild(date);
+
+                if (talk.summary) {
+                    var summary = document.createElement('div');
+                    summary.className = 'talk-summary';
+                    summary.textContent = talk.summary;
+                    info.appendChild(summary);
+                }
+
+                if (talk.papers && talk.papers.length > 0) {
+                    var papers = document.createElement('div');
+                    papers.className = 'talk-papers';
+                    papers.innerHTML = '<i class="icon fa fa-file-text"></i> ';
+                    talk.papers.forEach(function (paperId, idx) {
+                        var a = document.createElement('a');
+                        a.href = '/publications/#' + paperId;
+                        a.textContent = '[' + (idx + 1) + ']';
+                        a.title = paperId;
+                        papers.appendChild(a);
+                    });
+                    info.appendChild(papers);
+                }
+
+                card.appendChild(info);
+                grid.appendChild(card);
+            });
+
+            container.appendChild(grid);
+        });
+    }
+
+    $.getJSON("/talks.json", function (json) {
+        renderTalks(json);
+    });
+</script>
+{% endblock extra_scripts %}

@@ -27,7 +27,14 @@ This branch (`ssg/zola`) contains the port of the website to the [Zola](https://
   Content here...
   ```
 - **Pages**: Edit markdown files in `content/` (e.g., `aboutme.md`, `research.md`).
-- **Publications**: The publications list is generated from `static/publications.json`. To update publications, edit this JSON file. The rendering logic is in `content/publications.md` (JavaScript).
+- **Publications**: Generated from `static/publications.json`. To add a paper, use the helper script (it fetches metadata from Crossref):
+  ```bash
+  python3 add_paper.py 10.1007/s12369-025-01330-6 --pdf publis/myfile.pdf
+  ```
+- **Talks**: Generated from `static/talks.json`. Drop your presentation PDF into `static/talks/` and run the helper script (it auto-generates a poster thumbnail):
+  ```bash
+  python3 add_talk.py --pdf static/talks/mypres.pdf --title "My Talk" --date 2026-03-04 --venue "HRI 2026" --summary "Quick summary"
+  ```
 
 ### Directory Structure
 

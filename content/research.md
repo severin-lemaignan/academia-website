@@ -81,6 +81,8 @@ commercial robots used globally in healthcare, education, and research.
 {% section(id="curriculum", class="wrapper style2 special") %}
 <div class="container 50%">
 
+## Browse [selected talks](/talks/)
+
 ## See [my curriculum](/aboutme/#curriculum)
 
 </div>

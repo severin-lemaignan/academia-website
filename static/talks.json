@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Responsible Humanoids: A Contradiction in Terms?",
+    "date": "2026-03-18",
+    "venue": "HRI'26",
+    "summary": "The current generation of humanoid robots, while technically impressive, is not design with the human at the centre.",
+    "pdf": "talks/2026-hri-responsible-humanoids.pdf",
+    "poster": "talks/posters/2026-hri-responsible-humanoids.jpg",
+    "papers": [
+      "lemaignan2026responsible"
+    ]
+  },
+  {
+    "title": "Integrating Face Generation on a (ROS) Robot",
+    "date": "2026-03-16",
+    "venue": "HRI'26 | Vizij workshop",
+    "summary": "In this presentation, I cover how to architecture a ROS robot to nicely interact procedural face generation with the other robot capabilities",
+    "pdf": "talks/2026-hri-vizij-architecture.pdf",
+    "poster": "talks/posters/2026-hri-vizij-architecture.jpg"
+  },
+  {
+    "title": "End-to-end co-design and Responsible Robotics",
+    "date": "2023-12-14",
+    "venue": "Seminar at UPC IRI",
+    "summary": "An overview of my work on machine learning for lifelong co-design and its impact for a responsible robotics roadmap",
+    "pdf": "talks/2023-iri-codesign.pdf",
+    "poster": "talks/posters/2023-iri-codesign.jpg",
+    "papers": [
+      "winkle2021leador"
+    ]
+  },
+  {
+    "title": "Understandability: Some food for thought in the context of HRI",
+    "date": "2023-09-13",
+    "venue": "Dagstuhl Seminar on Responsible Robotics",
+    "summary": "I explain the idea of 'understandability' from the point-of-view of human-robot interaction",
+    "pdf": "talks/2023-dagstuhl-understandability.pdf",
+    "poster": "talks/posters/2023-dagstuhl-understandability.jpg",
+    "papers": [
+      "araizaillan2025roadmap"
+    ]
+  },
+  {
+    "title": "ROS for Human-Robot Interaction: Introduction to the new REP-155",
+    "date": "2023-02-01",
+    "venue": "HRI Consortium, Tel-Aviv",
+    "summary": "An overview of the ROS4HRI standard",
+    "pdf": "talks/2023-visit-israel-ros4hri.pdf",
+    "poster": "talks/posters/2023-visit-israel-ros4hri.jpg",
+    "papers": [
+      "mohamed2021ros4hri",
+      "lemaignan2024probabilistic"
+    ]
+  }
+]
