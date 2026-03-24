@@ -10,8 +10,9 @@ This branch (`ssg/zola`) contains the port of the website to the [Zola](https://
 ### Building the site
 
 1. Install Zola (single binary).
-2. Run `zola build` to generate the static site in `public/`.
-3. Run `zola serve` to start a local development server with live reload.
+2. Run `make`
+
+For local development, run `zola serve` to start a local development server with live reload.
 
 ### Content Management
 
