@@ -64,27 +64,27 @@
     <li class="publication-item">
         <span class="type-icon" style="margin-left:-26px"></span>
         <span style="margin-left:12px">
-            <a class="main-link" style="text-decoration:none">
+            <span>
                 <span class="type-label" style="font-variant:small-caps;font-weight:bold"></span>
                 <b class="title-label"></b>
-                <span class="pdf-icon icon fa fa-file-pdf" style="margin-left:10px; display:none;"></span>
-            </a>
+            </span>
             <span class="note-label note" style="display:none;"></span>
             <br />
             <span class="authors-label"></span>
             <br />
             <span class="venue-container" style="display:none;">
-                <i class="venue-label" style="margin-left:5px"></i>
+                <i class="venue-label"></i>
             </span>
-            <a class="video-link" style="margin-left:20px;cursor:pointer; display:none;"><span
-                    class="icon fa-play-circle"></span> watch the video</a>
-            <a class="bibtex-link" style="margin-left:20px;cursor:pointer; display:none;"><span
-                    class="icon fa-child"></span> show bibtex</a>
-            <a class="url-link" style="margin-left:20px; display:none;"><span class="icon fa-link"></span>Link</a>
-            <a class="doi-link" style="margin-left:20px; display:none;"><span class="icon fa-certificate"></span> doi:
-                <span class="doi-value"></span></a>
-            <br class="award-br" style="display:none;" /><span class="award-label award icon fa-trophy"
-                style="display:none;"></span>
+            <div class="pub-actions">
+                <a class="pdf-link"><span class="fa fa-file-pdf"></span> PDF</a>
+                <a class="summary-link"><span class="fa fa-align-left"></span> summary</a>
+                <a class="video-link"><span class="fa fa-play-circle"></span> video</a>
+                <a class="bibtex-link"><span class="fa fa-quote-right"></span> bibtex</a>
+                <a class="url-link"><span class="fa fa-link"></span> link</a>
+                <a class="doi-link"><span class="fa fa-external-link-alt"></span> doi: <span class="doi-value"></span></a>
+            </div>
+            <span class="award-label award icon fa-trophy" style="display:none;"></span>
+            <div class="summary-container" style="display:none;"><span class="summary-label"></span></div>
             <pre class="bibtex-pre" style="display:none"><code></code></pre>
             <div class="video-container" style="text-align:center; display:none;">
                 <video class="video-player" style="width:50%" controls>
@@ -127,17 +127,10 @@
         typeIcon.className = `icon fa ${iconClass}`;
         typeIcon.style.marginLeft = "-26px";
 
-        const mainLink = clone.querySelector('.main-link');
         if (pub.pdf) {
-            mainLink.href = '/' + pub.pdf;
-            mainLink.alt = "Download the PDF";
-            clone.querySelector('.pdf-icon').style.display = 'inline-block';
-        } else if (pub.type === 'dataset' || pub.type === 'patent') {
-            mainLink.href = pub.url;
-            mainLink.className += ' tooltip';
-            mainLink.alt = "Download the resource";
-        } else {
-            mainLink.removeAttribute('href');
+            const pdfLink = clone.querySelector('.pdf-link');
+            pdfLink.href = '/' + pub.pdf;
+            pdfLink.style.display = 'inline-block';
         }
 
         if (pub.type.indexOf('abstract') > -1 || ['video', 'poster', 'dataset', 'patent'].includes(pub.type)) {
@@ -199,10 +192,17 @@
         }
 
         if (pub.award) {
-            clone.querySelector('.award-br').style.display = 'inline';
             const awardLabel = clone.querySelector('.award-label');
             awardLabel.style.display = 'inline-block';
             awardLabel.textContent = ' ' + pub.award;
+        }
+
+        if (pub.summary) {
+            const summaryLink = clone.querySelector('.summary-link');
+            const summaryContainer = clone.querySelector('.summary-container');
+            summaryLink.style.display = 'inline-block';
+            clone.querySelector('.summary-label').textContent = pub.summary;
+            summaryLink.onclick = () => $(summaryContainer).toggle('slow');
         }
 
         return clone;

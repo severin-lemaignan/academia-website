@@ -62,6 +62,63 @@
         text-decoration: underline;
     }
 
+/* Publications page */
+
+    #publis ul.fa-ul > li.publication-item {
+        padding: 12px 0 14px 0;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    #publis ul.fa-ul > li.publication-item:last-child {
+        border-bottom: none;
+    }
+
+    .authors-label {
+        font-size: 82%;
+        color: #777;
+    }
+    .authors-label .myname {
+        color: #555;
+        font-weight: 600;
+    }
+
+    .venue-label {
+        color: #888;
+    }
+
+    .pub-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 5px;
+    }
+    .pub-actions a {
+        display: none;
+        font-size: 75%;
+        padding: 2px 9px;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        color: #666;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background 0.15s, color 0.15s;
+    }
+    .pub-actions a:hover {
+        background: #4a7c8a;
+        border-color: #4a7c8a;
+        color: #fff;
+    }
+
+    .summary-container {
+        margin-top: 8px;
+        margin-left: 5px;
+        padding: 8px 12px;
+        border-left: 3px solid #4a7c8a;
+        background: #f8f8f8;
+        font-size: 88%;
+        color: #555;
+        line-height: 1.5;
+    }
+
     .award {
         color: #D77965;
     }
