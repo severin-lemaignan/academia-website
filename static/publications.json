@@ -211,6 +211,7 @@
         ],
         "venue": "RoMAN",
         "year": 2025,
+        "doi": "10.1109/RO-MAN63969.2025.11217655",
         "authors": [
             "Mohamed, Y.",
             "Lemaignan, S.",
@@ -218,7 +219,7 @@
             "Jensfelt, P.",
             "Smith, C."
         ],
-        "bibtex": "@inproceedings{mohamed2025areyou,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Are You an Expert? Instruction Adaptation Using Multi-Modal Affect Detections with Thermal Imaging and Context},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
+        "bibtex": "@inproceedings{mohamed2025areyou,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Are You an Expert? Instruction Adaptation Using Multi-Modal Affect Detections with Thermal Imaging and Context},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\ndoi = {10.1109/RO-MAN63969.2025.11217655},\\nyear = {2025}}"
     },
     {
         "id": "mohamed2025fusion",
@@ -230,6 +231,7 @@
         ],
         "venue": "RoMAN",
         "year": 2025,
+        "doi": "10.1109/RO-MAN63969.2025.11217904",
         "authors": [
             "Mohamed, Y.",
             "Lemaignan, S.",
@@ -237,7 +239,7 @@
             "Jensfelt, P.",
             "Smith, C."
         ],
-        "bibtex": "@inproceedings{mohamed2025fusion,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Fusion in Context: A Multimodal Approach to Affective State Recognition},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
+        "bibtex": "@inproceedings{mohamed2025fusion,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Fusion in Context: A Multimodal Approach to Affective State Recognition},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\ndoi={10.1109/RO-MAN63969.2025.11217904},\\nyear = {2025}}"
     },
     {
         "id": "gebelli2025personalised2",
@@ -259,7 +261,8 @@
         ],
         "venue": "RoMAN",
         "year": 2025,
-        "bibtex": "@inproceedings{gebelli2025personalised2,\\nauthor = {Gebellí, F. and Garrell, A. and Habekost, A. and Lemaignan, S. and Wermter, S. and Ros, R.},\\ntitle = {Personalised Explanations in Long-term Human-Robot Interactions},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
+        "doi": "10.1109/RO-MAN63969.2025.11217900",
+        "bibtex": "@inproceedings{gebelli2025personalised2,\\nauthor = {Gebellí, F. and Garrell, A. and Habekost, A. and Lemaignan, S. and Wermter, S. and Ros, R.},\\ntitle = {Personalised Explanations in Long-term Human-Robot Interactions},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\ndoi = {10.1109/RO-MAN63969.2025.11217900},\\nyear = {2025}}"
     },
     {
         "id": "cooper2025tiago",
