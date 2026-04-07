@@ -23,7 +23,8 @@
         "venue": "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
         "year": 2026,
         "doi": "10.1145/3757279.3788817",
-        "bibtex": "@inproceedings{lemaignan2026responsible, series={HRI ’26}, title={Responsible Humanoids: A Contradiction in Terms?}, url={http://dx.doi.org/10.1145/3757279.3788817}, DOI={10.1145/3757279.3788817}, booktitle={Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction}, publisher={ACM}, author={Lemaignan, Séverin and Moon, AJung and Coghlan, Simon and Collins, Emily C. and Evers, Vanessa and Hochgeschwender, Nico and Ljungblad, Sara and Milford, Michael and Moth-Lund Christensen, Sarah and Rodríguez Lera, Francisco J. and Salvini, Pericle and Yang, Yi}, year={2026}, month=mar, pages={1341–1349}, collection={HRI ’26} }"
+        "bibtex": "@inproceedings{lemaignan2026responsible,\\nseries={HRI ’26},\\ntitle={Responsible Humanoids: A Contradiction in Terms?},\\nurl={http://dx.doi.org/10.1145/3757279.3788817},\\nDOI={10.1145/3757279.3788817},\\nbooktitle={Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction},\\npublisher={ACM},\\nauthor={Lemaignan, Séverin and Moon, AJung and Coghlan, Simon and Collins, Emily C. and Evers, Vanessa and Hochgeschwender, Nico and Ljungblad, Sara and Milford, Michael and Moth-Lund Christensen, Sarah and Rodríguez Lera, Francisco J. and Salvini, Pericle and Yang, Yi},\\nyear={2026},\\nmonth=mar,\\npages={1341–1349},\\ncollection={HRI ’26}\\n}",
+        "summary": "This paper critically examines the current 'humanoid hype' in robotics through the lens of responsible robotics principles. Drawing on the recently published Roadmap for Responsible Robotics, the authors question whether 'responsible humanoids' is a contradiction in terms. They analyze how massive investment in humanoid robots, driven by technical advances in locomotion, cheaper manufacturing, and AI progress, creates a situation where public perception, media portrayals, and business narratives inflate expectations. The paper maps key responsible robotics concepts -- trust, justice and fairness, accountability, sustainability, and privacy -- to the specific challenges posed by humanoid development. It argues that humanoids' anthropomorphic appearance fosters uncalibrated trust, that their production reinforces global inequalities, that software immaturity creates accountability gaps, that their energy-intensive bipedal design conflicts with sustainability goals, and that their embodied sensors transform interaction into surveillance. The authors call on the HRI community to critically assess the societal implications of humanoid robotics."
     },
     {
         "pdf": "publis/araizaillan2025roadmap.pdf",
@@ -70,7 +71,8 @@
             "Wasowski,  A.",
             "Yang,  Y."
         ],
-        "bibtex": "@article{araizaillan2025roadmap,\\ntitle = {A Roadmap for Responsible Robotics: Promoting Human Agency and Collaborative Efforts},\\nISSN = {1558-223X},\\nDOI = {10.1109/mra.2025.3620148},\\njournal = {IEEE Robotics &amp; Automation Magazine},\\npublisher = {Institute of Electrical and Electronics Engineers (IEEE)},\\nauthor = {Araiza-Illan,  Dejanira and Baum,  Kevin and Beebee,  Helen and Chatila,  Raja and Moth-Lund Christensen,  Sarah and Coghlan,  Simon and Collins,  Emily and Conroy,  S. Kate and Cunha,  Alcino and Dobrosovestnova,  Anna and Duijf,  Hein and Evers,  Vanessa and Fisher,  Michael and Hochgeschwender,  Nico and Kökciyan,  Nadin and Lemaignan,  Séverin and Rodriguez-Lera,  Francisco and Ljungblad,  Sara and Magnusson,  Martin and Mansouri,  Masoumeh and Milford,  Michael and Moon,  AJung and Powers,  Thomas M. and Salvini,  Pericle and Scantamburlo,  Teresa and Schuster,  Nick and Slavkovik,  Marija and Topcu,  Ufuk and Vanegas,  Daniel and Wasowski,  Andrzej and Yang,  Yi},\\nyear = {2025},\\npages = {2–14}\\n}"
+        "bibtex": "@article{araizaillan2025roadmap,\\ntitle = {A Roadmap for Responsible Robotics: Promoting Human Agency and Collaborative Efforts},\\nISSN = {1558-223X},\\nDOI = {10.1109/mra.2025.3620148},\\njournal = {IEEE Robotics &amp; Automation Magazine},\\npublisher = {Institute of Electrical and Electronics Engineers (IEEE)},\\nauthor = {Araiza-Illan,  Dejanira and Baum,  Kevin and Beebee,  Helen and Chatila,  Raja and Moth-Lund Christensen,  Sarah and Coghlan,  Simon and Collins,  Emily and Conroy,  S. Kate and Cunha,  Alcino and Dobrosovestnova,  Anna and Duijf,  Hein and Evers,  Vanessa and Fisher,  Michael and Hochgeschwender,  Nico and Kökciyan,  Nadin and Lemaignan,  Séverin and Rodriguez-Lera,  Francisco and Ljungblad,  Sara and Magnusson,  Martin and Mansouri,  Masoumeh and Milford,  Michael and Moon,  AJung and Powers,  Thomas M. and Salvini,  Pericle and Scantamburlo,  Teresa and Schuster,  Nick and Slavkovik,  Marija and Topcu,  Ufuk and Vanegas,  Daniel and Wasowski,  Andrzej and Yang,  Yi},\\nyear = {2025},\\npages = {2–14}\\n}",
+        "summary": "This paper presents the outcomes of the Dagstuhl Seminar on Responsible Robotics, bringing together researchers from robotics, computer science, social and cognitive sciences, and philosophy. It highlights sociotechnical challenges unique to robotic systems that go beyond responsible AI, including issues arising from robots' physical embodiment, autonomy, and integration into human life. The roadmap identifies key values (dignity, autonomy, privacy, safety, trust, fairness, accountability, sustainability) and maps responsibilities across stakeholders including universities, companies, governments, and civil society. It provides actionable steps for ensuring robotic systems co-evolve with human societies, promoting human agency and humane values, and serves as a foundation for collaborative efforts toward responsible robotics."
     },
     {
         "id": "alhafnawi2025express",
@@ -152,7 +154,8 @@
             "Wintz, T.",
             "Yu, Y."
         ],
-        "bibtex": "@article{pineda2025socially,\\ntitle = {Socially Pertinent Robots in Gerontological Healthcare},\\nISSN = {1875-4805},\\nDOI = {10.1007/s12369-025-01330-6},\\njournal = {International Journal of Social Robotics},\\npublisher = {Springer Science and Business Media LLC},\\nauthor = {Alameda-Pineda,  Xavier and Addlesee,  Angus and Hernández García,  Daniel and Reinke,  Chris and Arias,  Soraya and Arrigoni,  Federica and Auternaud,  Alex and Blavette,  Lauriane and Beyan,  Cigdem and Gomez Camara,  Luis and Cohen,  Ohad and Conti,  Alessandro and Dacunha,  Sébastien and Dondrup,  Christian and Ellinson,  Yoav and Ferro,  Francesco and Gannot,  Sharon and Gras,  Florian and Gunson,  Nancie and Horaud,  Radu and D’Incà,  Moreno and Kimouche,  Imad and Lemaignan,  Séverin and Lemon,  Oliver and Liotard,  Cyril and Marchionni,  Luca and Moradi,  Mordehay and Pajdla,  Tomas and Pino,  Maribel and Polic,  Michal and Py,  Matthieu and Rado,  Ariel and Ren,  Bin and Ricci,  Elisa and Rigaud,  Anne-Sophie and Rota,  Paolo and Romeo,  Marta and Sebe,  Nicu and Sieińska,  Weronika and Tandeitnik,  Pinchas and Tonini,  Francesco and Turro,  Nicolas and Wintz,  Timothée and Yu,  Yanchao},\\nyear = {2025}\\n}"
+        "bibtex": "@article{pineda2025socially,\\ntitle = {Socially Pertinent Robots in Gerontological Healthcare},\\nISSN = {1875-4805},\\nDOI = {10.1007/s12369-025-01330-6},\\njournal = {International Journal of Social Robotics},\\npublisher = {Springer Science and Business Media LLC},\\nauthor = {Alameda-Pineda,  Xavier and Addlesee,  Angus and Hernández García,  Daniel and Reinke,  Chris and Arias,  Soraya and Arrigoni,  Federica and Auternaud,  Alex and Blavette,  Lauriane and Beyan,  Cigdem and Gomez Camara,  Luis and Cohen,  Ohad and Conti,  Alessandro and Dacunha,  Sébastien and Dondrup,  Christian and Ellinson,  Yoav and Ferro,  Francesco and Gannot,  Sharon and Gras,  Florian and Gunson,  Nancie and Horaud,  Radu and D’Incà,  Moreno and Kimouche,  Imad and Lemaignan,  Séverin and Lemon,  Oliver and Liotard,  Cyril and Marchionni,  Luca and Moradi,  Mordehay and Pajdla,  Tomas and Pino,  Maribel and Polic,  Michal and Py,  Matthieu and Rado,  Ariel and Ren,  Bin and Ricci,  Elisa and Rigaud,  Anne-Sophie and Rota,  Paolo and Romeo,  Marta and Sebe,  Nicu and Sieińska,  Weronika and Tandeitnik,  Pinchas and Tonini,  Francesco and Turro,  Nicolas and Wintz,  Timothée and Yu,  Yanchao},\\nyear = {2025}\\n}",
+        "summary": "This paper presents the EU H2020 SPRING project, which developed and evaluated an autonomous social robot for gerontological healthcare. A full-sized ARI humanoid robot was deployed at the Broca day-care gerontology hospital in Paris to interact with patients suspected of having dementia and their companions. The system features a novel modular software architecture with 52 ROS nodes handling perception (self-localisation, human tracking, speech processing, behaviour analysis), conversation management, and non-verbal behaviour generation. The architecture is one of the first to fully adopt the ROS4HRI standard for multi-modal human-robot interaction. Through two waves of experiments involving over 60 participants, the study found that users are receptive to the technology, especially when the robot's perception and action skills are robust to environmental clutter and flexible enough to handle diverse interactions."
     },
     {
         "pdf": "publis/gebelli2025dynamics.pdf",
@@ -195,7 +198,8 @@
             "Lemaignan, S."
         ],
         "doi": "10.1145/3737891",
-        "bibtex": "@article{ferrini2025percepts,\\nauthor = {Ferrini, Lorenzo and Andriella, Antonio and Ros, Raquel and Lemaignan, S\\'{e}verin},\\ntitle = {From Percepts to Semantics: A Multi-modal Saliency Map to Support Social Robots' Attention},\\njournal = {ACM Transactions on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.1145/3737891}}"
+        "bibtex": "@article{ferrini2025percepts,\\nauthor = {Ferrini, Lorenzo and Andriella, Antonio and Ros, Raquel and Lemaignan, S\\'{e}verin},\\ntitle = {From Percepts to Semantics: A Multi-modal Saliency Map to Support Social Robots' Attention},\\njournal = {ACM Transactions on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.1145/3737891}}",
+        "summary": "This paper introduces multi-modal saliency maps as a novel approach to model visual attention for social robots. Inspired by human attention mechanisms, the model integrates multiple attention sources -- low-level perceptual cues, semantic cues, and social cues -- into spatially-grounded 3D saliency representations. The framework is characterised by being multi-route-based (parallel attention processing units), input-agnostic (translating diverse inputs into uniform spatial saliency), and spatially grounded (lightweight 3D structure suitable for robot gaze control). The authors provide a mathematical formulation of the saliency-combining operator with formal properties (commutativity, associativity, identity, annihilator), an open-source ROS-based software implementation, and an evaluation comparing generated saliency maps with human attention patterns across three social interaction scenarios."
     },
     {
         "id": "mohamed2025areyou",
@@ -278,7 +282,8 @@
             "Marchionni, L.",
             "Ferro, F."
         ],
-        "bibtex": "@inproceedings{cooper2025tiago,\\nauthor = {Cooper, S. and Lemaignan, S. and Ros, R. and Ferrini, L. and Gebellí, F. and Miguel, N. and Marchionni, L. and Ferro, F.},\\ntitle = {TIAGo Head: an AI Powered Platform for Social Robotics},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}"
+        "bibtex": "@inproceedings{cooper2025tiago,\\nauthor = {Cooper, S. and Lemaignan, S. and Ros, R. and Ferrini, L. and Gebellí, F. and Miguel, N. and Marchionni, L. and Ferro, F.},\\ntitle = {TIAGo Head: an AI Powered Platform for Social Robotics},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2025}}",
+        "summary": "This paper presents TIAGo Head, a new tabletop social robot developed by PAL Robotics. The robot is a compact (45cm, 5.75kg), cost-effective derivative of the full-sized TIAGo Pro, focused exclusively on social interaction. It features an RGB-D camera, 4-microphone array, speakers, a 10-inch touchscreen face with expressive LCD eyes, and 2 degrees of freedom for pan-tilt head motion. The software architecture runs on ROS 2 and integrates the ROS4HRI framework for social perception, local LLM inference (via Ollama) for natural conversation, an OWL2-based knowledge base for situated reasoning, and the reMap framework for spatial semantics. A use-case demonstration shows TIAGo Head serving as an airport receptionist, displaying news and conversing with travelers using its mixed-reality interaction simulator."
     },
     {
         "id": "gebelli2025dynamics",
@@ -328,7 +333,8 @@
             "Pino, M."
         ],
         "doi": " 10.2196/76496",
-        "bibtex": "@article{blavette2025llm,\n  author = {Blavette, Lauriane and Dacunha, Sébastien and Alameda-Pineda, Xavier and Hernández García, Daniel and Gannot, Sharon and Gras, Florian and Gunson, Nancie and Lemaignan, Séverin and Polic, Michal and Tandeitnik, Pinchas and Tonini, Francesco and Rigaud, Anne-Sophie and Pino, Maribel},\n  title = {Acceptability and Usability of a Socially Assistive Robot Integrated With a Large Language Model for Enhanced Human-Robot Interaction in a Geriatric Care Institution: Mixed Methods Evaluation},\n  year = {2025},\n  howpublished = {JMIR Human Factors},\n  doi = {10.2196/76496}\n}"
+        "bibtex": "@article{blavette2025llm,\n  author = {Blavette, Lauriane and Dacunha, Sébastien and Alameda-Pineda, Xavier and Hernández García, Daniel and Gannot, Sharon and Gras, Florian and Gunson, Nancie and Lemaignan, Séverin and Polic, Michal and Tandeitnik, Pinchas and Tonini, Francesco and Rigaud, Anne-Sophie and Pino, Maribel},\n  title = {Acceptability and Usability of a Socially Assistive Robot Integrated With a Large Language Model for Enhanced Human-Robot Interaction in a Geriatric Care Institution: Mixed Methods Evaluation},\n  year = {2025},\n  howpublished = {JMIR Human Factors},\n  doi = {10.2196/76496}\n}",
+        "summary": "This study evaluates the acceptability and usability of a social assistive robot enhanced with a large language model (LLM) in a geriatric day-care hospital. Conducted at the Broca hospital in Paris between May 2023 and July 2024, the study involved 97 participants (65 patients and 32 informal caregivers) across three experimental waves using the PAL Robotics ARI robot. Participants interacted spontaneously with the robot and then completed standardised acceptability and usability questionnaires. Results showed significant increases in both acceptability and usability scores across the three waves, with qualitative analysis revealing greater comfort and satisfaction particularly after the integration of an LLM, which enabled more natural, coherent, and context-sensitive dialogues. The findings highlight the value of iterative, user-centred refinement when integrating social robots in geriatric care."
     },
     {
         "pdf": "publis/ferrini2025vdb.pdf",
@@ -347,7 +353,8 @@
             "Lemaignan, S."
         ],
         "doi": "10.1109/HRI61500.2025.10974135",
-        "bibtex": "@inproceedings{ferrini2025vdb,\\nauthor = {Ferrini, Lorenzo and Lemaignan, S\\'{e}verin},\\ntitle = {VDB-based Spatially Grounded Semantics for Interactive Robots},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.1109/HRI61500.2025.10974135}}"
+        "bibtex": "@inproceedings{ferrini2025vdb,\\nauthor = {Ferrini, Lorenzo and Lemaignan, S\\'{e}verin},\\ntitle = {VDB-based Spatially Grounded Semantics for Interactive Robots},\\nbooktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2025},\\ndoi = {10.1109/HRI61500.2025.10974135}}",
+        "summary": "This paper presents a novel approach for representing spatially-grounded semantics in interactive robots using VDB (Volumetric Dynamic B+tree) data structures. The method combines spatial and symbolic data by using a voxel-based structure optimised for dynamic and sparse information, along with a global lookup table to manage and track spatially-grounded entities and their relationships. The system maps 3D regions of space to semantic entities stored in an RDF-based knowledge base, enabling queries through semantic web APIs such as SPARQL. Implemented as an extension of the reMap ROS 2 package, the framework supports real-time insertion and deletion of semantic instances with algorithms of complexity O(p*a). Initial tests on healthcare and hospital environment datasets demonstrate efficient real-time spatial grounding of semantic information."
     },
     {
         "id": "gebelli2025personalised",
@@ -442,7 +449,8 @@
             "Lemaignan, S."
         ],
         "doi": "10.1007/978-981-96-3519-1_35",
-        "bibtex": "@inproceedings{ferrini2024remap,\\nauthor = {Ferrini, L. and Palmieri, J. and Marino, A. and Lee, D. and Lemaignan, S.},\\ntitle = {reMap: Spatially-grounded and Queryable Semantics for Interactive Robots},\\nbooktitle = {International Conference on Social Robotics},\\nyear = {2024},\\ndoi = {10.1007/978-981-96-3519-1_35}}"
+        "bibtex": "@inproceedings{ferrini2024remap,\\nauthor = {Ferrini, L. and Palmieri, J. and Marino, A. and Lee, D. and Lemaignan, S.},\\ntitle = {reMap: Spatially-grounded and Queryable Semantics for Interactive Robots},\\nbooktitle = {International Conference on Social Robotics},\\nyear = {2024},\\ndoi = {10.1007/978-981-96-3519-1_35}}",
+        "summary": "This paper introduces reMap, an open-source framework for the efficient representation, storage, and retrieval of spatially-grounded semantics for interactive robots. reMap formalises Representation Maps (RMs) as three-dimensional functions that each represent a different type of semantic information in space, and Representation Map Sources (RMSs) that transform robot percepts into these maps. The framework defines operators for combining stored maps and extracting new spatially-grounded semantic information, and includes a SPARQL-based query language for programmatic retrieval. The implementation uses dense voxel maps based on the high-performance OpenVDB format, integrated into ROS. Compared to existing approaches, reMap uniquely supports 3D dense fields, human modelling, spatial reasoning, and a spatial API, all within a modular architecture."
     },
     {
         "id": "mohamed2024context",
@@ -464,7 +472,8 @@
             "Jensfelt, P.",
             "Smith, C."
         ],
-        "bibtex": "@inproceedings{mohamed2024context,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Context Matters: Understanding Socially Appropriate Affective Responses Via Sentence Embeddings},\\nbooktitle = {International Conference on Social Robotics},\\ndoi = {10.1007/978-981-96-3522-1_9},\\nyear = {2024}}"
+        "bibtex": "@inproceedings{mohamed2024context,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Context Matters: Understanding Socially Appropriate Affective Responses Via Sentence Embeddings},\\nbooktitle = {International Conference on Social Robotics},\\ndoi = {10.1007/978-981-96-3522-1_9},\\nyear = {2024}}",
+        "summary": "This paper presents a novel methodology for context-aware affect recognition in human-robot interaction using sentence embeddings. The approach leverages pre-trained language models to distinguish between socially appropriate and inappropriate interactions by measuring the semantic distance between facial expression descriptions (generated by GPT-4V) and predefined contrasting reference points in an embedding space. The method is evaluated on both the MMI Facial Expression Database and an in-the-wild dataset collected during interactions with a Furhat robot in a university library. Results show that classification performance (F1 scores) is highest when using the correct context, demonstrating that contextual factors are essential for effective social interaction understanding and appropriate robot responses."
     },
     {
         "id": "gebelli2024codesigning",
@@ -485,7 +494,8 @@
             "Lemaignan, S.",
             "Garrell, A."
         ],
-        "bibtex": "@inproceedings{gebelli2024codesigning,\\nauthor = {Gebellí, F. and Ros, R. and Lemaignan, S. and Garrell, A.},\\ntitle = {Co-designing Explainable Robots: A Participatory Design Approach for HRI},\\nbooktitle = {Proceedings of the 33th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2024},\\ndoi = {10.1109/RO-MAN60168.2024.10731212}}"
+        "bibtex": "@inproceedings{gebelli2024codesigning,\\nauthor = {Gebellí, F. and Ros, R. and Lemaignan, S. and Garrell, A.},\\ntitle = {Co-designing Explainable Robots: A Participatory Design Approach for HRI},\\nbooktitle = {Proceedings of the 33th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2024},\\ndoi = {10.1109/RO-MAN60168.2024.10731212}}",
+        "summary": "This paper proposes a participatory design (PD) framework for co-designing explainable robots in human-robot interaction. Rather than adding explanations as extra features to existing systems, the approach advocates designing explainability from the beginning through user involvement. The framework consists of three stages: gathering initial information, in-situ co-design (comprising initial prototyping, multi-modal interaction design, and behaviour fine-tuning), and evaluation. A key tool is the 'interaction table' that maps potential intuitiveness and understandability issues to explainability measures, integrated with the IEEE P7001 transparency standard. The framework is demonstrated through a use case in the SAFE-LY project, where a robot was co-designed with geriatric unit staff for tasks including patrolling, deliveries, and remote inspection."
     },
     {
         "id": "lemaignan2024social",
@@ -508,7 +518,8 @@
             "Mohamed, Y.",
             "Ros, R."
         ],
-        "bibtex": "@article{lemaignan2024social,\\nauthor = {Lemaignan, S. and Andriella, A. and Ferrini, L. and Juricic, L. and Mohamed, Y. and Ros, R.},\\ntitle = {Social Embeddings: Concept and Initial Investigation},\\nvolume = {4},\\nISSN = {2732-5121},\\nurl = {http://dx.doi.org/10.12688/openreseurope.17296.1},\\nDOI = {10.12688/openreseurope.17296.1},\\njournal = {Open Research Europe},\\npublisher = {F1000 Research Ltd},\\nyear = {2024},\\nmonth = apr,\\npages = {63}}"
+        "bibtex": "@article{lemaignan2024social,\\nauthor = {Lemaignan, S. and Andriella, A. and Ferrini, L. and Juricic, L. and Mohamed, Y. and Ros, R.},\\ntitle = {Social Embeddings: Concept and Initial Investigation},\\nvolume = {4},\\nISSN = {2732-5121},\\nurl = {http://dx.doi.org/10.12688/openreseurope.17296.1},\\nDOI = {10.12688/openreseurope.17296.1},\\njournal = {Open Research Europe},\\npublisher = {F1000 Research Ltd},\\nyear = {2024},\\nmonth = apr,\\npages = {63}}",
+        "summary": "This paper introduces social embeddings, a compact, semantics-preserving mathematical representation of social situations for robots. The approach automatically generates a textual description of a robot's social environment using perception capabilities (tracking positions, gaze directions, motion, and speech) and converts it into a vector representation via pre-trained large language model text embeddings. The paper presents the algorithm for generating scene descriptors, analyses key properties of these embeddings including their ability to measure social similarity, and demonstrates their operationalisation on actual social robots. The work argues that social embeddings provide a quantitative pseudo-metric for social situations, enabling robots to compare and recognise social scenarios they encounter, with potential applications in social-aware navigation and interaction management."
     },
     {
         "id": "webb2024measuring",
@@ -527,7 +538,8 @@
             "Giuliani, M.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{webb2024measuring,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Measuring Visual Social Engagement from Proxemics and Gaze in the Real World},\\nbooktitle = {Proceedings of the 2014 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2024},\\ndoi = {10.1145/3610978.3640678}}"
+        "bibtex": "@inproceedings{webb2024measuring,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Measuring Visual Social Engagement from Proxemics and Gaze in the Real World},\\nbooktitle = {Proceedings of the 2014 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2024},\\ndoi = {10.1145/3610978.3640678}}",
+        "summary": "This paper extends prior work on measuring Visual Social Engagement (VSE) from virtual online settings to real-world scenarios, aiming to improve social robots' situational awareness. The VSE metric combines two social cues -- interpersonal proximity and mutual gaze -- to quantify engagement between individuals. Using the SoGrIn dataset of 30 participants in 6 groups performing collaborative and social tasks, the authors had human annotators identify interaction start points rather than relying on arbitrary distance thresholds. They computed VSE scores and constructed individual interaction profiles for each participant. Results showed that while the metric could capture engagement dynamics in specific frames, applying it to real-world data revealed high variability in interaction profiles. Correlations between personality traits (Big Five) and engagement metrics were weak and not statistically robust. The authors conclude that further refinement is needed, including incorporating facial action units and speech detection, before the VSE metric can reliably assess in-person group interactions."
     },
     {
         "id": "lemaignan2024probabilistic",
@@ -545,7 +557,8 @@
             "Lemaignan, S.",
             "Ferrini, L."
         ],
-        "bibtex": "@inproceedings{lemaignan2024probabilistic,\\nauthor = {Lemaignan, S. and Ferrini, L.},\\ntitle = {Probabilistic fusion of persons' body features: the Mr. Potato algorithm},\\nbooktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2024},\\ndoi = {10.1145/3610977.3637479}}"
+        "bibtex": "@inproceedings{lemaignan2024probabilistic,\\nauthor = {Lemaignan, S. and Ferrini, L.},\\ntitle = {Probabilistic fusion of persons' body features: the Mr. Potato algorithm},\\nbooktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2024},\\ndoi = {10.1145/3610977.3637479}}",
+        "summary": "This paper presents the 'Mr. Potato' algorithm for probabilistically fusing multiple detected social features (faces, bodies, voices) into complete person models on social robots. In multi-party interactions, independent perception modules detect different features that must be matched to form coherent person representations. The algorithm builds a persons-features graph where edges represent probabilistic associations between detected features and known persons. It then searches all possible partitions of this graph to find the optimal grouping that maximizes overall affinity while respecting constraints: each person has at most one feature of each type, and features not yet associated with known persons are assigned to anonymous persons. The algorithm also maintains stability by computing indirect association edges when direct detection is lost. Formalised within the ROS4HRI standard (ROS REP-155), the open-source C++ implementation runs on PAL Robotics' social robots in real-time."
     },
     {
         "id": "andriella2024dataset",
@@ -567,7 +580,8 @@
             "Gannot, S.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{andriella2024dataset,\\nauthor = {Andriella, A. and Ros, R. and Ellinson, Y. and Gannot, S. and Lemaignan, S.},\\ntitle = {Dataset and Evaluation of Automatic Speech Recognition for Multi-lingual Intent Recognition on Social Robots},\\nbooktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2024},\\ndoi = {10.1145/3610977.3637473}}"
+        "bibtex": "@inproceedings{andriella2024dataset,\\nauthor = {Andriella, A. and Ros, R. and Ellinson, Y. and Gannot, S. and Lemaignan, S.},\\ntitle = {Dataset and Evaluation of Automatic Speech Recognition for Multi-lingual Intent Recognition on Social Robots},\\nbooktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2024},\\ndoi = {10.1145/3610977.3637473}}",
+        "summary": "This paper presents a multilingual dataset and systematic evaluation of Automatic Speech Recognition (ASR) systems for social robots. The authors recorded voice commands from 17 adult participants (plus 3 children and 1 elderly person) in 5 European languages (English, Spanish, Italian, French, Catalan) using PAL Robotics' ARI robot in two configurations: with and without body covers over the microphone. They benchmarked four ASR systems -- Google Speech, OpenWhisper, Vosk, and NVidia Riva -- evaluating Word Error Rate and downstream intent/entity recognition using the Rasa framework. Results showed that cloud-based systems like Google Speech achieved the best overall performance, but open-source alternatives like Vosk performed competitively on constrained compute budgets. All ASRs performed poorly on Catalan. Intent recognition via Rasa achieved 80-90% accuracy across ASRs, partially compensating for transcription errors. The dataset is publicly available."
     },
     {
         "id": "lach2023placing",
@@ -589,7 +603,8 @@
             "Peters, J.",
             "Chalvatzaki, G."
         ],
-        "bibtex": "@inproceedings{lach2023placing,\\nauthor = {Lach, L. and Funk, N.W. and Haschke, R. and Lemaignan, S. and Ritter, H.J. and Peters, J. and Chalvatzaki, G.},\\ntitle = {Placing by Touching: An empirical study on the importance of tactile sensing for precise object placing},\\nbooktitle = {Proceedings of the 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2023}}"
+        "bibtex": "@inproceedings{lach2023placing,\\nauthor = {Lach, L. and Funk, N.W. and Haschke, R. and Lemaignan, S. and Ritter, H.J. and Peters, J. and Chalvatzaki, G.},\\ntitle = {Placing by Touching: An empirical study on the importance of tactile sensing for precise object placing},\\nbooktitle = {Proceedings of the 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2023}}",
+        "summary": "This paper investigates the use of tactile sensing for stable object placement on flat surfaces, proposing a learning-based approach that does not require visual feedback. A neural network takes input from piezo-resistive Myrmex tactile sensors (16x16 taxel arrays) mounted on a TIAGo robot's parallel gripper, and optionally force/torque data, to predict a corrective rotation matrix that aligns the object's placing normal with the table surface. The architecture uses convolutional layers for tactile data processing followed by an MLP. Trained on only 1600 samples from two primitive 3D-printed objects, the tactile-only model achieved 90-100% placement success on training objects and generalised impressively to novel everyday objects unseen during training. The tactile-based approach significantly outperformed force/torque-only models (15-20% success) and performed comparably to an oracle motion-capture baseline, demonstrating that tactile sensing provides crucial contact information for dexterous manipulation."
     },
     {
         "id": "mohamed2023multimodal",
@@ -608,7 +623,8 @@
             "Lemaignan, S.",
             "Leite,  I."
         ],
-        "bibtex": "@article{mohamed2023multimodal,\\ntitle = {Multi-modal Affect Detection Using Thermal and Optical Imaging in a Gamified Robotic Exercise},\\nvolume = {16},\\nISSN = {1875-4805},\\nDOI = {10.1007/s12369-023-01066-1},\\nnumber = {5},\\njournal = {International Journal of Social Robotics},\\npublisher = {Springer Science and Business Media LLC},\\nauthor = {Mohamed,  Youssef and Güneysu,  Arzu and Lemaignan,  Séverin and Leite,  Iolanda},\\nyear = {2023},\\nmonth = oct,\\npages = {981–997}}        "
+        "bibtex": "@article{mohamed2023multimodal,\\ntitle = {Multi-modal Affect Detection Using Thermal and Optical Imaging in a Gamified Robotic Exercise},\\nvolume = {16},\\nISSN = {1875-4805},\\nDOI = {10.1007/s12369-023-01066-1},\\nnumber = {5},\\njournal = {International Journal of Social Robotics},\\npublisher = {Springer Science and Business Media LLC},\\nauthor = {Mohamed,  Youssef and Güneysu,  Arzu and Lemaignan,  Séverin and Leite,  Iolanda},\\nyear = {2023},\\nmonth = oct,\\npages = {981–997}}        ",
+        "summary": "This paper examines multi-modal affect detection using thermal imaging and facial action units during a gamified robotic exercise designed for upper-limb rehabilitation. Thirty participants played a tangible Pacman-like game using Cellulo robots across four phases designed to induce specific emotional states: familiarisation, enjoyment, frustration, and boredom. Data was collected via thermal cameras and GoPro cameras capturing facial expressions. Three machine learning models were compared: LSTM, Gaussian Naive Bayes, and a combined approach. The multimodal combination of thermal imaging and action units with LSTM achieved the highest accuracy of 77% for four-class emotion classification over 7-second sliding windows. Thermal imaging alone showed the lowest standard deviation among participants, suggesting more consistent detection. The results indicate that thermal imaging and action units offer a promising non-intrusive method for recognising affective states in healthcare robotics applications such as gamified therapy."
     },
     {
         "id": "cooper2023challenges",
@@ -627,7 +643,8 @@
             "Ros, R.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{cooper2023challenges,\\nauthor = {Cooper, S. and Ros, R. and Lemaignan, S.},\\ntitle = {Challenges of deploying assistive robots in real-life scenarios: an industrial perspective},\\nbooktitle = {Proceedings of the 32th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2023},\\ndoi = {10.1109/RO-MAN57019.2023.10309467}}"
+        "bibtex": "@inproceedings{cooper2023challenges,\\nauthor = {Cooper, S. and Ros, R. and Lemaignan, S.},\\ntitle = {Challenges of deploying assistive robots in real-life scenarios: an industrial perspective},\\nbooktitle = {Proceedings of the 32th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2023},\\ndoi = {10.1109/RO-MAN57019.2023.10309467}}",
+        "summary": "This paper presents an industrial perspective from PAL Robotics on the challenges of deploying assistive social robots for elderly care in real-world settings. It identifies key needs of the aging population -- cognitive support, physical support, reducing loneliness, and reducing caregiver burden -- and describes how ARI and TIAGo robots have been deployed across multiple European projects (SHAPES, ALMI, AMIBA, SPRING, DIH HERO SANDRO, NHoA). Practical lessons include: cognitive games must be validated by psychologists early on; personalisation and flexibility are essential; safety is prioritised over accuracy by end users; caregivers need easy voice-based control interfaces; and non-medical social activities matter as much as medical ones. Technical deployment challenges include navigating cluttered home environments, adapting maps with virtual obstacles, and implementing the ROS4HRI standard for multi-user perception. The paper emphasises the gap between lab prototypes and robust real-world deployment."
     },
     {
         "id": "webb2023sogrin",
@@ -649,7 +666,8 @@
             "Giuliani, M.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{webb2023sogrin,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {SoGrIn: a non-verbal dataset of social group-level interactions},\\nbooktitle = {Proceedings of the 32th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2023}}"
+        "bibtex": "@inproceedings{webb2023sogrin,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {SoGrIn: a non-verbal dataset of social group-level interactions},\\nbooktitle = {Proceedings of the 32th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2023}}",
+        "summary": "This paper introduces the Social Group Interactions (SoGrIn) dataset, a publicly available collection of non-verbal social signals captured during group-level interactions. Thirty participants, organised into 6 groups of 5, completed a competitive game involving collaborative and individual social tasks across four rooms designed to elicit different interaction types (discussions, collaborative jigsaws, human-robot interaction with a NAO robot, and debates). The dataset includes precise proxemics data from a VICON motion capture system, facial features from helmet-mounted GoPro cameras (facial landmarks, gaze direction, facial action units), Big Five personality questionnaire responses, and demographic information, totalling approximately 60 minutes of recordings. The dataset fills a gap in existing corpora by combining accurate motion-capture positioning with detailed facial information during naturalistic group social interactions, making it valuable for social signal understanding and social robotics research."
     },
     {
         "id": "ros2023ros4hri",
@@ -669,7 +687,8 @@
             "Andriella, A.",
             "Irisarri, A."
         ],
-        "bibtex": "@inproceedings{ros2023ros4hri,\\nauthor = {Ros, R. and Lemaignan, S. and Ferrini, L. and Andriella, A. and Irisarri, A.},\\ntitle = {Advancing HRI Research and Benchmarking Through Open-Source Ecosystems},\\nbooktitle = {Proceedings of the 2023 Workshop Advancing HRI Research and Benchmarking Through Open-Source Ecosystems},\\nyear = {2023}}"
+        "bibtex": "@inproceedings{ros2023ros4hri,\\nauthor = {Ros, R. and Lemaignan, S. and Ferrini, L. and Andriella, A. and Irisarri, A.},\\ntitle = {Advancing HRI Research and Benchmarking Through Open-Source Ecosystems},\\nbooktitle = {Proceedings of the 2023 Workshop Advancing HRI Research and Benchmarking Through Open-Source Ecosystems},\\nyear = {2023}}",
+        "summary": "This paper presents ROS4HRI, an open-source standard for Human-Robot Interaction built on top of the Robot Operating System (ROS). It addresses the lack of standardised interfaces for social perception in HRI by defining a common framework for representing humans through four identifiers: face, body, voice, and person IDs. Transient feature IDs are distinguished from permanent person IDs, enabling robust tracking across detection losses. The standard specifies a ROS topic structure under the /humans namespace, URDF-based human kinematic models with 15 body links, TF frame conventions for spatial representation, and custom ROS messages for social signals including facial landmarks, action units, expressions, gaze, gestures, engagement, and speech. The paper also introduces initial work on standardising user intents as abstract descriptions of operations requested by users. ROS4HRI is implemented on PAL Robotics' ARI robot and aims to improve benchmarking and reproducibility in the HRI community."
     },
     {
         "id": "ferrini2023unifying",
@@ -687,7 +706,8 @@
             "Ros, R.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{ferrini2023unifying,\\nauthor = {Ferrini, L. and Ros, R. and Lemaignan, S.},\\ntitle = {Unifying Bottom-Up and Top-Down Attention Models for Social Robots},\\nbooktitle = {Proceedings of the 2023 Workshop Semantic Scene Understanding for Human-Robot Interaction},\\nyear = {2023}}"
+        "bibtex": "@inproceedings{ferrini2023unifying,\\nauthor = {Ferrini, L. and Ros, R. and Lemaignan, S.},\\ntitle = {Unifying Bottom-Up and Top-Down Attention Models for Social Robots},\\nbooktitle = {Proceedings of the 2023 Workshop Semantic Scene Understanding for Human-Robot Interaction},\\nyear = {2023}}",
+        "summary": "This extended abstract proposes a unified data-driven model for social robot overt visual attention that combines both bottom-up (perceptual) and top-down (semantic) processes. Current approaches to robot gaze behaviour are either biologically inspired (bottom-up only), heuristics-based (top-down only, narrow applicability), or data-driven (limited to specific semantic features). The authors argue that effective social robot gaze must integrate both perceptual saliency and semantic understanding. They recorded a dataset of 11 video clips of office interactions and crowd-sourced ground-truth gaze attention data from 60 online participants using WebGazer eye tracking. Their proposed architecture concatenates semantic segmentation information with ConvLSTM-based perceptual saliency features, feeding them into an MLP to generate probability distributions for the robot's next gaze target."
     },
     {
         "id": "lemaignan2023opensource",
@@ -710,7 +730,8 @@
             "Irisarri, A."
         ],
         "doi": "10.1145/3568294.3580041",
-        "bibtex": "@inproceedings{lemaignan2023opensource,\\nauthor = {Lemaignan, S. and Cooper, S. and Ros, R. and Ferrini, L. and Andriella, A. and Irisarri, A.},\\ntitle = {Open-source Natural Language Processing on the PAL Robotics ARI Social Robot},\\nbooktitle = {Proceedings of the 2023 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2023},\\ndoi = {10.1145/3568294.3580041}}"
+        "bibtex": "@inproceedings{lemaignan2023opensource,\\nauthor = {Lemaignan, S. and Cooper, S. and Ros, R. and Ferrini, L. and Andriella, A. and Irisarri, A.},\\ntitle = {Open-source Natural Language Processing on the PAL Robotics ARI Social Robot},\\nbooktitle = {Proceedings of the 2023 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2023},\\ndoi = {10.1145/3568294.3580041}}",
+        "summary": "This paper demonstrates an open-source natural language processing (NLP) pipeline for the PAL Robotics ARI social robot. The pipeline integrates state-of-the-art open-source tools for automatic speech recognition (Vosk) and dialogue management (Rasa), replacing previous cloud-based solutions that raised privacy concerns and required reliable internet connectivity. The ROS-based system implements the ROS4HRI standard and features full ROS compatibility, internationalisation support, a dedicated language centre for managing translations and model swapping, and user intent recognition decoupled from the application controller. The pipeline also integrates with a Knowledge Base and Reasoning framework for multi-modal dialogue management. The demonstration targets assistive robotics and elderly care domains, where the ARI robot has been deployed in hospitals and care centres through several EU-funded projects including H2020 SHAPES, SPRING, TALBOT, and PRO-CARED."
     },
     {
         "id": "lemaignan2022social",
@@ -731,7 +752,8 @@
             "Daly, J."
         ],
         "doi": "10.1007/s12369-022-00928-4",
-        "bibtex": "@article{lemaignan2022social,\\nauthor = {Lemaignan, S. and Newbutt, N. and Rice, L. and Daly, J.},\\ntitle = {“It’s Important to Think of Pepper as a Teaching Aid or Resource External to the Classroom”: A Social Robot in a School for Autistic Children},\\njournal = {International Journal of Social Robotics},\\nyear = {2022},\\ndoi={10.1007/s12369-022-00928-4}}"
+        "bibtex": "@article{lemaignan2022social,\\nauthor = {Lemaignan, S. and Newbutt, N. and Rice, L. and Daly, J.},\\ntitle = {“It’s Important to Think of Pepper as a Teaching Aid or Resource External to the Classroom”: A Social Robot in a School for Autistic Children},\\njournal = {International Journal of Social Robotics},\\nyear = {2022},\\ndoi={10.1007/s12369-022-00928-4}}",
+        "summary": "This paper reports on a three-week deployment of a Softbank Pepper robot in a UK Special Educational Needs (SEN) school for autistic children. The robot's behaviours and integration were co-designed with children and teachers, focusing on improving pupil well-being rather than cognitive outcomes. Using a mixed-method approach, the study investigated what underpins successful integration of a social robot in a SEN school ecosystem and whether the robot can deliver a net gain for children's well-being. The robot was placed in school corridors for unstructured, child-led interactions rather than controlled one-to-one sessions. Results showed the robot maintained a steady level of interactions (330 interactions, 16 hours over 3 weeks) with a small but meaningful group of children, and had a positive impact on their well-being. The interdisciplinary team spanned education, robotics, and architecture, following the UNICEF ethical framework for AI and children."
     },
     {
         "id": "alhafnawi2022deliberative",
@@ -751,7 +773,8 @@
             "O'Dowd, P.",
             "Hauert, S."
         ],
-        "bibtex": "@inproceedings{alhafnawi2022deliberative,\\nauthor = {Alhafnawi, M. and Hunt, E. R. and Lemaignan, S. and O'Dowd, P. and Hauert, S.},\\ntitle = {Deliberative Democracy with Robot Swarms},\\nbooktitle = {Proceedings of the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2022}}"
+        "bibtex": "@inproceedings{alhafnawi2022deliberative,\\nauthor = {Alhafnawi, M. and Hunt, E. R. and Lemaignan, S. and O'Dowd, P. and Hauert, S.},\\ntitle = {Deliberative Democracy with Robot Swarms},\\nbooktitle = {Proceedings of the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2022}}",
+        "summary": "This paper investigates whether a swarm of small mobile robots (called MOSAIX Tiles) can facilitate group decision-making in the context of deliberative democracy. The Tiles are 4-inch touchscreen-on-wheels robots that act as physical avatars for participants' opinions, visually representing the diversity of views in a group. A user study with 46 participants (groups of 7-8) compared two conditions: a moving condition where robots travelled and mixed randomly after opinions were entered, and a stationary condition where each participant held a Tile like a smartphone. Results showed participants felt comfortable using the robots and that robot movement significantly increased user engagement (more interactions per participant) and led to greater opinion change between first and last entries. The study found that seeing others' opinions on moving robots had a statistically significant impact on individual decision-making, suggesting swarm robotics can effectively support democratic group processes."
     },
     {
         "id": "lach2022bioinspired",
@@ -772,7 +795,8 @@
             "Ritter, H.J.",
             "Haschke, R."
         ],
-        "bibtex": "@inproceedings{lach2022bioinspired,\\nauthor = {Lach, L. and Lemaignan, S. and Ferro, F. and Ritter, H.J. and Haschke, R.},\\ntitle = {Bio-Inspired Grasping Controller for Sensorized 2-DoF Grippers},\\nbooktitle = {Proceedings of the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2022}}"
+        "bibtex": "@inproceedings{lach2022bioinspired,\\nauthor = {Lach, L. and Lemaignan, S. and Ferro, F. and Ritter, H.J. and Haschke, R.},\\ntitle = {Bio-Inspired Grasping Controller for Sensorized 2-DoF Grippers},\\nbooktitle = {Proceedings of the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2022}}",
+        "summary": "This paper presents a bio-inspired grasping controller for sensorised 2-DoF parallel grippers, evaluated on the TIAGo service robot. The controller combines free-space position control with in-contact force control, modelled after human grasping phases: finger closing, establishing contact, and holding. Tactile fingertip sensors detect first contact, at which point individual finger joints pause to minimise object displacement until force-closure is achieved. During holding, the controller maintains a desired grasp force while being compliant with external forces and explicitly compensating for gravity to prevent object drift. The controller decouples internal and external force control using a PI controller for force regulation and a P controller for external force compliance. Experiments show the controller reduces object displacement to less than 1mm for sufficiently heavy objects compared to standard position control, and ablation studies demonstrate the utility of each component."
     },
     {
         "id": "webb2022automatic",
@@ -791,7 +815,8 @@
             "Giuliani, M.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{webb2022automatic,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Automatic Engagement Detection for Social Situation Assessment},\\nbooktitle = {Proceedings of the 2022 UK-RAS Conference},\\\ndoi = {10.31256/Mm8Xb7O},\\nyear = {2022}}"
+        "bibtex": "@inproceedings{webb2022automatic,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Automatic Engagement Detection for Social Situation Assessment},\\nbooktitle = {Proceedings of the 2022 UK-RAS Conference},\\\ndoi = {10.31256/Mm8Xb7O},\\nyear = {2022}}",
+        "summary": "This short paper proposes collecting an in-person dataset of dynamic group interactions to model social engagement for improving robots' social awareness. Building on previous work that created a visual social engagement metric from an online game using proxemics and mutual gaze, the authors aim to enrich the metric with additional social signals captured in person. The planned dataset includes both human-human and human-robot group interactions, with participants completing tasks that encourage forming groups of 2-5 people. A Pepper robot controlled via Wizard-of-Oz is included to capture human-robot interactions. Data collection uses a VICON motion capture system for proximity and gaze, plus GoPro cameras for facial and audio recordings. The authors plan to develop a model that automatically detects engagement levels of individuals and groups, ultimately improving social robots' ability to understand and integrate into social scenarios."
     },
     {
         "id": "webb2022measuring",
@@ -810,7 +835,8 @@
             "Giuliani, M.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{webb2022measuring,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Measuring Visual Social Engagement from Proxemics and Gaze},\\nbooktitle = {Proceedings of the 31th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2022}}"
+        "bibtex": "@inproceedings{webb2022measuring,\\nauthor = {Webb, N. and Giuliani, M. and Lemaignan, S.},\\ntitle = {Measuring Visual Social Engagement from Proxemics and Gaze},\\nbooktitle = {Proceedings of the 31th IEEE International Symposium in Robot and Human Interactive Communication},\\nyear = {2022}}",
+        "summary": "This paper introduces a novel visual social engagement metric derived from two social signals: proxemics (interpersonal distance) and mutual gaze. Data was collected from 88 participants playing a 3D online murder-mystery game built in Godot, where players interacted with NPC groups. The metric is defined as mutual gaze divided by distance between participants, creating a score between 0 and 1. Using this metric, the authors generated unique interaction profiles for each participant by averaging engagement scores over interaction windows. Results showed a wide distribution of interaction profiles, suggesting participants have distinct interaction styles that are fairly consistent across their interactions. The authors investigated correlations between these profiles and Big Five personality traits but found no strong correlations. The work aims to ultimately improve social robots' situational awareness by providing a computationally lightweight engagement measure based on easily observable social signals."
     },
     {
         "id": "mohamed2022automatic",
@@ -831,7 +857,8 @@
             "Lemaignan, S.",
             "Leite, I."
         ],
-        "bibtex": "@inproceedings{mohamed2022automatic,\\nauthor = {Mohamed, Y. and Ballardini, G. and Parreira, M. T. and Lemaignan, S. and Leite, I.},\\ntitle = {Automatic Frustration Detection Using Thermal Imaging},\\nbooktitle = {Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2022},\\ndoi = {10.5555/3523760.3523821}}"
+        "bibtex": "@inproceedings{mohamed2022automatic,\\nauthor = {Mohamed, Y. and Ballardini, G. and Parreira, M. T. and Lemaignan, S. and Leite, I.},\\ntitle = {Automatic Frustration Detection Using Thermal Imaging},\\nbooktitle = {Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction},\\nyear = {2022},\\ndoi = {10.5555/3523760.3523821}}",
+        "summary": "This paper investigates whether thermal imaging can detect frustration during human-robot interaction. The authors collected data from 18 participants experiencing two types of frustration induced by a NAO robot: failure-induced frustration (a trivia quiz where the robot intentionally gave wrong answers) and cognitive load-induced frustration (a dual coding and mental rotation task). Features were extracted from thermal images (facial ROIs: nose, forehead, cheek, lower lip), RGB images (action units), and electrodermal activity (EDA). Using a K-Nearest Neighbors classifier with Sequential Forward Floating Selection for feature selection, the model achieved 89% accuracy with RGB features, 87% with thermal features alone, 84% with EDA, and 86% with all modalities combined. The work demonstrates that thermal imaging is a viable non-intrusive alternative for detecting frustration in real-time HRI scenarios."
     },
     {
         "id": "cooper2022towards",
@@ -850,7 +877,8 @@
             "Cooper, S.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{cooper2022towards,\\nauthor = {Cooper, S. and Lemaignan, S.},\\ntitle = {Towards using Behaviour Trees for Long-term Social Robot Behaviour},\\nbooktitle = {Proceedings of the 2022 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2022},\\ndoi = {10.5555/3523760.3523866}}"
+        "bibtex": "@inproceedings{cooper2022towards,\\nauthor = {Cooper, S. and Lemaignan, S.},\\ntitle = {Towards using Behaviour Trees for Long-term Social Robot Behaviour},\\nbooktitle = {Proceedings of the 2022 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2022},\\ndoi = {10.5555/3523760.3523866}}",
+        "summary": "This paper introduces a Behaviour Tree (BT) based approach for designing long-term social robot behaviour on the PAL Robotics ARI robot, developed within the EU H2020 SHAPES project for elderly care. Two specific behaviours are implemented: an idle behaviour where the robot waits at a docking station and initiates interaction when a person approaches (via face detection, touch, or speech), and a reminder-delivery behaviour where the robot actively navigates to points of interest, identifies a specific user through face recognition, and delivers personalised reminders. The paper details the BT structure including custom nodes for face identification, text-to-speech, web actions, and navigation. The authors argue that BTs offer advantages over finite state machines for social robotics due to their modularity, reactivity, and extensibility, though they note limitations for highly variable or complex scenarios."
     },
     {
         "id": "ferrini2022kinematically",
@@ -869,7 +897,8 @@
             "Ferrini, L.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{ferrini2022kinematically,\\nauthor = {Ferrini, L. and Lemaignan, S.},\\ntitle = {Kinematically-consistent Real-time 3D Human Body Estimation for Physical and Social HRI},\\nbooktitle = {Proceedings of the 2022 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2022},\\ndoi = {10.5555/3523760.3523872}}"
+        "bibtex": "@inproceedings{ferrini2022kinematically,\\nauthor = {Ferrini, L. and Lemaignan, S.},\\ntitle = {Kinematically-consistent Real-time 3D Human Body Estimation for Physical and Social HRI},\\nbooktitle = {Proceedings of the 2022 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2022},\\ndoi = {10.5555/3523760.3523872}}",
+        "summary": "This paper presents a ROS-integrated software tool for real-time, kinematically consistent 3D human body estimation, designed for physical and social human-robot interaction. The system uses Google Mediapipe's holistic model to infer 3D skeleton poses from RGB images, then combines these with a URDF-defined human kinematic model from the ROS4HRI framework. Joint angles are extracted via inverse kinematics and published as ROS tf frames and joint state messages. An optional RGB-D camera enables absolute 3D positioning. The kinematic model ensures anatomical consistency by enforcing joint rotation limits, preventing estimation of physically impossible poses caused by self-occlusions. Running at approximately 8Hz on CPU without GPU acceleration, the system produces flowing and realistic body model movements. Current limitations include single-person detection only and lack of height personalisation."
     },
     {
         "id": "winkle2021leador",
@@ -890,7 +919,8 @@
             "Senft E.",
             "Lemaignan, S."
         ],
-        "bibtex": "@article{winkle2021leador,\\nauthor = {Winkle, K. and Senft, E. and Lemaignan, S.},\\ntitle = {LEADOR: A Method for End-To-End Participatory Design of Autonomous Social Robots},\\njournal = {FrontiersIn AI and Robotics},\\ndoi = {10.3389/frobt.2021.704119},\\nyear = {2021}}"
+        "bibtex": "@article{winkle2021leador,\\nauthor = {Winkle, K. and Senft, E. and Lemaignan, S.},\\ntitle = {LEADOR: A Method for End-To-End Participatory Design of Autonomous Social Robots},\\njournal = {FrontiersIn AI and Robotics},\\ndoi = {10.3389/frobt.2021.704119},\\nyear = {2021}}",
+        "summary": "This paper presents LEADOR (Led-by-Experts Automation and Design Of Robots), an end-to-end participatory design methodology for autonomous social robots. LEADOR extends traditional participatory design by replacing the offline programming or Wizard-of-Oz phase with an in-situ teaching phase where domain experts (e.g., teachers, therapists) directly teach the robot how to behave in real-time within the actual interaction context. The method comprises five stages: problem definition, interaction design, system specification (co-designing state/action spaces and teaching interfaces), technical implementation, and real-world deployment with online teaching. This approach captures experts' implicit knowledge and supports mutual shaping between the robot and its context of use. The methodology is derived from two foundational studies: an educational robot for school children and a robot fitness coach. LEADOR is agnostic to the specific learning algorithm used and aims to produce robots that can operate autonomously in sensitive environments while maintaining responsible design practices."
     },
     {
         "id": "lemaignan2021unicef",
@@ -914,7 +944,8 @@
             "Daly, J.",
             "Charisi, V."
         ],
-        "bibtex": "@inproceedings{lemaignan2021unicef,\\nauthor = {Lemaignan, S. and Newbutt, N. and Rice, L. and Daly, J. and Charisi, V.},\\ntitle = {UNICEF Guidance on AI for Children: Application to the Design of a Social Robot For and With Autistic Children},\\nbooktitle = {Proceedings of the 2021 IEEE/RSJ IROS Workshop The Roles of Robotics in Achieving the UN's Social Development Goals},\\nyear = {2021},\\nurl={http://www.sustainablerobotics.org/}}"
+        "bibtex": "@inproceedings{lemaignan2021unicef,\\nauthor = {Lemaignan, S. and Newbutt, N. and Rice, L. and Daly, J. and Charisi, V.},\\ntitle = {UNICEF Guidance on AI for Children: Application to the Design of a Social Robot For and With Autistic Children},\\nbooktitle = {Proceedings of the 2021 IEEE/RSJ IROS Workshop The Roles of Robotics in Achieving the UN's Social Development Goals},\\nyear = {2021},\\nurl={http://www.sustainablerobotics.org/}}",
+        "summary": "This paper describes a project embedding a Softbank Pepper robot in a UK Special Educational Needs (SEN) school for three weeks to support the well-being of autistic children. The authors use the nine UNICEF Policy Guidelines on AI for Children as a framework to systematically evaluate their participatory design methodology. The robot's behaviours (storytelling, dancing, playing music, cuddling, telling jokes) were co-designed with the children and teachers through focus groups and workshops. The study prioritised autistic voice and child-led, unstructured interactions in school corridors rather than scheduled classroom sessions. Each of the nine UNICEF principles is addressed: supporting well-being, ensuring inclusion, fairness, data privacy (no personal data stored, robot offline), physical and psychological safety, transparency, empowering stakeholders, preparing children for AI, and creating an enabling environment. This is argued to be the first systematic consideration of the UNICEF AI guidelines in the context of social robotics for autistic children."
     },
     {
         "id": "mohamed2021ros4hri",
@@ -932,7 +963,8 @@
             "Mohamed, Y.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{mohamed2021ros4hri,\\nauthor = {Mohamed, Y. and Lemaignan, S.},\\ntitle = {ROS for Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2021},\\ndoi = {10.1109/IROS51168.2021.9636816}}"
+        "bibtex": "@inproceedings{mohamed2021ros4hri,\\nauthor = {Mohamed, Y. and Lemaignan, S.},\\ntitle = {ROS for Human-Robot Interaction},\\nbooktitle = {Proceedings of the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems},\\nyear = {2021},\\ndoi = {10.1109/IROS51168.2021.9636816}}",
+        "summary": "This paper introduces ROS4HRI, a set of conventions and standard interfaces for the Robot Operating System (ROS) designed to facilitate human-robot interaction. The authors address the lack of a standard human representation model in robotics by proposing a multi-modal framework built on four identifiers: face, body, voice, and person. Each identifier has different persistence properties -- face, body, and voice IDs are transient, while person IDs are permanent. The framework specifies a ROS topic structure under the /humans namespace with sub-namespaces for faces, bodies, voices, persons, and interactions. It defines new ROS message types (hri_msgs) and TF frame conventions for spatially representing humans, including a URDF-based kinematic model with 15 links and 18 joints generated on-the-fly from observed height. The open-source reference implementation covers 3D tracking and matching of skeletons and faces in groups of up to 10 people."
     },
     {
         "id": "wallbridge2021effectiveness",
@@ -956,7 +988,8 @@
             "Belpaeme, T.",
             "Lemaignan, S."
         ],
-        "bibtex": "@article{wallbridge2021effectiveness,\\nauthor = {Wallbridge, C. and Smith, A. and Giuliani, M. and Melhuish, C. and Belpaeme, T. and Lemaignan, S.},\\ntitle = {The Effectiveness of Dynamically Processed Incremental Descriptions in Human Robot Interaction},\\njournal = {ACM Transactions on Human-Robot Interaction},\\ndoi = {10.1145/3481628},\\nyear = {2021}}"
+        "bibtex": "@article{wallbridge2021effectiveness,\\nauthor = {Wallbridge, C. and Smith, A. and Giuliani, M. and Melhuish, C. and Belpaeme, T. and Lemaignan, S.},\\ntitle = {The Effectiveness of Dynamically Processed Incremental Descriptions in Human Robot Interaction},\\njournal = {ACM Transactions on Human-Robot Interaction},\\ndoi = {10.1145/3481628},\\nyear = {2021}}",
+        "summary": "This paper explores dynamically processed incremental referring descriptions for human-robot interaction in a nuclear decommissioning scenario. The authors build a system that generates initially ambiguous spatial descriptions of objects (barrels), then incrementally refines them using linguistic repair statements based on the user's actions as they remotely pilot a robot. This dynamic approach is compared against static non-ambiguous descriptions that uniquely identify targets upfront. In a study with 31 participants remotely operating a PAL Robotics TIAGo robot to sort coloured barrels, the dynamic system proved significantly more efficient, taking only 62% of the time on average to find the correct barrel. Participants also preferred the dynamic system. The work is situated in the context of UK nuclear decommissioning at the Sellafield site, where robots must operate in hazardous radiation-hot environments with human-in-the-loop control."
     },
     {
         "id": "mohamed2021predicting",
@@ -974,7 +1007,8 @@
             "Mohamed, Y.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{mohamed2021predicting,\\nauthor = {Mohamed, Y. and Lemaignan, S.},\\ntitle = {Predicting Human Interactivity State from Surrounding Social Signals},\\nbooktitle = {Companion Proceedings of the 2021 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2021},\\ndoi = {10.1145/3434074.3447230}}"
+        "bibtex": "@inproceedings{mohamed2021predicting,\\nauthor = {Mohamed, Y. and Lemaignan, S.},\\ntitle = {Predicting Human Interactivity State from Surrounding Social Signals},\\nbooktitle = {Companion Proceedings of the 2021 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2021},\\ndoi = {10.1145/3434074.3447230}}",
+        "summary": "This paper investigates whether a person's interactivity state in a group can be predicted from the social signals of surrounding group members rather than from the target person's own signals. Using a dataset of 6 participants playing the social game Mafia (with 3 in frame), the authors extract features including head distances, head angles, facial action units, emotions, and body poses. A multi-layer perceptron model achieves 60% accuracy using the target person's own social signals, but 65% accuracy when using only the surrounding group members' signals. Post-hoc factor analysis reveals that facial action units of surrounding members and the distance between the target person and group members are the most important features. The preliminary results suggest that peer influence and group dynamics carry meaningful information about individual interactivity."
     },
     {
         "id": "webb2021framing",
@@ -994,7 +1028,8 @@
             "Mohamed, Y.",
             "Lemaignan, S."
         ],
-        "bibtex": "@inproceedings{webb2021framing,\\nauthor = {Webb, N. and Mohamed, Y. and Lemaignan, S.},\\ntitle = {Framing the Challenge of Social Interaction Modelling: One Case Study},\\nbooktitle = {Companion Proceedings of the 2021 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2021},\\ndoi = {10.1145/3434074.3447233}}"
+        "bibtex": "@inproceedings{webb2021framing,\\nauthor = {Webb, N. and Mohamed, Y. and Lemaignan, S.},\\ntitle = {Framing the Challenge of Social Interaction Modelling: One Case Study},\\nbooktitle = {Companion Proceedings of the 2021 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2021},\\ndoi = {10.1145/3434074.3447233}}",
+        "summary": "This short paper frames the challenge of social interaction modelling for HRI by presenting a case study from a recorded group interaction. The authors argue that social interactions are complex, dynamic, and difficult to formalise as a 'wicked problem.' Using a snapshot of three people playing Mafia, they contrast what humans can perceive (expressions, gaze, mood, social dynamics) with what a robot's sensors would capture, highlighting significant gaps in current robotic social cognition. The paper emphasises the dynamic nature of social situations and argues that current approaches that interpret single frames lose critical temporal information. The authors call for better algorithms to detect observable social behaviours, improved representations of human behaviour and cognition, and acknowledgment that internal states remain inherently unobservable, making complete modelling impossible."
     },
     {
         "id": "park2020towards",
@@ -1034,7 +1069,8 @@
             "Pipe, T.",
             "Eder, K."
         ],
-        "bibtex": "@inproceedings{chance2020agency,\\nauthor = {Chance, G. and Ghobrial, A. and Lemaignan, S. and Pipe, T. and Eder, K.},\\ntitle = {An Agency-Directed Approach to Test Generation for Simulation-based Autonomous Vehicle Verification},\\nbooktitle = {Proceedings of the 2020 IEEE International Conference On Artificial Intelligence Testing},\\ndoi = {10.1109/AITEST49225.2020.00012},\\nyear = {2020}}"
+        "bibtex": "@inproceedings{chance2020agency,\\nauthor = {Chance, G. and Ghobrial, A. and Lemaignan, S. and Pipe, T. and Eder, K.},\\ntitle = {An Agency-Directed Approach to Test Generation for Simulation-based Autonomous Vehicle Verification},\\nbooktitle = {Proceedings of the 2020 IEEE International Conference On Artificial Intelligence Testing},\\ndoi = {10.1109/AITEST49225.2020.00012},\\nyear = {2020}}",
+        "summary": "This paper proposes an agency-directed approach to test generation for simulation-based autonomous vehicle (AV) verification. Using multi-agent systems with belief-desire-intention (BDI) agents implemented in Jason, the authors give agency to pedestrian test agents that strategically interact with the AV to trigger collision-avoidance assertions. The case study involves a simulated two-lane road where pedestrian agents attempt to enter the AV's precondition zone. Two agency-directed behaviours are compared against random baselines: 'proximity' (cross when AV is near) and 'election' (only the nearest agent crosses). Results show that a single directed agent outperforms a random agent by more than 2:1 in generating successful tests. The directed agents also produce higher test scores indicating more realistic behaviour. The approach generates twice as many effective tests as pseudo-random methods while providing more realistic driving scenarios."
     },
     {
         "id": "wijnen2020performing",
@@ -1055,7 +1091,8 @@
             "Lemaignan, S.",
             "Giuliani, M."
         ],
-        "bibtex": "@inproceedings{wijnen2020performing,\\nauthor = {Wijnen, L. and Bremner, P. and Lemaignan, S. and Giuliani, M.},\\ntitle = {Performing Human-Robot Interaction User Studies in Virtual Reality},\\nbooktitle = {Proceedings of the 2020 RoMAN Conference},\\ndoi = {10.1109/RO-MAN47096.2020.9223521},\\nyear = {2020}}"
+        "bibtex": "@inproceedings{wijnen2020performing,\\nauthor = {Wijnen, L. and Bremner, P. and Lemaignan, S. and Giuliani, M.},\\ntitle = {Performing Human-Robot Interaction User Studies in Virtual Reality},\\nbooktitle = {Proceedings of the 2020 RoMAN Conference},\\ndoi = {10.1109/RO-MAN47096.2020.9223521},\\nyear = {2020}}",
+        "summary": "This study investigates whether virtual reality (VR) can serve as a platform for conducting human-robot interaction user studies by replicating a real-world experiment in VR. The original study by Kahn et al. examined whether participants would keep a robot tour guide's secret. In the VR replication, 38 participants experienced a virtual museum tour with either a social or non-social Robovie robot guide using an HTC Vive headset. Results showed notable differences from the original: participants kept the secret more often while in VR (50-60%) than after removing the headset (25-33%). The environment significantly influenced secret-keeping behaviour, but the robot's social vs. non-social behaviour did not. A positive correlation was found between perceiving the robot as a social being and tendency to keep its secret. The authors conclude that more work is needed to determine VR's suitability for HRI experiments."
     },
     {
         "id": "winkle2020insitu",
@@ -1079,7 +1116,8 @@
             "Turton, A.",
             "Bremner, P."
         ],
-        "bibtex": "@inproceedings{winkle2020insitu,\\nauthor = {Winkle, K. and Lemaignan, S. and Caleb-Solly, P. and Leonards, U. and Turton, A. and Bremner, P.},\\ntitle = {In-Situ Learning from a Domain Expert for Real World Socially Assistive Robot Deployment},\\nbooktitle = {Proceedings of Robotics: Science and Systems 2020},\\ndoi = {10.15607/RSS.2020.XVI.059},\\nyear = {2020}}"
+        "bibtex": "@inproceedings{winkle2020insitu,\\nauthor = {Winkle, K. and Lemaignan, S. and Caleb-Solly, P. and Leonards, U. and Turton, A. and Bremner, P.},\\ntitle = {In-Situ Learning from a Domain Expert for Real World Socially Assistive Robot Deployment},\\nbooktitle = {Proceedings of Robotics: Science and Systems 2020},\\ndoi = {10.15607/RSS.2020.XVI.059},\\nyear = {2020}}",
+        "summary": "This paper presents a framework for in-situ, online interactive machine learning (IML) to enable domain experts to be involved at every stage of socially assistive robot design and automation. The application is a Pepper robot acting as an exercise coach for the NHS Couch to 5km (C25K) running programme. A fitness instructor co-designed the robot's action space over 6 sessions (12.5 hours), defining task actions (run/walk commands) and social support actions (encouragement, humour, sympathy) with style modifiers. The system uses a dual learner architecture -- one for action type, one for style -- operating over a 20-dimensional input space including task state, performance metrics, heart rate, engagement measures, and personality traits. The IML approach has two phases: supervised (expert teleoperates and validates) and autonomous (robot acts independently), allowing the expert to progressively transfer control as the robot learns appropriate personalised behaviour."
     },
     {
         "id": "sallami2020unexpected",
@@ -1101,7 +1139,8 @@
             "Lemaignan, S.",
             "Alami, R."
         ],
-        "bibtex": "@inproceedings{sallami2020unexpected,\\nauthor = {Sallami, Y. and Winkle, K. and Webb, N. and Lemaignan, S. and Alami, R.},\\ntitle = {The Unexpected Daily Situations (UDS) Dataset: A New Benchmark for Socially-Aware Assistive Robots},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378270}}"
+        "bibtex": "@inproceedings{sallami2020unexpected,\\nauthor = {Sallami, Y. and Winkle, K. and Webb, N. and Lemaignan, S. and Alami, R.},\\ntitle = {The Unexpected Daily Situations (UDS) Dataset: A New Benchmark for Socially-Aware Assistive Robots},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378270}}",
+        "summary": "This paper presents the Unexpected Daily Situations (UDS) dataset, a benchmark for developing socially-aware assistive robots. The dataset consists of short video recordings (1-3 minutes each) of everyday scenarios where unexpected events occur -- such as someone tripping, burning themselves, or dropping objects -- in familiar indoor environments like kitchens and living rooms. Recorded using a TIAGo robot with RGB-D sensor, stereo microphone, and 2D LIDAR, the scenarios are categorised into four types: situations requiring assistance due to perspective limitations, physical capability limitations, task-related situations where help improves the outcome, and non-task-related situations. The benchmark aims to push the state of the art in spatio-temporal, semantic, and social modelling by requiring robots to infer human intentions, detect errors, and select appropriate repair actions. Crowd-sourced annotations via Amazon Mechanical Turk provide ground truth for intention recognition and assistive behaviour baselines."
     },
     {
         "id": "wijnen2020towards",
@@ -1121,7 +1160,8 @@
             "Lemaignan, S.",
             "Bremner, P."
         ],
-        "bibtex": "@inproceedings{wijnen2020towards,\\nauthor = {Wijnen, L. and Lemaignan, S. and Bremner, P.},\\ntitle = {Towards using Virtual Reality for Replicating HRI Studies},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378374}}"
+        "bibtex": "@inproceedings{wijnen2020towards,\\nauthor = {Wijnen, L. and Lemaignan, S. and Bremner, P.},\\ntitle = {Towards using Virtual Reality for Replicating HRI Studies},\\nbooktitle = {Companion Proceedings of the 2020 ACM/IEEE Human-Robot Interaction Conference},\\nyear = {2020},\\ndoi = {10.1145/3371382.3378374}}",
+        "summary": "This short paper presents an initial attempt to use Virtual Reality (VR) for replicating HRI studies, specifically replicating a trust-related experiment by Kahn et al. where participants decided whether to keep a robot tour guide's secret. The VR version used Unreal Engine 4 with a virtual museum setting and HTC Vive headset. With 38 participants, results differed from the original: 60% kept the secret in VR for the non-social robot versus 50% for the social robot. After leaving VR, only 25% and 33% kept the secret respectively. Participants rated both robot conditions higher on Mental Emotional and Social Other scales than in the original study. The authors note too many confounding factors to draw definitive conclusions about VR's suitability for replicating HRI experiments, but emphasise the importance of study replication in the field."
     },
     {
         "id": "winkle2020couch",
