@@ -292,26 +292,6 @@
         "summary": "This paper presents TIAGo Head, a new tabletop social robot developed by PAL Robotics. The robot is a compact (45cm, 5.75kg), cost-effective derivative of the full-sized TIAGo Pro, focused exclusively on social interaction. It features an RGB-D camera, 4-microphone array, speakers, a 10-inch touchscreen face with expressive LCD eyes, and 2 degrees of freedom for pan-tilt head motion. The software architecture runs on ROS 2 and integrates the ROS4HRI framework for social perception, local LLM inference (via Ollama) for natural conversation, an OWL2-based knowledge base for situated reasoning, and the reMap framework for spatial semantics. A use-case demonstration shows TIAGo Head serving as an airport receptionist, displaying news and conversing with travelers using its mixed-reality interaction simulator."
     },
     {
-        "id": "gebelli2025dynamics",
-        "type": "journal",
-        "title": "Dynamics of Mental Models: Objective vs. Subjective User Understanding of a Robot in the Wild",
-        "keywords": [
-            "Artificial Intelligence",
-            "Assistive Robotics",
-            "Participatory Design"
-        ],
-        "authors": [
-            "Gebelli, F.",
-            "Garrell, A.",
-            "Lemaignan, S.",
-            "Ros, R."
-        ],
-        "venue": "IEEE RA Letters",
-        "year": 2025,
-        "doi": "10.1109/LRA.2025.3579217",
-        "bibtex": "@inproceedings{gebelli2025dynamics,\\nauthor = {Gebellí, F. and Garrell, A. and Lemaignan, S. and Ros, R.},\\ntitle = {Dynamics of Mental Models: Objective vs. Subjective User Understanding of a Robot in the Wild},\\nbooktitle = {IEEE Robotics \\& Automation Letters},\\ndoi = {10.1109/LRA.2025.3579217},\\nyear = {2025}}"
-    },
-    {
         "id": "blavette2025llm",
         "pdf": "publis/blavette2025llm.pdf",
         "type": "journal",
