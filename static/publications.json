@@ -222,6 +222,7 @@
         "bibtex": "@inproceedings{mohamed2025areyou,\\nauthor = {Mohamed, Y. and Lemaignan, S. and Güneysu, A. and Jensfelt, P. and Smith, C.},\\ntitle = {Are You an Expert? Instruction Adaptation Using Multi-Modal Affect Detections with Thermal Imaging and Context},\\nbooktitle = {Proceedings of the 34th IEEE International Symposium in Robot and Human Interactive Communication},\\ndoi = {10.1109/RO-MAN63969.2025.11217655},\\nyear = {2025}}"
     },
     {
+        "pdf": "publis/mohamed2025fusion.pdf",
         "id": "mohamed2025fusion",
         "type": "conference",
         "title": "Fusion in Context: A Multimodal Approach to Affective State Recognition",
